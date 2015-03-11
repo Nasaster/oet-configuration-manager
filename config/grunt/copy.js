@@ -58,3 +58,12 @@ module.exports = {
         });
     });
 })();
+
+module.exports.bootstrap = {
+    expand: true,
+    cwd: 'node_modules/bootstrap/dist/',
+    src: [
+        '**/*.*'
+    ], 
+    dest: '<%= config.target.dev %>/bootstrap'
+}
