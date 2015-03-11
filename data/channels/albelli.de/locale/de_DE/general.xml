@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <general>
+        <vendorName><![CDATA[Albelli]]></vendorName>
+        <navigateAwayMessage>
+            <![CDATA[Bei Verlassen dieser Seite werden Ihre Änderungen nicht gespeichert. Möchten Sie die {0} dennoch verlassen?]]></navigateAwayMessage>
+        <title><![CDATA[Wanddekoration]]></title>
+        <productSelectorTitle><![CDATA[{0}]]></productSelectorTitle>
+        <error><![CDATA[Es ist ein Fehler aufgetreten]]></error>
+        <warning><![CDATA[Warnung]]></warning>
+        <close><![CDATA[OK]]></close>
+        <loading><![CDATA[Es wird geladen, bitte warten.]]></loading>
+        <productSpecificationTitle><![CDATA[Produktdetails]]></productSpecificationTitle>
+        <productSpecificationSize><![CDATA[Format]]></productSpecificationSize>
+        <productSpecificationPrice><![CDATA[Preis]]></productSpecificationPrice>
+        <productSpecificationPriceText1><![CDATA[{0} zzgl.]]></productSpecificationPriceText1>
+        <productSpecificationPricePrice><![CDATA[Versandkosten]]></productSpecificationPricePrice>
+        <productSpecificationPriceText2><![CDATA[)]]></productSpecificationPriceText2>
+        <yes><![CDATA[Ja]]></yes>
+        <no><![CDATA[Nein]]></no>
+        <add><![CDATA[Hinzufügen]]></add>
+        <cancel><![CDATA[Abbrechen]]></cancel>
+        <notificationTitle><![CDATA[]]></notificationTitle>
+        <canvas><![CDATA[Foto auf Leinwand]]></canvas>
+        <perspex><![CDATA[Foto auf Acryl-Glas]]></perspex>
+        <phonecase><![CDATA[Handyhüllen]]></phonecase>
+        <aluminium><![CDATA[Foto auf  Alu-Dibond]]></aluminium>
+        <editor><![CDATA[{0} Editor]]></editor>
+    </general>
+    <home>
+        <title><![CDATA[{0}]]></title>
+        <nextStepButton><![CDATA[Auswählen]]></nextStepButton>
+        <caption><![CDATA[]]></caption>
+        <previousProductButton><![CDATA[Zurück]]></previousProductButton>
+        <nextProductButton><![CDATA[Weiter]]></nextProductButton>
+    </home>
+    <edit>
+        <selectFileType><![CDATA[Foto auswählen]]></selectFileType>
+        <nextStepButton><![CDATA[Weiter]]></nextStepButton>
+        <marginTooltip><![CDATA[Das ist die Faltlinie]]></marginTooltip>
+        <lowQualityTooltip><![CDATA[Qualität für gewählte Größe zu gering]]></lowQualityTooltip>
+        <photoQualityIndicatorHeaderLabel><![CDATA[Qualität: ]]></photoQualityIndicatorHeaderLabel>
+        <photoQualityIndicatorLabel><![CDATA[{0}]]></photoQualityIndicatorLabel>
+        <photoQualityIndicatorTooltipLow>
+            <![CDATA[Aufgrund der geringen Auflösung dieses Fotos kann kein optimales Ergebnis garantiert werden. Sie können das {0} zwar bestellen, aber das Druckergebnis wird möglicherweise unscharf sein.]]></photoQualityIndicatorTooltipLow>
+        <photoQualityIndicatorTooltipMedium>
+            <![CDATA[Die Qualität des Fotos ist nicht optimal. Sie können das {0} zwar bestellen, aber das Druckergebnis wird möglicherweise unscharf sein.]]></photoQualityIndicatorTooltipMedium>
+        <photoQualityIndicatorTooltipHigh>
+            <![CDATA[Die Qualität des Fotos ist ausreichend.]]></photoQualityIndicatorTooltipHigh>
+        <photoQualityIndicatorTooltipExcellent>
+            <![CDATA[Die Qualität des Fotos ist hervorragend.]]></photoQualityIndicatorTooltipExcellent>
+        <uploadPhotoLabel><![CDATA[Foto auswählen]]></uploadPhotoLabel>
+        <uploadDifferentPhotoLabel><![CDATA[Ein anderes Foto auswählen]]></uploadDifferentPhotoLabel>
+        <uploadPhotoButtonTooltip><![CDATA[Klicken Sie hier, um ein Foto hinzuzufügen]]></uploadPhotoButtonTooltip>
+        <rotateWarning><![CDATA[Please rotate your device]]></rotateWarning>
+        <emptyPlaceholder>
+            <title><![CDATA[FOTO]]></title>
+            <text><![CDATA[Hier klicken oder Foto hier hin ziehen]]></text>
+        </emptyPlaceholder>
+        <photoTray>
+            <addPhotoButton>
+                <text><![CDATA[Neue Fotos hinzufügen]]></text>
+                <tooltip><![CDATA[Bilder wählen]]></tooltip>
+            </addPhotoButton>
+        </photoTray>
+        <layout>
+            <title><![CDATA[]]></title>
+            <subtitle><![CDATA[]]></subtitle>
+        </layout>
+        <tabs>
+            <photo><![CDATA[Ihre Fotos]]></photo>
+            <foreground><![CDATA[]]></foreground>
+            <background><![CDATA[Hintergründe]]></background>
+            <decoration><![CDATA[Rahmen]]></decoration>
+            <layout><![CDATA[Layouts]]></layout>
+            <tooltrayshow><![CDATA[Show tooltray]]></tooltrayshow>
+            <tooltrayhide><![CDATA[Hide tooltray]]></tooltrayhide>
+            <spacing>
+                <labels>
+                    <inner><![CDATA[Abstand zwischen Fotos: {0}]]></inner>
+                    <inner-small><![CDATA[Zwischen Fotos: {0}]]></inner-small>
+                    <outer><![CDATA[Abstand zum Seitenrand: {0}]]></outer>
+                    <outer-small><![CDATA[Zum Seitenrand: {0}]]></outer-small>
+                </labels>
+                <title><![CDATA[Rand]]></title>
+            </spacing>
+            <product-options><![CDATA[Foto auf Holz]]></product-options>
+        </tabs>
+        <photoQualityIndicatorLow><![CDATA[Unzureichend]]></photoQualityIndicatorLow>
+        <photoQualityIndicatorMedium><![CDATA[Mäßig]]></photoQualityIndicatorMedium>
+        <photoQualityIndicatorHigh><![CDATA[Ausreichend]]></photoQualityIndicatorHigh>
+        <photoQualityIndicatorExcellent><![CDATA[Hervorragend]]></photoQualityIndicatorExcellent>
+        <navigation>
+            <back><![CDATA[Zurück]]></back>
+            <back-small><![CDATA[Zurück]]></back-small>
+            <next><![CDATA[Weiter zur Bestellung]]></next>
+            <next-small><![CDATA[Bestellung]]></next-small>
+        </navigation>
+        <photoTools>
+            <close><![CDATA[Zurück]]></close>
+            <close-small><![CDATA[Zurück]]></close-small>
+            <delete><![CDATA[Löschen]]></delete>
+            <delete-small><![CDATA[Löschen]]></delete-small>
+            <effects>
+                <close><![CDATA[Zurück]]></close>
+                <close-small><![CDATA[Zurück]]></close-small>
+                <grayscale><![CDATA[]]></grayscale>
+                <grayscale-small><![CDATA[]]></grayscale-small>
+                <label><![CDATA[Filter]]></label>
+                <label-small><![CDATA[Filter]]></label-small>
+                <original><![CDATA[]]></original>
+                <original-small><![CDATA[]]></original-small>
+                <sepia><![CDATA[]]></sepia>
+                <sepia-small><![CDATA[]]></sepia-small>
+            </effects>
+            <mirror><![CDATA[Spiegeln]]></mirror>
+            <mirror-small><![CDATA[Spiegeln]]></mirror-small>
+            <rotate><![CDATA[Rotieren]]></rotate>
+            <rotate-small><![CDATA[Rotieren]]></rotate-small>
+            <swap><![CDATA[Tauschen]]></swap>
+            <swap-small><![CDATA[Tauschen]]></swap-small>
+            <zoom>
+                <label><![CDATA[Vergrößern]]></label>
+                <label-small><![CDATA[Vergrößern]]></label-small>
+                <tooltips>
+                    <in><![CDATA[]]></in>
+                    <out><![CDATA[]]></out>
+                    <slider><![CDATA[]]></slider>
+                </tooltips>
+            </zoom>
+        </photoTools>
+    </edit>
+    <save>
+        <saveText><![CDATA[Speichern]]></saveText>
+        <saveBody><![CDATA[Benennen Sie Ihr Produkt und speichern Sie es]]></saveBody>
+    </save>
+    <load>
+        <loadText><![CDATA[Öffnen]]></loadText>
+        <loadBody><![CDATA[Gespeichertes Fotobuch öffnen]]></loadBody>
+        <created><![CDATA[]]></created>
+        <modified><![CDATA[]]></modified>
+    </load>
+    <order>
+        <orderTitle><![CDATA[Ihre Bestellung]]></orderTitle>
+        <invoiceTitle><![CDATA[Übersicht]]></invoiceTitle>
+        <numberOfCopiesDescription>
+            <![CDATA[(Wählen Sie wie viele Exemplare Sie bestellen möchten)]]></numberOfCopiesDescription>
+        <subTotal><![CDATA[Zwischensumme]]></subTotal>
+        <shipping><![CDATA[Versandkosten]]></shipping>
+        <invoiceDiscount><![CDATA[Rabatt]]></invoiceDiscount>
+        <total><![CDATA[Gesamt]]></total>
+        <promoTitle><![CDATA[Gutschein-Code]]></promoTitle>
+        <promoDescription><![CDATA[Geben Sie den Gutschein-Code hier ein.]]></promoDescription>
+        <applyPromoCodeButton><![CDATA[Verrechnen]]></applyPromoCodeButton>
+        <deliveryAddressTitle><![CDATA[Lieferadresse]]></deliveryAddressTitle>
+        <updateDeliveryAddressButton><![CDATA[Ändern]]></updateDeliveryAddressButton>
+        <previousStepButton><![CDATA[Zurück]]></previousStepButton>
+        <submitButton><![CDATA[Bestellung abschließen]]></submitButton>
+        <promotionPopupTitle><![CDATA[Ungültiger Gutscheincode]]></promotionPopupTitle>
+        <promotionPopupSubtitle>
+            <![CDATA[Der eingegebene Gutscheincode ist ungültig. Geben Sie einen gültigen Gutscheincode ein oder bestellen Sie ohne Gutscheincode.]]></promotionPopupSubtitle>
+        <promotionPopupEnterPromotionCodeLabel><![CDATA[Gutscheincode:]]></promotionPopupEnterPromotionCodeLabel>
+        <promotionPopupCancelLabel><![CDATA[Ohne Gutscheincode bestellen]]></promotionPopupCancelLabel>
+        <promotionPopupSubmitLabel><![CDATA[Senden]]></promotionPopupSubmitLabel>
+        <navigation>
+            <back><![CDATA[Zurück]]></back>
+            <back-small><![CDATA[Zurück]]></back-small>
+            <next><![CDATA[Vorwärts]]></next>
+            <next-small><![CDATA[Vorwärts]]></next-small>
+        </navigation>
+    </order>
+    <upload>
+        <uploading>
+            <![CDATA[Ihre Bestellung wird abgeschlossen, bitte haben Sie einen Augenblick Geduld. %3%%]]></uploading>
+        <busyUploadingLabel>
+            <![CDATA[Ihre Bestellung wird gerade abgeschlossen, bitte haben Sie einen Augenblick Geduld. Wenn Ihre Fotos hochgeladen wurden, werden Sie automatisch zum Warenkorb weitergeleitet.]]></busyUploadingLabel>
+    </upload>
+    <help>
+        <helpTitle><![CDATA[Kundenservice]]></helpTitle>
+        <helpText><![CDATA[Gehen Sie zu den FAQs]]></helpText>
+        <helpURL><![CDATA[http://www.albelli.de/kundenservice]]></helpURL>
+        <moreOptionsUrl><![CDATA[]]></moreOptionsUrl>
+    </help>
+    <alerts>
+        <invalidPromotionCode><![CDATA[Der Gutschein-Code ist ungültig.]]></invalidPromotionCode>
+    </alerts>
+    <warnings>
+        <qualityTitle><![CDATA[Unzureichende Fotoqualität]]></qualityTitle>
+        <qualitySubtitle>
+            <![CDATA[Sie können das Produkt so bestellen, aber die Druckqualität könnte weniger scharf sein, als wir Ihnen normalerweise garantieren.]]></qualitySubtitle>
+        <qualityOptionsTitle><![CDATA[]]></qualityOptionsTitle>
+        <qualityOptions><![CDATA[]]></qualityOptions>
+        <qualityFooter>
+            <![CDATA[Bei Fragen können Sie sich gerne an unseren freundlichen <a href="{CUSTOMER_SERVICE}" target="_blank">Kundenservice</a> wenden.]]></qualityFooter>
+        <qualityButtonCancel><![CDATA[Produkt bearbeiten]]></qualityButtonCancel>
+        <qualityButtonProceed><![CDATA[Fortfahren]]></qualityButtonProceed>
+        <layouts>
+            <lessPlaceholdersThanPhotos>
+                <message>
+                    <![CDATA[Sind Sie sicher, dass Sie fortfahren möchten? Ihr ausgewähltes Layout beinhaltete weniger Fotos als Ihr bestehendes Layout. Wenn Sie jetzt fortfahren, werden {0} Fotos dieser Seite gelöscht.]]></message>
+            </lessPlaceholdersThanPhotos>
+        </layouts>
+    </warnings>
+    <dialogs>
+        <browser>
+            <browserWarning>
+                <![CDATA[Leider unterstützt dieser Browser nicht alle Optionen zur Gestaltung Ihres Produktes. Bitte installieren Sie Safari, Google Chrome, Firefox, Internet Explorer (Version 10 oder höher) und versuchen Sie es erneut oder fahren Sie mit limitierten Optionen fort.]]></browserWarning>
+            <chromeInstall><![CDATA[Chrome installieren]]></chromeInstall>
+            <gotoFlash><![CDATA[Begrenzt fortfahren]]></gotoFlash>
+        </browser>
+    </dialogs>
+    <errors>
+        <errorBootstrapping>
+            <![CDATA[Leider ist während des Ladevorgangs ein Problem aufgetreten. Bitte versuchen Sie es später erneut oder kontaktieren Sie unseren Kundenservice.]]></errorBootstrapping>
+        <countryList>
+            <![CDATA[Leider ist während des Ladevorgangs ein Problem aufgetreten. Bitte versuchen Sie es später erneut oder kontaktieren Sie unseren Kundenservice. (Länderliste konnte nicht abgerufen werden)]]></countryList>
+        <lowMemoryWarning>
+            <![CDATA[Der Speicherplatz Ihres Gerätes ist ausgeschöpft. Bitte schließen Sie alle anderen Apps und versuchen Sie es erneut.]]></lowMemoryWarning>
+        <defaultPrice>
+            <![CDATA[Leider ist während des Ladevorgangs ein Problem aufgetreten. Bitte versuchen Sie es später erneut oder kontaktieren Sie unseren Kundenservice. (Preisinformation konnte nicht abgerufen werden)]]></defaultPrice>
+        <loadPhotoBitmapData>
+            <![CDATA[Leider ist ein Problem aufgetreten, während Ihre Fotos hochgeladen wurden. Bitte versuchen Sie es später erneut oder kontakieren Sie unseren Kundenservice. ]]></loadPhotoBitmapData>
+        <loadBigPhoto>
+            <![CDATA[Fehler beim Laden des Fotos. Bitte reduzieren Sie die Größe auf maximal {0} px.]]></loadBigPhoto>
+        <creatingPhoto>
+            <![CDATA[Fehler beim Aufbauen des Fotos. Wenden Sie sich an den Helpdesk, oder versuchen Sie es später noch einmal.]]></creatingPhoto>
+        <photoRegistration>
+            <![CDATA[Fehler beim Aufbauen des Fotos. Wenden Sie sich an den Helpdesk, oder versuchen Sie es später noch einmal.]]></photoRegistration>
+        <addPhotoToPhotoPlaceholderEmpty>
+            <![CDATA[Fehler beim Hinzufügen des Fotos zum Fotorahmen. Wenden Sie sich an den Helpdesk, oder versuchen Sie es später noch einmal.]]></addPhotoToPhotoPlaceholderEmpty>
+        <addPhotoToPhotoPlaceholder>
+            <![CDATA[Fehler beim Hinzufügen des Fotos zum Fotorahmen. Wenden Sie sich an den Helpdesk, oder versuchen Sie es später noch einmal.]]></addPhotoToPhotoPlaceholder>
+        <startUploadPhoto>
+            <![CDATA[Fehler beim Initialisieren des Hochladens. Wenden Sie sich an den Helpdesk, oder versuchen Sie es später noch einmal.]]></startUploadPhoto>
+        <setPhotoCanvas>
+            <![CDATA[Fehler beim Umstellen auf eine andere Produkt. Wenden Sie sich an den Helpdesk, oder versuchen Sie es später noch einmal.]]></setPhotoCanvas>
+        <createCustomer>
+            <![CDATA[Fehler beim Erfassen der Kundendaten. Wenden Sie sich an den Helpdesk, oder versuchen Sie es später noch einmal.]]></createCustomer>
+        <createOrder>
+            <![CDATA[Fehler beim Erstellen der Rechnungsdaten. Wenden Sie sich an den Helpdesk, oder versuchen Sie es später noch einmal.]]></createOrder>
+        <getInvoice>
+            <![CDATA[Fehler beim Abrufen der Rechnungsdaten. Wenden Sie sich an den Helpdesk, oder versuchen Sie es später noch einmal.]]></getInvoice>
+        <sendOrder>
+            <![CDATA[Fehler beim Versenden der Bestellung. Wenden Sie sich an den Helpdesk, oder versuchen Sie es später noch einmal.]]></sendOrder>
+        <getPaymentUrl>
+            <![CDATA[Fehler beim Abrufen der Zahlungsdaten. Wenden Sie sich an den Helpdesk, oder versuchen Sie es später noch einmal.]]></getPaymentUrl>
+    </errors>
+    <validations>
+        <emailMissingAtSign><![CDATA[In der E-Mail-Adresse fehlt das @-Zeichen.]]></emailMissingAtSign>
+        <emailMissingPeriodInDomain>
+            <![CDATA[In der E-Mail-Adresse fehlt ein Punkt (.de).]]></emailMissingPeriodInDomain>
+        <emailDomainInvalidFormatted>
+            <![CDATA[Der Domainname in der E-Mail-Adresse ist ungültig.]]></emailDomainInvalidFormatted>
+        <emailTooManyAtCharacters>
+            <![CDATA[In der E-Mail-Adresse kommen zu viele @-Zeichen vor.]]></emailTooManyAtCharacters>
+        <emailConsecutivePeriodsInDomain>
+            <![CDATA[In der E-Mail-Adresse kommen aufeinanderfolgende Punkte (.) vor.]]></emailConsecutivePeriodsInDomain>
+        <emailInvalidChars><![CDATA[In der E-Mail-Adresse kommen unzulässige Zeichen vor.]]></emailInvalidChars>
+        <emailInvalidIp><![CDATA[Die IP-Adresse im Domainteil Ihrer E-Mail-Adresse ist ungültig.]]></emailInvalidIp>
+        <emailMissingUsername><![CDATA[In der E-Mail-Adresse fehlt der Benutzername.]]></emailMissingUsername>
+        <emailRequired><![CDATA[Pflichtfeld]]></emailRequired>
+        <textRequired><![CDATA[Pflichtfeld]]></textRequired>
+        <textTooLong><![CDATA[Die maximal mögliche Zeichenanzahl ist erreicht.]]></textTooLong>
+        <zipcodeRequired><![CDATA[Pflichtfeld]]></zipcodeRequired>
+        <zipcodeInvalid><![CDATA[PLZ ungültig. Verwenden Sie das Format:]]></zipcodeInvalid>
+    </validations>
+    <layout>
+        <navigation>
+            <back><![CDATA[]]></back>
+            <back-small><![CDATA[]]></back-small>
+            <next><![CDATA[]]></next>
+            <next-small><![CDATA[]]></next-small>
+        </navigation>
+        <subtitle><![CDATA[Anzahl der Fotos unten auswählen]]></subtitle>
+        <title><![CDATA[Layout wählen]]></title>
+    </layout>
+    <preview>
+        <button><![CDATA[Vorschau]]></button>
+        <buttonBack><![CDATA[Zurück]]></buttonBack>
+        <close><![CDATA[Bearbeiten]]></close>
+        <options>
+            <context><![CDATA[Foto an der Wand]]></context>
+            <full><![CDATA[Vollansicht]]></full>
+        </options>
+        <title><![CDATA[Vorschauoptionen:]]></title>
+    </preview>
+    <productOptions>
+        <title><![CDATA[Produktoptionen]]></title>
+        <groups>
+            <WoodFinishingType><![CDATA[Holzoberfläche]]></WoodFinishingType>
+            <PlanksOrientationType><![CDATA[Anordnung der Holzlatten]]></PlanksOrientationType>
+        </groups>
+    </productOptions>
+</root>

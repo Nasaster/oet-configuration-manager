@@ -12,7 +12,8 @@ module.exports = function(grunt){
         replace: globals.replace,
         copy: globals.copy,
         browserSync: globals.browsersync,
-        watch: globals.watch
+        watch: globals.watch,
+        bgShell: globals.bgshell
     });
 
     grunt.loadNpmTasks('grunt-browserify');
@@ -23,8 +24,9 @@ module.exports = function(grunt){
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-browser-sync');
     grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-bg-shell');
     
-    grunt.registerTask('dev', ['build:dev', 'browserSync', 'watch']);
+    grunt.registerTask('dev', ['build:dev', 'browserSync', 'bgShell']);
 
     grunt.registerTask('build', function(env){
         //var tasks = ['clean', 'copy', 'sass', 'replace', 'browserify'];

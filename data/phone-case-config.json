@@ -1,0 +1,52 @@
+{
+    "margins":{
+        "PAP_711": {
+            "left": 0.15,
+            "right": 0.15,
+            "top": 0,
+            "bottom": 0
+        }, 
+        "PAP_712":{
+            "left": 0.10,
+            "right": 0.10,
+            "top": 0,
+            "bottom": 0 
+        },
+        "PAP_713":{
+            "left": 0.15,
+            "right": 0.15,
+            "top": 0,
+            "bottom": 0 
+        },
+        "PAP_714": {
+            "left": 0.10,
+            "right": 0.10,
+            "top": 0,
+            "bottom": 0 
+        }, 
+        "PAP_715": {
+            "left": 0.15,
+            "right": 0.15,
+            "top": 0,
+            "bottom": 0 
+        },
+        "PAP_716": {
+            "left": 0.15,
+            "right": 0.15,
+            "top": 0,
+            "bottom": 0 
+        },
+        "PAP_717": {
+            "left": 0.14,
+            "right": 0.14,
+            "top": 0,
+            "bottom": 0 
+        },
+        "PAP_718": {
+            "left": 0.14,
+            "right": 0.14,
+            "top": 0,
+            "bottom": 0 
+        }
+    }   
+}
