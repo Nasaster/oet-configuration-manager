@@ -19,7 +19,7 @@ module.exports = {
 (function writeScssDependencies(){
     var includesSCSS = [
         '@charset "UTF-8";', 
-        '@import "../node_modules/oet-editor-styles/css/layout.scss";',
+        // '@import "../node_modules/oet-editor-styles/css/layout.scss";',
         '@import "./css/main.scss";'
     ];
     var modules = Object.keys(pkg.devDependencies).forEach(function(dependency){
