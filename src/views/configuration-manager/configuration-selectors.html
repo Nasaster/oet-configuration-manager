@@ -7,7 +7,7 @@
         <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
             {% for app in applications %}
             <li role="presentation">
-                <a role="menuitem" tabindex="-1" href="#">{{app}}</a>
+                <a class="menu-item" role="menuitem" tabindex="-1" href="#">{{app}}</a>
             </li>
             {% endfor %}
             <li role="presentation" class="divider"></li>
@@ -30,12 +30,12 @@
             <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
                 {% for channel in channels %}
                 <li role="presentation">
-                    <a role="menuitem" tabindex="-1" href="#">{{channel}} <input type="checkbox"></a>
+                    <a class="menu-item" role="menuitem" tabindex="-1" href="#">{{channel}} <!-- <input type="checkbox"></a> -->
                 </li>
                 {% endfor %}
                 <li role="presentation" class="divider"></li>
                 <li role="presentation">
-                    <a role="menuitem" tabindex="-1" href="#">Select All <input type="checkbox"></a>
+                    <a class="menu-item-select-all" role="menuitem" tabindex="-1" href="#">Select All <input type="checkbox"></a>
                 </li>
             </ul>
         </div>

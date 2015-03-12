@@ -1,6 +1,7 @@
 var pubsub = require('oet-lib/pubsub');
 var view = require('./configuration-manager.view');
 var configurationSelectors = require('./configuration-selectors/configuration-selectors.controller');
+//var configurationAccordions = require('./configuration-selectors/configuration-accordions.controller');
 
 var ConfigurationManager = function(){};
 ConfigurationManager.prototype.constructor = ConfigurationManager;

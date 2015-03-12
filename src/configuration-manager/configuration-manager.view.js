@@ -24,6 +24,7 @@ ConfigurationManagerView.prototype.render = function(wrapper, data){
 var registerDOM = function(){
     $scope.$DOM = {};
     $scope.$DOM.selectorsSection = $scope.$wrapper.querySelector('.configuration-selectors');
+    //$scope.$DOM.selectorsSection = $scope.$wrapper.querySelector('.configuration-accordions');
 };
 
 //we attach the events needed
