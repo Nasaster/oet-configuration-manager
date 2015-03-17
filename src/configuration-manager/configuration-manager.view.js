@@ -21,10 +21,6 @@ ConfigurationManagerView.prototype.render = function(wrapper, locals){
     return templator.render('views/configuration-manager/main.html', locals, wrapper)
 };
 
-var renderSelector = function(wrapper, locals){
-    return templator.render('views/configuration-manager/application-selector.html', locals, wrapper);
-}
-
 //we cache all the DOM elements we'll use later
 var registerDOM = function(){
     $scope.$DOM = {};
