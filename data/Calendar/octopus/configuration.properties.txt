@@ -1,0 +1,57 @@
+#Possible values are 'ALL', 'DEBUG', 'INFO', 'WARN', 'ERROR', 'FATAL'.
+logLevel=#{logLevel}
+onlineLogUrl=#{onlineLogUrl}
+
+userAgentType=Easy Flow Calendar
+articleType=Calendar
+
+#webservice urls
+assetService.base=#{assetService.base}
+assetService.url=#{assetService.url}
+orderService.wsdl=#{orderService.wsdl}
+photoStorage.wsdl=#{photoStorage.wsdl}
+merchandise.baseUrl=#{merchandise.baseUrl}
+uploadApi.url=#{uploadApi.url}
+onlineShopApi.url=#{onlineShopApi.url}
+calendarApi.url=#{calendarApi.url}
+calendarApi.yearsAhead=2
+#Upload proxy used by Internet Explorer Flash transporter
+productUploadProxy.url=#{productUploadProxy.url}
+calendarGridApi.url.base=#{calendarGridApi.url.base}
+calendarGridApi.url.instructions.encode=Base64EncodeRenderResult=true
+calendarGridApi.url.instructions.key=InstructionRetrieveUrl
+calendarGridApi.url.instructions.url=#{calendarGridApi.url.instructions.url}
+ringwireMapping.url=./images/ringwires/ringwire-mapping.json
+defaultGridProperties.url=config/grid-properties.json
+
+#upload url
+photoUploadUrl=#{photoUploadUrl}
+
+#locale
+languageFileRoot=locale
+languageFileName=general.xml
+
+#config
+configFileRoot=config
+configFileName=config.xml
+analyticsFileName=analytics-mapping.xml
+
+#assets location
+templatesLocation=./templates/
+spritesLocation=./css/sprites/
+ringwiresLocation=./images/ringwires/
+gridPreviewsLocation=./images/gridpreviews/
+
+#editor config
+xsd.schemaLocation=#{xsd.schemaLocation.4}
+xsd.namespace=urn:albumprinter.com:product:editor:4.0
+
+#additional configurations
+preparePrintArea=false
+
+#grid configuration
+gridDisplayScale=1.5
+gridPrintPPI=300
+
+#product storage
+productstorage.base=#{productstorage.base}

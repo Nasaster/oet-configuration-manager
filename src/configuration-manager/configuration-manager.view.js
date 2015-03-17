@@ -8,7 +8,7 @@ var configurationManagerView = module.exports = new ConfigurationManagerView();
 ConfigurationManagerView.prototype.init = function(controller){
     $scope = controller;
     //returns the promise created in templator.render
-    return this.render($scope.$wrapper)
+    return this.render($scope.$wrapper, $scope.$config)
         .then(registerDOM)
         // .then(registerEvents);
 };
@@ -16,15 +16,14 @@ ConfigurationManagerView.prototype.init = function(controller){
 //we expose the render method because there may come the need for the controller to render it again
 ConfigurationManagerView.prototype.render = function(wrapper, data){
     //use the templator to render the html
-    return templator.render('views/configuration-manager/main.html', data)
-        .then( templator.inject.bind(null, $scope.$wrapper) );
+    return templator.render('views/configuration-manager/main.html', data, wrapper);
 };
 
 //we cache all the DOM elements we'll use later
 var registerDOM = function(){
     $scope.$DOM = {};
     $scope.$DOM.selectorsSection = $scope.$wrapper.querySelector('.configuration-selectors');
-    //$scope.$DOM.selectorsSection = $scope.$wrapper.querySelector('.configuration-accordions');
+    $scope.$DOM.accordionsSection = $scope.$wrapper.querySelector('.configuration-accordions');
 };
 
 //we attach the events needed

@@ -1,0 +1,173 @@
+{
+    "analytics":
+    {
+        "albelli.be":
+        {
+            "omniture": {
+                "charSet": "UTF-8",
+                "currencyCode": "EUR",
+                "trackClickMap": false,
+                "autoTrack": false,
+                "account": "#{albelli.be.omniture.account}",
+                "visitorNamespace": "albumprinter",
+                "trackingServer": "albumprinter.122.2o7.net"
+            }
+        },
+        "albelli.co.uk":
+        {
+            "omniture": {
+                "charSet": "UTF-8",
+                "currencyCode": "GBP",
+                "trackClickMap": false,
+                "autoTrack": false,
+                "account": "#{albelli.co.uk.omniture.account}",
+                "visitorNamespace": "albumprinter",
+                "trackingServer": "albumprinter.122.2o7.net"
+            }
+        },
+        "albelli.com":
+        {
+            "omniture": {
+                "charSet": "UTF-8",
+                "currencyCode": "EUR",
+                "trackClickMap": false,
+                "autoTrack": false,
+                "account": "#{albelli.com.omniture.account}",
+                "visitorNamespace": "albumprinter",
+                "trackingServer": "albumprinter.122.2o7.net"
+            }
+        },
+        "albelli.de":
+        {
+            "omniture": {
+                "charSet": "UTF-8",
+                "currencyCode": "EUR",
+                "trackClickMap": false,
+                "autoTrack": false,
+                "account": "#{albelli.de.omniture.account}",
+                "visitorNamespace": "albumprinter",
+                "trackingServer": "albumprinter.122.2o7.net"
+            }
+        },
+        "albelli.es":
+        {
+            "omniture": {
+                "charSet": "UTF-8",
+                "currencyCode": "EUR",
+                "trackClickMap": false,
+                "autoTrack": false,
+                "account": "#{albelli.es.omniture.account}",
+                "visitorNamespace": "albumprinter",
+                "trackingServer": "albumprinter.122.2o7.net"
+            }
+        },
+        "albelli.fr":
+        {
+            "omniture": {
+                "charSet": "UTF-8",
+                "currencyCode": "EUR",
+                "trackClickMap": false,
+                "autoTrack": false,
+                "account": "#{albelli.fr.omniture.account}",
+                "visitorNamespace": "albumprinter",
+                "trackingServer": "albumprinter.122.2o7.net"
+            }
+        },
+        "albelli.it":
+        {
+            "omniture": {
+                "charSet": "UTF-8",
+                "currencyCode": "EUR",
+                "trackClickMap": false,
+                "autoTrack": false,
+                "account": "#{albelli.it.omniture.account}",
+                "visitorNamespace": "albumprinter",
+                "trackingServer": "albumprinter.122.2o7.net"
+            }
+        },
+        "albelli.nl":
+        {
+            "omniture": {
+                "charSet": "UTF-8",
+                "currencyCode": "EUR",
+                "trackClickMap": false,
+                "autoTrack": false,
+                "account": "#{albelli.nl.omniture.account}",
+                "visitorNamespace": "albumprinter",
+                "trackingServer": "albumprinter.122.2o7.net"
+            }
+        },
+        "albelli.no":
+        {
+            "omniture": {
+                "charSet": "UTF-8",
+                "currencyCode": "EUR",
+                "trackClickMap": false,
+                "autoTrack": false,
+                "account": "#{albelli.no.omniture.account}",
+                "visitorNamespace": "albumprinter",
+                "trackingServer": "albumprinter.122.2o7.net"
+            }
+        },
+        "albelli.se":
+        {
+            "omniture": {
+                "charSet": "UTF-8",
+                "currencyCode": "EUR",
+                "trackClickMap": false,
+                "autoTrack": false,
+                "account": "#{albelli.se.omniture.account}",
+                "visitorNamespace": "albumprinter",
+                "trackingServer": "albumprinter.122.2o7.net"
+            }
+        },
+        "bonusprint.co.uk":
+        {
+            "omniture": {
+                "charSet": "UTF-8",
+                "currencyCode": "GBP",
+                "trackClickMap": false,
+                "autoTrack": false,
+                "account": "#{bonusprint.co.uk.omniture.account}",
+                "visitorNamespace": "albumprinter",
+                "trackingServer": "albumprinter.122.2o7.net"
+            }
+        },
+        "hema.be":
+        {
+            "omniture": {
+                "charSet": "UTF-8",
+                "currencyCode": "EUR",
+                "trackClickMap": false,
+                "autoTrack": false,
+                "account": "#{hema.nl-BE.omniture.account}",
+                "visitorNamespace": "albumprinter",
+                "trackingServer": "albumprinter.122.2o7.net"
+            }
+        },
+        "hema.nl":
+        {
+            "omniture": {
+                "charSet": "UTF-8",
+                "currencyCode": "EUR",
+                "trackClickMap": false,
+                "autoTrack": false,
+                "account": "#{hema.nl.omniture.account}",
+                "visitorNamespace": "albumprinter",
+                "trackingServer": "albumprinter.122.2o7.net"
+            }
+        },
+        "hema-fr.be":
+        {
+            "omniture": {
+                "charSet": "UTF-8",
+                "currencyCode": "EUR",
+                "trackClickMap": false,
+                "autoTrack": false,
+                "account": "#{hema.fr-BE.omniture.account}",
+                "visitorNamespace": "albumprinter",
+                "trackingServer": "albumprinter.122.2o7.net"
+            }
+        }
+    }
+}

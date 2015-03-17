@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <productCategoryMap>
+        <articleType type="Calendar" value="Photo calendars"/>
+    </productCategoryMap>
+    <eventMap trackingEventsQueueSize="10" trackingEventsQueueTimeout="30000">
+        <!-- Page view events -->
+        <event type="SIZE_SELECTION" immediate="true" maxCount="0" method="page">
+            <variables>
+                <pageName><![CDATA[{USERAGENTNAME} : /Size selection]]></pageName>
+                <eVar41><![CDATA[{USERAGENTNAME} : /Size selection]]></eVar41>
+                <hier1><![CDATA[{USERAGENTNAME}:Size selection]]></hier1>
+                <channel><![CDATA[{USERAGENTNAME}]]></channel>
+                <prop4><![CDATA[{USERAGENTNAME}]]></prop4>
+                <prop2><![CDATA[{PRODUCTCATEGORY}]]></prop2>
+                <products><![CDATA[{PRODUCTSTRING}]]></products>
+                <prop39><![CDATA[{VIEW}]]></prop39>
+                <events><![CDATA[event100]]></events>
+            </variables>
+            <cleanup><![CDATA[pageName,eVar41,hier1,channel,prop4,prop2,prop39,products,eVar8,events]]></cleanup>
+        </event>
+        <event type="CREATE_PRODUCT" immediate="true" maxCount="0" method="page">
+            <variables>
+                <pageName><![CDATA[{USERAGENTNAME} : /Create product]]></pageName>
+                <eVar41><![CDATA[{USERAGENTNAME} : /Create product]]></eVar41>
+                <hier1><![CDATA[{USERAGENTNAME}:Create product]]></hier1>
+                <channel><![CDATA[{USERAGENTNAME}]]></channel>
+                <prop4><![CDATA[{USERAGENTNAME}]]></prop4>
+                <prop2><![CDATA[{PRODUCTCATEGORY}]]></prop2>
+                <products><![CDATA[{PRODUCTSTRING}]]></products>
+                <prop39><![CDATA[{VIEW}]]></prop39>
+                <events><![CDATA[event21,event100]]></events>
+            </variables>
+            <cleanup><![CDATA[pageName,eVar41,hier1,channel,prop4,prop2,prop39,products,eVar8,events]]></cleanup>
+        </event>
+        <event type="PREVIEW_PRODUCT" immediate="true" maxCount="0" method="page">
+            <variables>
+                <pageName><![CDATA[{USERAGENTNAME} : /Preview]]></pageName>
+                <eVar41><![CDATA[{USERAGENTNAME} : /Preview]]></eVar41>
+                <hier1><![CDATA[{USERAGENTNAME}:Preview]]></hier1>
+                <channel><![CDATA[{USERAGENTNAME}]]></channel>
+                <prop4><![CDATA[{USERAGENTNAME}]]></prop4>
+                <prop2><![CDATA[{PRODUCTCATEGORY}]]></prop2>
+                <products><![CDATA[{PRODUCTSTRING}]]></products>
+                <prop39><![CDATA[{VIEW}]]></prop39>
+                <events><![CDATA[event24,event100]]></events>
+            </variables>
+            <cleanup><![CDATA[pageName,eVar41,hier1,channel,prop4,prop2,prop39,products,eVar8,events]]></cleanup>
+        </event>
+        <event type="UPLOAD_ORDER" immediate="true" maxCount="0" method="page">
+            <variables>
+                <pageName><![CDATA[{USERAGENTNAME} : /Uploading order]]></pageName>
+                <eVar41><![CDATA[{USERAGENTNAME} : /Uploading order]]></eVar41>
+                <hier1><![CDATA[{USERAGENTNAME}:Uploading order]]></hier1>
+                <channel><![CDATA[{USERAGENTNAME}]]></channel>
+                <prop4><![CDATA[{USERAGENTNAME}]]></prop4>
+                <prop2><![CDATA[{PRODUCTCATEGORY}]]></prop2>
+                <eVar59><![CDATA[{USERAGENTNAME}|{WARNINGS}]]></eVar59>
+                <products><![CDATA[{PRODUCTSTRING}]]></products>
+                <prop39><![CDATA[{VIEW}]]></prop39>
+                <events><![CDATA[event32,event100]]></events>
+            </variables>
+            <cleanup><![CDATA[pageName,eVar41,hier1,channel,prop4,prop2,prop39,products,eVar8,events,eVar59]]></cleanup>
+        </event>
+        <event type="PROCEED_TO_ORDER_NO_WARNINGS" immediate="true" maxCount="0" method="page">
+            <variables>
+                <pageName><![CDATA[{USERAGENTNAME} : /Continue to order]]></pageName>
+                <eVar41><![CDATA[{USERAGENTNAME} : /Continue to order]]></eVar41>
+                <hier1><![CDATA[{USERAGENTNAME}:Continue to order]]></hier1>
+                <channel><![CDATA[{USERAGENTNAME}]]></channel>
+                <prop4><![CDATA[{USERAGENTNAME}]]></prop4>
+                <prop2><![CDATA[{PRODUCTCATEGORY}]]></prop2>
+                <products><![CDATA[{PRODUCTSTRING}]]></products>
+                <eVar59><![CDATA[{USERAGENTNAME}|No Warnings]]></eVar59>
+                <prop39><![CDATA[{VIEW}]]></prop39>
+                <events><![CDATA[event22,event100]]></events>
+            </variables>
+            <cleanup><![CDATA[pageName,eVar41,hier1,channel,prop4,prop2,prop39,products,{EVARX},eVar8,prop52,eVar59,events]]></cleanup>
+        </event>
+        <event type="PROCEED_TO_ORDER_WITH_WARNINGS" immediate="true" maxCount="0" method="page">
+            <variables>
+                <pageName><![CDATA[{USERAGENTNAME} : /Continue to order]]></pageName>
+                <eVar41><![CDATA[{USERAGENTNAME} : /Continue to order]]></eVar41>
+                <hier1><![CDATA[{USERAGENTNAME}:Continue to order]]></hier1>
+                <channel><![CDATA[{USERAGENTNAME}]]></channel>
+                <prop4><![CDATA[{USERAGENTNAME}]]></prop4>
+                <prop2><![CDATA[{PRODUCTCATEGORY}]]></prop2>
+                <products><![CDATA[{PRODUCTSTRING}]]></products>
+                <eVar59><![CDATA[{USERAGENTNAME}|{WARNINGS}]]></eVar59>
+                <prop39><![CDATA[{VIEW}]]></prop39>
+                <events><![CDATA[event22,event26,event100]]></events>
+            </variables>
+            <cleanup><![CDATA[pageName,eVar41,hier1,channel,prop4,prop2,prop39,products,{EVARX},eVar8,prop52,eVar59,events]]></cleanup>
+        </event>
+        <event type="CHOOSE_LAYOUT" immediate="true" maxCount="0" method="page">
+            <variables>
+                <pageName><![CDATA[{USERAGENTNAME} : /Choose layout]]></pageName>
+                <eVar41><![CDATA[{USERAGENTNAME} : /Choose layout]]></eVar41>
+                <hier1><![CDATA[{USERAGENTNAME}:Choose layout]]></hier1>
+                <channel><![CDATA[{USERAGENTNAME}]]></channel>
+                <prop4><![CDATA[{USERAGENTNAME}]]></prop4>
+                <prop2><![CDATA[{PRODUCTCATEGORY}]]></prop2>
+                <products><![CDATA[{PRODUCTSTRING}]]></products>
+                <prop39><![CDATA[{VIEW}]]></prop39>
+                <events><![CDATA[event100]]></events>
+            </variables>
+            <cleanup><![CDATA[pageName,eVar41,hier1,channel,prop4,prop2,prop39,products,{EVARX},eVar8,prop52,events]]></cleanup>
+        </event>
+        <!-- Link events -->
+        <event type="PHOTO_UPLOAD" immediate="true" maxCount="0" method="link" linkName="Design - Upload photos">
+            <variables>
+                <products><![CDATA[;{PAPID};;;event25={UPLOADEDPHOTOS};evar8={USERAGENTNAME};evar9={USERAGENTNAME} {USERAGENTVERSION}]]></products>
+                <events><![CDATA[event25,event13]]></events>
+                <prop24><![CDATA[{USERAGENTNAME} - Upload photos]]></prop24>
+                <prop39><![CDATA[{VIEW}]]></prop39>
+                <linkTrackVars><![CDATA[products,prop24,prop39,events]]></linkTrackVars>
+                <linkTrackEvents><![CDATA[event25,event13]]></linkTrackEvents>
+            </variables>
+            <cleanup><![CDATA[products,events,prop24,prop39,eVar8]]></cleanup>
+        </event>
+        <event type="PHOTO_UPLOAD_WITH_ERRORS" immediate="true" maxCount="0" method="link" linkName="Design - Upload photos">
+            <variables>
+                <products><![CDATA[;{PAPID};;;event25={UPLOADEDPHOTOS};evar8={USERAGENTNAME};evar9={USERAGENTNAME} {USERAGENTVERSION}]]></products>
+                <events><![CDATA[event25,event13]]></events>
+                <prop24><![CDATA[{USERAGENTNAME} - Upload photos]]></prop24>
+                <prop29><![CDATA[{USERAGENTNAME} - {PHOTOFAILUREMESSAGE}]]></prop29>
+                <prop39><![CDATA[{VIEW}]]></prop39>
+                <linkTrackVars><![CDATA[products,prop24,prop29,prop39,events]]></linkTrackVars>
+                <linkTrackEvents><![CDATA[event25,event13]]></linkTrackEvents>
+            </variables>
+            <cleanup><![CDATA[products,events,prop24,prop29,prop39,eVar8]]></cleanup>
+        </event>
+        <event type="PHOTO_EDITING" immediate="true" maxCount="10" method="link" linkName="Design - Photo Editing">
+            <variables>
+                <prop24><![CDATA[{USERAGENTNAME} - Photo Editing]]></prop24>
+                <prop39><![CDATA[{VIEW}]]></prop39>
+                <prop30><![CDATA[{USERAGENTNAME} - {OPERATIONTYPE}{OPERATION}]]></prop30>
+                <linkTrackVars><![CDATA[prop24,prop39,prop30]]></linkTrackVars>
+            </variables>
+            <cleanup><![CDATA[prop30,prop24,prop39,eVar8]]></cleanup>
+        </event>
+        <event type="SIZE_CHANGE" immediate="true" maxCount="0" method="link" linkName="Design - Size Change">
+            <variables>
+                <prop24><![CDATA[{USERAGENTNAME} - Size Change]]></prop24>
+                <prop39><![CDATA[{VIEW}]]></prop39>
+                <linkTrackVars><![CDATA[prop24,prop39]]></linkTrackVars>
+            </variables>
+            <cleanup><![CDATA[prop24,prop39,eVar8]]></cleanup>
+        </event>
+        <event type="SHOW_TOOLTRAY" immediate="true" maxCount="0" method="link" linkName="Design - Show toolray">
+            <variables>
+                <prop24><![CDATA[{USERAGENTNAME} - Show toolray]]></prop24>
+                <prop39><![CDATA[{VIEW}]]></prop39>
+                <linkTrackVars><![CDATA[prop24,prop39]]></linkTrackVars>
+            </variables>
+            <cleanup><![CDATA[prop24,prop39,eVar8]]></cleanup>
+        </event>
+        <event type="HIDE_TOOLTRAY" immediate="true" maxCount="0" method="link" linkName="Design - Hide toolray">
+            <variables>
+                <prop24><![CDATA[{USERAGENTNAME} - Hide toolray]]></prop24>
+                <prop39><![CDATA[{VIEW}]]></prop39>
+                <linkTrackVars><![CDATA[prop24,prop39]]></linkTrackVars>
+            </variables>
+            <cleanup><![CDATA[prop24,prop39,eVar8]]></cleanup>
+        </event>
+        <event type="TAB_SWITCH" immediate="true" maxCount="10" method="link" linkName="Design - Tab">
+            <variables>
+                <prop24><![CDATA[{USERAGENTNAME} - Tab: {TABNAME}]]></prop24>
+                <prop39><![CDATA[{VIEW}]]></prop39>
+                <linkTrackVars><![CDATA[prop24,prop39]]></linkTrackVars>
+            </variables>
+            <cleanup><![CDATA[prop24,prop39,eVar8]]></cleanup>
+        </event>
+        <event type="ADD_LAYOUT" immediate="true" maxCount="10" method="link" linkName="Design - Add Layout">
+            <variables>
+                <prop24><![CDATA[{USERAGENTNAME} - Add Layout]]></prop24>
+                <prop39><![CDATA[{VIEW}]]></prop39>
+                <prop28><![CDATA[{USERAGENTNAME}|{LAYOUTCATEGORYNAME}|{LAYOUTID}]]></prop28>
+                <linkTrackVars><![CDATA[prop24,prop39,prop28]]></linkTrackVars>
+            </variables>
+            <cleanup><![CDATA[prop24,prop39,prop28,eVar8]]></cleanup>
+        </event>
+        <event type="ADJUST_BORDER" immediate="true" maxCount="10" method="link" linkName="Design - Adjust Border">
+            <variables>
+                <prop24><![CDATA[{USERAGENTNAME} - Adjust Border: {BORDERVALUE}]]></prop24>
+                <prop39><![CDATA[{VIEW}]]></prop39>
+                <linkTrackVars><![CDATA[prop24,prop39]]></linkTrackVars>
+            </variables>
+            <cleanup><![CDATA[prop24,prop39,eVar8]]></cleanup>
+        </event>
+        <event type="ADD_BACKGROUND" immediate="true" maxCount="10" method="link" linkName="Design - Add Background">
+            <variables>
+                <prop24><![CDATA[{USERAGENTNAME} - Add Background]]></prop24>
+                <prop39><![CDATA[{VIEW}]]></prop39>
+                <prop25><![CDATA[{USERAGENTNAME}|{BACKGROUNDVALUE}]]></prop25>
+                <linkTrackVars><![CDATA[prop24,prop39,prop25]]></linkTrackVars>
+            </variables>
+            <cleanup><![CDATA[prop24,prop39,prop25,eVar8]]></cleanup>
+        </event>
+        <event type="PREVIEW_OPTION" immediate="true" maxCount="10" method="link" linkName="Design - Preview">
+            <variables>
+                <prop24><![CDATA[{USERAGENTNAME} - Preview option: {PREVIEWOPTION}]]></prop24>
+                <prop39><![CDATA[{VIEW}]]></prop39>
+                <linkTrackVars><![CDATA[prop24,prop39]]></linkTrackVars>
+            </variables>
+            <cleanup><![CDATA[prop24,prop39,eVar8]]></cleanup>
+        </event>
+        <event type="CALENDAR_EVENTS" immediate="true" maxCount="0" method="link" linkName="Calendar - Events">
+            <variables>
+                <prop24><![CDATA[{USERAGENTNAME} - Events: {EVENT_ACTION}]]></prop24>
+                <prop39><![CDATA[{VIEW}]]></prop39>
+                <linkTrackVars><![CDATA[prop24,prop39]]></linkTrackVars>
+            </variables>
+            <cleanup><![CDATA[prop24,prop39]]></cleanup>
+        </event>
+        <event type="CALENDAR_MONTH_NAVIGATION" immediate="true" maxCount="10" method="link" linkName="Calendar - Month Navigation">
+            <variables>
+                <prop24><![CDATA[{USERAGENTNAME} - Month navigation {MONTH_NAV_TYPE}]]></prop24>
+                <prop39><![CDATA[{VIEW}]]></prop39>
+                <linkTrackVars><![CDATA[prop24,prop39]]></linkTrackVars>
+            </variables>
+            <cleanup><![CDATA[prop24,prop39]]></cleanup>
+        </event>
+        <event type="CALENDAR_START_MONTH" immediate="true" maxCount="0" method="link" linkName="Calendar - Start Month">
+            <variables>
+                <prop24><![CDATA[{USERAGENTNAME} - Start month {CALENDAR_YEAR}-{CALENDAR_MONTH}]]></prop24>
+                <prop39><![CDATA[{VIEW}]]></prop39>
+                <linkTrackVars><![CDATA[prop24,prop39]]></linkTrackVars>
+            </variables>
+            <cleanup><![CDATA[prop24,prop39]]></cleanup>
+        </event>
+    </eventMap>
+</root>
+        <!--
+            @immediate="true|false":		tracking dispatched immediately on trigger, regardless of settings.
+            @maxCount="N":					tracking stops as soon as N events of this type have been tracked.
+            @method="page|link":			track using .track() or .trackLink() methods.
+            @linkName="":					(optional for method=link) the name of the link that will be used.
+         -->

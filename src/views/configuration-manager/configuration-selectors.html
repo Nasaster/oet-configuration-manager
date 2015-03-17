@@ -7,37 +7,9 @@
         <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
             {% for app in applications %}
             <li role="presentation">
-                <a class="menu-item" role="menuitem" tabindex="-1" href="#">{{app}}</a>
+                <a class="menu-item" role="menuitem" data-application="{{app}}" href="#">{{app}}</a>
             </li>
             {% endfor %}
-            <li role="presentation" class="divider"></li>
-            <li role="presentation">
-                <a role="menuitem" tabindex="-1" href="#">Separated link</a>
-            </li>
         </ul>
-    </div>
-</article>
-
-<article class="channel-select col-sm-4">
-    <h2> Channels </h2>
-    <p>Please select an application: </p>
-    <div paok-channels>
-        <div class="dropdown">
-            <button type="button" class="btn dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown">
-                Channels
-                <span class="caret"></span>
-            </button>
-            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-                {% for channel in channels %}
-                <li role="presentation">
-                    <a class="menu-item" role="menuitem" tabindex="-1" href="#">{{channel}} <!-- <input type="checkbox"></a> -->
-                </li>
-                {% endfor %}
-                <li role="presentation" class="divider"></li>
-                <li role="presentation">
-                    <a class="menu-item-select-all" role="menuitem" tabindex="-1" href="#">Select All <input type="checkbox"></a>
-                </li>
-            </ul>
-        </div>
     </div>
 </article>

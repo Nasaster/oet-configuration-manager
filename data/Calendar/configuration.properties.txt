@@ -1,0 +1,58 @@
+#Possible values are 'ALL', 'DEBUG', 'INFO', 'WARN', 'ERROR', 'FATAL'.
+logLevel=INFO
+onlineLogUrl=http://t-dtap.serverfarm1.photoconnector.net/xclientlogging/ClientLogging.asmx?wsdl
+
+userAgentType=Easy Flow Calendar
+articleType=Calendar
+
+#webservice urls
+assetService.base=http://assets.api.photoconnector.net/
+assetService.url=http://assets.api.photoconnector.net/
+orderService.wsdl=http://t-dtap.serverfarm1.photoconnector.net/WebInterface/V20091020-Ordering.asmx?WSDL
+photoStorage.wsdl=http://t-dtap.serverfarm1.photoconnector.net/WebInterface/v20090630-PhotoStorage.asmx?WSDL
+merchandise.baseUrl=http://t-dtap.api.albumprinter.com/Catalog
+uploadApi.url=http://t-dtap.api.photoconnector.net/UploadApi/Uploads?format=xml
+onlineShopApi.url=http://t-dtap.api.photoconnector.net/onlineshopapi
+calendarApi.url=http://calendarevent.api.t-dtap.photoconnector.net/api/v2/CalendarEvent
+calendarApi.yearsAhead=2
+#Upload proxy used by Internet Explorer Flash transporter
+productUploadProxy.url=http://46.51.138.199/APnextPhotoProxy/Upload.ashx
+calendarGridApi.url.base=http://lwrender.vpdev.com/png?PointToPixelFactor={0}
+calendarGridApi.url.instructions.encode=Base64EncodeRenderResult=true
+calendarGridApi.url.instructions.key=InstructionRetrieveUrl
+calendarGridApi.url.instructions.url=http://calendargrid.vpdev.com/instructions?calendarGridSpec=
+#calendarGridApi.url=calgrid.gif?PointToPixelFactor={0}&InstructionRetrieveUrl=http://calendargrid.vpdev.com/instructions?calendarGridSpec=
+ringwireMapping.url=./images/ringwires/ringwire-mapping.json
+defaultGridProperties.url=config/grid-properties.json
+
+#upload url
+photoUploadUrl=http://t-dtap.serverfarm1.photoconnector.net/WebInterface/LocalPhoto.ashx
+
+#locale
+languageFileRoot=locale
+languageFileName=general.xml
+
+#config
+configFileRoot=config
+configFileName=config.xml
+analyticsFileName=analytics-mapping.xml
+
+#assets location
+templatesLocation=./templates/
+spritesLocation=./css/sprites/
+ringwiresLocation=./images/ringwires/
+gridPreviewsLocation=./images/gridpreviews/
+
+#editor config
+xsd.schemaLocation=http://schemas.file.t-dtap.photoconnector.net/Editor/40/ProductExtension.xsd
+xsd.namespace=urn:albumprinter.com:product:editor:4.0
+
+#additional configurations
+preparePrintArea=false
+
+#grid configuration
+gridDisplayScale=1.5
+gridPrintPPI=300
+
+#product storage
+productstorage.base=http://t-dtap.serverfarm1.photoconnector.net/xserverwebapi/products/

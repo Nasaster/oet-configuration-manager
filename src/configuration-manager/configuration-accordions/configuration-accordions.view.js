@@ -8,24 +8,19 @@ var configurationAccordionsView = module.exports = new ConfigurationAccordionsVi
 ConfigurationAccordionsView.prototype.init = function(controller){
     $scope = controller;
     //returns the promise created in templator.render
-    return this.render($scope.$wrapper)
+    return this.render($scope.$config, $scope.$wrapper)
         // .then(registerDOM)
         // .then(registerEvents);
 };
 
 //we expose the render method because there may come the need for the controller to render it again
-ConfigurationAccordionsView.prototype.render = function(wrapper){
+ConfigurationAccordionsView.prototype.render = function(config, wrapper){
     var data = {
         applications: $scope.$config.applications,
         channels: Object.keys($scope.$config.channels)
     };
-    console.log(data);
     //use the templator to render the html
-    return templator.render('views/configuration-manager/configuration-accordions.html', data)
-        .then(function(html){
-            return templator.inject($scope.$wrapper, html);
-        })
-        // .then(templator.inject.bind(null, $scope.$wrapper));
+    return templator.render('views/configuration-manager/configuration-accordions.html', data, wrapper);
 };
 
 //we cache all the DOM elements we'll use later

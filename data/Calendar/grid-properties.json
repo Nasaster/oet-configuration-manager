@@ -1,0 +1,51 @@
+{
+    "CultureName": {"type":"String", "value":"", "default":"en-us", "enumeration":"", "required":true},
+    "Type": {"type":"String", "value":"", "default":"Desk", "enumeration":"desk,wall,small,nordic,deluxenordic,birthday", "required":true},
+    "WidthInPts": {"type":"Number", "value":"", "default":"200", "enumeration":"", "required":true},
+    "HeightInPts": {"type":"Number", "value":"", "default":"200", "enumeration":"", "required":true},
+    "Year": {"type":"Number", "value":"", "default":"2015", "enumeration":"", "required":true},
+    "Month": {"type":"Number", "value":"", "default":"1", "enumeration":"1,2,3,4,5,6,7,8,9,10,11,12", "required":true},
+
+    "UseCapitalization": {"type":"Boolean", "value":"", "default":false, "enumeration":"", "required":false},
+    "Orientation": {"type":"Number", "value":"", "default":"0", "enumeration":"0,1", "required":false},
+
+    "Events": {"type":"Array", "value":"", "default":"", "enumeration":"", "required":false},
+    "Icons": {"type":"Array", "value":"", "default":"", "enumeration":"", "required":false},
+    "ImageMap": {"type":"Array", "value":"", "default":"", "enumeration":"", "required":false},
+
+    "EventFontSize": {"type":"Number", "value":"", "default":"", "enumeration":"", "required":false},
+    "EventFontFace": {"type":"String", "value":"", "default":"", "enumeration":"", "required":false},
+    "EventFontStyle": {"type":"String", "value":"", "default":"0", "enumeration":"0,1,2,3", "required":false},
+
+    "DateColor": {"type":"Color", "value":"", "default":"", "enumeration":"", "required":false},
+    "DateFontSize": {"type":"Number", "value":"", "default":"", "enumeration":"", "required":false},
+    "DateFontFace": {"type":"String", "value":"", "default":"", "enumeration":"", "required":false},
+
+    "DateHAlign": {"type":"String", "value":"", "default":"0", "enumeration":"0,1,2", "required":false},
+    "DateVAlign": {"type":"String", "value":"", "default":"0", "enumeration":"0,1,2", "required":false},
+
+    "HeaderColor": {"type":"Color", "value":"", "default":"", "enumeration":"", "required":false},
+    "HeaderFontSize": {"type":"Number", "value":"", "default":"", "enumeration":"", "required":false},
+    "HeaderFontFace": {"type":"String", "value":"", "default":"", "enumeration":"", "required":false},
+    "HeaderFontStyle": {"type":"String", "value":"", "default":"", "enumeration":"0,1,2,3", "required":false},
+    "HeaderAllUppercase": {"type":"Boolean", "value":"", "default":false, "enumeration":"", "required":false},
+
+    "DayOfWeekColor": {"type":"Color", "value":"", "default":"", "enumeration":"", "required":false},
+    "DayOfWeekFontSize": {"type":"Number", "value":"", "default":"", "enumeration":"", "required":false},
+    "DayOfWeekFontFace": {"type":"String", "value":"", "default":"", "enumeration":"", "required":false},
+    "DayOfWeekFontStyle": {"type":"String", "value":"", "default":"0", "enumeration":"0,1,2,3", "required":false},
+
+    "WeekOfYearColor": {"type":"Color", "value":"", "default":"", "enumeration":"", "required":false},
+    "WeekOfYearFontSize": {"type":"Number", "value":"", "default":"", "enumeration":"", "required":false},
+    "WeekOfYearFontFace": {"type":"String", "value":"", "default":"", "enumeration":"", "required":false},
+    "WeekOfYearFontStyle": {"type":"String", "value":"", "default":"0", "enumeration":"0,1,2,3", "required":false},
+
+    "DayOfWeekColorOverrides": {"type":"Array", "value":"", "default":"", "enumeration":"", "required":false},
+    "DayOfMonthColorOverrides": {"type":"Array", "value":"", "default":"", "enumeration":"", "required":false},
+
+    "GridColor": {"type":"Color", "value":"", "default":"000000", "enumeration":"", "required":false},
+    "GridThickness": {"type":"Number", "value":"", "default":"1", "enumeration":"", "required":false},
+
+    "BgColor": {"type":"Color", "value":"", "default":"", "enumeration":"", "required":false},
+    "BorderColor": {"type":"Color", "value":"", "default":"", "enumeration":"", "required":false}
+}

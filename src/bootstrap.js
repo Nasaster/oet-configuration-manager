@@ -14,7 +14,7 @@ ajax.getJSON( CONFIGURATION_URL )
 	.then( configurationManager.init )
 	.then (
 		function(){ console.log('configurationManager started successfully'); },
-		function(err){ console.error(err); }
+		function(err){ console.error(err.stack); }
 	);
 
 

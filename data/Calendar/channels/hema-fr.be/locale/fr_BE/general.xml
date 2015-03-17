@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <general>
+        <vendorName><![CDATA[Hema]]></vendorName>
+        <navigateAwayMessage><![CDATA[En quittant cette page, toutes les modifications effectuées seront perdues. Êtes-vous sûr de vouloir fermer le {0} ?]]></navigateAwayMessage>
+        <editor><![CDATA[logiciel de création de {0}]]></editor>
+        <title><![CDATA[décor de mur]]></title>
+        <productSelectorTitle><![CDATA[{0}]]></productSelectorTitle>
+        <error><![CDATA[une erreur est survenue]]></error>
+        <warning><![CDATA[attention]]></warning>
+        <close><![CDATA[ok]]></close>
+        <loading><![CDATA[Chargement en cours...]]></loading>
+        <productSpecificationTitle><![CDATA[spécifications:]]></productSpecificationTitle>
+        <productSpecificationSize><![CDATA[format]]></productSpecificationSize>
+        <productSpecificationPrice><![CDATA[prix]]></productSpecificationPrice>
+        <productSpecificationPriceText1><![CDATA[{0} (excl.]]></productSpecificationPriceText1>
+        <productSpecificationPricePrice><![CDATA[frais d'envoi]]></productSpecificationPricePrice>
+        <productSpecificationPriceText2><![CDATA[)]]></productSpecificationPriceText2>
+        <yes><![CDATA[oui]]></yes>
+        <no><![CDATA[non]]></no>
+        <add><![CDATA[ajouter]]></add>
+        <cancel><![CDATA[annuler]]></cancel>
+        <notificationTitle><![CDATA[]]></notificationTitle>
+        <canvas><![CDATA[toiles photo]]></canvas>
+        <perspex><![CDATA[plexiglas photo]]></perspex>
+        <aluminium><![CDATA[tableau photo alu]]></aluminium>
+        <phonecase><![CDATA[coques téléphone]]></phonecase>
+        <calendar><![CDATA[calendrier]]></calendar>
+        <month><![CDATA[mois]]></month>
+        <year><![CDATA[année]]></year>
+        <event><![CDATA[événement]]></event>
+        <events><![CDATA[événements]]></events>
+        <date><![CDATA[date]]></date>
+    </general>
+    <home>
+        <title><![CDATA[{0}]]></title>
+        <nextStepButton><![CDATA[c'est ce que je veux]]></nextStepButton>
+        <caption><![CDATA[]]></caption>
+        <previousProductButton><![CDATA[précédent]]></previousProductButton>
+        <nextProductButton><![CDATA[suivant]]></nextProductButton>
+    </home>
+    <edit>
+        <selectFileType><![CDATA[choisir une photo]]></selectFileType>
+        <nextStepButton><![CDATA[suite]]></nextStepButton>
+        <marginTooltip><![CDATA[il s'agit du bord de pliure]]></marginTooltip>
+        <lowQualityTooltip><![CDATA[qualité insuffisante pour le cadre actuel]]></lowQualityTooltip>
+        <photoQualityIndicatorHeaderLabel><![CDATA[Qualité : ]]></photoQualityIndicatorHeaderLabel>
+        <photoQualityIndicatorLabel><![CDATA[{0}]]></photoQualityIndicatorLabel>
+        <photoQualityIndicatorTooltipLow><![CDATA[En cas de commande, la qualité de la photo peut ne pas être suffisante pour garantir un résultat optimal.]]></photoQualityIndicatorTooltipLow>
+        <photoQualityIndicatorTooltipMedium><![CDATA[La qualité de la photo n'est pas optimale. Vous pouvez bien évidemment commander la toile de {0}, il est cependant possible que le résultat ne soit pas net.]]></photoQualityIndicatorTooltipMedium>
+        <photoQualityIndicatorTooltipHigh><![CDATA[La qualité de la photo est satisfaisante.]]></photoQualityIndicatorTooltipHigh>
+        <photoQualityIndicatorTooltipExcellent><![CDATA[La qualité de la photo est exceptionnelle.]]></photoQualityIndicatorTooltipExcellent>
+        <uploadPhotoLabel><![CDATA[choisir la photo]]></uploadPhotoLabel>
+        <uploadDifferentPhotoLabel><![CDATA[choisir une autre photo]]></uploadDifferentPhotoLabel>
+        <uploadPhotoButtonTooltip><![CDATA[cliquez ici pour ajouter une photo]]></uploadPhotoButtonTooltip>
+        <rotateWarning><![CDATA[Please rotate your device]]></rotateWarning>
+        <emptyPlaceholder>
+            <title><![CDATA[PHOTO]]></title>
+            <text><![CDATA[Cliquez ou glissez votre photo ici pour l'ajouter]]></text>
+        </emptyPlaceholder>
+        <photoTray>
+            <addPhotoButton>
+                <text><![CDATA[ajouter des photos]]></text>
+                <tooltip><![CDATA[sélectionner photos]]></tooltip>
+            </addPhotoButton>
+        </photoTray>
+        <layout>
+            <title><![CDATA[]]></title>
+            <subtitle><![CDATA[]]></subtitle>
+        </layout>
+        <cover><![CDATA[couverture]]></cover>
+        <pickStart><![CDATA[La date de départ]]></pickStart>
+        <addAllOption><![CDATA[oui, je souhaite ajouter tous les événements à mon calendrier]]></addAllOption>
+        <selectAll><![CDATA[tout sélectionner]]></selectAll>
+        <selectNone><![CDATA[ne rien sélectionner]]></selectNone>
+        <tabEvents><![CDATA[vos événements]]></tabEvents>
+        <tabHolidays><![CDATA[fêtes]]></tabHolidays>
+        <addEvent><![CDATA[ajouter votre événement]]></addEvent>
+        <addHoliday><![CDATA[ajouter des vacances]]></addHoliday>
+        <eventName><![CDATA[nom de l'événement]]></eventName>
+        <updateButton><![CDATA[mettre à jour le calendrier]]></updateButton>
+        <tabs>
+            <months><![CDATA[mois]]></months>
+            <photo><![CDATA[vos photos]]></photo>
+            <foreground><![CDATA[]]></foreground>
+            <background><![CDATA[arrière plans]]></background>
+            <tooltrayshow><![CDATA[afficher]]></tooltrayshow>
+            <tooltrayhide><![CDATA[masquer]]></tooltrayhide>
+            <decoration><![CDATA[cadres]]></decoration>
+            <layout><![CDATA[mises en page]]></layout>
+            <spacing>
+                <labels>
+                    <inner><![CDATA[entre les photos : {0}]]></inner>
+                    <inner-small><![CDATA[entre les photos : {0}]]></inner-small>
+                    <outer><![CDATA[autour des photos : {0}]]></outer>
+                    <outer-small><![CDATA[autour des photos : {0}]]></outer-small>
+                </labels>
+                <title><![CDATA[espacement]]></title>
+            </spacing>
+        </tabs>
+        <photoQualityIndicatorLow><![CDATA[insuffisante]]></photoQualityIndicatorLow>
+        <photoQualityIndicatorMedium><![CDATA[moyenne]]></photoQualityIndicatorMedium>
+        <photoQualityIndicatorHigh><![CDATA[satisfaisante]]></photoQualityIndicatorHigh>
+        <photoQualityIndicatorExcellent><![CDATA[excellente]]></photoQualityIndicatorExcellent>
+        <navigation>
+            <back><![CDATA[précédent]]></back>
+            <next><![CDATA[commander]]></next>
+            <back-small><![CDATA[précédent]]></back-small>
+            <next-small><![CDATA[commander]]></next-small>
+        </navigation>
+        <photoTools>
+            <close><![CDATA[précédent]]></close>
+            <delete><![CDATA[supprimer]]></delete>
+            <close-small><![CDATA[précédent]]></close-small>
+            <delete-small><![CDATA[supprimer]]></delete-small>
+            <effects>
+                <close><![CDATA[précédent]]></close>
+                <close-small><![CDATA[précédent]]></close-small>
+                <grayscale><![CDATA[]]></grayscale>
+                <grayscale-small><![CDATA[]]></grayscale-small>
+                <label><![CDATA[filtres]]></label>
+                <label-small><![CDATA[filtres]]></label-small>
+                <original><![CDATA[]]></original>
+                <original-small><![CDATA[]]></original-small>
+                <sepia><![CDATA[]]></sepia>
+                <sepia-small><![CDATA[]]></sepia-small>
+            </effects>
+            <mirror><![CDATA[refléter]]></mirror>
+            <mirror-small><![CDATA[refléter]]></mirror-small>
+            <rotate><![CDATA[pivoter]]></rotate>
+            <rotate-small><![CDATA[pivoter]]></rotate-small>
+            <swap><![CDATA[remplacer]]></swap>
+            <swap-small><![CDATA[remplacer]]></swap-small>
+            <zoom>
+                <label><![CDATA[zoomer]]></label>
+                <label-small><![CDATA[zoomer]]></label-small>
+                <tooltips>
+                    <in><![CDATA[]]></in>
+                    <out><![CDATA[]]></out>
+                    <slider><![CDATA[]]></slider>
+                </tooltips>
+            </zoom>
+        </photoTools>
+    </edit>
+    <save>
+        <saveText><![CDATA[Enregistrer]]></saveText>
+        <saveBody><![CDATA[Donnez un nom à votre calendrier et enregistrez-le]]></saveBody>
+    </save>
+    <load>
+        <loadText><![CDATA[Ouvrir]]></loadText>
+        <loadBody><![CDATA[Ouvrir un livre photo enregistré]]></loadBody>
+        <created><![CDATA[]]></created>
+        <modified><![CDATA[]]></modified>
+    </load>
+    <order>
+        <orderTitle><![CDATA[votre commande]]></orderTitle>
+        <invoiceTitle><![CDATA[récapitulatif]]></invoiceTitle>
+        <numberOfCopiesDescription><![CDATA[(sélectionnez ici le nombre d'exemplaires souhaités)]]></numberOfCopiesDescription>
+        <subTotal><![CDATA[sous-total]]></subTotal>
+        <shipping><![CDATA[frais d'envoi]]></shipping>
+        <invoiceDiscount><![CDATA[réduction]]></invoiceDiscount>
+        <total><![CDATA[total]]></total>
+        <promoTitle><![CDATA[code promotionnel]]></promoTitle>
+        <promoDescription><![CDATA[Vous disposez d'un code promotionnel? Saisissez le code ci-dessous.]]></promoDescription>
+        <applyPromoCodeButton><![CDATA[calculer]]></applyPromoCodeButton>
+        <deliveryAddressTitle><![CDATA[adresse de livraison]]></deliveryAddressTitle>
+        <updateDeliveryAddressButton><![CDATA[modifier]]></updateDeliveryAddressButton>
+        <previousStepButton><![CDATA[retour]]></previousStepButton>
+        <submitButton><![CDATA[finaliser la commande]]></submitButton>
+        <promotionPopupTitle><![CDATA[code promotionnel non valable]]></promotionPopupTitle>
+        <promotionPopupSubtitle><![CDATA[Le code promotionnel saisi n'est pas valable. Saisissez un code promotionnel valable ou commandez sans code promotionnel]]></promotionPopupSubtitle>
+        <promotionPopupEnterPromotionCodeLabel><![CDATA[code promotionnel :]]></promotionPopupEnterPromotionCodeLabel>
+        <promotionPopupCancelLabel><![CDATA[commander sans code promotionnel]]></promotionPopupCancelLabel>
+        <promotionPopupSubmitLabel><![CDATA[envoyer]]></promotionPopupSubmitLabel>
+        <navigation>
+            <back><![CDATA[précédent]]></back>
+            <back-small><![CDATA[précédent]]></back-small>
+            <next><![CDATA[suivant]]></next>
+            <next-small><![CDATA[suivant]]></next-small>
+        </navigation>
+    </order>
+    <upload>
+        <uploading><![CDATA[Traitement de la commande en cours, veuillez patienter. %3%%]]></uploading>
+        <busyUploadingLabel><![CDATA[Nous traitons votre commande, veuillez patienter quelques instants. Une fois votre commande traitée, vous serez redirigé vers le panier.]]></busyUploadingLabel>
+    </upload>
+    <help>
+        <helpTitle><![CDATA[service clients]]></helpTitle>
+        <helpText><![CDATA[consultez la foire aux questions]]></helpText>
+        <helpURL><![CDATA[http://www.hema.be/fr/service/]]></helpURL>
+        <moreOptionsUrl><![CDATA[]]></moreOptionsUrl>
+    </help>
+    <alerts>
+        <invalidPromotionCode><![CDATA[Le code promotionnel n'est pas valable.]]></invalidPromotionCode>
+    </alerts>
+    <warnings>
+        <qualityTitle><![CDATA[qualité insuffisante]]></qualityTitle>
+        <qualitySubtitle><![CDATA[Vous pouvez choisir de commander votre produit tel qu'il est, mais la qualité d'image pourrait être affectée.]]></qualitySubtitle>
+        <qualityOptionsTitle><![CDATA[]]></qualityOptionsTitle>
+        <qualityOptions><![CDATA[]]></qualityOptions>
+        <qualityFooter><![CDATA[Pour des conseils personnalisés, veuillez contacter notre <a href="{CUSTOMER_SERVICE}" target="_blank">service clients</a>.]]></qualityFooter>
+        <qualityButtonCancel><![CDATA[modifier le produit]]></qualityButtonCancel>
+        <qualityButtonProceed><![CDATA[continuer quand même]]></qualityButtonProceed>
+        <layouts>
+            <lessPlaceholdersThanPhotos>
+                <message><![CDATA[Êtes-vous sûr de vouloir continuer ? La mise en page sélectionnée contient moins de photos que celle déjà en place. Si continuez, {0} photos seront supprimées.]]></message>
+            </lessPlaceholdersThanPhotos>
+        </layouts>
+    </warnings>
+    <dialogs>
+        <browser>
+            <browserWarning><![CDATA[Vous ne pouvez pas profiter de toutes les options de création de ce produit avec votre navigateur. Veuillez installer Safari, Chrome, Firefox ou une nouvelle version d'Internet Explorer (10 ou supérieure), ou continuez vers le logiciel avec moins d'options.]]></browserWarning>
+            <chromeInstall><![CDATA[installer Chrome]]></chromeInstall>
+            <gotoFlash><![CDATA[continuer]]></gotoFlash>
+        </browser>
+        <features>
+            <reducedFeatures><![CDATA[Bienvenue dans le nouveau logiciel de création pour tablettes ! Nous faisons de notre mieux pour vous apporter les options de création que vous connaissez sur ordinateur, tels que les thèmes ou éléments décoratifs, le plus rapidement possible.]]></reducedFeatures>
+            <continue><![CDATA[Créer votre calendrier]]></continue>
+        </features>
+    </dialogs>
+    <errors>
+        <errorBootstrapping><![CDATA[Une erreur est survenue pendant le démarrage du logiciel. Veuillez réessayer plus tard ou contacter le service clients. ]]></errorBootstrapping>
+        <countryList><![CDATA[Une erreur est survenue pendant le démarrage du logiciel. Veuillez réessayer plus tard ou contacter le service clients. (Liste des pays non trouvée)]]></countryList>
+        <lowMemoryWarning><![CDATA[La mémoire de votre appareil est saturée. Veuillez fermer les autres applications ouvertes et réessayer.]]></lowMemoryWarning>
+        <defaultPrice><![CDATA[Une erreur est survenue pendant le démarrage du logiciel. Veuillez réessayer plus tard ou contacter le service clients. (Liste des prix non trouvée)]]></defaultPrice>
+        <loadPhotoBitmapData><![CDATA[Une erreur est survenue pendant le téléchargement de votre photo. Veuillez réessayer plus tard ou contacter le service clients.]]></loadPhotoBitmapData>
+        <loadBigPhoto><![CDATA[Une erreur s'est produite lors du chargement de la photo. Merci de réduire la taille à 8000 x 8000 pixels maximum puis réessayez.]]></loadBigPhoto>
+        <creatingPhoto><![CDATA[Une erreur est survenue lors de la composition de la photo. Contactez le service clientèle ou réessayez ultérieurement.]]></creatingPhoto>
+        <photoRegistration><![CDATA[Une erreur est survenue lors de la composition de la photo. Contactez le service clientèle ou réessayez ultérieurement.]]></photoRegistration>
+        <addPhotoToPhotoPlaceholderEmpty><![CDATA[Une erreur est survenue lors de l'ajout de la photo au cadre photo. Contactez le service clientèle ou réessayez ultérieurement.]]></addPhotoToPhotoPlaceholderEmpty>
+        <addPhotoToPhotoPlaceholder><![CDATA[Une erreur est survenue lors de l'ajout de la photo au cadre photo. Contactez le service clientèle ou réessayez ultérieurement.]]></addPhotoToPhotoPlaceholder>
+        <startUploadPhoto><![CDATA[Une erreur est survenue lors de l'initialisation du téléchargement de la photo. Contactez le service clientèle ou réessayez ultérieurement.]]></startUploadPhoto>
+        <setPhotoCanvas><![CDATA[Une erreur est survenue lors du changement de produits. Contactez le service clientèle ou réessayez ultérieurement.]]></setPhotoCanvas>
+        <createCustomer><![CDATA[Une erreur est survenue lors de la collecte des données relatives au client. Contactez le service clientèle ou réessayez ultérieurement.]]></createCustomer>
+        <createOrder><![CDATA[Une erreur est survenue lors de la création des données de facturation. Contactez le service clientèle ou réessayez ultérieurement.]]></createOrder>
+        <getInvoice><![CDATA[Une erreur est survenue lors du chargement des données de facturation. Contactez le service clientèle ou réessayez ultérieurement.]]></getInvoice>
+        <sendOrder><![CDATA[Une erreur est survenue lors de l'envoi de la commande. Contactez le service clientèle ou réessayez ultérieurement.]]></sendOrder>
+        <getPaymentUrl><![CDATA[Une erreur est survenue lors du chargement des données de paiement. Contactez le service clientèle ou réessayez ultérieurement.]]></getPaymentUrl>
+        <browserWarning><![CDATA[]]></browserWarning>
+    </errors>
+    <validations>
+        <emailMissingAtSign><![CDATA[Il manque un symbole @ dans l'adresse électronique.]]></emailMissingAtSign>
+        <emailMissingPeriodInDomain><![CDATA[Il manque un point (.fr) dans l'adresse électronique.]]></emailMissingPeriodInDomain>
+        <emailDomainInvalidFormatted><![CDATA[Le domaine de l'adresse électronique n'est pas valable.]]></emailDomainInvalidFormatted>
+        <emailTooManyAtCharacters><![CDATA[L'adresse électronique comporte trop de symboles @.]]></emailTooManyAtCharacters>
+        <emailConsecutivePeriodsInDomain><![CDATA[L'adresse électronique contient une succession de points (.).]]></emailConsecutivePeriodsInDomain>
+        <emailInvalidChars><![CDATA[L'adresse électronique contient des caractères non valables.]]></emailInvalidChars>
+        <emailInvalidIp><![CDATA[L'adresse IP du domaine de l'adresse électronique n'est pas valable.]]></emailInvalidIp>
+        <emailMissingUsername><![CDATA[L'adresse électronique ne contient pas de nom d'utilisateur.]]></emailMissingUsername>
+        <emailRequired><![CDATA[champ obligatoire]]></emailRequired>
+        <textRequired><![CDATA[champ obligatoire]]></textRequired>
+        <textTooLong><![CDATA[Le nombre maximal de caractères a été atteint.]]></textTooLong>
+        <zipcodeRequired><![CDATA[champ obligatoire]]></zipcodeRequired>
+        <zipcodeInvalid><![CDATA[code postal non valable, utilisez le format suivant :]]></zipcodeInvalid>
+    </validations>
+    <layout>
+        <navigation>
+            <back><![CDATA[]]></back>
+            <back-small><![CDATA[]]></back-small>
+            <next><![CDATA[]]></next>
+            <next-small><![CDATA[]]></next-small>
+        </navigation>
+        <subtitle><![CDATA[choisissez le nombre de photos ci-dessous]]></subtitle>
+        <title><![CDATA[sélectionnez une mise en page]]></title>
+    </layout>
+    <preview>
+        <button><![CDATA[aperçu]]></button>
+        <buttonBack><![CDATA[précédent]]></buttonBack>
+        <close><![CDATA[modifier le produit]]></close>
+        <options>
+            <context><![CDATA[visualiser sur un mur]]></context>
+            <full><![CDATA[plein écran]]></full>
+        </options>
+        <title><![CDATA[options d'aperçu :]]></title>
+    </preview>
+    <calendar>
+        <months>
+            <m0><![CDATA[janvier]]></m0>
+            <m1><![CDATA[februari]]></m1>
+            <m2><![CDATA[mars]]></m2>
+            <m3><![CDATA[avril]]></m3>
+            <m4><![CDATA[mai]]></m4>
+            <m5><![CDATA[juin]]></m5>
+            <m6><![CDATA[julliet]]></m6>
+            <m7><![CDATA[août]]></m7>
+            <m8><![CDATA[septembre]]></m8>
+            <m9><![CDATA[octobre]]></m9>
+            <m10><![CDATA[novembre]]></m10>
+            <m11><![CDATA[decembre]]></m11>
+        </months>
+        <days>
+            <mon><![CDATA[lundi]]></mon>
+            <tue><![CDATA[mardi]]></tue>
+            <wen><![CDATA[mercredi]]></wen>
+            <thu><![CDATA[jeudi]]></thu>
+            <fri><![CDATA[vendredi]]></fri>
+            <sat><![CDATA[samedi]]></sat>
+            <sun><![CDATA[dimanche]]></sun>
+            <short>
+                <mon><![CDATA[lu]]></mon>
+                <tue><![CDATA[ma]]></tue>
+                <wed><![CDATA[me]]></wed>
+                <thu><![CDATA[je]]></thu>
+                <fri><![CDATA[ve]]></fri>
+                <sat><![CDATA[sa]]></sat>
+                <sun><![CDATA[di]]></sun>
+            </short>
+        </days>
+        <warnings>
+            <eventMax><![CDATA[vous ne pouvez pas ajouter plus de {0} événements à une date]]></eventMax>
+        </warnings>
+    </calendar>
+    <customer>
+        <customerCity><![CDATA[]]></customerCity>
+        <customerCountryCode><![CDATA[]]></customerCountryCode>
+        <customerEmail><![CDATA[]]></customerEmail>
+        <customerFirstname><![CDATA[]]></customerFirstname>
+        <customerHouseNumber><![CDATA[]]></customerHouseNumber>
+        <customerLastname><![CDATA[]]></customerLastname>
+        <customerMiddlename><![CDATA[]]></customerMiddlename>
+        <customerPhone><![CDATA[]]></customerPhone>
+        <customerStreet><![CDATA[]]></customerStreet>
+        <customerZip><![CDATA[]]></customerZip>
+        <nextStepButton><![CDATA[]]></nextStepButton>
+        <previousStepButton><![CDATA[]]></previousStepButton>
+        <subscribeToNewsletter><![CDATA[]]></subscribeToNewsletter>
+        <title><![CDATA[]]></title>
+    </customer>
+    <months>
+        <month0><![CDATA[]]></month0>
+        <month1><![CDATA[]]></month1>
+        <month10><![CDATA[]]></month10>
+        <month11><![CDATA[]]></month11>
+        <month2><![CDATA[]]></month2>
+        <month3><![CDATA[]]></month3>
+        <month4><![CDATA[]]></month4>
+        <month5><![CDATA[]]></month5>
+        <month6><![CDATA[]]></month6>
+        <month7><![CDATA[]]></month7>
+        <month8><![CDATA[]]></month8>
+        <month9><![CDATA[]]></month9>
+    </months>
+</root>

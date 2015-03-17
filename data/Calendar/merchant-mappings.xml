@@ -1,0 +1,92 @@
+<objects xmlns="http://www.springactionscript.org/schema/objects"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.springactionscript.org/schema/objects http://www.springactionscript.org/schema/objects/spring-actionscript-objects-1.0.xsd">
+    <!--=========================================\\
+        ||            Merchant Mappings 		  ||
+        \\==========================================-->
+
+    <object id="arrayCollectionOfMerchantMappings" class="mx.collections.ArrayCollection">
+        <constructor-arg>
+            <array>
+                <object class="com.albumprinter.chameleon.data.domain.merchant.MerchantMapping">
+                    <constructor-arg value="albelli"/>
+                    <constructor-arg value="albelli.nl"/>
+                    <constructor-arg value="albelli.nl"/>
+                </object>
+                <object class="com.albumprinter.chameleon.data.domain.merchant.MerchantMapping">
+                    <constructor-arg value="albelli"/>
+                    <constructor-arg value="albelli.de"/>
+                    <constructor-arg value="albelli.de"/>
+                </object>
+                <object class="com.albumprinter.chameleon.data.domain.merchant.MerchantMapping">
+                    <constructor-arg value="albelli"/>
+                    <constructor-arg value="albelli.fr"/>
+                    <constructor-arg value="albelli.fr"/>
+                </object>
+                <object class="com.albumprinter.chameleon.data.domain.merchant.MerchantMapping">
+                    <constructor-arg value="albelli"/>
+                    <constructor-arg value="albelli.co.uk"/>
+                    <constructor-arg value="albelli.co.uk"/>
+                </object>
+                <object class="com.albumprinter.chameleon.data.domain.merchant.MerchantMapping">
+                    <constructor-arg value="albelli"/>
+                    <constructor-arg value="albelli.be"/>
+                    <constructor-arg value="albelli.be"/>
+                </object>
+                <object class="com.albumprinter.chameleon.data.domain.merchant.MerchantMapping">
+                    <constructor-arg value="albelli"/>
+                    <constructor-arg value="albelli.it"/>
+                    <constructor-arg value="albelli.it"/>
+                </object>
+                <object class="com.albumprinter.chameleon.data.domain.merchant.MerchantMapping">
+                    <constructor-arg value="albelli"/>
+                    <constructor-arg value="albelli.es"/>
+                    <constructor-arg value="albelli.es"/>
+                </object>
+                <object class="com.albumprinter.chameleon.data.domain.merchant.MerchantMapping">
+                    <constructor-arg value="albelli"/>
+                    <constructor-arg value="albelli.com"/>
+                    <constructor-arg value="albelli.com"/>
+                </object>
+                <object class="com.albumprinter.chameleon.data.domain.merchant.MerchantMapping">
+                    <constructor-arg value="albelli"/>
+                    <constructor-arg value="albelli.se"/>
+                    <constructor-arg value="albelli.se"/>
+                </object>
+                <object class="com.albumprinter.chameleon.data.domain.merchant.MerchantMapping">
+                    <constructor-arg value="albelli"/>
+                    <constructor-arg value="albelli.no"/>
+                    <constructor-arg value="albelli.no"/>
+                </object>
+                <object class="com.albumprinter.chameleon.data.domain.merchant.MerchantMapping">
+                    <constructor-arg value="bonusprint"/>
+                    <constructor-arg value="bonusprint.co.uk"/>
+                    <constructor-arg value="bonusprint.co.uk"/>
+                </object>
+                <object class="com.albumprinter.chameleon.data.domain.merchant.MerchantMapping">
+                    <constructor-arg value="HEMA"/>
+                    <constructor-arg value="hema.nl"/>
+                    <constructor-arg value="hema.nl"/>
+                </object>
+                <object class="com.albumprinter.chameleon.data.domain.merchant.MerchantMapping">
+                    <constructor-arg value="HEMA"/>
+                    <constructor-arg value="hema.be"/>
+                    <constructor-arg value="editor\.(.*)hema.be"/>
+                </object>
+
+                <object class="com.albumprinter.chameleon.data.domain.merchant.MerchantMapping">
+                    <constructor-arg value="HEMA"/>
+                    <constructor-arg value="hema-fr.be"/>
+                    <constructor-arg value=".+fr-be.*hema\.be"/>  <!-- match: http://editor-fr-be.t-dtap.hema.be -->
+                </object>
+                <object class="com.albumprinter.chameleon.data.domain.merchant.MerchantMapping">
+                    <constructor-arg value="HEMA"/>
+                    <constructor-arg value="hema.be"/>
+                    <constructor-arg value=".+nl-be.*hema\.be"/>  <!-- match: http://editor-nl-be.t-dtap.hema.be -->
+                </object>
+
+            </array>
+        </constructor-arg>
+    </object>
+
+</objects>
