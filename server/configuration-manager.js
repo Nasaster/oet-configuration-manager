@@ -7,13 +7,15 @@ module.exports = {
 };
 
 var configRoot = __dirname + '/../data/';
-var configObject = {};
+var configObject = {
+	applications: {}
+};
 
 var applications = fs.readdirSync(configRoot);
 applications.forEach(function(appName){
-	configObject[appName] = { channels: {} };
+	configObject.applications[appName] = { channels: {} };
 	var channelsList = fs.readdirSync(configRoot + appName + '/channels');
 	channelsList.forEach(function(channelName){
-		configObject[appName].channels[channelName] = require(configRoot + appName + '/channels/' + channelName + '/config/application.json');
+		configObject.applications[appName].channels[channelName] = require(configRoot + appName + '/channels/' + channelName + '/config/application.json');
 	});
 });

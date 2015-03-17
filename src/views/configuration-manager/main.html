@@ -5,7 +5,23 @@
     </header>
 
     <!-- APPLICATION AND CHANNELS SELECTION -->
-    <section class="configuration-selectors row"></section>
+    <section class="configuration-selectors row">
+        <article class="application-select col-sm-4">
+            <h2> Applications </h2>
+            <p>Please select an application: </p>
+            <div class="dropdown">
+                <button type="button" class="btn dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown">Applications<span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                    {% for app in applications %}
+                    <li data-application="{{loop.key}}" role="presentation">
+                        <a class="menu-item" role="menuitem" href="#">{{loop.key}}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </article>
+    </section>
     <!-- APPLICATION AND CHANNELS SELECTION END-->
 
     <!-- APPLICATION AND CHANNELS SELECTION -->

@@ -12,9 +12,6 @@ ConfigurationManagerView.prototype.init = function(controller){
     //returns the promise created in templator.render
     return this.render($scope.$wrapper, $scope.$config)
         .then( registerDOM )
-        .then( function(){
-            return renderSelector($scope.$DOM.selectorsSection, { applications: Object.keys($scope.$config) } )
-        } )
         .then( behaviour.registerBehaviour.bind(null, $scope) );
 };
 
@@ -25,10 +22,7 @@ ConfigurationManagerView.prototype.render = function(wrapper, locals){
 };
 
 var renderSelector = function(wrapper, locals){
-    return templator.render('views/configuration-manager/application-selector.html', locals, wrapper)
-        .then(function(){
-            $scope.$DOM.applicationMenuItemsList = $scope.$wrapper.querySelector('.application-select ul.dropdown-menu');
-        })
+    return templator.render('views/configuration-manager/application-selector.html', locals, wrapper);
 }
 
 //we cache all the DOM elements we'll use later
@@ -36,4 +30,5 @@ var registerDOM = function(){
     $scope.$DOM = {};
     $scope.$DOM.selectorsSection = $scope.$wrapper.querySelector('.configuration-selectors');
     $scope.$DOM.accordionsSection = $scope.$wrapper.querySelector('.configuration-accordions');
+    $scope.$DOM.applicationMenuItemsList = $scope.$wrapper.querySelector('.application-select ul.dropdown-menu');
 };
