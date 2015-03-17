@@ -11,7 +11,7 @@ var CONFIGURATION_URL = 'http://localhost:3001/get-configuration';
 
 
 ajax.getJSON( CONFIGURATION_URL )
-	.then( configurationManager.init )
+	.then( configurationManager.init.bind(configurationManager) )
 	.then (
 		function(){ console.log('configurationManager started successfully'); },
 		function(err){ console.error(err.stack); }

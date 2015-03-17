@@ -8,11 +8,18 @@ var configurationManager = module.exports = new ConfigurationManager();
 ConfigurationManager.prototype.init = function(config, wrapper){
 	this.$config = config || {};
     this.$wrapper = wrapper || document.body;
-
-
     return view.init(this);
 };
 
 ConfigurationManager.prototype.broadcast = function(message, data){
     pubsub.broadcast(message, data);
+};
+
+
+ConfigurationManager.prototype.selectApplication = function(selectedApplication){
+    // change Accordions to the selectedApplication specific
+    
+    this.broadcast('selected application changed', {
+        selectedApplication: selectedApplication
+    });  
 };

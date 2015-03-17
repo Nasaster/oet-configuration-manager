@@ -6,8 +6,8 @@
         </button>
         <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
             {% for app in applications %}
-            <li role="presentation">
-                <a class="menu-item" role="menuitem" data-application="{{app}}" href="#">{{app}}</a>
+            <li data-application="{{app}}" role="presentation">
+                <a class="menu-item" role="menuitem" href="#">{{app}}</a>
             </li>
             {% endfor %}
         </ul>

@@ -1,4 +1,6 @@
 var templator = require('oet-lib/templator');
+
+var behaviour = require('./configuration-manager.behaviour.js');
 var $scope;
 
 var ConfigurationManagerView = function(){};
@@ -13,7 +15,7 @@ ConfigurationManagerView.prototype.init = function(controller){
         .then( function(){
             return renderSelector($scope.$DOM.selectorsSection, { applications: Object.keys($scope.$config) } )
         } )
-        .then(registerBehaviour);
+        .then( behaviour.registerBehaviour.bind(null, $scope) );
 };
 
 //we expose the render method because there may come the need for the controller to render it again
@@ -34,22 +36,4 @@ var registerDOM = function(){
     $scope.$DOM = {};
     $scope.$DOM.selectorsSection = $scope.$wrapper.querySelector('.configuration-selectors');
     $scope.$DOM.accordionsSection = $scope.$wrapper.querySelector('.configuration-accordions');
-};
-
-//we attach the events needed
-var registerBehaviour = function(){
-    $scope.$DOM.applicationMenuItemsList.addEventListener('click', function(ev){
-        var clickedElement = ev.target;
-        if( !clickedElement.classList.contains('menu-item') ){
-            return;
-        }
-
-        selectedApplicationLi && selectedApplicationLi.classList.remove('active');
-        selectedApplicationLi = clickedElement.parentNode;
-        
-        selectedApplicationLi.classList.add('active');
-        $scope.broadcast('selected application changed', {
-            selectedApplication: clickedElement.dataset.application
-        });  
-    });
 };
