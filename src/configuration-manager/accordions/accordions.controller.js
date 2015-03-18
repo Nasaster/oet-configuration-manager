@@ -1,18 +1,36 @@
+var pubsub = require('oet-lib/pubsub');
 var templator = require('oet-lib/templator');
 var view = require('./accordions.view');
-
-var $scope;
 
 var Accordions = function(){};
 Accordions.prototype.constructor = Accordions;
 var accordions = module.exports = new Accordions();
 
-Accordions.prototype.init = function(parent, wrapper){
+Accordions.prototype.init = function(parent){
     this.$parent = parent;
-    this.$wrapper = wrapper || document.body;
+    this.$wrapper = this.$parent.$DOM.accordionsSection;
     this.$config = parent.$config;
+    this.registerNotificationInterests();
     return view.init(this);
 };
+
+Accordions.prototype.registerNotificationInterests = function(){
+    var interests = [
+        'selected application changed'
+    ];
+
+    pubsub.subscribe(interests, notificationHandler.bind(this) );
+};
+
+var notificationHandler = function(message, payload){
+    switch(message){
+        case 'selected application changed':
+            this.selectedApplication = payload.selectedApplication;
+            view.changeSelectedApplication();
+            break;
+    }
+};
+
 
 // var Accordions = module.exports = {
 //     init: function(scope){
