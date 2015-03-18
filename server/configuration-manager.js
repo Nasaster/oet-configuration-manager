@@ -14,8 +14,11 @@ var configObject = {
 var applications = fs.readdirSync(configRoot);
 applications.forEach(function(appName){
 	configObject.applications[appName] = { channels: {} };
-	var channelsList = fs.readdirSync(configRoot + appName + '/channels');
-	channelsList.forEach(function(channelName){
-		configObject.applications[appName].channels[channelName] = require(configRoot + appName + '/channels/' + channelName + '/config/application.json');
+	configObject.channels = configObject.channels || fs.readdirSync(configRoot + appName + '/channels');
+	configObject.channels.forEach(function(channelName){
+		var channelPath = configRoot + appName + '/channels/' + channelName;
+		if( fs.existsSync(channelPath) ) {
+			configObject.applications[appName].channels[channelName] = require(channelPath + '/config/application.json');
+		}
 	});
 });

@@ -1,64 +1,61 @@
+{% for group in configuration %}
+{% set groupName = loop.key %}
 <article class="panel panel-default">
-    <div class="panel-heading" role="tab" id="heading1">
+    <div class="panel-heading" role="tab" id="heading{{ loop.index }}">
         <h4 class="panel-title">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">Config 1</a>
+            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse{{ loop.index }}" aria-expanded="true" aria-controls="collapse{{ loop.index }}">
+                {{ groupName }}
+            </a>
         </h4>
     </div>
-    <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1">
+    <div id="collapse{{ loop.index }}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading{{ loop.index }}">
         <div class="panel-body">
             <div class="row">
-                <div class="col-sm-4">
-                    CONTENT 1
+                <div class="group-form">
+                    <h4>Field</h4>
+                    {{fieldList}}
                 </div>
             </div>
         </div>
     </div>
 </article>
-<article class="panel panel-default">
-<div class="panel-heading" role="tab" id="heading2">
-    <h4 class="panel-title">
-        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true" aria-controls="collapse2">Config 2</a>
-    </h4>
-</div>
-<div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
-    <div class="panel-body">
-        <div class="row">
-            <div class="col-sm-4">
-                CONTENT 2
-            </div>
-        </div>
-    </div>
-</div>
-</article>
-<article class="panel panel-default">
-    <div class="panel-heading" role="tab" id="heading3">
-        <h4 class="panel-title">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3">Config 3</a>
-        </h4>
-    </div>
-    <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
-        <div class="panel-body">
-            <div class="row">
-                <div class="col-sm-4">
-                    CONTENT 3
+{% endfor %}
+
+<!-- 
+<ul class="main-group">
+    {% for prop in group %}
+    <li>
+        <label>{{loop.key}} 
+            <a role="expand" href="#">+</a>
+            <a role="collapse" class="hidden" href="#">-</a>
+        </label>
+        <ul class="sub-group hidden">
+            <li>
+                <label>something</label>
+                <div class="buttons">
+                    <a class="btn mini blue-stripe" role="edit" href="#" data-field="{{groupName}}|{{loop.key}}">Edit</a>
+                    <a href="#" class="delete btn mini" role="delete"  data-field="{{groupName}}|{{loop.key}}">Delete</a>
                 </div>
-            </div>
-        </div>
-    </div>
-</article>
-<article class="panel panel-default">
-    <div class="panel-heading" role="tab" id="heading4">
-        <h4 class="panel-title">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="true" aria-controls="collapse3">Config 4</a>
-        </h4>
-    </div>
-    <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
-        <div class="panel-body">
-            <div class="row">
-                <div class="col-sm-4">
-                    CONTENT 4
+                <div class="clear"></div>
+            </li>
+            <li>
+                <label>something</label>
+                <div class="buttons">
+                    <a class="btn mini blue-stripe" role="edit" href="#" data-field="{{groupName}}|{{loop.key}}">Edit</a>
+                    <a href="#" class="delete btn mini" role="delete"  data-field="{{groupName}}|{{loop.key}}">Delete</a>
                 </div>
-            </div>
-        </div>
-    </div>
-</article>
+                <div class="clear"></div>
+            </li>
+            <li>
+                <label>something</label>
+                <div class="buttons">
+                    <a class="btn mini blue-stripe" role="edit" href="#" data-field="{{groupName}}|{{loop.key}}">Edit</a>
+                    <a href="#" class="delete btn mini" role="delete"  data-field="{{groupName}}|{{loop.key}}">Delete</a>
+                </div>
+                <div class="clear"></div>
+            </li>
+        </ul>
+    </li>
+    <hr>
+    {% endfor %}
+</ul> -->

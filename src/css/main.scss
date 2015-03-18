@@ -1,19 +1,64 @@
+.clear {
+	clear: both;
+}
+
+.hidden {
+	display: none;
+}
+
 section {
 	margin-bottom: 20px;
 }
 
 li {
-	list-style:none;
+	list-style: none;
 }
 
-.dropdown ul li a input {
-	
-	width:20px;
-	padding:0;
-	display:block;
-	float:left;
-
-	// position: absolute;
- //  	right: 19px;
+.dropdown input {
+	width: 20px;
+	padding: 0;
+	display: block;
+	float: left;
 }
 
+//field editor modal
+.field-item {
+
+	label {
+		display: inline-block;
+		width: 35%;
+	}
+	//[TODO] for some reason this is not working
+	input {
+		display: inline-block;
+		width: 280px;
+	}
+}
+
+
+.group-form {
+	padding-right: 40px;
+
+	h4 {
+		padding-left: 40px;
+	}
+
+	div.buttons {
+		float: right;
+	}
+
+	li {
+		padding: 3px 10px 0 0;
+	}
+
+	hr {
+		margin: 5px 0 5px 0;
+	}
+
+	.sub-group {
+		margin-bottom: 10px;
+		li:nth-child(odd){
+			background: #cdcdcd;
+		}
+	}
+}
