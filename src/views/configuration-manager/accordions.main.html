@@ -1,7 +1,7 @@
 <h4>configuration for {{selectedApplication}}</h4>
 {% for group in application %}
 {% set groupName = loop.key %}
-<article class="panel panel-default">
+<article class="panel panel-default" id="form-group-{{groupName}}">
     <div class="panel-heading" role="tab" id="heading{{ loop.index }}">
         <h4 class="panel-title">
             <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse{{ loop.index }}" aria-expanded="true" aria-controls="collapse{{ loop.index }}">

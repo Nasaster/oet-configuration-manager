@@ -21,8 +21,7 @@ var applications = fs.readdirSync(configRoot).filter(function(fileName){
 	return stats.isDirectory();
 });
 
-applications.forEach(function(appName){console.log(appName);
-
+applications.forEach(function(appName){
 	var lcName = appName.toLowerCase();
 	configObject.templates[lcName] = {};
 	configObject.templates[lcName].application = require(configRoot + lcName + '.application.template.json');

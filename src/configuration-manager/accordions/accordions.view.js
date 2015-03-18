@@ -1,6 +1,6 @@
 var templator = require('oet-lib/templator');
+var formHelper = require('./form.helper');
 
-// var behaviour = require('./configuration-manager.behaviour.js');
 var $scope;
 
 var AccordionsView = function(){};
@@ -17,7 +17,9 @@ AccordionsView.prototype.changeSelectedApplication = function(){
     config.selectedApplication = $scope.selectedApplication;
     var view = 'views/configuration-manager/accordions.main.html';
     templator.empty($scope.$wrapper)
-        .then( templator.render.bind(templator, view, config, $scope.$wrapper) );
+        .then( templator.render.bind(templator, view, config, $scope.$wrapper) )
+        .then( formHelper.populateForms.bind(null, $scope.$wrapper, config) )
+        .then(function(){}, function(err){console.error(err.stack)});
 
 };
 
@@ -31,3 +33,4 @@ var registerDOM = function(){
 var registerBehaviour = function(){
 
 };
+
