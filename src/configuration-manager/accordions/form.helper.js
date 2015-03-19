@@ -7,24 +7,14 @@ var templates = {};
 var $DOM = {};
 
 var FormHelper = module.exports = {
-    populateForms: function(wrapper, config){
-        renderTemplates.then(function(){
-            $DOM.formGroups = {};
-            var promises = [];
-            Object.keys(config.application).forEach(function(key){
-                var formGroup = $DOM.formGroups[key] = document.getElementById('form-group-' + key);
-                promises.push (renderForm( formGroup, config.application[key] ) );
-            });
-
-            Q.all(promises).then(
-                // function(){console.log('success')},
-                // function(err){console.error(err.stack);}
-            )
+    buildFormTree: function(config){
+        return renderTemplates.then(function(){
+            return buildForm(config);
         });
     }
 };
 
-function renderForm(formElement, config){
+function buildForm(config){
     var mainPath = ['main'];
     var currentPath;
 
@@ -79,8 +69,7 @@ function renderForm(formElement, config){
         content: content
     });
 
-    return templator.inject( formElement.querySelector('.group-form'), html )
-        //.then(function(){console.log('success')});
+    return html;
 };
 
 renderTemplates = (function formHelperInit(){
