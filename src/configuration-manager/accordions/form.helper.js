@@ -40,30 +40,6 @@ function buildFormTree(config){
                     label: parentName
                 });
             }
-            // else if(typeof rootNode[parentName] === 'boolean'){
-            //     html += templator.parse(templates['boolean-item'], {
-            //         label: parentName,
-            //         path: currentPath.join('|'),
-            //         checkedTrue: rootNode[parentName]? 'checked' : '',
-            //         checkedFalse: rootNode[parentName]? '' : 'checked'
-            //     })
-            // }
-            // else if(typeof rootNode[parentName] === 'string'){
-            //     var value = rootNode[parentName] === null? 'null' : rootNode[parentName];
-            //     html += templator.parse(templates['text-item'], {
-            //         label: parentName,
-            //         path: currentPath.join('|'),
-            //         value: rootNode[parentName] || 'null'
-            //     });
-            // }
-            // else if(typeof rootNode[parentName] === 'number'){
-            //     var value = rootNode[parentName] === null? 'null' : rootNode[parentName];
-            //     html += templator.parse(templates['number-item'], {
-            //         label: parentName,
-            //         path: currentPath.join('|'),
-            //         value: rootNode[parentName] || 'null'
-            //     });
-            // }
         });
         return html;
     }
