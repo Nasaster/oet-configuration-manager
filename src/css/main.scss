@@ -58,6 +58,12 @@ li {
 
 	li {
 		padding: 3px 10px 0 0;
+
+		&.group-item { 
+			&.closed > .sub-group {
+				display: none;
+			}
+		}
 	}
 
 	hr {
