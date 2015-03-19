@@ -16,14 +16,9 @@ AccordionsView.prototype.changeSelectedApplication = function(){
     var config = $scope.$config.templates[ $scope.selectedApplication.toLowerCase() ].application;
     config.selectedApplication = $scope.selectedApplication;
 
-    formHelper.buildFormTree(config)
+    templator.empty($scope.$wrapper)
+        .then( formHelper.buildFormTree.bind(formHelper, config) )
         .then( templator.inject.bind(templator, $scope.$wrapper) );
-    // var view = 'views/configuration-manager/accordions.main.html';
-    // templator.empty($scope.$wrapper)
-    //     .then( templator.render.bind(templator, view, config, $scope.$wrapper) )
-    //     .then( formHelper.renderTree.bind(null, $scope.$wrapper, config) )
-    //     .then(function(){}, function(err){console.error(err.stack)});
-
 };
 
 var registerDOM = function(){

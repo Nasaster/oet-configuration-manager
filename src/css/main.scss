@@ -36,7 +36,7 @@ li {
 }
 
 
-.group-form {
+.config-root {
 	padding-right: 40px;
 
 	h4 {
@@ -45,6 +45,15 @@ li {
 
 	div.buttons {
 		float: right;
+		margin-right: 50px;
+
+		a {
+			margin-left: 35px;
+		}
+	}
+
+	label.group-label {
+		float: left;
 	}
 
 	li {

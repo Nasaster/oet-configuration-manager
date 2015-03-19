@@ -1,5 +1,10 @@
 <li>
-    <a href="#" data-open="true">{{label}}</a>
+    <label data-open="true">
+        <a href="#">{{label}}</a></label>
+    <div class="buttons">
+        <a dat-role="add-item" href="#">New</a>
+        <a dat-role="delete-group" href="#">Delete</a>
+    </div>
     <ul class="sub-group">
         {{content}}
     </ul>

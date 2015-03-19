@@ -9,12 +9,12 @@ var $DOM = {};
 var FormHelper = module.exports = {
     buildFormTree: function(config){
         return renderTemplates.then(function(){
-            return buildForm(config);
+            return buildFormTree(config);
         });
     }
 };
 
-function buildForm(config){
+function buildFormTree(config){
     var mainPath = ['main'];
     var currentPath;
 
@@ -28,38 +28,42 @@ function buildForm(config){
             
             currentPath.push(parentName);
 
-            if(typeof rootNode[parentName] === 'object') {
+            if( typeof rootNode[parentName] === 'object' && !Array.isArray(rootNode[parentName]) ) {
                 if(rootNode[parentName] !== null && Object.keys(rootNode[parentName]).length > 0){
                     html += templator.parse(templates['group-item'], {
                         label: parentName,
                         content: traverse(rootNode[parentName], currentPath, level+1)
                     });
                 }
-            }
-            else if(typeof rootNode[parentName] === 'boolean'){
-                html += templator.parse(templates['boolean-item'], {
-                    label: parentName,
-                    path: currentPath.join('|'),
-                    checkedTrue: rootNode[parentName]? 'checked' : '',
-                    checkedFalse: rootNode[parentName]? '' : 'checked'
-                })
-            }
-            else if(typeof rootNode[parentName] === 'string'){
-                var value = rootNode[parentName] === null? 'null' : rootNode[parentName];
-                html += templator.parse(templates['text-item'], {
-                    label: parentName,
-                    path: currentPath.join('|'),
-                    value: rootNode[parentName] || 'null'
+            } else {
+                html += templator.parse(templates['primitive-item'], {
+                    label: parentName
                 });
             }
-            else if(typeof rootNode[parentName] === 'number'){
-                var value = rootNode[parentName] === null? 'null' : rootNode[parentName];
-                html += templator.parse(templates['number-item'], {
-                    label: parentName,
-                    path: currentPath.join('|'),
-                    value: rootNode[parentName] || 'null'
-                });
-            }
+            // else if(typeof rootNode[parentName] === 'boolean'){
+            //     html += templator.parse(templates['boolean-item'], {
+            //         label: parentName,
+            //         path: currentPath.join('|'),
+            //         checkedTrue: rootNode[parentName]? 'checked' : '',
+            //         checkedFalse: rootNode[parentName]? '' : 'checked'
+            //     })
+            // }
+            // else if(typeof rootNode[parentName] === 'string'){
+            //     var value = rootNode[parentName] === null? 'null' : rootNode[parentName];
+            //     html += templator.parse(templates['text-item'], {
+            //         label: parentName,
+            //         path: currentPath.join('|'),
+            //         value: rootNode[parentName] || 'null'
+            //     });
+            // }
+            // else if(typeof rootNode[parentName] === 'number'){
+            //     var value = rootNode[parentName] === null? 'null' : rootNode[parentName];
+            //     html += templator.parse(templates['number-item'], {
+            //         label: parentName,
+            //         path: currentPath.join('|'),
+            //         value: rootNode[parentName] || 'null'
+            //     });
+            // }
         });
         return html;
     }
@@ -75,10 +79,8 @@ function buildForm(config){
 renderTemplates = (function formHelperInit(){
     var templateNames = [
         'form',
-        'boolean-item',
         'group-item',
-        'number-item',
-        'text-item'
+        'primitive-item'
     ];
 
     var promises = [];
