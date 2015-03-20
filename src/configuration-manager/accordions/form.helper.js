@@ -32,11 +32,13 @@ function buildFormTree(config){
                 if(rootNode[parentName] !== null && Object.keys(rootNode[parentName]).length > 0){
                     html += templator.parse(templates['group-item'], {
                         label: parentName,
+                        path: currentPath.toString(),
                         content: traverse(rootNode[parentName], currentPath, level+1)
                     });
                 }
             } else {
                 html += templator.parse(templates['primitive-item'], {
+                    path: currentPath.toString(),
                     label: parentName
                 });
             }

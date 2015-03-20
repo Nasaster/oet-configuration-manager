@@ -1,12 +1,12 @@
-<li role="" class="group-item closed">
+<li role="" class="group-item">
     <label>
-        <i class="action-close icon-large icon-minus-sign hidden">-</i>
-        <i class="action-open icon-large icon-plus-sign">+</i>
+        <i class="action-close glyphicon glyphicon-minus"></i>
+        <i class="action-open glyphicon glyphicon-plus hidden"></i>
         <a data-role="toggle-sub-group" href="#">{{label}}</a>
     </label>
     <div class="buttons">
-        <a dat-role="add-item" href="#">New</a>
-        <a dat-role="delete-group" href="#">Delete</a>
+        <a dat-role="add-item" data-path="{{path}}" href="#">New</a>
+        <a dat-role="delete-group" data-path="{{path}}" href="#">Delete</a>
     </div>
     <ul class="sub-group">
         {{content}}
