@@ -43,31 +43,3 @@ var registerBehaviour = function(){
 };
 
 
-var openFieldEditModal = function(group, field){
-    
-
-
-    // var locals = {
-    //         group: group,
-    //         field: field
-    //     };
-    //     locals.config = Object.keys($config).reduce(function(a, b){
-    //        a[b] = $config[b][group][field];
-    //        return a;
-    //     }, {} );
-
-    //     templator.empty( Accordions.$DOM.fieldEditModal )
-    //         .then( templator.getTemplate.bind( null, 'views/configuration-manager/field-edit.modal.html' ) )
-    //         //plugin all the recursive stuff
-    //         .then( function(template){
-    //             return templator.parse(template, locals);
-    //         } )
-    //         .then( function(html){
-    //             return templator.inject(Accordions.$DOM.fieldEditModal, html);
-    //         } )
-    //         .then( function(){
-    //             jQuery(Accordions.$DOM.fieldEditModal.parentNode).modal();
-    //         }, function(err){ console.error(err.stack) });
-
-};
-
