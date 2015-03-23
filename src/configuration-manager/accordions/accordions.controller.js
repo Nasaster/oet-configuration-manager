@@ -13,6 +13,11 @@ Accordions.prototype.init = function(parent){
     return view.init(this);
 };
 
+Accordions.prototype.currentConfigurationChanged = function(){
+    pubsub.broadcast( 'current configuration changed' );
+};
+
+
 Accordions.prototype.registerNotificationInterests = function(){
     var interests = [
         'selected application changed'

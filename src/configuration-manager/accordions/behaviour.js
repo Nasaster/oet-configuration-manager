@@ -71,7 +71,7 @@ var Behaviour = module.exports = {
                     property[ path[path.length -1] ] = input.value;
                 });
 
-                
+                $scope.currentConfigurationChanged();
             
                 break;
         }
