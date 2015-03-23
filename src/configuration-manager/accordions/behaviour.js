@@ -50,6 +50,31 @@ var Behaviour = module.exports = {
             var togglerAnchor = ul.parentNode.querySelector('label a');
             Behaviour.configTreeClickHandler.call(null, togglerAnchor);
         });
+    },
+
+    fieldEditModalClickHandler: function(ev){
+        var clickedElement = ev.target;
+        switch(clickedElement.dataset.role){
+            case 'update':
+                var form = document.getElementById('configuration-property-form');
+                var path = form.name.split(',');
+                var inputs = Array.prototype.slice.call( form.querySelectorAll('input') );
+
+                var configToBeEdited = $scope.$config.applications[$scope.selectedApplication].channels;
+
+                inputs.forEach(function(input){
+                    var channel = input.name;
+                    var property = configToBeEdited[input.name];
+                    for(var i = 0; i < path.length -1; i++){
+                        property = property[ path[i] ];
+                    }
+                    property[ path[path.length -1] ] = input.value;
+                });
+
+                
+            
+                break;
+        }
     }
 };
 
@@ -58,7 +83,7 @@ var openFieldEditModal = function(path){
     //config,previewIncludingMargins,canvas
     path = path.split(',');
     var locals = {
-        //'albelli.be' : config.channels['albelli.be'].
+        path: path
     };
 
     var config = $scope.$config.applications[ $scope.selectedApplication ].channels;
@@ -72,17 +97,22 @@ var openFieldEditModal = function(path){
         return a;
     }, {} );
 
-        templator.empty( $scope.$DOM.fieldEditModal )
-            .then( templator.getTemplate.bind( null, 'views/configuration-manager/field-edit.modal.html' ) )
-            //plugin all the recursive stuff
-            .then( function(template){
-                return templator.parse(template, locals);
-            } )
-            .then( function(html){
-                return templator.inject($scope.$DOM.fieldEditModal, html);
-            } )
-            .then( function(){
-                jQuery($scope.$DOM.fieldEditModal.parentNode).modal();
-            }, function(err){ console.error(err.stack) });
+    templator.empty( $scope.$DOM.fieldEditModal )
+        .then( templator.getTemplate.bind( null, 'views/configuration-manager/field-edit.modal.html' ) )
+        //plugin all the recursive stuff
+        .then( function(template){
+            return templator.parse(template, locals);
+        } )
+        .then( function(html){
+            return templator.inject($scope.$DOM.fieldEditModal, html);
+        } )
+        .then( function(){
+            jQuery($scope.$DOM.fieldEditModal.parentNode).modal();
+        }, function(err){ console.error(err.stack) });
 
 };
+
+
+// in the future, when we have more things to configure than just applications
+// we need to add logic to fieldEditModalClickHandler to know which part of 
+// $scope.$config to change

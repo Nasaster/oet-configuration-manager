@@ -40,6 +40,7 @@ var registerDOM = function(){
 var registerBehaviour = function(){
     $scope.$wrapper.addEventListener( 'click', behaviour.configTreeClickHandler );
     $scope.$DOM.expandCollapse.addEventListener( 'click', behaviour.expandCollapseClickHandler );
+    $scope.$DOM.fieldEditModal.addEventListener( 'click', behaviour.fieldEditModalClickHandler );
 };
 
 

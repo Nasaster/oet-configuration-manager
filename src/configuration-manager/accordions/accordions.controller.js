@@ -8,7 +8,7 @@ var accordions = module.exports = new Accordions();
 Accordions.prototype.init = function(parent){
     this.$parent = parent;
     this.$wrapper = this.$parent.$DOM.accordionsSection;
-    this.$config = parent.$config;
+    this.$config = parent.currentConfiguration;
     this.registerNotificationInterests();
     return view.init(this);
 };
