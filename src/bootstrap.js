@@ -22,4 +22,5 @@ pubsub.subscribe('*', function(message, payload){
 	console.log('------- Message Received ----------');
 	console.log('message:', message);
 	console.log('payload:', payload);
+    console.log('-----------------------------------');
 });

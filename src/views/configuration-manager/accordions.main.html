@@ -1,4 +1,5 @@
-{% for group in configuration %}
+<h4>configuration for {{selectedApplication}}</h4>
+{% for group in application %}
 {% set groupName = loop.key %}
 <article class="panel panel-default">
     <div class="panel-heading" role="tab" id="heading{{ loop.index }}">
@@ -20,6 +21,13 @@
     </div>
 </article>
 {% endfor %}
+
+
+<div class="field-edit-modal modal fade">
+    <div class="modal-dialog">
+        
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
 
 <!-- 
 <ul class="main-group">

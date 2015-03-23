@@ -9,7 +9,13 @@
         <article class="application-select col-sm-4">
             <h2> Applications </h2>
             <p>Please select an application: </p>
-            <div class="dropdown">
+            <select class="form-control">
+                {% for app in applications %}
+                <option value="{{loop.key}}">{{loop.key}}</option>
+                {% endfor %}
+            </select>
+
+            <!-- <div class="dropdown">
                 <button type="button" class="btn dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown">Applications<span class="caret"></span>
                 </button>
                 <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
@@ -19,7 +25,7 @@
                     </li>
                     {% endfor %}
                 </ul>
-            </div>
+            </div> -->
         </article>
     </section>
     <!-- APPLICATION AND CHANNELS SELECTION END-->
@@ -28,9 +34,3 @@
     <section class="configuration-accordions row panel-group" role="tablist" aria-multiselectable="true">
 
     </section>
-
-    <div class="field-edit-modal modal fade">
-        <div class="modal-dialog">
-            
-        </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
