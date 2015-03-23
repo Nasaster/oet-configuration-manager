@@ -25,11 +25,8 @@ var registerDOM = function(){
     $scope.$DOM = {};
     $scope.$DOM.selectorsSection = $scope.$wrapper.querySelector('.configuration-selectors');
     $scope.$DOM.accordionsSection = $scope.$wrapper.querySelector('.configuration-accordions');
-    $scope.$DOM.applicationSelect = $scope.$wrapper.querySelector('.application-select select');
 };
 
 var registerBehaviour = function(){
-    $scope.$DOM.applicationSelect.addEventListener('change', function(ev){
-        $scope.selectApplication(this.value);
-    } );
+    
 }
