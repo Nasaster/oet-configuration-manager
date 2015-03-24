@@ -10,12 +10,20 @@ Selectors.prototype.init = function(parent){
     this.$wrapper = this.$parent.$DOM.selectorsSection;
     this.$config = parent.$config;
     return view.init(this)
-        .then( this.selectApplication.bind(this, Object.keys(this.$config.applications)[0]) );;
+        .then( this.selectApplication.bind(null, Object.keys(this.$config.applications)[0]) )
+        .then( this.selectConfigType.bind(null, this.$config.configTypes[0] ) );
 };
 
 Selectors.prototype.selectApplication = function(selectedApplication){
     // change Accordions to the selectedApplication specific
     pubsub.broadcast('selected application changed', {
         selectedApplication: selectedApplication
+    });  
+};
+
+Selectors.prototype.selectConfigType = function(selectedConfigType){
+    // change Accordions to the selectedApplication specific
+    pubsub.broadcast('selected config-type changed', {
+        selectedConfigType: selectedConfigType
     });  
 };

@@ -8,19 +8,23 @@ var accordions = module.exports = new Accordions();
 Accordions.prototype.init = function(parent){
     this.$parent = parent;
     this.$wrapper = this.$parent.$DOM.accordionsSection;
-    this.$config = parent.currentConfiguration;
+    this.$config = parent.$config;
     this.registerNotificationInterests();
     return view.init(this);
 };
 
-Accordions.prototype.currentConfigurationChanged = function(){
-    pubsub.broadcast( 'current configuration changed' );
+Accordions.prototype.propertyChanged = function(path, inputFields){
+    pubsub.broadcast( 'config property changed', {
+        path: path,
+        inputFields: inputFields
+    } );
 };
 
 
 Accordions.prototype.registerNotificationInterests = function(){
     var interests = [
-        'selected application changed'
+        'selected application changed',
+        'selected config-type changed'
     ];
 
     pubsub.subscribe(interests, notificationHandler.bind(this) );
@@ -29,7 +33,11 @@ Accordions.prototype.registerNotificationInterests = function(){
 var notificationHandler = function(message, payload){
     switch(message){
         case 'selected application changed':
-            this.selectedApplication = payload.selectedApplication;
+            this.$parent.selectedApplication = payload.selectedApplication;
+            view.changeSelectedApplication();
+            break;
+        case 'selected config-type changed':
+            this.$parent.selectedConfigType = payload.selectedConfigType;
             view.changeSelectedApplication();
             break;
     }

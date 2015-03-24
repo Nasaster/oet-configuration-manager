@@ -66,19 +66,7 @@ var Behaviour = module.exports = {
                 var path = form.name.split(',');
                 var inputs = Array.prototype.slice.call( form.querySelectorAll('input') );
 
-                var configToBeEdited = $scope.$config.applications[$scope.selectedApplication].channels;
-
-                inputs.forEach(function(input){
-                    var channel = input.name;
-                    var property = configToBeEdited[input.name];
-                    for(var i = 0; i < path.length -1; i++){
-                        property = property[ path[i] ];
-                    }
-                    property[ path[path.length -1] ] = input.value;
-                });
-
-                $scope.currentConfigurationChanged();
-            
+                $scope.propertyChanged(path, inputs);
                 break;
         }
     }
@@ -92,7 +80,7 @@ var openFieldEditModal = function(path){
         path: path
     };
 
-    var config = $scope.$config.applications[ $scope.selectedApplication ].channels;
+    var config = $scope.$config.applications[ $scope.$parent.selectedApplication ].channels;
 
     locals.config = Object.keys(config).reduce(function(a, b){
         var value = config[b];

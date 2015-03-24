@@ -18,7 +18,8 @@ AccordionsView.prototype.init = function(controller){
 };
 
 AccordionsView.prototype.changeSelectedApplication = function(){
-    var config = $scope.$config.templates[ $scope.selectedApplication.toLowerCase() ].application;
+    //[TODO] this config should also take into account $scope.selectedConfigType
+    var config = $scope.$config.templates[ $scope.$parent.selectedApplication.toLowerCase() ].application;
 
     templator.empty($scope.$DOM.configTree)
         .then( formHelper.buildFormTree.bind(formHelper, config) )
