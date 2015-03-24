@@ -38,14 +38,24 @@ ConfigurationManager.prototype.registerNotificationInterests = function(){
 var notificationHandler = function(message, payload){
     switch(message){
         case 'current configuration changed':
-            // ajax.post('/save-configuration', configurationManager.currentConfiguration)
-            //     .then(function(res){
-            //         if(res === 'ok'){
-            //             alert('your configuration changes were successfully saved');
-            //             configurationManager.$config = configurationManager.currentConfiguration;
-            //             this.currentConfiguration = _.cloneDeep(this.$config);
-            //         }
-            //     })
+            saveConfigToServer();
             break;
     }
 };
+
+var saveConfigToServer = function(){
+    var payload = { config: configurationManager.currentConfiguration };
+    ajax.post('http://localhost:3001/save-configuration', payload)
+        .then(
+            function(res){ console.log('response', res); return;
+                if(res === 'ok'){
+                    alert('your configuration changes were successfully saved');
+                    configurationManager.$config = configurationManager.currentConfiguration;
+                    this.currentConfiguration = _.cloneDeep(this.$config);
+                }
+            }, 
+            function(err){
+                console.error(err.stack);
+            }
+        );
+}

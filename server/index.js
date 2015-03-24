@@ -1,4 +1,5 @@
 var express = require('express');
+var bodyParser = require('body-parser');
 var configManager = require('./configuration-manager');
 
 var app = express();
@@ -10,11 +11,18 @@ app.listen(port, function(){
 
 app.use(function(req, res, next) {
 	res.header("Access-Control-Allow-Origin", "*");
-	res.header("Access-Control-Allow-Headers", "X-Requested-With");
+	res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
 	next();
  });
+
+app.use( bodyParser.json() );
 
 app.get('/get-configuration', function(req, res){
 	var configurationData = configManager.getAllConfiguration();
 	res.send(configurationData);
+});
+
+app.post('/save-configuration', function(req, res){
+    console.log('req.body', req.body);
+    res.send('ok');
 });
