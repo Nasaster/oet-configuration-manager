@@ -27,7 +27,7 @@ AccordionsView.prototype.changeSelectedApplication = function(){
 };
 
 var afterChangeSelectedApplication = function(){
-    $scope.$DOM.subGroupULs = Array.prototype.slice.call( $scope.$wrapper.querySelectorAll('.sub-group') );
+    $scope.$DOM.groupItemLIs = Array.prototype.slice.call( $scope.$wrapper.querySelectorAll('.group-item') );
 };
 
 var registerDOM = function(){

@@ -7,16 +7,26 @@ var Behaviour = module.exports = {
         $scope = scope;
     },
 
-    configTreeClickHandler: function(ev){
+    configTreeClickHandler: function(ev, isCollapsingAll){
         var clickedElement = ev.nodeName? ev : ev.target;
+
         switch(clickedElement.dataset.role){
             case 'toggle-sub-group':
-                ev.prevetDefault && ev.preventDefault();
+                var action, wasOpen;
+                ev.preventDefault && ev.preventDefault();
                 var ancestorLI = clickedElement.parentNode.parentNode;
-                var wasClosed = ancestorLI.classList.contains('closed');
-                ancestorLI.classList[ wasClosed? 'remove' : 'add' ]('closed');
-                ancestorLI.querySelector('i.action-open').classList[ wasClosed? 'add' : 'remove' ]('hidden');
-                ancestorLI.querySelector('i.action-close').classList[ wasClosed? 'remove' : 'add' ]('hidden');
+                var openAnchor = ancestorLI.querySelector('i.action-open');
+                var closeAnchor = ancestorLI.querySelector('i.action-close');
+
+                if( !isCollapsingAll && ancestorLI.classList.contains('closed') ){
+                    ancestorLI.classList.remove('closed');
+                    openAnchor.classList.add('hidden');
+                    closeAnchor.classList.remove('hidden');
+                } else {
+                    ancestorLI.classList.add('closed');
+                    openAnchor.classList.remove('hidden');
+                    closeAnchor.classList.add('hidden');
+                }
                 break;
 
             case 'edit-item':
@@ -27,28 +37,24 @@ var Behaviour = module.exports = {
 
     expandCollapseClickHandler: function(ev){
         var method;
-        var  clickedElement = ev.target;
+        var clickedElement = ev.target;
         var action = clickedElement.dataset.role;
-        if(!action){
-            return;
-        }
+        var isCollapsingAll;
 
         switch(action){
             case 'collapse-all':
-                method = 'add';
+                isCollapsingAll = true;
                 clickedElement.parentNode.nextElementSibling.classList.remove('hidden');
                 break;
             case 'expand-all': 
-                method = 'remove';
                 clickedElement.parentNode.previousElementSibling.classList.remove('hidden');
                 break;
         }
         clickedElement.parentNode.classList.add('hidden');
 
-        $scope.$DOM.subGroupULs.forEach(function(ul){
-            ul.classList[method]('hidden');
-            var togglerAnchor = ul.parentNode.querySelector('label a');
-            Behaviour.configTreeClickHandler.call(null, togglerAnchor);
+        $scope.$DOM.groupItemLIs.forEach(function(li){
+            var togglerAnchor = li.querySelector('label a');
+            Behaviour.configTreeClickHandler.call(null, togglerAnchor, isCollapsingAll );
         });
     },
 
