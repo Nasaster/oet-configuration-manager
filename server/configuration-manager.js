@@ -31,8 +31,7 @@ var saveApplicationConfig = function(application, config){
 		var dataToBeSaved = JSON.stringify( config[channelName] );
 		fs.writeFileSync( filePath, dataToBeSaved, {encoding: 'utf8'} );
 	});
-	console.log('saved');
-	setUpConfigurationObject('redoing');
+	setUpConfigurationObject();
 };
 
 

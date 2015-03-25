@@ -8,7 +8,7 @@ var selectorsView = module.exports = new SelectorsView();
 
 SelectorsView.prototype.init = function(controller){
     $scope = controller;
-    $scope.$config.applications = Object.keys($scope.$config['application.json']);
+    $scope.$parent.$config.applications = Object.keys($scope.$parent.$config['application.json']);
     //returns the promise created in templator.render
     return this.render($scope.$parent.$DOM.selectorsSection)
         .then( registerDOM )
@@ -17,7 +17,7 @@ SelectorsView.prototype.init = function(controller){
 };
 
 SelectorsView.prototype.render = function(wrapper){
-    return templator.render( 'views/configuration-manager/selectors.html', $scope.$config, wrapper );
+    return templator.render( 'views/configuration-manager/selectors.html', $scope.$parent.$config, wrapper );
 };
 
 var registerDOM = function(){
