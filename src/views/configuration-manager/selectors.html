@@ -1,8 +1,17 @@
 <article class="application-select col-sm-4">
-    <p>Please select an application: </p>
+    <p>application: </p>
     <select class="form-control">
         {% for app in applications %}
-        <option value="{{loop.key}}">{{loop.key}}</option>
+        <option value="{{app}}">{{app}}</option>
+        {% endfor %}
+    </select>
+</article>
+
+<article class="config-type-select col-sm-4">
+    <p>type of configuration: </p>
+    <select class="form-control">
+        {% for type in configTypes %}
+        <option value="{{type}}">{{type}}</option>
         {% endfor %}
     </select>
 </article>

@@ -10,7 +10,7 @@ Selectors.prototype.init = function(parent){
     this.$wrapper = this.$parent.$DOM.selectorsSection;
     this.$config = parent.$config;
     return view.init(this)
-        .then( this.selectApplication.bind(null, Object.keys(this.$config.applications)[0]) )
+        .then( this.selectApplication.bind(null, Object.keys(this.$config["application.json"])[0]) )
         .then( this.selectConfigType.bind(null, this.$config.configTypes[0] ) );
 };
 

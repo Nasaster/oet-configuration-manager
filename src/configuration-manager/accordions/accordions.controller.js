@@ -8,7 +8,6 @@ var accordions = module.exports = new Accordions();
 Accordions.prototype.init = function(parent){
     this.$parent = parent;
     this.$wrapper = this.$parent.$DOM.accordionsSection;
-    this.$config = parent.$config;
     this.registerNotificationInterests();
     return view.init(this);
 };
@@ -23,6 +22,7 @@ Accordions.prototype.propertyChanged = function(path, inputFields){
 
 Accordions.prototype.registerNotificationInterests = function(){
     var interests = [
+        'configuration updated',
         'selected application changed',
         'selected config-type changed'
     ];
@@ -38,6 +38,9 @@ var notificationHandler = function(message, payload){
             break;
         case 'selected config-type changed':
             this.$parent.selectedConfigType = payload.selectedConfigType;
+            view.changeSelectedApplication();
+            break;
+        case 'configuration updated': 
             view.changeSelectedApplication();
             break;
     }

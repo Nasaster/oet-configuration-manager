@@ -23,6 +23,6 @@ app.get('/get-configuration', function(req, res){
 });
 
 app.post('/save-configuration', function(req, res){
-    console.log('req.body', req.body);
+    configManager.saveConfiguration(req.body);
     res.send('ok');
 });

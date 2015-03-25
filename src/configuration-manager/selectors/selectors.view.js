@@ -8,6 +8,7 @@ var selectorsView = module.exports = new SelectorsView();
 
 SelectorsView.prototype.init = function(controller){
     $scope = controller;
+    $scope.$config.applications = Object.keys($scope.$config['application.json']);
     //returns the promise created in templator.render
     return this.render($scope.$parent.$DOM.selectorsSection)
         .then( registerDOM )

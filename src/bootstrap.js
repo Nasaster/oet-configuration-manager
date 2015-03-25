@@ -17,10 +17,20 @@ ajax.getJSON( CONFIGURATION_URL )
 		function(err){ console.error(err.stack); }
 	);
 
-
 pubsub.subscribe('*', function(message, payload){
+    if(!debug) return;
 	console.log('------- Message Received ----------');
 	console.log('message:', message);
 	console.log('payload:', payload);
     console.log('-----------------------------------');
 });
+
+var debug = localStorage.debugMode || false;
+window.debug = function(){
+    if(localStorage.debugMode){
+        delete localStorage.debugMode;
+    } else {
+        localStorage.debugMode = true;
+    };
+    debug = !debug;
+}

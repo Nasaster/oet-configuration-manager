@@ -80,7 +80,7 @@ var openFieldEditModal = function(path){
         path: path
     };
 
-    var config = $scope.$config.applications[ $scope.$parent.selectedApplication ].channels;
+    var config = $scope.$parent.$config["application.json"][ $scope.$parent.selectedApplication ].channels;
 
     locals.config = Object.keys(config).reduce(function(a, b){
         var value = config[b];
