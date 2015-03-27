@@ -19,6 +19,9 @@ Accordions.prototype.propertyChanged = function(path, inputFields){
     } );
 };
 
+Accordions.prototype.broadcast = function(message, payload){
+    pubsub.broadcast( message, payload );
+};
 
 Accordions.prototype.registerNotificationInterests = function(){
     var interests = [

@@ -53,7 +53,7 @@ function setUpConfigurationObject(someParam){console.log('setUpConfigurationObje
 
 	applications.forEach(function(appName){
 		configObject.templates[appName] = {};
-		configObject.templates[appName].application = require(configRoot + appName + '.application.template.json');
+		configObject.templates[appName]['application.json'] = require(configRoot + appName + '.application.template.json');
 
 		configObject["application.json"][appName] = { channels: {} };
 		configObject.channels = configObject.channels || fs.readdirSync(configRoot + appName + '/channels');

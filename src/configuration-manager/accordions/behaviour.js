@@ -8,30 +8,22 @@ var Behaviour = module.exports = {
     },
 
     configTreeClickHandler: function(ev, isCollapsingAll){
+        ev.preventDefault && ev.preventDefault();
         var clickedElement = ev.nodeName? ev : ev.target;
 
         switch(clickedElement.dataset.role){
             case 'toggle-sub-group':
-                var action, wasOpen;
-                ev.preventDefault && ev.preventDefault();
-                var ancestorLI = clickedElement.parentNode.parentNode;
-                var openAnchor = ancestorLI.querySelector('i.action-open');
-                var closeAnchor = ancestorLI.querySelector('i.action-close');
-
-                if( !isCollapsingAll && ancestorLI.classList.contains('closed') ){
-                    ancestorLI.classList.remove('closed');
-                    openAnchor.classList.add('hidden');
-                    closeAnchor.classList.remove('hidden');
-                } else {
-                    ancestorLI.classList.add('closed');
-                    openAnchor.classList.remove('hidden');
-                    closeAnchor.classList.add('hidden');
-                }
+                toggleSubgroup(clickedElement, ev, isCollapsingAll);
                 break;
-
             case 'edit-item':
                 openFieldEditModal( clickedElement.dataset.path );
                 break;
+            case 'delete-item':
+                $scope.broadcast( 'item deleted', {
+                    path: clickedElement.dataset.path
+                } );
+                break;
+
         }
     },
 
@@ -104,6 +96,23 @@ var openFieldEditModal = function(path){
             jQuery($scope.$DOM.fieldEditModal.parentNode).modal();
         }, function(err){ console.error(err.stack) });
 
+};
+
+var toggleSubgroup = function(clickedElement, ev, isCollapsingAll){
+    var action, wasOpen;
+    var ancestorLI = clickedElement.parentNode.parentNode;
+    var openAnchor = ancestorLI.querySelector('i.action-open');
+    var closeAnchor = ancestorLI.querySelector('i.action-close');
+
+    if( !isCollapsingAll && ancestorLI.classList.contains('closed') ){
+        ancestorLI.classList.remove('closed');
+        openAnchor.classList.add('hidden');
+        closeAnchor.classList.remove('hidden');
+    } else {
+        ancestorLI.classList.add('closed');
+        openAnchor.classList.remove('hidden');
+        closeAnchor.classList.add('hidden');
+    }
 };
 
 

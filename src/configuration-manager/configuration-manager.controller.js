@@ -13,9 +13,9 @@ ConfigurationManager.prototype.init = function(config, wrapper){
 
     this.$wrapper = wrapper || document.body;
     return view.init(this)
+        .then( configurationProxy.init.bind(configurationProxy, this) )
         .then( accordions.init.bind(accordions, this) )
-        .then( selectors.init.bind(selectors, this) )
-        .then( configurationProxy.init.bind(configurationProxy, this) );
+        .then( selectors.init.bind(selectors, this) );
 };
 
 ConfigurationManager.prototype.broadcast = function(message, data){
