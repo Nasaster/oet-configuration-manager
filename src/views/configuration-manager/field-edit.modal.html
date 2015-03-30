@@ -1,22 +1,32 @@
 <div class="modal-content">
     <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title">Edit property {{group}}.{{field}}</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title">Edit property {{path.join('/')}}</h4>
     </div>
     <div class="modal-body">
         <form name="{{path}}" id="configuration-property-form">
             <ul>
                 {% for channel in config %}
+                {% if config[loop.key] !== true && config[loop.key] !== false %}
                 <li class="field-item">
                     <label>{{ loop.key }}</label>
-                    <input name="{{loop.key}}" value="{{ config[ loop.key ] }}">
+                    <input name="{{loop.key}}" value="{{ config[ loop.key ] || '' }}">
                 </li>
+                {% else %}
+                <li class="field-item">
+                    <label>{{ loop.key }}</label>
+                    <input value="true" type="radio" name="{{loop.key}}" {% if  config[ loop.key] %} checked {% endif %}> True
+                    <input value="false" type="radio" name="{{loop.key}}" {% if !config[ loop.key] %} checked {% endif %}> False
+                </li>
+                {% endif %}
                 {% endfor %}
             </ul>
         </form>
     </div>
     <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
-        <button type="button" class="btn btn-primary" data-role="update">Update</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal" data-role="update">Update</button>
     </div>
 </div><!-- /.modal-content -->

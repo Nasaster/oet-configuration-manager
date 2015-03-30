@@ -30,3 +30,11 @@ var registerDOM = function(){
 var registerBehaviour = function(){
     
 }
+
+/**
+This is the view for the main application controller.
+- it uses templator to render the main view
+- gains total access to the controller through the $scope object
+- caches all the relevant DOM elements, for later usage
+- registers the desired behaviour on each of those elements 
+**/

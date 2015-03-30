@@ -33,7 +33,7 @@ var afterChangeSelectedApplication = function(){
 var registerDOM = function(){
     $scope.$DOM = {};
     $scope.$DOM.configTree = $scope.$wrapper.querySelector('.config-tree');
-    $scope.$DOM.fieldEditModal = $scope.$wrapper.querySelector('.field-edit-modal .modal-dialog');
+    $scope.$DOM.fieldEditModal = document.body.querySelector('.field-edit-modal .modal-dialog');
     $scope.$DOM.expandCollapse = $scope.$wrapper.querySelector('.expand-collapse-all');
 };
 
@@ -43,4 +43,8 @@ var registerBehaviour = function(){
     $scope.$DOM.fieldEditModal.addEventListener( 'click', behaviour.fieldEditModalClickHandler );
 };
 
+/*
+Sub-module to manage the accordions view
+- read configuration-manager.view comments at the end 
+*/
 

@@ -21,3 +21,14 @@ ConfigurationManager.prototype.init = function(config, wrapper){
 ConfigurationManager.prototype.broadcast = function(message, data){
     pubsub.broadcast(message, data);
 };
+
+
+/**
+This file is where it all starts.
+This is the main controller for the application, 
+it gets and parses the configuration from the backend
+checks if the user is logged in and initializes the correct route
+it uses pubsub to send and receive messages to its components
+it initializes and sends a reference of itself to its view
+it initializes the controllers for the sub-modules like configuration-proxy, selectors and accordion
+**/

@@ -41,3 +41,8 @@ var notificationHandler = function(message, payload){
     }
 };
 
+/*
+Sub-module to manage the save and load of the configuration
+- read configuration-controller comments at the end 
+*/
+

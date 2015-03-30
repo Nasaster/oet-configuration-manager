@@ -48,3 +48,8 @@ var notificationHandler = function(message, payload){
             break;
     }
 };
+
+/*
+Sub-module to manage the accordion
+- read configuration-controller comments at the end 
+*/

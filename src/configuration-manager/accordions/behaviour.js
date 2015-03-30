@@ -66,14 +66,15 @@ var Behaviour = module.exports = {
 
 
 var openFieldEditModal = function(path){
-    //config,previewIncludingMargins,canvas
+    
     path = path.split(',');
     var locals = {
         path: path
     };
 
-    var config = $scope.$parent.$config["application.json"][ $scope.$parent.selectedApplication ].channels;
+    var config = $scope.$parent.currentConfiguration["application.json"][ $scope.$parent.selectedApplication ].channels;
 
+    //extracts the configuration for the item for every channel
     locals.config = Object.keys(config).reduce(function(a, b){
         var value = config[b];
         for(var i = 0, len = path.length; i < len; i++){

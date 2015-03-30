@@ -1,4 +1,4 @@
-{
+module.exports = {
     "config": {
         "stylePack": "albelli-standard",
         "selectedLocale": "nl-BE",
@@ -11,8 +11,6 @@
             120
         ],
         "maxPhotoPixels": 133930126,
-        "woodGapInMilliMeters" : 2,
-        "woodPlankWidthInMilliMeters" : 100,
         "subscribeToNewsletterDefault": false,
         "homeUrl": "albelli.be",
         "shippingUrl": "http://albelli.be/nl/klantenservice/verzending",
@@ -37,15 +35,10 @@
                 "Canvas",
                 "Perspex",
                 "Aluminium",
-                "Forex",
-                "PhotoOnWood"
+                "Forex"
             ]
         },
-        "maxUploadRetries": 3,
-        "photoOnWood" :
-        {
-            "placeholderFillColor" : "#F9EED3"
-        }
+        "maxUploadRetries": 3
     },
     "currency": {
         "code": "EUR",
@@ -73,7 +66,7 @@
                 "precision": 1,
                 "minValue": 0,
                 "maxValue": 50,
-                "excludes": ["Canvas"]
+                "excludes": ["Canvas","PhoneCase"]
             }
         }
     },
@@ -82,8 +75,7 @@
             "Canvas",
             "Perspex",
             "Aluminium",
-            "Forex",
-            "PhotoOnWood"
+            "Forex"
         ]
     },
     "backgroundColors": {
@@ -125,8 +117,7 @@
                 "Canvas",
                 "Perspex",
                 "Aluminium",
-                "Forex",
-                "PhotoOnWood"
+                "Forex"
             ]
         },
         "photos": {
@@ -135,8 +126,7 @@
                 "Perspex",
                 "Aluminium",
                 "Forex",
-                "PhoneCase",
-                "PhotoOnWood"
+                "PhoneCase"
             ]
         },
         "spacing": {
@@ -144,8 +134,7 @@
                 "Canvas",
                 "Perspex",
                 "Aluminium",
-                "Forex",
-                "PhotoOnWood"
+                "Forex"
             ]
         },
         "backgrounds": {
@@ -156,11 +145,11 @@
                 "Forex"
             ]
         },
-      "product-options": {
-        "supportedArticleTypes": ["PhotoOnWood"]
-      },
         "tooltray": {
+            "disabled": ["*"]
+        },
+        "product-options": {
             "disabled": ["*"]
         }
     }
-}
+};

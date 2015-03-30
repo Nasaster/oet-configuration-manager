@@ -34,3 +34,15 @@ window.debug = function(){
     };
     debug = !debug;
 }
+
+
+/**
+This file is where it all starts.
+- it requires global libs as jQuery and bootstrap so they are available anywhere
+- it uses Ajax to get any configuration it needs from the server
+- it uses pubsub to listen to any messages coming and logs them to the console
+   you may deactivate/reactivate this by running debug() in the console
+- and initializes the main controller with the retrieved configuration
+- it also attaches a success and error handlers that log to the console any error 
+    that might occur in the initialization of the app
+**/

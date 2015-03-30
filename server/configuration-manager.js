@@ -15,6 +15,10 @@ module.exports = {
 				saveApplicationConfig( body.selectedApplication, body.configToBeSaved.channels);
 				break;
 		}
+	}, 
+
+	saveTemplate: function(){
+
 	}
 };
 
@@ -22,10 +26,6 @@ module.exports = {
 var saveApplicationConfig = function(application, config){
 	var baseDir = configRoot + application + '/channels/';
 
-// 	console.log( config['albelli.be'] );
-
-
-// return;
 	Object.keys(config).forEach(function(channelName){
 		var filePath = baseDir + channelName + '/config/application.json';
 		var dataToBeSaved = JSON.stringify( config[channelName] );
@@ -34,9 +34,12 @@ var saveApplicationConfig = function(application, config){
 	setUpConfigurationObject();
 };
 
+var saveTemplate = function(){
+
+};
 
 
-function setUpConfigurationObject(someParam){console.log('setUpConfigurationObject');
+function setUpConfigurationObject(someParam){
 	configObject = {
 		templates: {},
 		"application.json": {},
@@ -53,7 +56,7 @@ function setUpConfigurationObject(someParam){console.log('setUpConfigurationObje
 
 	applications.forEach(function(appName){
 		configObject.templates[appName] = {};
-		configObject.templates[appName]['application.json'] = require(configRoot + appName + '.application.template.json');
+		configObject.templates[appName]['application.json'] = require(configRoot + appName + '.application.template.js');
 
 		configObject["application.json"][appName] = { channels: {} };
 		configObject.channels = configObject.channels || fs.readdirSync(configRoot + appName + '/channels');
@@ -68,3 +71,7 @@ function setUpConfigurationObject(someParam){console.log('setUpConfigurationObje
 
 	console.log('configObject recreated', 'stylepack', configObject['application.json'].Calendar.channels['albelli.be'].config.stylePack);
 };
+
+
+// this file has all the logic to read and write the configuration files
+// it reads through the data directory to fill the configObject that is sent to the frontend

@@ -37,3 +37,7 @@ var registerBehaviour = function(){
 };
 
 
+/*
+Sub-module to manage the configuration-proxy view
+- read configuration-manager.view comments at the end 
+*/

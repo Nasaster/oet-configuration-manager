@@ -24,3 +24,8 @@ Selectors.prototype.selectConfigType = function(selectedConfigType){
         selectedConfigType: selectedConfigType
     });  
 };
+
+/*
+Sub-module to manage the selectors
+- read configuration-controller comments at the end 
+*/

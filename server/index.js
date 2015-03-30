@@ -26,3 +26,17 @@ app.post('/save-configuration', function(req, res){
     configManager.saveConfiguration(req.body);
     res.send('ok');
 });
+
+app.post('/save-template', function(req, res){
+    console.log('saving-template');
+    configManager.saveTemplate(req.body);
+    res.send('ok');
+});
+
+
+// this file is the configuration of the web server
+//  5 - it starts express and makes it listen to port 3001
+// 12 - configures CORS headers so it can accept ajax requests from different domains
+// 18 - uses bodyParser.json so the post data be mapped to req.body
+// 20 - sets up the necessary routes
+// requires ./configuration-manager where the controller does all the heavy work
