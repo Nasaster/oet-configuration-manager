@@ -21,6 +21,10 @@ ConfigurationProxy.prototype.saveConfiguration = function(){
     helper.saveConfigToServer();
 };
 
+ConfigurationProxy.prototype.resetConfiguration = function(){
+    helper.resetConfiguration();
+};
+
 ConfigurationProxy.prototype.registerNotificationInterests = function(){
     var interests = [
         'config property changed',

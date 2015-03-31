@@ -134,6 +134,11 @@ var Helper = module.exports = {
                     console.error(err.stack);
                 }
             );            
+    }, 
+
+    resetConfiguration: function(){
+        $scope.$parent.currentConfiguration = _.cloneDeep( $scope.$parent.$config );
+        pubsub.broadcast( 'configuration updated' );
     }
 };
 
