@@ -24,6 +24,7 @@ ConfigurationProxy.prototype.saveConfiguration = function(){
 ConfigurationProxy.prototype.registerNotificationInterests = function(){
     var interests = [
         'config property changed',
+        'template property added',
         'item deleted'
     ];
 
@@ -34,6 +35,9 @@ var notificationHandler = function(message, payload){
     switch(message){
         case 'config property changed':
             helper.changePropertyValues(payload);
+            break;
+        case 'template property added':
+            helper.addPropertyToTemplate(payload);
             break;
         case 'item deleted': 
             helper.deleteItemFromTemplate(payload);

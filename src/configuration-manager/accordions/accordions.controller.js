@@ -19,6 +19,10 @@ Accordions.prototype.propertyChanged = function(path, fieldItems){
     } );
 };
 
+Accordions.prototype.addItemToTemplate = function(payload){
+    pubsub.broadcast( 'template property added', payload );
+};
+
 Accordions.prototype.broadcast = function(message, payload){
     pubsub.broadcast( message, payload );
 };

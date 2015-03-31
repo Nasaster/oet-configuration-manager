@@ -18,6 +18,9 @@ var Behaviour = module.exports = {
             case 'edit-item':
                 openFieldEditModal( clickedElement.dataset.path );
                 break;
+            case 'add-item':
+                openAddItemModal(clickedElement);
+                break;
             case 'delete-item':
                 $scope.broadcast( 'item deleted', {
                     path: clickedElement.dataset.path
@@ -52,16 +55,44 @@ var Behaviour = module.exports = {
 
     fieldEditModalClickHandler: function(ev){
         var clickedElement = ev.target;
+        var form = document.getElementById('configuration-property-form');
+        var path = form.name.split(',');
         switch(clickedElement.dataset.role){
-            case 'update':
-                var form = document.getElementById('configuration-property-form');
-                var path = form.name.split(',');
+            case 'update-value':
                 var fieldItems = Array.prototype.slice.call( form.querySelectorAll('.field-item') );
-
                 $scope.propertyChanged(path, fieldItems);
+                break;
+            case 'update-template':
+                var groupRadio = form.querySelector('input[name=group-or-primitive]:checked');
+                var isArrayRadio = form.querySelector('input[name=is-array]:checked');
+                var fieldTypeRadio = form.querySelector('input[name=field-type]:checked');
+                var fieldNameInput = form.querySelector('input[name=field-name]');
+                //[TODO] add validation to the form
+
+                var payload = {
+                    path: path,
+                    isGroup: groupRadio.value === 'group'? true: false,
+                    isArray: isArrayRadio.value === 'yes'? true: false,
+                    fieldType: fieldTypeRadio.value,
+                    fieldName: fieldNameInput.value
+                };
+                $scope.addItemToTemplate(payload);
+                
                 break;
         }
     }
+};
+ 
+var openAddItemModal = function(clickedElement){
+    var url = 'views/configuration-manager/add-item.modal.html';
+    var locals = {
+        path: clickedElement.dataset.path.split(',')
+    }
+    templator.empty( $scope.$DOM.fieldEditModal )
+        .then( templator.render.bind( templator, url, locals, $scope.$DOM.fieldEditModal ) )
+        .then( function(){
+            jQuery($scope.$DOM.fieldEditModal.parentNode).modal();
+        });
 };
 
 

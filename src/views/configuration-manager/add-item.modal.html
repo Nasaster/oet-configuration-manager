@@ -1,0 +1,38 @@
+<div class="modal-content">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title">Add item to {{path.join('/') || 'root'}}</h4>
+    </div>
+    <div class="modal-body">
+        <form name="{{path}}" id="configuration-property-form" onsubmit="return false;">
+            <ul>
+                <li>
+                    <label for="group-or-primitive">Group or Primitive?</label>
+                    <input type="radio" checked name="group-or-primitive" id="group-or-primitive" value="group"> Group
+                    <input type="radio" name="group-or-primitive" id="group-or-primitive" value="primitive"> Primitive
+                </li>
+                <li>
+                    <label for="is-array">Array?</label>
+                    <input type="radio" checked name="is-array" id="is-array" value="yes"> Yes
+                    <input type="radio" name="is-array" id="is-array" value="no"> No
+                </li>
+                <li>
+                    <label for="type">Field Type?</label>
+                    <input type="radio" checked name="field-type" id="field-type" value="Number"> Number
+                    <input type="radio" name="field-type" id="field-type" value="String"> String
+                    <input type="radio" name="field-type" id="field-type" value="Boolean"> Boolean
+                </li>
+                <li>
+                    <label for="type">field/group name</label>
+                    <input type="text" name="field-name" id="field-name" value="">
+                </li>
+            </ul>
+        </form>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal" data-role="update-template">Update</button>
+    </div>
+</div><!-- /.modal-content -->

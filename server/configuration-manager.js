@@ -17,8 +17,11 @@ module.exports = {
 		}
 	}, 
 
-	saveTemplate: function(){
-
+	saveTemplate: function(body){
+		//[TODO] add logic to distinguish between templates
+		var path = configRoot + body.selectedApplication + '.' + body.selectedConfigType.replace('.json', '') +  '.template.json';
+		fs.writeFileSync( path, JSON.stringify(body.templateToBeSaved), {encoding: 'utf8'} );
+		setUpConfigurationObject();
 	}
 };
 
@@ -56,7 +59,8 @@ function setUpConfigurationObject(someParam){
 
 	applications.forEach(function(appName){
 		configObject.templates[appName] = {};
-		configObject.templates[appName]['application.json'] = require(configRoot + appName + '.application.template.js');
+		var json = fs.readFileSync(configRoot + appName + '.application.template.json', {encoding: 'utf8'});
+		configObject.templates[appName]['application.json'] = JSON.parse(json);
 
 		configObject["application.json"][appName] = { channels: {} };
 		configObject.channels = configObject.channels || fs.readdirSync(configRoot + appName + '/channels');

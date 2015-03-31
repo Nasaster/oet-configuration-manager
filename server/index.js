@@ -28,7 +28,6 @@ app.post('/save-configuration', function(req, res){
 });
 
 app.post('/save-template', function(req, res){
-    console.log('saving-template');
     configManager.saveTemplate(req.body);
     res.send('ok');
 });

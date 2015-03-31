@@ -1,4 +1,4 @@
-module.exports = {
+{
     "config": {
         "stylePack": "albelli-standard",
         "selectedLocale": "nl-BE",
@@ -11,6 +11,8 @@ module.exports = {
             120
         ],
         "maxPhotoPixels": 133930126,
+        "woodGapInMilliMeters" : 2,
+        "woodPlankWidthInMilliMeters" : 100,
         "subscribeToNewsletterDefault": false,
         "homeUrl": "albelli.be",
         "shippingUrl": "http://albelli.be/nl/klantenservice/verzending",
@@ -35,10 +37,15 @@ module.exports = {
                 "Canvas",
                 "Perspex",
                 "Aluminium",
-                "Forex"
+                "Forex",
+                "PhotoOnWood"
             ]
         },
-        "maxUploadRetries": 3
+        "maxUploadRetries": 3,
+        "photoOnWood" :
+        {
+            "placeholderFillColor" : "#F9EED3"
+        }
     },
     "currency": {
         "code": "EUR",
@@ -66,7 +73,7 @@ module.exports = {
                 "precision": 1,
                 "minValue": 0,
                 "maxValue": 50,
-                "excludes": ["Canvas","PhoneCase"]
+                "excludes": ["Canvas"]
             }
         }
     },
@@ -75,7 +82,8 @@ module.exports = {
             "Canvas",
             "Perspex",
             "Aluminium",
-            "Forex"
+            "Forex",
+            "PhotoOnWood"
         ]
     },
     "backgroundColors": {
@@ -117,7 +125,8 @@ module.exports = {
                 "Canvas",
                 "Perspex",
                 "Aluminium",
-                "Forex"
+                "Forex",
+                "PhotoOnWood"
             ]
         },
         "photos": {
@@ -126,7 +135,8 @@ module.exports = {
                 "Perspex",
                 "Aluminium",
                 "Forex",
-                "PhoneCase"
+                "PhoneCase",
+                "PhotoOnWood"
             ]
         },
         "spacing": {
@@ -134,7 +144,8 @@ module.exports = {
                 "Canvas",
                 "Perspex",
                 "Aluminium",
-                "Forex"
+                "Forex",
+                "PhotoOnWood"
             ]
         },
         "backgrounds": {
@@ -145,11 +156,11 @@ module.exports = {
                 "Forex"
             ]
         },
+      "product-options": {
+        "supportedArticleTypes": ["PhotoOnWood"]
+      },
         "tooltray": {
-            "disabled": ["*"]
-        },
-        "product-options": {
             "disabled": ["*"]
         }
     }
-};
+}
