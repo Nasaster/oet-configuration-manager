@@ -9,13 +9,13 @@
         <form name="{{path}}" id="configuration-property-form">
             <ul>
                 {% for channel in config %}
-                {% if config[loop.key] !== true && config[loop.key] !== false %}
-                <li class="field-item">
+                {% if type !== 'Boolean' %}
+                <li class="field-item" data-type="{{type}}" data-name="{{loop.key}}" data-array="{{isArray}}">
                     <label>{{ loop.key }}</label>
                     <input name="{{loop.key}}" value="{{ config[ loop.key ] || '' }}">
                 </li>
                 {% else %}
-                <li class="field-item">
+                <li class="field-item" data-type="{{type}}" data-name="{{loop.key}}">
                     <label>{{ loop.key }}</label>
                     <input value="true" type="radio" name="{{loop.key}}" {% if  config[ loop.key] %} checked {% endif %}> True
                     <input value="false" type="radio" name="{{loop.key}}" {% if !config[ loop.key] %} checked {% endif %}> False

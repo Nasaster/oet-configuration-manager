@@ -12,27 +12,41 @@ var Helper = module.exports = {
     },
 
     changePropertyValues: function(payload){
-        var inputFields = payload.inputFields;
+        var fieldItems = payload.fieldItems;
         var path = payload.path;
         var configToBeEdited = $scope.$parent.currentConfiguration['application.json'];
         configToBeEdited = configToBeEdited[$scope.$parent.selectedApplication].channels;
 
-
-        inputFields.forEach(function(input){
-            var channel = input.name;
-            var property = configToBeEdited[input.name];
+        fieldItems.forEach(function(li){
+            var channel = li.dataset.name;
+            var property = configToBeEdited[channel];
             for(var i = 0; i < path.length -1; i++){
                 property = property[ path[i] ];
             }
-
-            if( input.value !== 'true' && input.value !== 'false' ){
-                property[ path[path.length -1] ] = input.value;
-            } else {
-                if( input.value === 'true' && input.checked ){
-                    property[ path[path.length -1] ] = true;
-                } else if( input.value === 'false' && input.checked ) {
-                    property[ path[path.length -1] ] = false;
-                }
+            var type = li.dataset.type;
+            switch( type ){
+                case 'Boolean':
+                    var radios = Array.prototype.slice.call( li.querySelectorAll('input') );
+                    radios.forEach(function(radio){
+                        if(radio.checked){
+                            property[ path[path.length -1] ] = radio.value === 'true'? true : false;
+                        }
+                    });
+                    break;
+                default:
+                    var input = li.querySelector('input');
+                    if( li.dataset.array === 'true' ){
+                        var value = input.value.split(',');
+                        if(type === 'Number'){
+                            value = value.map(function(number){
+                                return Number(number);
+                            });    
+                        }
+                        property[ path[path.length -1] ] = value;
+                    } else {
+                        property[ path[path.length -1] ] = input.value;
+                    }
+                    break;
             }
         });
     },

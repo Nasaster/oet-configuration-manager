@@ -68,8 +68,6 @@ function setUpConfigurationObject(someParam){
 			}
 		});
 	});
-
-	console.log('configObject recreated', 'stylepack', configObject['application.json'].Calendar.channels['albelli.be'].config.stylePack);
 };
 
 

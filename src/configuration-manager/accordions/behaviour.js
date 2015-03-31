@@ -56,9 +56,9 @@ var Behaviour = module.exports = {
             case 'update':
                 var form = document.getElementById('configuration-property-form');
                 var path = form.name.split(',');
-                var inputs = Array.prototype.slice.call( form.querySelectorAll('input') );
+                var fieldItems = Array.prototype.slice.call( form.querySelectorAll('.field-item') );
 
-                $scope.propertyChanged(path, inputs);
+                $scope.propertyChanged(path, fieldItems);
                 break;
         }
     }
@@ -73,6 +73,13 @@ var openFieldEditModal = function(path){
     };
 
     var config = $scope.$parent.currentConfiguration["application.json"][ $scope.$parent.selectedApplication ].channels;
+    var type = $scope.$parent.currentConfiguration.templates[ $scope.$parent.selectedApplication ][ "application.json" ];
+
+    for(var i = 0; i < path.length; i++){
+        type = type[ path[i] ];
+    }
+    locals.type = type;
+    locals.isArray = Array.isArray(type);
 
     //extracts the configuration for the item for every channel
     locals.config = Object.keys(config).reduce(function(a, b){

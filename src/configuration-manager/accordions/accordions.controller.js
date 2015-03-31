@@ -12,10 +12,10 @@ Accordions.prototype.init = function(parent){
     return view.init(this);
 };
 
-Accordions.prototype.propertyChanged = function(path, inputFields){
+Accordions.prototype.propertyChanged = function(path, fieldItems){
     pubsub.broadcast( 'config property changed', {
         path: path,
-        inputFields: inputFields
+        fieldItems: fieldItems
     } );
 };
 
