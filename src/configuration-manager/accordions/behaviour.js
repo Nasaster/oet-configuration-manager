@@ -68,15 +68,24 @@ var Behaviour = module.exports = {
                 var fieldTypeRadio = form.querySelector('input[name=field-type]:checked');
                 var fieldNameInput = form.querySelector('input[name=field-name]');
                 //[TODO] add validation to the form
+                if ( fieldNameInput.value ) {
 
-                var payload = {
-                    path: path,
-                    isGroup: groupRadio.value === 'group'? true: false,
-                    isArray: isArrayRadio.value === 'yes'? true: false,
-                    fieldType: fieldTypeRadio.value,
-                    fieldName: fieldNameInput.value
-                };
-                $scope.addItemToTemplate(payload);
+                    var payload = {
+                        path: path,
+                        isGroup: groupRadio.value === 'group'? true: false,
+                        isArray: isArrayRadio.value === 'yes'? true: false,
+                        fieldType: fieldTypeRadio.value,
+                        fieldName: fieldNameInput.value
+                    };
+                    $scope.addItemToTemplate(payload);
+                    jQuery($scope.$DOM.fieldEditModal.parentNode).modal("hide");
+
+                }
+                else {
+
+                    alert("Please fill in the field/group name");
+
+                }
                 
                 break;
         }
