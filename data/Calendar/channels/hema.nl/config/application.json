@@ -44,7 +44,8 @@
         },
         "allowProductPreview": false,
         "disableMobileView": false,
-        "testxxx": {}
+        "testxxx": {},
+        "ASSD": {}
     },
     "currency": {
         "code": "EUR",
@@ -169,5 +170,9 @@
             "#404040",
             "#000000"
         ]
+    },
+    "ASDA": {},
+    "ASDAS": {
+        "delete me": "BNCMNBC"
     }
 }

@@ -52,12 +52,15 @@ var Helper = module.exports = {
     },
 
     addPropertyToTemplate: function(payload){
+        if ( !payload.fieldName ) {
+            return;
+        }
+
         var templateToBeEdited = $scope.$parent.currentConfiguration.templates[$scope.$parent.selectedApplication][$scope.$parent.selectedConfigType];
         var configToBeEdited = $scope.$parent.currentConfiguration[ $scope.$parent.selectedConfigType ][ $scope.$parent.selectedApplication ];
 
-        for(var i = 0, path = payload.path; i < path.length; i++){
-            templateToBeEdited = templateToBeEdited[ path[i] ];
-        };
+        var path = payload.path;
+        templateToBeEdited = ( path[0] ? templateToBeEdited[ path[0] ] : templateToBeEdited );
 
         if(payload.isGroup){
             templateToBeEdited[ payload.fieldName ] = { 'delete me': 'String' };
@@ -145,9 +148,7 @@ var Helper = module.exports = {
 var addPropertyToEachChannel = function(configToBeEdited, path, fieldName, value){
     Object.keys( configToBeEdited.channels ).forEach(function(channel){
         var config = configToBeEdited.channels[channel];
-        for(var i = 0; i < path.length; i++){
-            config = config[ path[i] ];
-        };
+        config = ( path[0] ? config[ path[0] ] : config );
         config[ fieldName ] = {};
     });
 };

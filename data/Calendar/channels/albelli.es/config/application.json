@@ -46,7 +46,8 @@
         },
         "allowProductPreview": false,
         "disableMobileView": false,
-        "testxxx": {}
+        "testxxx": {},
+        "ASSD": {}
     },
     "currency": {
         "format": "{currency}{price}",
@@ -171,5 +172,9 @@
             "#404040",
             "#000000"
         ]
+    },
+    "ASDA": {},
+    "ASDAS": {
+        "delete me": "HCMBC"
     }
 }

@@ -46,7 +46,8 @@
         },
         "allowProductPreview": false,
         "disableMobileView": false,
-        "testxxx": {}
+        "testxxx": {},
+        "ASSD": {}
     },
     "currency": {
         "code": "NOK",
@@ -177,5 +178,9 @@
                 "separator": ","
             }
         }
+    },
+    "ASDA": {},
+    "ASDAS": {
+        "delete me": "BNCMNBC"
     }
 }

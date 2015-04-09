@@ -46,7 +46,8 @@
         },
         "allowProductPreview": false,
         "disableMobileView": false,
-        "testxxx": {}
+        "testxxx": {},
+        "ASSD": {}
     },
     "currency": {
         "code": "SEK",
@@ -178,5 +179,9 @@
                 "separator": ","
             }
         }
+    },
+    "ASDA": {},
+    "ASDAS": {
+        "delete me": "BNMCMNBC"
     }
 }

@@ -39,7 +39,8 @@
         },
         "allowProductPreview": "Boolean",
         "disableMobileView": "Boolean",
-        "testxxx": "Number"
+        "testxxx": "Number",
+        "ASSD": {}
     },
     "currency": {
         "code": "String",
@@ -144,5 +145,9 @@
         "color": [
             "String"
         ]
+    },
+    "ASDA": {},
+    "ASDAS": {
+        "delete me": "String"
     }
 }

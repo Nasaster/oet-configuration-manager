@@ -46,7 +46,8 @@
         },
         "allowProductPreview": false,
         "disableMobileView": false,
-        "testxxx": {}
+        "testxxx": {},
+        "ASSD": {}
     },
     "calendar": {
         "allowedEventTypes": [
@@ -173,5 +174,9 @@
     "calendarGrid": {
         "imageMap": "{nl:http://calendargrid.vpdev.com/flagicon?FlagIconSpec=e2lkOkZsYWdnYV9Ob19yYWt9}",
         "colorDay": "#FF0000"
+    },
+    "ASDA": {},
+    "ASDAS": {
+        "delete me": "BNMCMNBC"
     }
 }
