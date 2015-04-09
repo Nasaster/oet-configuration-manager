@@ -20,7 +20,8 @@ module.exports = {
 	saveTemplate: function(body){
 		//[TODO] add logic to distinguish between templates
 		var path = configRoot + body.selectedApplication + '.' + body.selectedConfigType.replace('.json', '') +  '.template.json';
-		fs.writeFileSync( path, JSON.stringify(body.templateToBeSaved), {encoding: 'utf8'} );
+		var jsonToWrite = JSON.stringify( body.templateToBeSaved, null, 4 );
+		fs.writeFileSync( path, jsonToWrite, {encoding: 'utf8'} );
 		setUpConfigurationObject();
 	}
 };
@@ -31,7 +32,7 @@ var saveApplicationConfig = function(application, config){
 
 	Object.keys(config).forEach(function(channelName){
 		var filePath = baseDir + channelName + '/config/application.json';
-		var dataToBeSaved = JSON.stringify( config[channelName] );
+		var dataToBeSaved = JSON.stringify( config[channelName], null, 4 );
 		fs.writeFileSync( filePath, dataToBeSaved, {encoding: 'utf8'} );
 	});
 	setUpConfigurationObject();
