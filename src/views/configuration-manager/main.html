@@ -1,36 +1,45 @@
 <div class="container">
-
     <header class="jumbotron">
         <h1>OET Configuration Manager</h1>
     </header>
 
     <!-- APPLICATION AND CHANNELS SELECTION -->
     <section class="configuration-selectors row">
-        <article class="application-select col-sm-4">
-            <h2> Applications </h2>
-            <p>Please select an application: </p>
-            <select class="form-control">
-                {% for app in applications %}
-                <option value="{{loop.key}}">{{loop.key}}</option>
-                {% endfor %}
-            </select>
-
-            <!-- <div class="dropdown">
-                <button type="button" class="btn dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown">Applications<span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-                    {% for app in applications %}
-                    <li data-application="{{loop.key}}" role="presentation">
-                        <a class="menu-item" role="menuitem" href="#">{{loop.key}}</a>
-                    </li>
-                    {% endfor %}
-                </ul>
-            </div> -->
-        </article>
+        
     </section>
     <!-- APPLICATION AND CHANNELS SELECTION END-->
 
+    <section class="save-reset-controls" id="save-reset-controls">
+        <button data-role="reset">Reset</button>
+        <button data-role="save">Save</button>
+    </section>
 
     <section class="configuration-accordions row panel-group" role="tablist" aria-multiselectable="true">
+        <article class="expand-collapse-all">
+            <div>
+                <i class="action-close glyphicon glyphicon-minus"></i>
+                <a href="#" data-role="collapse-all">
+                    Collapse all
+                </a>
+            </div>
+            <div class="hidden">
+                <i class="action-open glyphicon glyphicon-plus"></i>
+                <a href="#" data-role="expand-all">
+                    Expand all
+                </a>
+            </div>
+            <div class="clear"></div>
+        </article>
+
+        <article class="config-tree"></article>
 
     </section>
+
+    <!-- modal that renders the edit for properties  -->
+        <article class="field-edit-modal modal fade">
+            <div class="modal-dialog">
+                
+            </div>
+        </article>
+        <!-- end of the modal -->
+</div>

@@ -25,11 +25,16 @@ var registerDOM = function(){
     $scope.$DOM = {};
     $scope.$DOM.selectorsSection = $scope.$wrapper.querySelector('.configuration-selectors');
     $scope.$DOM.accordionsSection = $scope.$wrapper.querySelector('.configuration-accordions');
-    $scope.$DOM.applicationSelect = $scope.$wrapper.querySelector('.application-select select');
 };
 
 var registerBehaviour = function(){
-    $scope.$DOM.applicationSelect.addEventListener('change', function(ev){
-        $scope.selectApplication(this.value);
-    } );
+    
 }
+
+/**
+This is the view for the main application controller.
+- it uses templator to render the main view
+- gains total access to the controller through the $scope object
+- caches all the relevant DOM elements, for later usage
+- registers the desired behaviour on each of those elements 
+**/

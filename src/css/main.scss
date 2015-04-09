@@ -14,11 +14,12 @@ li {
 	list-style: none;
 }
 
-.dropdown input {
-	width: 20px;
-	padding: 0;
-	display: block;
-	float: left;
+.save-reset-controls {
+	float: right;
+}
+
+.new-main-group {
+	float: right;
 }
 
 //field editor modal
@@ -35,8 +36,20 @@ li {
 	}
 }
 
+#configuration-property-form {
+label {
+		display: inline-block;
+		width: 35%;
+	}
+	//[TODO] for some reason this is not working
+	input {
+		display: inline-block;
+		width: 280px;
+	}
 
-.group-form {
+}
+
+.config-root {
 	padding-right: 40px;
 
 	h4 {
@@ -45,20 +58,42 @@ li {
 
 	div.buttons {
 		float: right;
+		margin-right: 50px;
+
+		a {
+			margin-left: 35px;
+		}
+	}
+
+	label.group-label {
+		float: left;
 	}
 
 	li {
-		padding: 3px 10px 0 0;
+		//padding: 3px 10px 0 0;
+
+		&.group-item { 
+			&.closed > .sub-group {
+				display: none;
+			}
+		}
 	}
 
 	hr {
 		margin: 5px 0 5px 0;
 	}
-
+	.paok {
+		color: black;
+		background-color: transparent;
+		font-weight: bold;
+	}
 	.sub-group {
 		margin-bottom: 10px;
-		li:nth-child(odd){
-			background: #cdcdcd;
-		}
+		// li:nth-child(odd){
+		// 	background: #cdcdcd;
+		// }
+		// li:nth-child(even){
+		// 	background: #fff;
+		// }
 	}
 }
