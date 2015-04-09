@@ -4,3 +4,4 @@ dist/
 testem.log
 npm-debug.log
 *.iml
+.idea

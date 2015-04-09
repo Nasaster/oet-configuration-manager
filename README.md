@@ -1,28 +1,11 @@
-# OET - Module - Boilerplate
-
-## Full solution for bootstrapping a new module
-* Grunt for automation
-* browserify for commonjs style require and module.exports
-* sass compiling
-* BrowserSync and grunt-watch for serving and live-reload (with re-compilation)
-* testem framework with Mocha and Chai  
-* includes ARC and the oet-online-editor-module css and assets for wysiwyg development
-* includes oet-lib with basic tools to help you develop
+# OET - Module - Configuration Manager
 
 ## Usage
 
 ### installation
-create a new private repo in the albumprinter namespace;  
-http://github.com/albumprinter/oet-new-module  
-get the repo
 ```
-git clone git@github.com:albumprinter/oet-module-boilerplate.git new-module
-cd new-module
-git init
-git remote add origin git@github.com:albumprinter/oet-new-module.git
-* change the application name in package.json to "oet-new-module"
-* give a proper description
-* change main to "src/new-module/new-module-controller.js"
+git clone git@github.com:albumprinter/oet-configuration-manager.git configuration-manager
+cd configuration-manager
 npm install
 ```
 run the tests
@@ -31,8 +14,15 @@ npm install -g testem
 testem
 ```
 run development server
+You need two terminal.
+First terminal:
 ```
 grunt dev
+```
+Second terminal:
+```
+cd server
+node index.js
 ```
 ### developing
 
