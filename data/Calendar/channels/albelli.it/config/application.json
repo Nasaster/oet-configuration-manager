@@ -47,7 +47,10 @@
         "allowProductPreview": false,
         "disableMobileView": false,
         "testxxx": {},
-        "ASSD": {}
+        "ASSD": {},
+        "Paok": {},
+        "Greece": {},
+        "yryryryr": {}
     },
     "calendar": {
         "allowedEventTypes": [
@@ -174,8 +177,5 @@
             "#000000"
         ]
     },
-    "ASDA": {},
-    "ASDAS": {
-        "delete me": "MNBCMBNC"
-    }
+    "LA perla": {}
 }

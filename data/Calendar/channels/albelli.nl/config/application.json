@@ -47,7 +47,10 @@
         "allowProductPreview": false,
         "disableMobileView": false,
         "testxxx": {},
-        "ASSD": {}
+        "ASSD": {},
+        "Paok": {},
+        "Greece": {},
+        "yryryryr": {}
     },
     "calendar": {
         "allowedEventTypes": [
@@ -175,8 +178,5 @@
         "imageMap": "{nl:http://calendargrid.vpdev.com/flagicon?FlagIconSpec=e2lkOkZsYWdnYV9Ob19yYWt9}",
         "colorDay": "#FF0000"
     },
-    "ASDA": {},
-    "ASDAS": {
-        "delete me": "BNMCMNBC"
-    }
+    "LA perla": {}
 }

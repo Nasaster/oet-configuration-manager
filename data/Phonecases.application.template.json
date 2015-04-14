@@ -28,7 +28,7 @@
         },
         "previewTypes": {
             "roomView": [
-            "String"
+                "String"
             ]
         },
         "maxUploadRetries": "Boolean"
@@ -59,7 +59,9 @@
                 "precision": "Number",
                 "minValue": "Number",
                 "maxValue": "Number",
-                "excludes": ["String"]
+                "excludes": [
+                    "String"
+                ]
             }
         }
     },
@@ -81,7 +83,7 @@
         },
         "photos": {
             "supportedArticleTypes": [
-               "String"
+                "String"
             ]
         },
         "spacing": {
@@ -95,10 +97,14 @@
             ]
         },
         "tooltray": {
-            "disabled": ["String"]
+            "disabled": [
+                "String"
+            ]
         },
         "product-options": {
-            "disabled": ["String"]
+            "disabled": [
+                "String"
+            ]
         }
     }
 }

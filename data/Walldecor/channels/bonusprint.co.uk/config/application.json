@@ -1,1 +1,173 @@
-{"config":{"stylePack":"bonusprint-standard","selectedLocale":"en-GB","marketingAdvertisementImageHome":"channels/bonusprint.co.uk/graphics/marketing-ad.png","marketingAdvertisementImageCustomer":"channels/bonusprint.co.uk/graphics/marketing-ad.png","marketingAdvertisementImageOrder":"channels/bonusprint.co.uk/graphics/marketing-ad.png","photoQualityRating":[70,90,120],"maxPhotoPixels":133930126,"allowPhotoRotate":false,"subscribeToNewsletterDefault":true,"homeUrl":"www.bonusprint.co.uk","shippingUrl":"http://www.bonusprint.co.uk/pages/servicedesk_shipping.htm","customerServiceUrl":"http://www.bonusprint.co.uk/customer-care","productPreviewThumbnailWidth":424,"includePreviewWithCheckout":true,"saveLoadEnabled":false,"saveNameInputMaxLength":40,"previewIncludingMargins":{"canvas":true},"previewTransparent":{"phonecase":true},"previewTypes":{"roomView":["Canvas","Perspex","Aluminium","Forex","PhotoOnWood"]},"defaultUploadTimeout":[20000,60000,120000],"maxUploadRetries":3,"photoOnWood":{"placeholderFillColor":"#F9EED3"},"PAOK":{},"APKA":"[object Object]"},"currency":{"code":"GBP","format":"{currency}{price}","priceFormat":"#.#"},"country":{"label":"Great Britain","data":"GB","zipCodeExample":null,"zipCodeExpression":null},"layout":{"spacing":{"inner":{"metric":"inches","precision":3,"minValue":0,"maxValue":1,"excludes":[]},"outer":{"metric":"inches","precision":3,"minValue":0,"maxValue":2,"excludes":["Canvas"]}}},"highlightStroke":{"supportedArticleTypes":["Canvas","Perspex","Aluminium","Forex","PhotoOnWood"]},"backgroundColors":{"color":["#000000","#404040","#808080","#BFBFBF","#FFFFFF","#FFDDDA","#CEA677","#FFFFD8","#90EAEB","#4F7079","#DFE0F9","#FFB1BF","#3C0038","#6664B4","#23A017","#8CD446","#4DC742","#D145C1","#E64C8D","#FBB735","#E98931","#EB403B","#B32E37","#6C2A6A","#274389","#1F5EA8","#227FB0","#2AB0C5","#39C0B3"]},"tabs":{"layouts":{"supportedArticleTypes":["Canvas","Perspex","Aluminium","Forex","PhotoOnWood"]},"photos":{"supportedArticleTypes":["Canvas","Perspex","Aluminium","Forex","PhoneCase","PhotoOnWood"]},"spacing":{"supportedArticleTypes":["Canvas","Perspex","Aluminium","Forex","PhotoOnWood"]},"backgrounds":{"supportedArticleTypes":["Canvas","Perspex","Aluminium","Forex"]},"product-options":{"supportedArticleTypes":["PhotoOnWood"]},"tooltray":{"disabled":["*"]}}}
+{
+    "config": {
+        "stylePack": "bonusprint-standard",
+        "selectedLocale": "en-GB",
+        "marketingAdvertisementImageHome": "channels/bonusprint.co.uk/graphics/marketing-ad.png",
+        "marketingAdvertisementImageCustomer": "channels/bonusprint.co.uk/graphics/marketing-ad.png",
+        "marketingAdvertisementImageOrder": "channels/bonusprint.co.uk/graphics/marketing-ad.png",
+        "photoQualityRating": [
+            70,
+            90,
+            120
+        ],
+        "maxPhotoPixels": 133930126,
+        "allowPhotoRotate": false,
+        "subscribeToNewsletterDefault": true,
+        "homeUrl": "www.bonusprint.co.uk",
+        "shippingUrl": "http://www.bonusprint.co.uk/pages/servicedesk_shipping.htm",
+        "customerServiceUrl": "http://www.bonusprint.co.uk/customer-care",
+        "productPreviewThumbnailWidth": 424,
+        "includePreviewWithCheckout": true,
+        "saveLoadEnabled": false,
+        "saveNameInputMaxLength": 40,
+        "previewIncludingMargins": {
+            "canvas": true
+        },
+        "previewTransparent": {
+            "phonecase": true
+        },
+        "previewTypes": {
+            "roomView": [
+                "Canvas",
+                "Perspex",
+                "Aluminium",
+                "Forex",
+                "PhotoOnWood"
+            ]
+        },
+        "defaultUploadTimeout": [
+            20000,
+            60000,
+            120000
+        ],
+        "maxUploadRetries": 3,
+        "photoOnWood": {
+            "placeholderFillColor": "#F9EED3"
+        },
+        "PAOK": {},
+        "APKA": "[object Object]"
+    },
+    "currency": {
+        "code": "GBP",
+        "format": "{currency}{price}",
+        "priceFormat": "#.#"
+    },
+    "country": {
+        "label": "Great Britain",
+        "data": "GB",
+        "zipCodeExample": null,
+        "zipCodeExpression": null
+    },
+    "layout": {
+        "spacing": {
+            "inner": {
+                "metric": "inches",
+                "precision": 3,
+                "minValue": 0,
+                "maxValue": 1,
+                "excludes": []
+            },
+            "outer": {
+                "metric": "inches",
+                "precision": 3,
+                "minValue": 0,
+                "maxValue": 2,
+                "excludes": [
+                    "Canvas"
+                ]
+            }
+        }
+    },
+    "highlightStroke": {
+        "supportedArticleTypes": [
+            "Canvas",
+            "Perspex",
+            "Aluminium",
+            "Forex",
+            "PhotoOnWood"
+        ]
+    },
+    "backgroundColors": {
+        "color": [
+            "#000000",
+            "#404040",
+            "#808080",
+            "#BFBFBF",
+            "#FFFFFF",
+            "#FFDDDA",
+            "#CEA677",
+            "#FFFFD8",
+            "#90EAEB",
+            "#4F7079",
+            "#DFE0F9",
+            "#FFB1BF",
+            "#3C0038",
+            "#6664B4",
+            "#23A017",
+            "#8CD446",
+            "#4DC742",
+            "#D145C1",
+            "#E64C8D",
+            "#FBB735",
+            "#E98931",
+            "#EB403B",
+            "#B32E37",
+            "#6C2A6A",
+            "#274389",
+            "#1F5EA8",
+            "#227FB0",
+            "#2AB0C5",
+            "#39C0B3"
+        ]
+    },
+    "tabs": {
+        "layouts": {
+            "supportedArticleTypes": [
+                "Canvas",
+                "Perspex",
+                "Aluminium",
+                "Forex",
+                "PhotoOnWood"
+            ]
+        },
+        "photos": {
+            "supportedArticleTypes": [
+                "Canvas",
+                "Perspex",
+                "Aluminium",
+                "Forex",
+                "PhoneCase",
+                "PhotoOnWood"
+            ]
+        },
+        "spacing": {
+            "supportedArticleTypes": [
+                "Canvas",
+                "Perspex",
+                "Aluminium",
+                "Forex",
+                "PhotoOnWood"
+            ]
+        },
+        "backgrounds": {
+            "supportedArticleTypes": [
+                "Canvas",
+                "Perspex",
+                "Aluminium",
+                "Forex"
+            ]
+        },
+        "product-options": {
+            "supportedArticleTypes": [
+                "PhotoOnWood"
+            ]
+        },
+        "tooltray": {
+            "disabled": [
+                "*"
+            ]
+        }
+    },
+    "ASDAADD": {},
+    "ILIONOIS": {}
+}

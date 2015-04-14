@@ -47,7 +47,10 @@
         "allowProductPreview": false,
         "disableMobileView": false,
         "testxxx": {},
-        "ASSD": {}
+        "ASSD": {},
+        "Paok": {},
+        "Greece": {},
+        "yryryryr": {}
     },
     "currency": {
         "code": "SEK",
@@ -180,8 +183,5 @@
             }
         }
     },
-    "ASDA": {},
-    "ASDAS": {
-        "delete me": "BNMCMNBC"
-    }
+    "LA perla": {}
 }

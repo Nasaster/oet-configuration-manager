@@ -1,6 +1,6 @@
 {
     "config": {
-        "stylePack": "SOU",
+        "stylePack": "LAOS",
         "selectedLocale": "en-GB",
         "marketingAdvertisementImageHome": "channels/albelli.com/graphics/marketing-ad.png",
         "marketingAdvertisementImageCustomer": "channels/albelli.com/graphics/marketing-ad.png",
@@ -48,7 +48,10 @@
         "allowProductPreview": false,
         "disableMobileView": false,
         "testxxx": {},
-        "ASSD": {}
+        "ASSD": {},
+        "Paok": {},
+        "Greece": {},
+        "yryryryr": {}
     },
     "currency": {
         "code": "EUR",
@@ -175,8 +178,5 @@
             "#000000"
         ]
     },
-    "ASDA": {},
-    "ASDAS": {
-        "delete me": "GHGDGHD"
-    }
+    "LA perla": {}
 }

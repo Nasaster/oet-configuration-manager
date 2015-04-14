@@ -47,7 +47,10 @@
         "allowProductPreview": false,
         "disableMobileView": false,
         "testxxx": {},
-        "ASSD": {}
+        "ASSD": {},
+        "Paok": {},
+        "Greece": {},
+        "yryryryr": {}
     },
     "currency": {
         "format": "{currency}{price}",
@@ -173,8 +176,5 @@
             "#000000"
         ]
     },
-    "ASDA": {},
-    "ASDAS": {
-        "delete me": "HCMBC"
-    }
+    "LA perla": {}
 }

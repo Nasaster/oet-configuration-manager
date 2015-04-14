@@ -40,7 +40,16 @@
         "allowProductPreview": "Boolean",
         "disableMobileView": "Boolean",
         "testxxx": "Number",
-        "ASSD": {}
+        "ASSD": {},
+        "Paok": {
+            "delete me": "String"
+        },
+        "Greece": {
+            "delete me": "String"
+        },
+        "yryryryr": {
+            "delete me": "String"
+        }
     },
     "currency": {
         "code": "String",
@@ -146,8 +155,7 @@
             "String"
         ]
     },
-    "ASDA": {},
-    "ASDAS": {
+    "LA perla": {
         "delete me": "String"
     }
 }
