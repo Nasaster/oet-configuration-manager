@@ -100,6 +100,7 @@ var Helper = module.exports = {
         }
 
         if (templateToBeEdited[ payload.fieldName ]) {
+            alert("The name already exists!");
             return;
         }
 
