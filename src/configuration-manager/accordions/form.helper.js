@@ -22,6 +22,10 @@ function buildFormTree(config){
         currentPath = path;
         var html = '';
         var parents = Object.keys(rootNode);
+        
+        parents.sort(function (a, b) {
+            return a.toLowerCase().localeCompare(b.toLowerCase());
+        });
 
         parents.forEach(function(parentName){
             currentPath = currentPath.splice(0, level);
