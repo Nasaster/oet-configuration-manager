@@ -29,7 +29,7 @@ function buildFormTree(config){
             currentPath.push(parentName);
 
             if( typeof rootNode[parentName] === 'object' && !Array.isArray(rootNode[parentName]) ) {
-                if(rootNode[parentName] !== null && Object.keys(rootNode[parentName]))/*.length > 0*/{
+                if(rootNode[parentName] !== null && Object.keys(rootNode[parentName])){
                     html += templator.parse(templates['group-item'], {
                         label: parentName,
                         path: currentPath.toString(),
