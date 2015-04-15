@@ -99,7 +99,8 @@
         "tooltray": {
             "disabled": [
                 "String"
-            ]
+            ],
+            "num": "Number"
         },
         "product-options": {
             "disabled": [

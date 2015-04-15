@@ -67,16 +67,29 @@ var Helper = module.exports = {
             i++;
         }
 
+        // Adding group type
         if(payload.isGroup){
             templateToBeEdited[ payload.fieldName ] = { 'delete me': 'String' };
             addPropertyToEachChannel(configToBeEdited, path, payload.fieldName, '');
         } else {
+            // Adding array
             if(payload.isArray){
                 templateToBeEdited[ payload.fieldName ] = [payload.fieldType];
                 addPropertyToEachChannel(configToBeEdited, path, payload.fieldName, []);
             } else {
                 templateToBeEdited[ payload.fieldName ] = payload.fieldType;
-                addPropertyToEachChannel(configToBeEdited, path, payload.fieldName, null);
+                // Adding number
+                if (payload.fieldType === 'Number') {
+                    addPropertyToEachChannel(configToBeEdited, path, payload.fieldName, 0);
+                }
+                // Adding string
+                if (payload.fieldType === 'String') {
+                    addPropertyToEachChannel(configToBeEdited, path, payload.fieldName, '');
+                }
+                // Adding boolean
+                if (payload.fieldType === 'Boolean') {
+                    addPropertyToEachChannel(configToBeEdited, path, payload.fieldName, true);
+                }
             }
         }
 
@@ -200,7 +213,7 @@ var addPropertyToEachChannel = function(configToBeEdited, path, fieldName, value
             i++;
         }
 
-        config[ fieldName ] = {};
+        config[ fieldName ] = value;
     });
 };
 

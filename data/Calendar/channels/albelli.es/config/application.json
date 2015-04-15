@@ -92,7 +92,8 @@
         "tooltray": {
             "disabled": [
                 "*"
-            ]
+            ],
+            "num": 0
         },
         "product-options": {
             "disabled": [
