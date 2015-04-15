@@ -156,6 +156,15 @@
         ]
     },
     "LA perla": {
-        "delete me": "String"
+        "delete me": "String",
+        "a3 the pearl": {
+            "delete me": "String",
+            "a4": {
+                "delete me": "String",
+                "p5": [
+                    "Number"
+                ]
+            }
+        }
     }
 }
