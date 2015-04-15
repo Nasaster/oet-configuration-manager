@@ -22,11 +22,8 @@ var Behaviour = module.exports = {
                 openAddItemModal(clickedElement);
                 break;
             case 'delete-item':
-                $scope.broadcast( 'item deleted', {
-                    path: clickedElement.dataset.path
-                } );
+                openDeleteItemModal(clickedElement);
                 break;
-
         }
     },
 
@@ -88,8 +85,26 @@ var Behaviour = module.exports = {
                 }
                 
                 break;
+            case 'delete-template':
+                $scope.broadcast( 'item deleted', {
+                    path: path.join(',')
+                } );
+                break;
+
         }
     }
+};
+
+var openDeleteItemModal = function(clickedElement){
+    var url = 'views/configuration-manager/delete-item.modal.html';
+    var locals = {
+        path: clickedElement.dataset.path.split(',')
+    }
+    templator.empty( $scope.$DOM.fieldEditModal )
+        .then( templator.render.bind( templator, url, locals, $scope.$DOM.fieldEditModal ) )
+        .then( function(){
+            jQuery($scope.$DOM.fieldEditModal.parentNode).modal();
+        });
 };
  
 var openAddItemModal = function(clickedElement){
