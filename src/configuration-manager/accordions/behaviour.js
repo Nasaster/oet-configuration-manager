@@ -24,6 +24,9 @@ var Behaviour = module.exports = {
             case 'delete-item':
                 openDeleteItemModal(clickedElement);
                 break;
+            case 'rename-item':
+                openRenameItemModal(clickedElement);
+                break;
         }
     },
 
@@ -90,9 +93,35 @@ var Behaviour = module.exports = {
                     path: path.join(',')
                 } );
                 break;
+            case 'rename-template':
+                var fieldNameInput = form.querySelector('input[name=field-name]');
+                var fieldNameOriginalInput = form.querySelector('input[name=field-name-original]');
+                if ( fieldNameInput.value && fieldNameOriginalInput.value ) {
+                    $scope.broadcast( 'item renamed', {
+                        path: path,
+                        fieldName: fieldNameInput.value,
+                        fieldNameOriginal: fieldNameOriginalInput.value
+                    } );
+                }
+                else {
+                    alert("Please fill in the field/group name");
+                }
+                break;
 
         }
     }
+};
+
+var openRenameItemModal = function(clickedElement){
+    var url = 'views/configuration-manager/rename-item.modal.html';
+    var locals = {
+        path: clickedElement.dataset.path.split(',')
+    }
+    templator.empty( $scope.$DOM.fieldEditModal )
+        .then( templator.render.bind( templator, url, locals, $scope.$DOM.fieldEditModal ) )
+        .then( function(){
+            jQuery($scope.$DOM.fieldEditModal.parentNode).modal();
+        });
 };
 
 var openDeleteItemModal = function(clickedElement){

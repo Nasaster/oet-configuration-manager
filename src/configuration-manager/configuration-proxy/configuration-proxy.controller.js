@@ -29,7 +29,8 @@ ConfigurationProxy.prototype.registerNotificationInterests = function(){
     var interests = [
         'config property changed',
         'template property added',
-        'item deleted'
+        'item deleted',
+        'item renamed'
     ];
 
     pubsub.subscribe(interests, notificationHandler );
@@ -43,8 +44,11 @@ var notificationHandler = function(message, payload){
         case 'template property added':
             helper.addPropertyToTemplate(payload);
             break;
-        case 'item deleted': 
+        case 'item deleted':
             helper.deleteItemFromTemplate(payload);
+            break;
+        case 'item renamed':
+            helper.renameItemFromTemplate(payload);
             break;
     }
 };

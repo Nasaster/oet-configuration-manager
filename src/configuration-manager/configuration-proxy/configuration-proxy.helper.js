@@ -60,7 +60,12 @@ var Helper = module.exports = {
         var configToBeEdited = $scope.$parent.currentConfiguration[ $scope.$parent.selectedConfigType ][ $scope.$parent.selectedApplication ];
 
         var path = payload.path;
-        templateToBeEdited = ( path[0] ? templateToBeEdited[ path[0] ] : templateToBeEdited );
+
+        var i = 0;
+        while (path[i] && templateToBeEdited[ path[i] ]) {
+            templateToBeEdited = templateToBeEdited[ path[i] ];
+            i++;
+        }
 
         if(payload.isGroup){
             templateToBeEdited[ payload.fieldName ] = { 'delete me': 'String' };
@@ -78,10 +83,34 @@ var Helper = module.exports = {
         pubsub.broadcast( 'configuration updated' );  
     },
 
+    renameItemFromTemplate: function(payload){
+        if ( !payload.fieldName || !payload.fieldNameOriginal || payload.fieldName === payload.fieldNameOriginal ) {
+            return;
+        }
+
+        var templateToBeEdited = $scope.$parent.currentConfiguration.templates[$scope.$parent.selectedApplication][$scope.$parent.selectedConfigType];
+        var configToBeEdited = $scope.$parent.currentConfiguration[ $scope.$parent.selectedConfigType ][ $scope.$parent.selectedApplication ];
+
+        var path = payload.path;
+
+        var i = 0;
+        while (path[i] && path[ i + 1 ] && templateToBeEdited[ path[i] ]) {
+            templateToBeEdited = templateToBeEdited[ path[i] ];
+            i++;
+        }
+
+        if (templateToBeEdited[ payload.fieldName ]) {
+            return;
+        }
+
+        templateToBeEdited[ payload.fieldName ] = templateToBeEdited[ payload.fieldNameOriginal ];
+        delete( templateToBeEdited[ payload.fieldNameOriginal ] );
+        renamePropertyToEachChannel(configToBeEdited, path, payload.fieldName, payload.fieldNameOriginal);
+
+        pubsub.broadcast( 'configuration updated' );
+    },
+
     deleteItemFromTemplate: function(payload){
-        // if( !confirm('are you sure you want to delete ') ){
-        //     return;
-        // }
         var template = $scope.$parent.currentConfiguration.templates[$scope.$parent.selectedApplication][$scope.$parent.selectedConfigType];
         var config = $scope.$parent.currentConfiguration[$scope.$parent.selectedConfigType][$scope.$parent.selectedApplication];
         var path = payload.path.split(',');
@@ -145,10 +174,31 @@ var Helper = module.exports = {
     }
 };
 
+var renamePropertyToEachChannel = function(configToBeEdited, path, fieldName, fieldNameOriginal){
+    Object.keys( configToBeEdited.channels ).forEach(function(channel){
+        var config = configToBeEdited.channels[channel];
+
+        var i = 0;
+        while (path[i] && path[ i + 1 ] && config[ path[i] ]) {
+            config = config[ path[i] ];
+            i++;
+        }
+
+        config[ fieldName ] = config[ fieldNameOriginal ];
+        delete( config[ fieldNameOriginal ] );
+    });
+};
+
 var addPropertyToEachChannel = function(configToBeEdited, path, fieldName, value){
     Object.keys( configToBeEdited.channels ).forEach(function(channel){
         var config = configToBeEdited.channels[channel];
-        config = ( path[0] ? config[ path[0] ] : config );
+        
+        var i = 0;
+        while (path[i] && config[ path[i] ]) {
+            config = config[ path[i] ];
+            i++;
+        }
+
         config[ fieldName ] = {};
     });
 };
