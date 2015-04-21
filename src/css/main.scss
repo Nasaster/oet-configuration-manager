@@ -70,7 +70,6 @@ label {
 	}
 
 	li {
-		//padding: 3px 10px 0 0;
 
 		&.group-item { 
 			&.closed > .sub-group {
@@ -87,13 +86,17 @@ label {
 		background-color: transparent;
 		font-weight: bold;
 	}
+
 	.sub-group {
 		margin-bottom: 10px;
-		// li:nth-child(odd){
-		// 	background: #cdcdcd;
-		// }
-		// li:nth-child(even){
-		// 	background: #fff;
-		// }
+		li:nth-child(odd):hover{
+			background: #eee;
+		}
+		li:nth-child(even):hover{
+			background: #ccc;
+		}
+		li.group-item {
+			background: transparent !important;
+		}
 	}
 }

@@ -9,7 +9,8 @@ ConfigurationManager.prototype.constructor = ConfigurationManager;
 var configurationManager = module.exports = new ConfigurationManager();
 
 ConfigurationManager.prototype.init = function(config, wrapper){
-	this.$config = config || {}; console.log('AppConfig', config);
+	this.$config = config || {};
+	console.log('AppConfig', config);
 
     this.$wrapper = wrapper || document.body;
     return view.init(this)
