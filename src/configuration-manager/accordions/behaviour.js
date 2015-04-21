@@ -171,7 +171,7 @@ var openFieldEditModal = function(path){
         for(var i = 0, len = path.length; i < len; i++){
             value = value[ path[i] ];
         }
-        a[ b ] = value;
+        a[ b ] = ( !isNaN( value ) && type === 'Number' ? value.toString() : value );
         return a;
     }, {} );
 
