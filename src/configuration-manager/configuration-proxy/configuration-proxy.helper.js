@@ -69,8 +69,8 @@ var Helper = module.exports = {
 
         // Adding group type
         if(payload.isGroup){
-            templateToBeEdited[ payload.fieldName ] = { 'delete me': 'String' };
-            addPropertyToEachChannel(configToBeEdited, path, payload.fieldName, '');
+            templateToBeEdited[ payload.fieldName ] = {};
+            addPropertyToEachChannel(configToBeEdited, path, payload.fieldName, {});
         } else {
             // Adding array
             if(payload.isArray){
