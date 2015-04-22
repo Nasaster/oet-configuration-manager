@@ -154,7 +154,19 @@
     "backgroundColors": {
         "color": [
             "String"
-        ]
+        ],
+        "arrayNumber": [
+            "Number"
+        ],
+        "arrayString": [
+            "String"
+        ],
+        "arrayBoolean": [
+            "Boolean"
+        ],
+        "valueNumber": "Number",
+        "valueString": "String",
+        "valueBoolean": "Boolean"
     },
     "LA perla": {
         "delete me": "String",

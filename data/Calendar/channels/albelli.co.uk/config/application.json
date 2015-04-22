@@ -175,7 +175,19 @@
             "#808080",
             "#404040",
             "#000000"
-        ]
+        ],
+        "arrayNumber": [
+            null
+        ],
+        "arrayString": [
+            "blabla"
+        ],
+        "arrayBoolean": [
+            false
+        ],
+        "valueNumber": 54,
+        "valueString": "bbb,ccc",
+        "valueBoolean": false
     },
     "LA perla": {
         "a3 the pearl": {

@@ -173,7 +173,19 @@
             "#808080",
             "#404040",
             "#000000"
-        ]
+        ],
+        "arrayNumber": [
+            0
+        ],
+        "arrayString": [
+            ""
+        ],
+        "arrayBoolean": [
+            false
+        ],
+        "valueNumber": 0,
+        "valueString": "",
+        "valueBoolean": true
     },
     "calendarGrid": {
         "imageMap": "{sv:http://calendargrid.vpdev.com/flagicon?FlagIconSpec=e2lkOkZsYWdnYV9Tdl9yYWt9}",

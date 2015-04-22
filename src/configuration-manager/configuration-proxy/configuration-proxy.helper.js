@@ -14,37 +14,56 @@ var Helper = module.exports = {
     changePropertyValues: function(payload){
         var fieldItems = payload.fieldItems;
         var path = payload.path;
-        var configToBeEdited = $scope.$parent.currentConfiguration['application.json'];
-        configToBeEdited = configToBeEdited[$scope.$parent.selectedApplication].channels;
+        var allConfiguration = $scope.$parent.currentConfiguration['application.json'];
+        var selectedApplication = $scope.$parent.selectedApplication;
+        var configToBeEdited = allConfiguration[ selectedApplication ].channels;
 
         fieldItems.forEach(function(li){
             var channel = li.dataset.name;
             var property = configToBeEdited[channel];
-            for(var i = 0; i < path.length -1; i++){
+            for(var i = 0; i < path.length - 1; i++){
                 property = property[ path[i] ];
             }
             var type = li.dataset.type;
-            switch( type ){
+            var currentElement = path[path.length -1];
+            switch( type ) {
                 case 'Boolean':
-                    var radios = Array.prototype.slice.call( li.querySelectorAll('input') );
-                    radios.forEach(function(radio){
-                        if(radio.checked){
-                            property[ path[path.length -1] ] = radio.value === 'true'? true : false;
-                        }
-                    });
+                    if( li.dataset.array === 'true' ){
+                        var input = li.querySelector('input');
+                        var value = input.value.split(',');
+                        value = value.map(function(myBoolean){
+                            return ( myBoolean === 'true' );
+                        });
+                        property[ currentElement ] = value;
+                    } else {
+                        var radios = Array.prototype.slice.call( li.querySelectorAll('input') );
+                        radios.forEach(function(radio){
+                            if (radio.checked){
+                                property[ currentElement ] = ( radio.value === 'true' );
+                            }
+                        });
+                    }
                     break;
+                case 'Number':
+                    var input = li.querySelector('input');
+                    if( li.dataset.array === 'true' ){
+                        var value = input.value.split(',');
+                        value = value.map(function(number){
+                            return Number(number);
+                        });
+                        property[ currentElement ] = value;
+                    } else {
+                        property[ currentElement ] = Number( input.value );
+                    }
+                    break;
+                case 'String':
                 default:
                     var input = li.querySelector('input');
                     if( li.dataset.array === 'true' ){
                         var value = input.value.split(',');
-                        if(type === 'Number'){
-                            value = value.map(function(number){
-                                return Number(number);
-                            });    
-                        }
-                        property[ path[path.length -1] ] = value;
+                        property[ currentElement ] = value;
                     } else {
-                        property[ path[path.length -1] ] = input.value;
+                        property[ currentElement ] = input.value;
                     }
                     break;
             }
