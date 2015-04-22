@@ -60,7 +60,70 @@ var Behaviour = module.exports = {
         switch(clickedElement.dataset.role){
             case 'update-value':
                 var fieldItems = Array.prototype.slice.call( form.querySelectorAll('.field-item') );
-                $scope.propertyChanged(path, fieldItems);
+                var error = [];
+                
+                fieldItems.forEach(function(li){
+                    var type = li.dataset.type;
+                    var currentElement = path[path.length -1];
+                    switch( type ) {
+                        case 'Boolean':
+                            if( li.dataset.array === 'true' ){
+                                var input = li.querySelector('input');
+                                var value = input.value.split(',');
+                                value = value.map(function(myBoolean){
+                                    var myBooleanLowerCase = myBoolean.toLowerCase();
+                                    if ( ['true', 'false'].indexOf( myBooleanLowerCase ) === -1 ) {
+                                        error.push( myBoolean + ' is not a boolean' );
+                                    }
+                                    return myBooleanLowerCase;
+                                });
+                                input.value = value.join(',');
+                            }
+                            else {
+                                var radios = Array.prototype.slice.call( li.querySelectorAll('input') );
+                                radios.forEach(function(radio){
+                                    // We can check the value here.
+                                    //if (radio.checked){
+                                        // property[ currentElement ] = ( radio.value === 'true' );
+                                    //}
+                                });
+                            }
+                            break;
+                        case 'Number':
+                            var input = li.querySelector('input');
+                            if( li.dataset.array === 'true' ){
+                                var value = input.value.split(',');
+                                value = value.map(function(number){
+                                    if ( isNaN( number ) ) {
+                                        error.push( number + ' is not a number' );
+                                    }
+                                    return number;
+                                });
+                            } else {
+                                if ( isNaN( input.value ) ) {
+                                    error.push( input.value + ' is not a number' );
+                                }
+                            }
+                            break;
+                        case 'String':
+                        default:
+                            var input = li.querySelector('input');
+                            if( li.dataset.array === 'true' ){
+                                var value = input.value.split(',');
+                                // We can check the value here.
+                            } else {
+                                // We can check the value here.
+                            }
+                            break;
+                    }
+                });
+
+                if ( error.length > 0 ) {
+                   alert( 'Errors: ' + error.join('; ') );
+                }
+                else {
+                   $scope.propertyChanged(path, fieldItems);
+                }
                 break;
             case 'update-template':
                 var groupRadio = form.querySelector('input[name=group-or-primitive]:checked');
