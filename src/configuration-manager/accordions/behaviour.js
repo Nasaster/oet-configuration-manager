@@ -125,10 +125,11 @@ var Behaviour = module.exports = {
                 });
 
                 if ( error.length > 0 ) {
-                   alert( 'Errors: ' + error.join('; ') );
+                    alert( 'Errors: ' + error.join('; ') );
                 }
                 else {
-                   $scope.propertyChanged(path, fieldItems);
+                    jQuery($scope.$DOM.fieldEditModal.parentNode).modal("hide");
+                    $scope.propertyChanged(path, fieldItems);
                 }
                 break;
             case 'update-template':
