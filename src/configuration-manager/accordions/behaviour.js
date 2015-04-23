@@ -97,11 +97,17 @@ var Behaviour = module.exports = {
                                     if ( isNaN( number ) ) {
                                         error.push( number + ' is not a number' );
                                     }
+                                    else if (number === "") {
+                                        error.push( 'field can not be empty' );
+                                    }
                                     return number;
                                 });
                             } else {
                                 if ( isNaN( input.value ) ) {
                                     error.push( input.value + ' is not a number' );
+                                }
+                                else if (input.value === "") {
+                                    error.push( 'field can not be empty' );
                                 }
                             }
                             break;
