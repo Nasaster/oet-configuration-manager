@@ -43,7 +43,15 @@ var saveTemplate = function(){
 };
 
 
-function setUpConfigurationObject(someParam){
+function setUpConfigurationObject(someParam)
+{
+	var filterFiles = function(folder) {
+		return fs.readdirSync(folder).filter(function(fileName){
+			var stats = fs.statSync(folder + fileName);
+			return stats.isDirectory();
+		});
+	};
+
 	configObject = {
 		templates: {},
 		"application.json": {},
@@ -53,18 +61,16 @@ function setUpConfigurationObject(someParam){
 		]
 	};
 
-	var applications = fs.readdirSync(configRoot).filter(function(fileName){
-		var stats = fs.statSync(configRoot + fileName);
-		return stats.isDirectory();
-	});
-
+	var applications = filterFiles(configRoot);
+	
 	applications.forEach(function(appName){
 		configObject.templates[appName] = {};
 		var json = fs.readFileSync(configRoot + appName + '.application.template.json', {encoding: 'utf8'});
 		configObject.templates[appName]['application.json'] = JSON.parse(json);
 
 		configObject["application.json"][appName] = { channels: {} };
-		configObject.channels = configObject.channels || fs.readdirSync(configRoot + appName + '/channels');
+		configObject.channels = configObject.channels || filterFiles(configRoot + appName + '/channels/');
+		
 		configObject.channels.forEach(function(channelName){
 			var channelPath = configRoot + appName + '/channels/' + channelName;
 			if( fs.existsSync(channelPath) ) {

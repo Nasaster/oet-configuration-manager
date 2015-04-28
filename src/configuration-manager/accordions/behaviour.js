@@ -116,9 +116,20 @@ var Behaviour = module.exports = {
                             var input = li.querySelector('input');
                             if( li.dataset.array === 'true' ){
                                 var value = input.value.split(',');
-                                // We can check the value here.
-                            } else {
-                                // We can check the value here.
+                                // if Array is only one in length, it hasn't found a comma separator inside the value of input
+                                // if ( value.length === 1 ) {
+                                //     // if the Array contents are 0 characters in length, there is no input!!
+                                //     if ( value[0].length === 0 ) {
+                                //         error.push( 'field cannot be empty' );
+                                //     }
+                                //     else {
+                                //         error.push( 'field contains a single value, must be Array' );
+                                //     }
+                                // }
+                             } else {
+                                // if ( input.value.length === 0 ) {
+                                //     error.push( 'field cannot be empty');
+                                // }
                             }
                             break;
                     }
