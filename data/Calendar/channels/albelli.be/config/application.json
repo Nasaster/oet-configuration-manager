@@ -188,11 +188,6 @@
             "paul",
             "tns"
         ],
-        "arrayBoolean": [
-            true,
-            true,
-            false
-        ],
         "valueNumber": 45000,
         "valueString": "jaguar",
         "valueBoolean": false
@@ -202,6 +197,15 @@
             "a4": {
                 "p5": {}
             }
+        }
+    },
+    "IgorsGroup": {
+        "value": true,
+        "what will this be": {
+            "this is a string list": [
+                "sdfsdfdsfs"
+            ],
+            "this is NOt a string list": "d"
         }
     }
 }

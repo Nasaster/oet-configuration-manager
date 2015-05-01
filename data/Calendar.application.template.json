@@ -161,9 +161,6 @@
         "arrayString": [
             "String"
         ],
-        "arrayBoolean": [
-            "Boolean"
-        ],
         "valueNumber": "Number",
         "valueString": "String",
         "valueBoolean": "Boolean"
@@ -178,6 +175,15 @@
                     "Number"
                 ]
             }
+        }
+    },
+    "IgorsGroup": {
+        "value": "Boolean",
+        "what will this be": {
+            "this is a string list": [
+                "String"
+            ],
+            "this is NOt a string list": "String"
         }
     }
 }

@@ -182,9 +182,6 @@
         "arrayString": [
             "blabla"
         ],
-        "arrayBoolean": [
-            false
-        ],
         "valueNumber": 54,
         "valueString": "bbb,ccc",
         "valueBoolean": false
@@ -194,6 +191,18 @@
             "a4": {
                 "p5": {}
             }
+        }
+    },
+    "IgorsGroup": {
+        "value": true,
+        "what will this be": {
+            "this is a string list": [
+                "test",
+                "1",
+                "2",
+                "3"
+            ],
+            "this is NOt a string list": "v"
         }
     }
 }
