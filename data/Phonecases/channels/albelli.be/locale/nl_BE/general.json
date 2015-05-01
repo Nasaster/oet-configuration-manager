@@ -23,13 +23,7 @@
 		"perspex" : "Plexiglas",
 		"phonecase" : "GSM hoesjes",
 		"aluminium" : "Aluminium",
-		"editor" : "{0} programma",
-		"calendar" : "Kalender",
-		"month" : "Maand",
-		"year" : "Jaar",
-		"event" : "Gebeurtenis",
-		"events" : "Gebeurtenissen",
-		"date" : "Datum"
+		"editor" : "{0} programma"
 	},
 	"home" : {
 		"title" : "{0}",
@@ -67,14 +61,13 @@
 			"subtitle" : ""
 		},
 		"tabs" : {
-			"months" : "Maanden",
 			"photo" : "Je foto's",
 			"foreground" : "",
 			"background" : "Achtergronden",
-			"tooltrayshow" : "Tonen",
-			"tooltrayhide" : "Verbergen",
 			"decoration" : "Kaders",
 			"layout" : "Indelingen",
+			"tooltrayshow" : "Show tooltray",
+			"tooltrayhide" : "Hide tooltray",
 			"spacing" : {
 				"labels" : {
 					"inner" : "Marge binnen: {0}",
@@ -127,19 +120,7 @@
 					"slider" : ""
 				}
 			}
-		},
-		"pickStart" : "Kies een startdatum",
-		"addAllOption" : "Ja, voeg alle gebeurtenissen toe aan mijn kalender",
-		"selectAll" : "Selecteer alles",
-		"selectNone" : "Selecteer niets",
-		"tabEvents" : "Jouw gebeurtenissen",
-		"tabHolidays" : "Speciale dagen",
-		"addEvent" : "Voeg je gebeurtenis toe",
-		"addHoliday" : "Voeg je vakantie toe",
-		"eventName" : "Titel gebeurtenis",
-		"updateButton" : "Update kalender",
-		"cover" : "omslag",
-		"nextStepButton" : ""
+		}
 	},
 	"save" : {
 		"saveText" : "Opslaan",
@@ -225,10 +206,6 @@
 			"browserWarning" : "Helaas, deze webbrowser ondersteunt niet alle mogelijkheden voor het maken van dit product. Installeer Chrome, Safari, Firefox of een nieuwere versie van Internet Explorer (10 of hoger) en start opnieuw, of ga verder met beperkte mogelijkheden.",
 			"chromeInstall" : "Installeer Chrome",
 			"gotoFlash" : "Ga toch verder"
-		},
-		"features" : {
-			"reducedFeatures" : "Welkom bij het nieuwe kalenderprogramma voor je tablet! We doen onze uiterste best om dit programma zo snel mogelijk uit te breiden met alle opties die je ook op je pc of laptop hebt, zoals thema's en andere opmaakextra's.",
-			"continue" : "Maak je kalender"
 		}
 	},
 	"errors" : {
@@ -248,8 +225,7 @@
 		"createOrder" : "Er is een fout opgetreden tijdens het creeren van de factuur gegevens. Neem contact op met de helpdesk of probeert u het later nog eens.",
 		"getInvoice" : "Er is een fout opgetreden tijdens het ophalen van de factuur gegevens. Neem contact op met de klantendienst of probeert u het later nog eens.",
 		"sendOrder" : "Er is een fout opgetreden tijdens het versturen van de bestelling. Neem contact op met de klantendienst of probeert u het later nog eens.",
-		"getPaymentUrl" : "Er is een fout opgetreden tijdens het ophalen van de betalingsgegevens. Neem contact op met de klantendienst of probeert u het later nog eens.",
-		"browserWarning" : ""
+		"getPaymentUrl" : "Er is een fout opgetreden tijdens het ophalen van de betalingsgegevens. Neem contact op met de klantendienst of probeert u het later nog eens."
 	},
 	"validations" : {
 		"emailMissingAtSign" : "Er ontbreekt een @ in het e-mailadres.",
@@ -285,56 +261,5 @@
 			"full" : "Volledige weergave"
 		},
 		"title" : "Voorbeeldopties:"
-	},
-	"calendar" : {
-		"months" : {
-			"m0" : "januari",
-			"m1" : "februari",
-			"m2" : "maart",
-			"m3" : "april",
-			"m4" : "mei",
-			"m5" : "juni",
-			"m6" : "juli",
-			"m7" : "augustus",
-			"m8" : "september",
-			"m9" : "oktober",
-			"m10" : "november",
-			"m11" : "december"
-		},
-		"days" : {
-			"mon" : "Maandag",
-			"tue" : "Dinsdag",
-			"wen" : "Woensdag",
-			"thu" : "Donderdag",
-			"fri" : "Vrijdag",
-			"sat" : "Zaterdag",
-			"sun" : "Zondag",
-			"short" : {
-				"mon" : "Ma",
-				"tue" : "Di",
-				"wen" : "Woe",
-				"thu" : "Do",
-				"fri" : "Vr",
-				"sat" : "Za",
-				"sun" : "Zo"
-			}
-		},
-		"warnings" : {
-			"eventMax" : "Je kan niet meer dan {0} gebeurtenissen toevoegen aan één datum"
-		}
-	},
-	"months" : {
-		"month0" : "",
-		"month1" : "",
-		"month10" : "",
-		"month11" : "",
-		"month2" : "",
-		"month3" : "",
-		"month4" : "",
-		"month5" : "",
-		"month6" : "",
-		"month7" : "",
-		"month8" : "",
-		"month9" : ""
 	}
 }
