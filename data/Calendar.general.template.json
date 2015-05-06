@@ -3,7 +3,7 @@
 		"vendorName" : "String",
 		"navigateAwayMessage" : "String",
 		"title" : "String",
-		"productSelectorTitle" : "{0}",
+		"productSelectorTitle" : "String",
 		"error" :"String",
 		"warning" : "String",
 		"close" : "String",
@@ -11,9 +11,9 @@
 		"productSpecificationTitle" : "String",
 		"productSpecificationSize" : "String",
 		"productSpecificationPrice" : "String",
-		"productSpecificationPriceText1" : "{0} (excl.",
+		"productSpecificationPriceText1" : "{String",
 		"productSpecificationPricePrice" : "String",
-		"productSpecificationPriceText2" : ")",
+		"productSpecificationPriceText2" : "String",
 		"yes" : "String",
 		"no" : "String",
 		"add" : "String",
@@ -23,7 +23,7 @@
 		"perspex" : "String",
 		"phonecase" : "String",
 		"aluminium" : "String",
-		"editor" : "{0} programma",
+		"editor" : "String",
 		"calendar" : "String",
 		"month" : "String",
 		"year" : "String",
@@ -32,7 +32,7 @@
 		"date" : "String"
 	},
 	"home" : {
-		"title" : "{0}",
+		"title" : "String",
 		"nextStepButton" : "String",
 		"caption" : "",
 		"previousProductButton" : "String",
@@ -42,10 +42,10 @@
 		"selectFileType" : "String",
 		"marginTooltip" : "String",
 		"lowQualityTooltip" : "String",
-		"photoQualityIndicatorHeaderLabel" : "String: ",
-		"photoQualityIndicatorLabel" : "{0}",
-		"photoQualityIndicatorTooltipLow" : "String {0} String",
-		"photoQualityIndicatorTooltipMedium" : "String {0} String",
+		"photoQualityIndicatorHeaderLabel" : "String",
+		"photoQualityIndicatorLabel" : "Number",
+		"photoQualityIndicatorTooltipLow" : "String",
+		"photoQualityIndicatorTooltipMedium" : "String",
 		"photoQualityIndicatorTooltipHigh" : "String",
 		"photoQualityIndicatorTooltipExcellent" : "String",
 		"uploadPhotoLabel" : "String",
@@ -77,10 +77,10 @@
 			"layout" : "String",
 			"spacing" : {
 				"labels" : {
-					"inner" : "String {0}",
-					"inner-small" : "String {0}",
-					"outer" : "String {0}",
-					"outer-small" : "String {0}"
+					"inner" : "Number",
+					"inner-small" : "Number",
+					"outer" : "Number",
+					"outer-small" : "Number"
 				},
 				"title" : "String"
 			}
@@ -196,7 +196,7 @@
 		}
 	},
 	"upload" : {
-		"uploading" : "String %3%%",
+		"uploading" : "String",
 		"busyUploadingLabel" : "String."
 	},
 	"help" : {
