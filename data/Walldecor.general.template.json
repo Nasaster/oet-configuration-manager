@@ -1,0 +1,273 @@
+{
+	"general" : {
+		"vendorName" : "String",
+		"navigateAwayMessage" : "String",
+		"title" : "String",
+		"productSelectorTitle" : "String",
+		"error" :"String",
+		"warning" : "String",
+		"close" : "String",
+		"loading" : "String",
+		"productSpecificationTitle" : "String",
+		"productSpecificationSize" : "String",
+		"productSpecificationPrice" : "String",
+		"productSpecificationPriceText1" : "String",
+		"productSpecificationPricePrice" : "String",
+		"productSpecificationPriceText2" : "String",
+		"yes" : "String",
+		"no" : "String",
+		"add" : "String",
+		"cancel" : "String",
+		"notificationTitle" : "",
+		"canvas" : "String",
+		"perspex" : "String",
+		"phonecase" : "String",
+		"aluminium" : "String",
+		"editor" : "String"
+	},
+	"home" : {
+		"title" : "String",
+		"nextStepButton" : "String",
+		"caption" : "",
+		"previousProductButton" : "String",
+		"nextProductButton" : "String"
+	},
+	"edit" : {
+		"selectFileType" : "String",
+		"marginTooltip" : "String",
+		"lowQualityTooltip" : "String",
+		"photoQualityIndicatorHeaderLabel" : "String: ",
+		"photoQualityIndicatorLabel" : "Number",
+		"photoQualityIndicatorTooltipLow" : "String",
+		"photoQualityIndicatorTooltipMedium" : "String",
+		"photoQualityIndicatorTooltipHigh" : "String",
+		"photoQualityIndicatorTooltipExcellent" : "String",
+		"uploadPhotoLabel" : "String",
+		"uploadDifferentPhotoLabel" : "String",
+		"uploadPhotoButtonTooltip" : "String",
+		"rotateWarning" : "String",
+		"emptyPlaceholder" : {
+			"title" : "String",
+			"text" : "String"
+		},
+		"photoTray" : {
+			"addPhotoButton" : {
+				"text" : "String",
+				"tooltip" : "String"
+			}
+		},
+		"layout" : {
+			"title" : "",
+			"subtitle" : ""
+		},
+		"tabs" : {
+			"photo" : "String",
+			"foreground" : "",
+			"background" : "String",
+			"decoration" : "String",
+			"layout" : "String",
+			"tooltrayshow" : "String",
+			"tooltrayhide" : "String",
+			"spacing" : {
+				"labels" : {
+					"inner" : "Number",
+					"inner-small" : "Number",
+					"outer" : "Number",
+					"outer-small" : "Number"
+				},
+				"title" : "String"
+			},
+			"product-options" : "String"
+		},
+		"photoQualityIndicatorLow" : "String",
+		"photoQualityIndicatorMedium" : "String",
+		"photoQualityIndicatorHigh" : "String",
+		"photoQualityIndicatorExcellent" : "String",
+		"navigation" : {
+			"back" : "String",
+			"back-small" : "String",
+			"next" : "String",
+			"next-small" : "String"
+		},
+		"photoTools" : {
+			"close" : "String",
+			"close-small" : "String",
+			"delete" : "String",
+			"delete-small" : "String",
+			"effects" : {
+				"close" : "String",
+				"close-small" : "String",
+				"grayscale" : "",
+				"grayscale-small" : "",
+				"label" : "String",
+				"label-small" : "String",
+				"original" : "",
+				"original-small" : "",
+				"sepia" : "",
+				"sepia-small" : ""
+			},
+			"mirror" : "String",
+			"mirror-small" : "String",
+			"rotate" : "String",
+			"rotate-small" : "String",
+			"swap" : "String",
+			"swap-small" : "String",
+			"zoom" : {
+				"label" : "String",
+				"label-small" : "String",
+				"tooltips" : {
+					"in" : "",
+					"out" : "",
+					"slider" : ""
+				}
+			}
+		}
+	},
+	"save" : {
+		"saveText" : "String",
+		"saveBody" : "String"
+	},
+	"load" : {
+		"loadText" : "String",
+		"loadBody" : "String",
+		"created" : "",
+		"modified" : ""
+	},
+	"customer" : {
+		"title" : "",
+		"previousStepButton" : "",
+		"nextStepButton" : "",
+		"customerFirstname" : "",
+		"customerMiddlename" : "",
+		"customerLastname" : "",
+		"customerCountryCode" : "",
+		"customerStreet" : "",
+		"customerHouseNumber" : "",
+		"customerZip" : "",
+		"customerCity" : "",
+		"customerEmail" : "",
+		"customerPhone" : "",
+		"subscribeToNewsletter" : ""
+	},
+	"order" : {
+		"orderTitle" : "String",
+		"invoiceTitle" : "String",
+		"numberOfCopiesDescription" : "String",
+		"subTotal" : "String",
+		"shipping" : "String",
+		"invoiceDiscount" : "String",
+		"total" : "Totaal",
+		"promoTitle" : "String",
+		"promoDescription" : "String",
+		"applyPromoCodeButton" : "String",
+		"deliveryAddressTitle" : "String",
+		"updateDeliveryAddressButton" : "String",
+		"previousStepButton" : "String",
+		"submitButton" : "String",
+		"promotionPopupTitle" : "String",
+		"promotionPopupSubtitle" : "String",
+		"promotionPopupEnterPromotionCodeLabel" : "String",
+		"promotionPopupCancelLabel" : "String",
+		"promotionPopupSubmitLabel" : "String",
+		"navigation" : {
+			"back" : "",
+			"back-small" : "",
+			"next" : "",
+			"next-small" : ""
+		}
+	},
+	"upload" : {
+		"uploading" : "String",
+		"busyUploadingLabel" : "String"
+	},
+	"help" : {
+		"helpTitle" : "String",
+		"helpText" : "String",
+		"helpURL" : "String",
+		"moreOptionsUrl" : ""
+	},
+	"alerts" : {
+		"invalidPromotionCode" : "String"
+	},
+	"warnings" : {
+		"qualityTitle" : "String",
+		"qualitySubtitle" : "String",
+		"qualityOptionsTitle" : "",
+		"qualityOptions" : "",
+		"qualityButtonCancel" : "String",
+		"qualityButtonProceed" : "String",
+		"layouts" : {
+			"lessPlaceholdersThanPhotos" : {
+				"message" : " String"
+			}
+		}
+	},
+	"dialogs" : {
+		"browser" : {
+			"browserWarning" : "String",
+			"chromeInstall" : "String",
+			"gotoFlash" : "String"
+		}
+	},
+	"errors" : {
+		"errorBootstrapping" : "String",
+		"countryList" : "String",
+		"lowMemoryWarning" : "String",
+		"defaultPrice" : "String",
+		"loadPhotoBitmapData" : "String",
+		"loadBigPhoto" : "String",
+		"creatingPhoto" : "String",
+		"photoRegistration" : "String",
+		"addPhotoToPhotoPlaceholderEmpty" : "String",
+		"addPhotoToPhotoPlaceholder" : "String",
+		"startUploadPhoto" : "String",
+		"setPhotoCanvas" : "String",
+		"createCustomer" : "String",
+		"createOrder" : "String",
+		"getInvoice" : "String",
+		"sendOrder" : "String",
+		"getPaymentUrl" : "String"
+	},
+	"validations" : {
+		"emailMissingAtSign" : "String",
+		"emailMissingPeriodInDomain" : "String",
+		"emailDomainInvalidFormatted" : "String",
+		"emailTooManyAtCharacters" : "String",
+		"emailConsecutivePeriodsInDomain" : "String",
+		"emailInvalidChars" : "String",
+		"emailInvalidIp" : "String",
+		"emailMissingUsername" : "String",
+		"emailRequired" : "String",
+		"textRequired" : "String",
+		"textTooLong" : "String",
+		"zipcodeRequired" : "String",
+		"zipcodeInvalid" : "String"
+	},
+	"layout" : {
+		"navigation" : {
+			"back" : "",
+			"back-small" : "",
+			"next" : "",
+			"next-small" : ""
+		},
+		"subtitle" : "String",
+		"title" : "String"
+	},
+	"preview" : {
+		"button" : "String",
+		"buttonBack" : "String",
+		"close" : "String",
+		"options" : {
+			"context" : "String",
+			"full" : "String"
+		},
+		"title" : "String"
+	},
+	"productOptions" : {
+		"title" : "",
+		"groups" : {
+			"WoodFinishingType" : "",
+			"PlanksOrientationType" : "String"
+		}
+	}
+}
