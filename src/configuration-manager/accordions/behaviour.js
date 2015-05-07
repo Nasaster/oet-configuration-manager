@@ -237,8 +237,9 @@ var openFieldEditModal = function(path){
         path: path
     };
 
-    var config = $scope.$parent.currentConfiguration["application.json"][ $scope.$parent.selectedApplication ].channels;
-    var type = $scope.$parent.currentConfiguration.templates[ $scope.$parent.selectedApplication ][ "application.json" ];
+    var selectedConfiguration = $scope.$parent.$config.selectedConfiguration;
+    var config = $scope.$parent.currentConfiguration[ selectedConfiguration ][ $scope.$parent.selectedApplication ].channels;
+    var type = $scope.$parent.currentConfiguration.templates[ $scope.$parent.selectedApplication ][ selectedConfiguration ];
 
     for(var i = 0; i < path.length; i++){
         type = type[ path[i] ];

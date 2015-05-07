@@ -8,8 +8,9 @@ var selectors = module.exports = new Selectors();
 Selectors.prototype.init = function(parent){
     this.$parent = parent;
     this.$wrapper = this.$parent.$DOM.selectorsSection;
+    var selectedConfiguration = this.$parent.$config.selectedConfiguration;
     return view.init(this)
-        .then( this.selectApplication.bind(null, Object.keys(this.$parent.$config["application.json"])[0]) )
+        .then( this.selectApplication.bind(null, Object.keys(this.$parent.$config[ selectedConfiguration ])[0]) )
         .then( this.selectConfigType.bind(null, this.$parent.$config.configTypes[0] ) );
 };
 

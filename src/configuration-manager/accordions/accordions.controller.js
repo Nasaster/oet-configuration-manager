@@ -45,6 +45,7 @@ var notificationHandler = function(message, payload){
             break;
         case 'selected config-type changed':
             this.$parent.selectedConfigType = payload.selectedConfigType;
+            this.$parent.$config.selectedConfiguration = payload.selectedConfigType;
             view.changeSelectedApplication();
             break;
         case 'configuration updated': 

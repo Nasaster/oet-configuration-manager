@@ -10,6 +10,7 @@ var configurationManager = module.exports = new ConfigurationManager();
 
 ConfigurationManager.prototype.init = function(config, wrapper){
 	this.$config = config || {};
+	this.$config.selectedConfiguration = config.configTypes[0];
 	console.log('AppConfig', config);
 
     this.$wrapper = wrapper || document.body;

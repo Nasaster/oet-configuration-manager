@@ -14,7 +14,8 @@ var Helper = module.exports = {
     changePropertyValues: function(payload){
         var fieldItems = payload.fieldItems;
         var path = payload.path;
-        var allConfiguration = $scope.$parent.currentConfiguration['application.json'];
+        var selectedConfiguration = $scope.$parent.$config.selectedConfiguration;
+        var allConfiguration = $scope.$parent.currentConfiguration[ selectedConfiguration ];
         var selectedApplication = $scope.$parent.selectedApplication;
         var configToBeEdited = allConfiguration[ selectedApplication ].channels;
 
