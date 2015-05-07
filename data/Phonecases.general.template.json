@@ -18,7 +18,7 @@
 		"no" : "String",
 		"add" : "String",
 		"cancel" : "String",
-		"notificationTitle" : "",
+		"notificationTitle" : "String",
 		"canvas" : "String",
 		"perspex" : "String",
 		"phonecase" : "String",
@@ -28,7 +28,7 @@
 	"home" : {
 		"title" : "String",
 		"nextStepButton" : "String",
-		"caption" : "",
+		"caption" : "String",
 		"previousProductButton" : "String",
 		"nextProductButton" : "String"
 	},
@@ -57,12 +57,12 @@
 			}
 		},
 		"layout" : {
-			"title" : "",
-			"subtitle" : ""
+			"title" : "String",
+			"subtitle" : "String"
 		},
 		"tabs" : {
 			"photo" : "String",
-			"foreground" : "",
+			"foreground" : "String",
 			"background" : "String",
 			"decoration" : "String",
 			"layout" : "String",
@@ -96,14 +96,14 @@
 			"effects" : {
 				"close" : "String",
 				"close-small" : "String",
-				"grayscale" : "",
-				"grayscale-small" : "",
+				"grayscale" : "String",
+				"grayscale-small" : "String",
 				"label" : "String",
 				"label-small" : "String",
-				"original" : "",
-				"original-small" : "",
-				"sepia" : "",
-				"sepia-small" : ""
+				"original" : "String",
+				"original-small" : "String",
+				"sepia" : "String",
+				"sepia-small" : "String"
 			},
 			"mirror" : "String",
 			"mirror-small" : "String",
@@ -115,9 +115,9 @@
 				"label" : "String",
 				"label-small" : "String",
 				"tooltips" : {
-					"in" : "",
-					"out" : "",
-					"slider" : ""
+					"in" : "String",
+					"out" : "String",
+					"slider" : "String"
 				}
 			}
 		}
@@ -129,24 +129,24 @@
 	"load" : {
 		"loadText" : "String",
 		"loadBody" : "String",
-		"created" : "",
-		"modified" : ""
+		"created" : "String",
+		"modified" : "String"
 	},
 	"customer" : {
-		"title" : "",
-		"previousStepButton" : "",
-		"nextStepButton" : "",
-		"customerFirstname" : "",
-		"customerMiddlename" : "",
-		"customerLastname" : "",
-		"customerCountryCode" : "",
-		"customerStreet" : "",
-		"customerHouseNumber" : "",
-		"customerZip" : "",
-		"customerCity" : "",
-		"customerEmail" : "",
-		"customerPhone" : "",
-		"subscribeToNewsletter" : ""
+		"title" : "String",
+		"previousStepButton" : "String",
+		"nextStepButton" : "String",
+		"customerFirstname" : "String",
+		"customerMiddlename" : "String",
+		"customerLastname" : "String",
+		"customerCountryCode" : "String",
+		"customerStreet" : "String",
+		"customerHouseNumber" : "String",
+		"customerZip" : "String",
+		"customerCity" : "String",
+		"customerEmail" : "String",
+		"customerPhone" : "String",
+		"subscribeToNewsletter" : "String"
 	},
 	"order" : {
 		"orderTitle" : "String",
@@ -169,10 +169,10 @@
 		"promotionPopupCancelLabel" : "String",
 		"promotionPopupSubmitLabel" : "String",
 		"navigation" : {
-			"back" : "",
-			"back-small" : "",
-			"next" : "",
-			"next-small" : ""
+			"back" : "String",
+			"back-small" : "String",
+			"next" : "String",
+			"next-small" : "String"
 		}
 	},
 	"upload" : {
@@ -183,7 +183,7 @@
 		"helpTitle" : "String",
 		"helpText" : "String",
 		"helpURL" : "String",
-		"moreOptionsUrl" : ""
+		"moreOptionsUrl" : "String"
 	},
 	"alerts" : {
 		"invalidPromotionCode" : "String"
@@ -191,8 +191,8 @@
 	"warnings" : {
 		"qualityTitle" : "String",
 		"qualitySubtitle" : "String",
-		"qualityOptionsTitle" : "",
-		"qualityOptions" : "",
+		"qualityOptionsTitle" : "String",
+		"qualityOptions" : "String",
 		"qualityButtonCancel" : "String",
 		"qualityButtonProceed" : "String",
 		"layouts" : {
@@ -244,10 +244,10 @@
 	},
 	"layout" : {
 		"navigation" : {
-			"back" : "",
-			"back-small" : "",
-			"next" : "",
-			"next-small" : ""
+			"back" : "String",
+			"back-small" : "String",
+			"next" : "String",
+			"next-small" : "String"
 		},
 		"subtitle" : "String",
 		"title" : "String"
