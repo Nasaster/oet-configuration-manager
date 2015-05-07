@@ -20,7 +20,7 @@
     "cancel": "Annuleren",
     "canvas": "Canvas",
     "perspex": "Plexiglas",
-    "phonecase": "GSM hoesjes",
+    "phonecase": "Telefoonhoesjes",
     "aluminium": "Aluminium",
     "editor": "{0} programma",
     "calendar": "Kalender",
@@ -33,11 +33,25 @@
   "home": {
     "title": "{0}",
     "nextStepButton": "Dit wil ik",
-    "previousProductButton": "vorige",
+    "previousProductButton": "Vorige",
     "nextProductButton": "Volgende"
   },
+  "layout": {
+    "title": "Kies een indeling",
+    "subtitle": "Kies hieronder het aantal foto's",
+    "navigation": {
+      
+    }
+  },
   "edit": {
+    "navigation": {
+      "back": "Terug",
+      "next": "Bestellen",
+      "back-small": "Terug",
+      "next-small": "Bestellen"
+    },
     "selectFileType": "Selecteer een foto",
+    "nextStepButton": "Volgende",
     "marginTooltip": "dit is de omvouw rand",
     "lowQualityTooltip": "kwaliteit te laag voor huidig kader",
     "photoQualityIndicatorHeaderLabel": "Kwaliteit: ",
@@ -57,11 +71,33 @@
     "photoTray": {
       "addPhotoButton": {
         "text": "Foto('s) toevoegen",
-        "tooltip": "Click here to add a photo"
+        "tooltip": "Foto toevoegen"
       }
     },
-    "layout": {
-      
+    "photoTools": {
+      "zoom": {
+        "label": "Zoom",
+        "label-small": "Zoom",
+        "tooltips": {
+          
+        }
+      },
+      "effects": {
+        "label": "Filters",
+        "close": "Terug",
+        "label-small": "Filters",
+        "close-small": "Terug"
+      },
+      "rotate": "Roteren",
+      "mirror": "Spiegelen",
+      "swap": "Wisselen",
+      "delete": "Verwijderen",
+      "close": "Terug",
+      "rotate-small": "Roteren",
+      "mirror-small": "Spiegelen",
+      "swap-small": "Wisselen",
+      "delete-small": "Verwijder",
+      "close-small": "Terug"
     },
     "tabs": {
       "months": "Maanden",
@@ -70,51 +106,23 @@
       "tooltrayshow": "Tonen",
       "tooltrayhide": "Verbergen",
       "decoration": "Kaders",
-      "layout": "Indelingen",
       "spacing": {
+        "title": "Marges",
         "labels": {
           "inner": "Marge binnen: {0}",
-          "inner-small": "Binnen: {0}",
           "outer": "Marge buiten: {0}",
+          "inner-small": "Binnen: {0}",
           "outer-small": "Buiten: {0}"
-        },
-        "title": "Marges"
-      }
+        }
+      },
+      "layout": "Indelingen"
     },
     "photoQualityIndicatorLow": "Onvoldoende",
     "photoQualityIndicatorMedium": "Redelijk",
     "photoQualityIndicatorHigh": "Goed",
     "photoQualityIndicatorExcellent": "Uitstekend",
-    "navigation": {
-      "back": "Terug",
-      "back-small": "Terug",
-      "next": "Bestellen",
-      "next-small": "Bestellen"
-    },
-    "photoTools": {
-      "close": "Terug",
-      "close-small": "Terug",
-      "delete": "Verwijderen",
-      "delete-small": "Verwijder",
-      "effects": {
-        "close": "Terug",
-        "close-small": "Terug",
-        "label": "Filters",
-        "label-small": "Filters"
-      },
-      "mirror": "Spiegelen",
-      "mirror-small": "Spiegelen",
-      "rotate": "Roteren",
-      "rotate-small": "Roteren",
-      "swap": "Wisselen",
-      "swap-small": "Wisselen",
-      "zoom": {
-        "label": "Zoom",
-        "label-small": "Zoom",
-        "tooltips": {
-          
-        }
-      }
+    "layout": {
+      
     },
     "pickStart": "Kies een startdatum",
     "addAllOption": "Ja, voeg alle gebeurtenissen toe aan mijn kalender",
@@ -136,10 +144,37 @@
     "loadText": "Openen",
     "loadBody": "Opgeslagen fotoboek openen"
   },
-  "customer": {
-    
+  "months": {
+    "month0": "januari",
+    "month1": "februari",
+    "month2": "maart",
+    "month3": "april",
+    "month4": "mei",
+    "month5": "juni",
+    "month6": "juli",
+    "month7": "augustus",
+    "month8": "september",
+    "month9": "oktober",
+    "month10": "november",
+    "month11": "december"
+  },
+  "preview": {
+    "button": "Voorbeeld tonen",
+    "buttonBack": "Terug",
+    "title": "Voorbeeldopties:",
+    "options": {
+      "full": "Volledige weergave",
+      "context": "Voorbeeld aan de muur"
+    },
+    "close": "Bewerk product"
   },
   "order": {
+    "navigation": {
+      "back": "Vorige",
+      "next": "Volgende",
+      "back-small": "Vorige",
+      "next-small": "Volgende"
+    },
     "orderTitle": "Jouw bestelling",
     "invoiceTitle": "Overzicht",
     "numberOfCopiesDescription": "(selecteer hier het gewenste aantal exemplaren)",
@@ -158,30 +193,27 @@
     "promotionPopupSubtitle": "De ingevulde promotiecode is niet geldig. Vul een geldige promotiecode in of bestel zonder promotiecode",
     "promotionPopupEnterPromotionCodeLabel": "Promotiecode:",
     "promotionPopupCancelLabel": "Bestel zonder promotiecode",
-    "promotionPopupSubmitLabel": "Verzenden",
-    "navigation": {
-      
-    }
+    "promotionPopupSubmitLabel": "Verzenden"
   },
   "upload": {
     "uploading": "Bestelling gereedmaken. %3%%",
-    "busyUploadingLabel": "We zijn je bestelling aan het gereedmaken. Wanneer het uploaden klaar is, word je doorverwezen naar je winkelmandje."
+    "busyUploadingLabel": "We zijn je bestelling aan het gereedmaken. Wanneer het uploaden klaar is, word je doorverwezen naar je winkelmandje. "
   },
   "help": {
     "helpTitle": "Klantenservice",
     "helpText": "Bekijk de veel gestelde vragen",
-    "helpURL": "http://www.albelli.be/nl/klantendienst"
+    "helpURL": "http://www.albelli.nl/klantenservice/"
   },
   "alerts": { "invalidPromotionCode": "De promotiecode is niet geldig." },
   "warnings": {
-    "qualityTitle": "De kwaliteit van je foto is niet voldoende",
+    "qualityTitle": "De kwaliteit van je foto is niet optimaal",
     "qualitySubtitle": "Je kunt het product uiteraard gewoon zo bestellen, maar dan is het resultaat mogelijk niet zo scherp als je van ons gewend bent.",
-    "qualityFooter": "Voor persoonlijk advies kun je altijd contact opnemen met onze <a href=\"{CUSTOMER_SERVICE}\" target=\"_blank\">klantendienst</a>.",
+    "qualityFooter": "Voor persoonlijk advies kun je altijd contact opnemen met onze <a href=\"{CUSTOMER_SERVICE}\" target=\"_blank\">klantenservice</a>.",
     "qualityButtonCancel": "Product aanpassen",
     "qualityButtonProceed": "Toch verdergaan",
     "layouts": {
       "lessPlaceholdersThanPhotos": {
-        "message": "Weet je zeker dat je door wilt gaan? Je hebt gekozen voor een indeling die minder foto's bevat dan de huidige indeling. Als je verder gaat, worden {0} foto('s) van het product verwijderd."
+        "message": "Weet je zeker dat je door wilt gaan? Je hebt gekozen voor een indeling die minder foto's bevat dan de huidige indeling. Als je verder gaat, worden {0} foto('s) van het product verwijderd.  "
       }
     }
   },
@@ -197,23 +229,23 @@
     }
   },
   "errors": {
-    "errorBootstrapping": "Sorry, er is een probleem opgetreden tijdens het opstarten. Probeer het later nog eens of neem contact op met onze klantendienst.",
-    "countryList": "Sorry, er is een probleem opgetreden tijdens het opstarten. Probeer het later nog eens of neem contact op met onze klantendienst. (Landenlijst kon niet opgehaald worden)",
+    "errorBootstrapping": "Sorry, er is een probleem opgetreden met opstarten. Probeer het later nog eens of neem contact op met onze klantenservice. ",
+    "countryList": "Sorry, er is een probleem opgetreden met opstarten. Probeer het later nog eens of neem contact op met onze klantenservice. (Landenlijst kon niet opgehaald worden)",
     "lowMemoryWarning": "Het lijkt erop dat je werkgeheugen te vol is. Sluit zoveel mogelijk andere openstaande programma's en probeer het opnieuw.",
-    "defaultPrice": "Sorry, er is een probleem opgetreden met opstarten. Probeer het later nog eens of neem contact op met onze klantendienst. (Prijslijst kon niet opgehaald worden)",
-    "loadPhotoBitmapData": "Sorry, er is een probleem opgetreden met het laden van je foto. Probeer het later nog eens of neem contact op met onze klantendienst.",
+    "defaultPrice": "Sorry, er is een probleem opgetreden met opstarten. Probeer het later nog eens of neem contact op met onze klantenservice. (Prijslijst kon niet opgehaald worden)",
+    "loadPhotoBitmapData": "Sorry, er is een probleem opgetreden met het laden van je foto. Probeer het later nog eens of neem contact op met onze klantenservice.",
     "loadBigPhoto": "Er is een fout ontstaan bij het laden van de foto. Verklein het bestand tot maximaal 8000 x 8000 pixels en probeer het opnieuw.",
-    "creatingPhoto": "Er is een fout opgetreden tijdens het opbouwen van de foto. Neem contact op met de klantendienst of probeert u het later nog eens.",
-    "photoRegistration": "Er is een fout opgetreden tijdens het opbouwen van de foto. Neem contact op met de klantendienst of probeert u het later nog eens.",
-    "addPhotoToPhotoPlaceholderEmpty": "Er is een fout opgetreden tijdens het toevoegen van de foto aan het fotokader. Neem contact op met de klantendienst of probeert u het later nog eens.",
-    "addPhotoToPhotoPlaceholder": "Er is een fout opgetreden tijdens het toevoegen van de foto aan het fotokader. Neem contact op met de klantendienst of probeert u het later nog eens.",
-    "startUploadPhoto": "Er is een fout opgetreden tijdens het initialiseren van de foto upload. Neem contact op met de klantendienst of probeert u het later nog eens.",
-    "setPhotoCanvas": "Er is een fout opgetreden tijdens het wisselen tussen de producten. Neem contact op met de klantendienst of probeert u het later nog eens.",
-    "createCustomer": "Er is een fout opgetreden tijdens het verzamelen van de klant gegevens. Neem contact op met de klantendienst of probeert u het later nog eens.",
+    "creatingPhoto": "Er is een fout opgetreden tijdens het opbouwen van de foto. Neem contact op met de helpdesk of probeert u het later nog eens.",
+    "photoRegistration": "Er is een fout opgetreden tijdens het opbouwen van de foto. Neem contact op met de helpdesk of probeert u het later nog eens.",
+    "addPhotoToPhotoPlaceholderEmpty": "Er is een fout opgetreden tijdens het toevoegen van de foto aan het fotokader. Neem contact op met de helpdesk of probeert u het later nog eens.",
+    "addPhotoToPhotoPlaceholder": "Er is een fout opgetreden tijdens het toevoegen van de foto aan het fotokader. Neem contact op met de helpdesk of probeert u het later nog eens.",
+    "startUploadPhoto": "Er is een fout opgetreden tijdens het initialiseren van de foto upload. Neem contact op met de helpdesk of probeert u het later nog eens.",
+    "setPhotoCanvas": "Er is een fout opgetreden tijdens het wisselen tussen de producten. Neem contact op met de helpdesk of probeert u het later nog eens.",
+    "createCustomer": "Er is een fout opgetreden tijdens het verzamelen van de klant gegevens. Neem contact op met de helpdesk of probeert u het later nog eens.",
     "createOrder": "Er is een fout opgetreden tijdens het creeren van de factuur gegevens. Neem contact op met de helpdesk of probeert u het later nog eens.",
-    "getInvoice": "Er is een fout opgetreden tijdens het ophalen van de factuur gegevens. Neem contact op met de klantendienst of probeert u het later nog eens.",
-    "sendOrder": "Er is een fout opgetreden tijdens het versturen van de bestelling. Neem contact op met de klantendienst of probeert u het later nog eens.",
-    "getPaymentUrl": "Er is een fout opgetreden tijdens het ophalen van de betalingsgegevens. Neem contact op met de klantendienst of probeert u het later nog eens."
+    "getInvoice": "Er is een fout opgetreden tijdens het ophalen van de factuur gegevens. Neem contact op met de helpdesk of probeert u het later nog eens.",
+    "sendOrder": "Er is een fout opgetreden tijdens het versturen van de bestelling. Neem contact op met de helpdesk of probeert u het later nog eens.",
+    "getPaymentUrl": "Er is een fout opgetreden tijdens het ophalen van de betalingsgegevens. Neem contact op met de helpdesk of probeert u het later nog eens."
   },
   "validations": {
     "emailMissingAtSign": "Er ontbreekt een @ in het e-mailadres.",
@@ -229,23 +261,6 @@
     "textTooLong": "Het maximum aantal karakters is bereikt.",
     "zipcodeRequired": "verplicht veld",
     "zipcodeInvalid": "ongeldige postcode, gebruik het formaat:"
-  },
-  "layout": {
-    "navigation": {
-      
-    },
-    "subtitle": "Kies hieronder het aantal foto's",
-    "title": "Kies een indeling"
-  },
-  "preview": {
-    "button": "Voorbeeld tonen",
-    "buttonBack": "Terug",
-    "close": "Bewerk product",
-    "options": {
-      "context": "Voorbeeld aan de muur",
-      "full": "Volledige weergave"
-    },
-    "title": "Voorbeeldopties:"
   },
   "calendar": {
     "months": {
@@ -275,7 +290,7 @@
         "tue": "Di",
         "wed": "Woe",
         "thu": "Do",
-        "fri": "Vr",
+        "fri": "Vrij",
         "sat": "Za",
         "sun": "Zo"
       }
@@ -284,7 +299,7 @@
       "eventMax": "Je kan niet meer dan {0} gebeurtenissen toevoegen aan één datum"
     }
   },
-  "months": {
+  "customer": {
     
   }
 }
