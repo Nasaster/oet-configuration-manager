@@ -1,305 +1,341 @@
 {
-  "general": {
-    "vendorName": "Hema",
-    "navigateAwayMessage": "Als je dit scherm sluit, worden je wijzigingen niet opgeslagen. Weet je zeker dat je het {0} programma wilt afsluiten?",
-    "title": "kalender",
-    "productSelectorTitle": "{0}",
-    "error": "er is een fout opgetreden",
-    "warning": "let op",
-    "close": "ok",
-    "loading": "bezig met laden",
-    "productSpecificationTitle": "specificaties:",
-    "productSpecificationSize": "formaat",
-    "productSpecificationPrice": "prijs",
-    "productSpecificationPriceText1": "{0} (excl.",
-    "productSpecificationPricePrice": "verzendkosten",
-    "productSpecificationPriceText2": ")",
-    "yes": "ja",
-    "no": "nee",
-    "add": "toevoegen",
-    "cancel": "annuleren",
-    "canvas": "canvas",
-    "perspex": "plexiglas",
-    "phonecase": "telefoonhoesjes",
-    "aluminium": "aluminium",
-    "editor": "{0} programma",
-    "calendar": "kalender",
-    "month": "maand",
-    "year": "jaar",
-    "event": "gebeurtenis",
-    "events": "gebeurtenissen",
-    "date": "datum"
-  },
-  "home": {
-    "title": "{0}",
-    "nextStepButton": "dit wil ik",
-    "previousProductButton": "vorige",
-    "nextProductButton": "volgende"
-  },
-  "layout": {
-    "title": "kies een indeling",
-    "subtitle": "kies hieronder het aantal foto's",
-    "navigation": {
-      
-    }
-  },
-  "edit": {
-    "navigation": {
-      "back": "terug",
-      "next": "bestellen",
-      "back-small": "terug",
-      "next-small": "bestellen"
+    "general": {
+        "vendorName": "Hema",
+        "navigateAwayMessage": "Als je dit scherm sluit, worden je wijzigingen niet opgeslagen. Weet je zeker dat je het {0} programma wilt afsluiten?",
+        "title": "kalender",
+        "productSelectorTitle": "{0}",
+        "error": "er is een fout opgetreden",
+        "warning": "let op",
+        "close": "ok",
+        "loading": "bezig met laden",
+        "productSpecificationTitle": "specificaties:",
+        "productSpecificationSize": "formaat",
+        "productSpecificationPrice": "prijs",
+        "productSpecificationPriceText1": "{0} (excl.",
+        "productSpecificationPricePrice": "verzendkosten",
+        "productSpecificationPriceText2": ")",
+        "yes": "ja",
+        "no": "nee",
+        "add": "toevoegen",
+        "cancel": "annuleren",
+        "notificationTitle": "",
+        "canvas": "canvas",
+        "perspex": "plexiglas",
+        "phonecase": "telefoonhoesjes",
+        "aluminium": "aluminium",
+        "editor": "{0} programma",
+        "calendar": "kalender",
+        "month": "maand",
+        "year": "jaar",
+        "event": "gebeurtenis",
+        "events": "gebeurtenissen",
+        "date": "datum"
     },
-    "selectFileType": "selecteer een foto",
-    "nextStepButton": "volgende",
-    "marginTooltip": "dit is de omvouwrand",
-    "lowQualityTooltip": "kwaliteit te laag voor huidig kader",
-    "photoQualityIndicatorHeaderLabel": "kwaliteit: ",
-    "photoQualityIndicatorLabel": "{0}",
-    "photoQualityIndicatorTooltipLow": "De foto heeft een te lage kwaliteit om een optimaal resultaat te garanderen. Je kunt het {0} uiteraard gewoon bestellen, maar het resultaat is mogelijk niet scherp.",
-    "photoQualityIndicatorTooltipMedium": "De kwaliteit van de foto is niet optimaal. Je kunt het {0} uiteraard gewoon bestellen, maar het resultaat is mogelijk niet scherp.",
-    "photoQualityIndicatorTooltipHigh": "De kwaliteit van de foto is goed.",
-    "photoQualityIndicatorTooltipExcellent": "De kwaliteit van de foto is uitstekend.",
-    "uploadPhotoLabel": "kies je foto",
-    "uploadDifferentPhotoLabel": "kies een andere foto",
-    "uploadPhotoButtonTooltip": "klik hier om een foto toe te voegen",
-    "rotateWarning": "Please rotate your device",
-    "emptyPlaceholder": {
-      "title": "FOTO",
-      "text": "Klik hier of sleep je foto hiernaartoe"
+    "home": {
+        "title": "{0}",
+        "nextStepButton": "dit wil ik",
+        "caption": "",
+        "previousProductButton": "vorige",
+        "nextProductButton": "volgende"
     },
-    "photoTray": {
-      "addPhotoButton": {
-        "text": "foto('s) toevoegen",
-        "tooltip": "foto toevoegen"
-      }
-    },
-    "photoTools": {
-      "zoom": {
-        "label": "zoom",
-        "label-small": "zoom",
-        "tooltips": {
-          
-        }
-      },
-      "effects": {
-        "label": "filters",
-        "close": "terug",
-        "label-small": "filters",
-        "close-small": "terug"
-      },
-      "rotate": "roteren",
-      "mirror": "spiegelen",
-      "swap": "wisselen",
-      "delete": "verwijderen",
-      "close": "terug",
-      "rotate-small": "roteren",
-      "mirror-small": "spiegelen",
-      "swap-small": "wisselen",
-      "delete-small": "verwijder",
-      "close-small": "terug"
-    },
-    "cover": "omslag",
-    "pickStart": "kies een startdatum",
-    "addAllOption": "ja, voeg alle gebeurtenissen toe aan mijn kalender",
-    "selectAll": "selecteer alles",
-    "selectNone": "selecteer niets",
-    "tabEvents": "jouw gebeurtenissen",
-    "tabHolidays": "speciale dagen",
-    "addEvent": "voeg je gebeurtenis toe",
-    "addHoliday": "voeg je vakantie toe",
-    "eventName": "naam gebeurtenis",
-    "updateButton": "update kalender",
-    "tabs": {
-      "months": "maanden",
-      "photo": "je foto's",
-      "background": "achtergronden",
-      "tooltrayshow": "tonen",
-      "tooltrayhide": "verbergen",
-      "decoration": "kaders",
-      "spacing": {
-        "title": "marges",
-        "labels": {
-          "inner": "marge binnen: {0}",
-          "outer": "marge buiten: {0}",
-          "inner-small": "binnen: {0}",
-          "outer-small": "buiten: {0}"
-        }
-      },
-      "layout": "indelingen"
-    },
-    "photoQualityIndicatorLow": "onvoldoende",
-    "photoQualityIndicatorMedium": "redelijk",
-    "photoQualityIndicatorHigh": "goed",
-    "photoQualityIndicatorExcellent": "uitstekend",
     "layout": {
-      
-    }
-  },
-  "save": {
-    "saveText": "Opslaan",
-    "saveBody": "Geef je kalender een naam en sla het op"
-  },
-  "load": {
-    "loadText": "Openen",
-    "loadBody": "Opgeslagen fotoboek openen"
-  },
-  "months": {
-    "month0": "januari",
-    "month1": "februari",
-    "month2": "maart",
-    "month3": "april",
-    "month4": "mei",
-    "month5": "juni",
-    "month6": "juli",
-    "month7": "augustus",
-    "month8": "september",
-    "month9": "oktober",
-    "month10": "november",
-    "month11": "december"
-  },
-  "preview": {
-    "button": "voorbeeld tonen",
-    "buttonBack": "terug",
-    "title": "voorbeeldopties:",
-    "options": {
-      "full": "volledige weergave",
-      "context": "voorbeeld aan de muur"
+        "title": "kies een indeling",
+        "subtitle": "kies hieronder het aantal foto's",
+        "navigation": {
+            "back": "",
+            "next": "",
+            "back-small": "",
+            "next-small": ""
+        }
     },
-    "close": "bewerk product"
-  },
-  "order": {
-    "navigation": {
-      "back": "vorige",
-      "next": "volgende",
-      "back-small": "vorige",
-      "next-small": "volgende"
+    "edit": {
+        "navigation": {
+            "back": "terug",
+            "next": "bestellen",
+            "back-small": "terug",
+            "next-small": "bestellen"
+        },
+        "selectFileType": "selecteer een foto",
+        "nextStepButton": "volgende",
+        "marginTooltip": "dit is de omvouwrand",
+        "lowQualityTooltip": "kwaliteit te laag voor huidig kader",
+        "photoQualityIndicatorHeaderLabel": "kwaliteit:",
+        "photoQualityIndicatorLabel": "{0}",
+        "photoQualityIndicatorTooltipLow": "De foto heeft een te lage kwaliteit om een optimaal resultaat te garanderen. Je kunt het {0} uiteraard gewoon bestellen, maar het resultaat is mogelijk niet scherp.",
+        "photoQualityIndicatorTooltipMedium": "De kwaliteit van de foto is niet optimaal. Je kunt het {0} uiteraard gewoon bestellen, maar het resultaat is mogelijk niet scherp.",
+        "photoQualityIndicatorTooltipHigh": "De kwaliteit van de foto is goed.",
+        "photoQualityIndicatorTooltipExcellent": "De kwaliteit van de foto is uitstekend.",
+        "uploadPhotoLabel": "kies je foto",
+        "uploadDifferentPhotoLabel": "kies een andere foto",
+        "uploadPhotoButtonTooltip": "klik hier om een foto toe te voegen",
+        "rotateWarning": "Please rotate your device",
+        "emptyPlaceholder": {
+            "title": "FOTO",
+            "text": "Klik hier of sleep je foto hiernaartoe"
+        },
+        "photoTray": {
+            "addPhotoButton": {
+                "text": "foto('s) toevoegen",
+                "tooltip": "foto toevoegen"
+            }
+        },
+        "photoTools": {
+            "zoom": {
+                "label": "zoom",
+                "label-small": "zoom",
+                "tooltips": {
+                    "slider": "",
+                    "in": "",
+                    "out": ""
+                }
+            },
+            "effects": {
+                "label": "filters",
+                "original": "",
+                "grayscale": "",
+                "sepia": "",
+                "close": "terug",
+                "label-small": "filters",
+                "original-small": "",
+                "grayscale-small": "",
+                "sepia-small": "",
+                "close-small": "terug"
+            },
+            "rotate": "roteren",
+            "mirror": "spiegelen",
+            "swap": "wisselen",
+            "delete": "verwijderen",
+            "close": "terug",
+            "rotate-small": "roteren",
+            "mirror-small": "spiegelen",
+            "swap-small": "wisselen",
+            "delete-small": "verwijder",
+            "close-small": "terug"
+        },
+        "cover": "omslag",
+        "pickStart": "kies een startdatum",
+        "addAllOption": "ja, voeg alle gebeurtenissen toe aan mijn kalender",
+        "selectAll": "selecteer alles",
+        "selectNone": "selecteer niets",
+        "tabEvents": "jouw gebeurtenissen",
+        "tabHolidays": "speciale dagen",
+        "addEvent": "voeg je gebeurtenis toe",
+        "addHoliday": "voeg je vakantie toe",
+        "eventName": "naam gebeurtenis",
+        "updateButton": "update kalender",
+        "tabs": {
+            "months": "maanden",
+            "photo": "je foto's",
+            "foreground": "",
+            "background": "achtergronden",
+            "tooltrayshow": "tonen",
+            "tooltrayhide": "verbergen",
+            "decoration": "kaders",
+            "spacing": {
+                "title": "marges",
+                "labels": {
+                    "inner": "marge binnen: {0}",
+                    "outer": "marge buiten: {0}",
+                    "inner-small": "binnen: {0}",
+                    "outer-small": "buiten: {0}"
+                }
+            },
+            "layout": "indelingen"
+        },
+        "photoQualityIndicatorLow": "onvoldoende",
+        "photoQualityIndicatorMedium": "redelijk",
+        "photoQualityIndicatorHigh": "goed",
+        "photoQualityIndicatorExcellent": "uitstekend",
+        "layout": {
+            "subtitle": "",
+            "title": ""
+        }
     },
-    "orderTitle": "jouw bestelling",
-    "invoiceTitle": "overzicht",
-    "numberOfCopiesDescription": "(selecteer hier het gewenste aantal exemplaren)",
-    "subTotal": "subtotaal",
-    "shipping": "verzendkosten",
-    "invoiceDiscount": "korting",
-    "total": "totaal",
-    "promoTitle": "promotiecode",
-    "promoDescription": "Heb je een promotiecode? Vul de code hieronder in.",
-    "applyPromoCodeButton": "verrekenen",
-    "deliveryAddressTitle": "afleveradres",
-    "updateDeliveryAddressButton": "aanpassen",
-    "previousStepButton": "terug",
-    "submitButton": "jouw bestelling afronden",
-    "promotionPopupTitle": "ongeldige promotiecode",
-    "promotionPopupSubtitle": "De ingevulde promotiecode is niet geldig. Vul een geldige promotiecode in of bestel zonder promotiecode",
-    "promotionPopupEnterPromotionCodeLabel": "promotiecode:",
-    "promotionPopupCancelLabel": "bestel zonder promotiecode",
-    "promotionPopupSubmitLabel": "verzenden"
-  },
-  "upload": {
-    "uploading": "Bestelling gereedmaken. %3%%",
-    "busyUploadingLabel": "We zijn je bestelling aan het gereedmaken. Wanneer het uploaden klaar is, word je doorverwezen naar je winkelmandje. "
-  },
-  "help": {
-    "helpTitle": "klantenservice",
-    "helpText": "bekijk de veel gestelde vragen",
-    "helpURL": "http://www.hema.be/nl/klantendienst/"
-  },
-  "alerts": { "invalidPromotionCode": "de promotiecode is niet geldig" },
-  "warnings": {
-    "qualityTitle": "de kwaliteit van je foto is niet optimaal",
-    "qualitySubtitle": "Je kunt het product uiteraard gewoon zo bestellen, maar dan is het resultaat mogelijk niet zo scherp als je van ons gewend bent.",
-    "qualityFooter": "Voor persoonlijk advies kun je altijd contact opnemen met onze <a href=\"{CUSTOMER_SERVICE}\" target=\"_blank\">klantendienst</a>.",
-    "qualityButtonCancel": "product aanpassen",
-    "qualityButtonProceed": "toch verdergaan",
-    "layouts": {
-      "lessPlaceholdersThanPhotos": {
-        "message": "Weet je zeker dat je door wilt gaan? Je hebt gekozen voor een indeling die minder foto's bevat dan de huidige indeling. Als je verder gaat, worden {0} foto('s) van het product verwijderd.  "
-      }
-    }
-  },
-  "dialogs": {
-    "browser": {
-      "browserWarning": "Helaas, deze webbrowser ondersteunt niet alle mogelijkheden voor het maken van dit product. Installeer Chrome, Safari, Firefox of een nieuwere versie van Internet Explorer (10 of hoger) en start opnieuw, of ga verder met beperkte mogelijkheden.",
-      "chromeInstall": "installeer Chrome",
-      "gotoFlash": "ga toch verder"
+    "save": {
+        "saveText": "Opslaan",
+        "saveBody": "Geef je kalender een naam en sla het op"
     },
-    "features": {
-      "reducedFeatures": "Welkom bij het nieuwe kalenderprogramma voor je tablet! We doen onze uiterste best om dit programma zo snel mogelijk uit te breiden met alle opties die je ook op je pc of laptop hebt, zoals thema's en andere opmaakextra's.",
-      "continue": "Maak je kalender"
-    }
-  },
-  "errors": {
-    "errorBootstrapping": "Sorry, er is een probleem opgetreden met opstarten. Probeer het later nog eens of neem contact op met onze klantenservice. ",
-    "countryList": "Sorry, er is een probleem opgetreden met opstarten. Probeer het later nog eens of neem contact op met onze klantenservice. (Landenlijst kon niet opgehaald worden)",
-    "lowMemoryWarning": "Het lijkt erop dat je werkgeheugen te vol is. Sluit zoveel mogelijk andere openstaande programma's en probeer het opnieuw.",
-    "defaultPrice": "Sorry, er is een probleem opgetreden met opstarten. Probeer het later nog eens of neem contact op met onze klantenservice. (Prijslijst kon niet opgehaald worden)",
-    "loadPhotoBitmapData": "Sorry, er is een probleem opgetreden met het laden van je foto. Probeer het later nog eens of neem contact op met onze klantenservice.",
-    "loadBigPhoto": "Er is een fout ontstaan bij het laden van de foto. Verklein het bestand tot maximaal 8000 x 8000 pixels en probeer het opnieuw.",
-    "creatingPhoto": "Er is een fout opgetreden tijdens het opbouwen van de foto. Neem contact op met de helpdesk of probeert u het later nog eens.",
-    "photoRegistration": "Er is een fout opgetreden tijdens het opbouwen van de foto. Neem contact op met de helpdesk of probeert u het later nog eens.",
-    "addPhotoToPhotoPlaceholderEmpty": "Er is een fout opgetreden tijdens het toevoegen van de foto aan het fotokader. Neem contact op met de helpdesk of probeert u het later nog eens.",
-    "addPhotoToPhotoPlaceholder": "Er is een fout opgetreden tijdens het toevoegen van de foto aan het fotokader. Neem contact op met de helpdesk of probeert u het later nog eens.",
-    "startUploadPhoto": "Er is een fout opgetreden tijdens het initialiseren van de foto upload. Neem contact op met de helpdesk of probeert u het later nog eens.",
-    "setPhotoCanvas": "Er is een fout opgetreden tijdens het wisselen tussen de producten. Neem contact op met de helpdesk of probeert u het later nog eens.",
-    "createCustomer": "Er is een fout opgetreden tijdens het verzamelen van de klant gegevens. Neem contact op met de helpdesk of probeert u het later nog eens.",
-    "createOrder": "Er is een fout opgetreden tijdens het creeren van de factuur gegevens. Neem contact op met de helpdesk of probeert u het later nog eens.",
-    "getInvoice": "Er is een fout opgetreden tijdens het ophalen van de factuur gegevens. Neem contact op met de helpdesk of probeert u het later nog eens.",
-    "sendOrder": "Er is een fout opgetreden tijdens het versturen van de bestelling. Neem contact op met de helpdesk of probeert u het later nog eens.",
-    "getPaymentUrl": "Er is een fout opgetreden tijdens het ophalen van de betalingsgegevens. Neem contact op met de helpdesk of probeert u het later nog eens."
-  },
-  "validations": {
-    "emailMissingAtSign": "er ontbreekt een @ in het e-mailadres",
-    "emailMissingPeriodInDomain": "er ontbreekt een punt (.nl) in het e-mailadres",
-    "emailDomainInvalidFormatted": "het domein van het e-mailadres is ongeldig",
-    "emailTooManyAtCharacters": "het e-mailadres bevat teveel (@)",
-    "emailConsecutivePeriodsInDomain": "het e-mailadres bevat opeenvolgende punten (.)",
-    "emailInvalidChars": "het e-mailadres bevat ongeldige karakters",
-    "emailInvalidIp": "het ip-adres in het domein van het e-mailadres is ongeldig",
-    "emailMissingUsername": "de gebruikersnaam in het e-mailadres ontbreekt",
-    "emailRequired": "verplicht veld",
-    "textRequired": "verplicht veld",
-    "textTooLong": "het maximum aantal karakters is bereikt",
-    "zipcodeRequired": "verplicht veld",
-    "zipcodeInvalid": "ongeldige postcode, gebruik het formaat:"
-  },
-  "calendar": {
+    "load": {
+        "loadText": "Openen",
+        "loadBody": "Opgeslagen fotoboek openen",
+        "created": "",
+        "modified": ""
+    },
     "months": {
-      "m0": "januari",
-      "m1": "februari",
-      "m2": "maart",
-      "m3": "april",
-      "m4": "mei",
-      "m5": "juni",
-      "m6": "juli",
-      "m7": "augustus",
-      "m8": "september",
-      "m9": "oktober",
-      "m10": "november",
-      "m11": "december"
+        "month0": "januari",
+        "month1": "februari",
+        "month2": "maart",
+        "month3": "april",
+        "month4": "mei",
+        "month5": "juni",
+        "month6": "juli",
+        "month7": "augustus",
+        "month8": "september",
+        "month9": "oktober",
+        "month10": "november",
+        "month11": "december"
     },
-    "days": {
-      "mon": "maandag",
-      "tue": "dinsdag",
-      "wen": "woensdag",
-      "thu": "donderdag",
-      "fri": "vrijdag",
-      "sat": "zaterdag",
-      "sun": "zondag",
-      "short": {
-        "mon": "ma",
-        "tue": "di",
-        "wed": "woe",
-        "thu": "do",
-        "fri": "vrij",
-        "sat": "za",
-        "sun": "zo"
-      }
+    "preview": {
+        "button": "voorbeeld tonen",
+        "buttonBack": "terug",
+        "title": "voorbeeldopties:",
+        "options": {
+            "full": "volledige weergave",
+            "context": "voorbeeld aan de muur"
+        },
+        "close": "bewerk product"
+    },
+    "order": {
+        "navigation": {
+            "back": "vorige",
+            "next": "volgende",
+            "back-small": "vorige",
+            "next-small": "volgende"
+        },
+        "orderTitle": "jouw bestelling",
+        "invoiceTitle": "overzicht",
+        "numberOfCopiesDescription": "(selecteer hier het gewenste aantal exemplaren)",
+        "subTotal": "subtotaal",
+        "shipping": "verzendkosten",
+        "invoiceDiscount": "korting",
+        "total": "totaal",
+        "promoTitle": "promotiecode",
+        "promoDescription": "Heb je een promotiecode? Vul de code hieronder in.",
+        "applyPromoCodeButton": "verrekenen",
+        "deliveryAddressTitle": "afleveradres",
+        "updateDeliveryAddressButton": "aanpassen",
+        "previousStepButton": "terug",
+        "submitButton": "jouw bestelling afronden",
+        "promotionPopupTitle": "ongeldige promotiecode",
+        "promotionPopupSubtitle": "De ingevulde promotiecode is niet geldig. Vul een geldige promotiecode in of bestel zonder promotiecode",
+        "promotionPopupEnterPromotionCodeLabel": "promotiecode:",
+        "promotionPopupCancelLabel": "bestel zonder promotiecode",
+        "promotionPopupSubmitLabel": "verzenden"
+    },
+    "upload": {
+        "uploading": "Bestelling gereedmaken. %3%",
+        "busyUploadingLabel": "We zijn je bestelling aan het gereedmaken. Wanneer het uploaden klaar is, word je doorverwezen naar je winkelmandje."
+    },
+    "help": {
+        "helpTitle": "klantenservice",
+        "helpText": "bekijk de veel gestelde vragen",
+        "helpURL": "http:\/\/www.hema.be\/nl\/klantendienst\/",
+        "moreOptionsUrl": ""
+    },
+    "alerts": {
+        "invalidPromotionCode": "de promotiecode is niet geldig"
     },
     "warnings": {
-      "eventMax": "je kunt niet meer dan {0} gebeurtenissen toevoegen aan één datum"
+        "qualityTitle": "de kwaliteit van je foto is niet optimaal",
+        "qualitySubtitle": "Je kunt het product uiteraard gewoon zo bestellen, maar dan is het resultaat mogelijk niet zo scherp als je van ons gewend bent.",
+        "qualityOptionsTitle": "",
+        "qualityOptions": "",
+        "qualityFooter": "Voor persoonlijk advies kun je altijd contact opnemen met onze <a href=\"{CUSTOMER_SERVICE}\" target=\"_blank\">klantendienst<\/a>.",
+        "qualityButtonCancel": "product aanpassen",
+        "qualityButtonProceed": "toch verdergaan",
+        "layouts": {
+            "lessPlaceholdersThanPhotos": {
+                "message": "Weet je zeker dat je door wilt gaan? Je hebt gekozen voor een indeling die minder foto's bevat dan de huidige indeling. Als je verder gaat, worden {0} foto('s) van het product verwijderd."
+            }
+        }
+    },
+    "dialogs": {
+        "browser": {
+            "browserWarning": "Helaas, deze webbrowser ondersteunt niet alle mogelijkheden voor het maken van dit product. Installeer Chrome, Safari, Firefox of een nieuwere versie van Internet Explorer (10 of hoger) en start opnieuw, of ga verder met beperkte mogelijkheden.",
+            "chromeInstall": "installeer Chrome",
+            "gotoFlash": "ga toch verder"
+        },
+        "features": {
+            "reducedFeatures": "Welkom bij het nieuwe kalenderprogramma voor je tablet! We doen onze uiterste best om dit programma zo snel mogelijk uit te breiden met alle opties die je ook op je pc of laptop hebt, zoals thema's en andere opmaakextra's.",
+            "continue": "Maak je kalender"
+        }
+    },
+    "errors": {
+        "errorBootstrapping": "Sorry, er is een probleem opgetreden met opstarten. Probeer het later nog eens of neem contact op met onze klantenservice.",
+        "countryList": "Sorry, er is een probleem opgetreden met opstarten. Probeer het later nog eens of neem contact op met onze klantenservice. (Landenlijst kon niet opgehaald worden)",
+        "lowMemoryWarning": "Het lijkt erop dat je werkgeheugen te vol is. Sluit zoveel mogelijk andere openstaande programma's en probeer het opnieuw.",
+        "defaultPrice": "Sorry, er is een probleem opgetreden met opstarten. Probeer het later nog eens of neem contact op met onze klantenservice. (Prijslijst kon niet opgehaald worden)",
+        "loadPhotoBitmapData": "Sorry, er is een probleem opgetreden met het laden van je foto. Probeer het later nog eens of neem contact op met onze klantenservice.",
+        "loadBigPhoto": "Er is een fout ontstaan bij het laden van de foto. Verklein het bestand tot maximaal 8000 x 8000 pixels en probeer het opnieuw.",
+        "creatingPhoto": "Er is een fout opgetreden tijdens het opbouwen van de foto. Neem contact op met de helpdesk of probeert u het later nog eens.",
+        "photoRegistration": "Er is een fout opgetreden tijdens het opbouwen van de foto. Neem contact op met de helpdesk of probeert u het later nog eens.",
+        "addPhotoToPhotoPlaceholderEmpty": "Er is een fout opgetreden tijdens het toevoegen van de foto aan het fotokader. Neem contact op met de helpdesk of probeert u het later nog eens.",
+        "addPhotoToPhotoPlaceholder": "Er is een fout opgetreden tijdens het toevoegen van de foto aan het fotokader. Neem contact op met de helpdesk of probeert u het later nog eens.",
+        "startUploadPhoto": "Er is een fout opgetreden tijdens het initialiseren van de foto upload. Neem contact op met de helpdesk of probeert u het later nog eens.",
+        "setPhotoCanvas": "Er is een fout opgetreden tijdens het wisselen tussen de producten. Neem contact op met de helpdesk of probeert u het later nog eens.",
+        "createCustomer": "Er is een fout opgetreden tijdens het verzamelen van de klant gegevens. Neem contact op met de helpdesk of probeert u het later nog eens.",
+        "createOrder": "Er is een fout opgetreden tijdens het creeren van de factuur gegevens. Neem contact op met de helpdesk of probeert u het later nog eens.",
+        "getInvoice": "Er is een fout opgetreden tijdens het ophalen van de factuur gegevens. Neem contact op met de helpdesk of probeert u het later nog eens.",
+        "sendOrder": "Er is een fout opgetreden tijdens het versturen van de bestelling. Neem contact op met de helpdesk of probeert u het later nog eens.",
+        "getPaymentUrl": "Er is een fout opgetreden tijdens het ophalen van de betalingsgegevens. Neem contact op met de helpdesk of probeert u het later nog eens.",
+        "browserWarning": ""
+    },
+    "validations": {
+        "emailMissingAtSign": "er ontbreekt een @ in het e-mailadres",
+        "emailMissingPeriodInDomain": "er ontbreekt een punt (.nl) in het e-mailadres",
+        "emailDomainInvalidFormatted": "het domein van het e-mailadres is ongeldig",
+        "emailTooManyAtCharacters": "het e-mailadres bevat teveel (@)",
+        "emailConsecutivePeriodsInDomain": "het e-mailadres bevat opeenvolgende punten (.)",
+        "emailInvalidChars": "het e-mailadres bevat ongeldige karakters",
+        "emailInvalidIp": "het ip-adres in het domein van het e-mailadres is ongeldig",
+        "emailMissingUsername": "de gebruikersnaam in het e-mailadres ontbreekt",
+        "emailRequired": "verplicht veld",
+        "textRequired": "verplicht veld",
+        "textTooLong": "het maximum aantal karakters is bereikt",
+        "zipcodeRequired": "verplicht veld",
+        "zipcodeInvalid": "ongeldige postcode, gebruik het formaat:"
+    },
+    "calendar": {
+        "months": {
+            "m0": "januari",
+            "m1": "februari",
+            "m2": "maart",
+            "m3": "april",
+            "m4": "mei",
+            "m5": "juni",
+            "m6": "juli",
+            "m7": "augustus",
+            "m8": "september",
+            "m9": "oktober",
+            "m10": "november",
+            "m11": "december"
+        },
+        "days": {
+            "mon": "maandag",
+            "tue": "dinsdag",
+            "wen": "woensdag",
+            "thu": "donderdag",
+            "fri": "vrijdag",
+            "sat": "zaterdag",
+            "sun": "zondag",
+            "short": {
+                "mon": "ma",
+                "tue": "di",
+                "wed": "woe",
+                "thu": "do",
+                "fri": "vrij",
+                "sat": "za",
+                "sun": "zo"
+            }
+        },
+        "warnings": {
+            "eventMax": "je kunt niet meer dan {0} gebeurtenissen toevoegen aan één datum"
+        }
+    },
+    "customer": {
+        "customerCity": "",
+        "customerCountryCode": "",
+        "customerEmail": "",
+        "customerFirstname": "",
+        "customerHouseNumber": "",
+        "customerLastname": "",
+        "customerMiddlename": "",
+        "customerPhone": "",
+        "customerStreet": "",
+        "customerZip": "",
+        "nextStepButton": "",
+        "previousStepButton": "",
+        "subscribeToNewsletter": "",
+        "title": ""
     }
-  },
-  "customer": {
-    
-  }
 }

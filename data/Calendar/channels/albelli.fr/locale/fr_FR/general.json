@@ -1,288 +1,310 @@
 {
-  "general": {
-    "vendorName": "Albelli",
-    "navigateAwayMessage": "En quittant cette page, toutes les modifications effectuées seront perdues. Êtes-vous sûr de vouloir fermer le {0} ?",
-    "editor": "logiciel de création de {0}",
-    "title": "Décor de mur",
-    "productSelectorTitle": "{0}",
-    "error": "Une erreur est survenue",
-    "warning": "Attention",
-    "close": "ok",
-    "loading": "Chargement en cours...",
-    "productSpecificationTitle": "Spécifications:",
-    "productSpecificationSize": "Format",
-    "productSpecificationPrice": "Prix",
-    "productSpecificationPriceText1": "{0} (excl.",
-    "productSpecificationPricePrice": "frais d'envoi",
-    "productSpecificationPriceText2": ")",
-    "yes": "Oui",
-    "no": "Non",
-    "add": "Ajouter",
-    "cancel": "Annuler",
-    "canvas": "Toiles photo",
-    "perspex": "Plexiglas photo",
-    "aluminium": "Tableau photo alu",
-    "phonecase": "Coques téléphone",
-    "calendar": "Calendrier",
-    "month": "Mois",
-    "year": "Année",
-    "event": "Événement",
-    "events": "Événements",
-    "date": "Date"
-  },
-  "home": {
-    "title": "{0}",
-    "nextStepButton": "C'est ce que je veux",
-    "previousProductButton": "Précédent",
-    "nextProductButton": "Suivant"
-  },
-  "edit": {
-    "selectFileType": "Choisir une photo",
-    "nextStepButton": "Suite",
-    "marginTooltip": "il s'agit du bord de pliure",
-    "lowQualityTooltip": "qualité insuffisante pour le cadre actuel",
-    "photoQualityIndicatorHeaderLabel": "Qualité : ",
-    "photoQualityIndicatorLabel": "{0}",
-    "photoQualityIndicatorTooltipLow": "En cas de commande, la qualité de la photo peut ne pas être suffisante pour garantir un résultat optimal.",
-    "photoQualityIndicatorTooltipMedium": "La qualité de la photo n'est pas optimale. Vous pouvez bien évidemment commander la toile de {0}, il est cependant possible que le résultat ne soit pas net.",
-    "photoQualityIndicatorTooltipHigh": "La qualité de la photo est satisfaisante.",
-    "photoQualityIndicatorTooltipExcellent": "La qualité de la photo est exceptionnelle.",
-    "uploadPhotoLabel": "Choisir la photo",
-    "uploadDifferentPhotoLabel": "Choisir une autre photo",
-    "uploadPhotoButtonTooltip": "Cliquez ici pour ajouter une photo",
-    "rotateWarning": "Please rotate your device",
-    "emptyPlaceholder": {
-      "title": "PHOTO",
-      "text": "Cliquez ou glissez votre photo ici pour l'ajouter"
+    "general": {
+        "vendorName": "Albelli",
+        "navigateAwayMessage": "En quittant cette page, toutes les modifications effectuées seront perdues. Êtes-vous sûr de vouloir fermer le {0} ?",
+        "editor": "logiciel de création de {0}",
+        "title": "Décor de mur",
+        "productSelectorTitle": "{0}",
+        "error": "Une erreur est survenue",
+        "warning": "Attention",
+        "close": "ok",
+        "loading": "Chargement en cours...",
+        "productSpecificationTitle": "Spécifications:",
+        "productSpecificationSize": "Format",
+        "productSpecificationPrice": "Prix",
+        "productSpecificationPriceText1": "{0} (excl.",
+        "productSpecificationPricePrice": "frais d'envoi",
+        "productSpecificationPriceText2": ")",
+        "yes": "Oui",
+        "no": "Non",
+        "add": "Ajouter",
+        "cancel": "Annuler",
+        "notificationTitle": "",
+        "canvas": "Toiles photo",
+        "perspex": "Plexiglas photo",
+        "aluminium": "Tableau photo alu",
+        "phonecase": "Coques téléphone",
+        "calendar": "Calendrier",
+        "month": "Mois",
+        "year": "Année",
+        "event": "Événement",
+        "events": "Événements",
+        "date": "Date"
     },
-    "photoTray": {
-      "addPhotoButton": {
-        "text": "Ajouter des photos",
-        "tooltip": "Sélectionner photos"
-      }
+    "home": {
+        "title": "{0}",
+        "nextStepButton": "C'est ce que je veux",
+        "caption": "",
+        "previousProductButton": "Précédent",
+        "nextProductButton": "Suivant"
     },
-    "layout": {
-      
-    },
-    "tabs": {
-      "months": "Mois",
-      "photo": "Vos photos",
-      "background": "Arrière-plans",
-      "tooltrayshow": "Afficher",
-      "tooltrayhide": "Masquer",
-      "decoration": "Cadres",
-      "layout": "Mises en page",
-      "spacing": {
-        "labels": {
-          "inner": "Entre les photos : {0}",
-          "inner-small": "Entre les photos : {0}",
-          "outer": "Autour des photos : {0}",
-          "outer-small": "Autour des photos : {0}"
+    "edit": {
+        "selectFileType": "Choisir une photo",
+        "nextStepButton": "Suite",
+        "marginTooltip": "il s'agit du bord de pliure",
+        "lowQualityTooltip": "qualité insuffisante pour le cadre actuel",
+        "photoQualityIndicatorHeaderLabel": "Qualité :",
+        "photoQualityIndicatorLabel": "{0}",
+        "photoQualityIndicatorTooltipLow": "En cas de commande, la qualité de la photo peut ne pas être suffisante pour garantir un résultat optimal.",
+        "photoQualityIndicatorTooltipMedium": "La qualité de la photo n'est pas optimale. Vous pouvez bien évidemment commander la toile de {0}, il est cependant possible que le résultat ne soit pas net.",
+        "photoQualityIndicatorTooltipHigh": "La qualité de la photo est satisfaisante.",
+        "photoQualityIndicatorTooltipExcellent": "La qualité de la photo est exceptionnelle.",
+        "uploadPhotoLabel": "Choisir la photo",
+        "uploadDifferentPhotoLabel": "Choisir une autre photo",
+        "uploadPhotoButtonTooltip": "Cliquez ici pour ajouter une photo",
+        "rotateWarning": "Please rotate your device",
+        "emptyPlaceholder": {
+            "title": "PHOTO",
+            "text": "Cliquez ou glissez votre photo ici pour l'ajouter"
         },
-        "title": "Espacement"
-      }
+        "photoTray": {
+            "addPhotoButton": {
+                "text": "Ajouter des photos",
+                "tooltip": "Sélectionner photos"
+            }
+        },
+        "layout": {
+            "title": "",
+            "subtitle": ""
+        },
+        "tabs": {
+            "months": "Mois",
+            "photo": "Vos photos",
+            "foreground": "",
+            "background": "Arrière-plans",
+            "tooltrayshow": "Afficher",
+            "tooltrayhide": "Masquer",
+            "decoration": "Cadres",
+            "layout": "Mises en page",
+            "spacing": {
+                "labels": {
+                    "inner": "Entre les photos : {0}",
+                    "inner-small": "Entre les photos : {0}",
+                    "outer": "Autour des photos : {0}",
+                    "outer-small": "Autour des photos : {0}"
+                },
+                "title": "Espacement"
+            }
+        },
+        "photoQualityIndicatorLow": "Insuffisante",
+        "photoQualityIndicatorMedium": "Moyenne",
+        "photoQualityIndicatorHigh": "Satisfaisante",
+        "photoQualityIndicatorExcellent": "Excellente",
+        "navigation": {
+            "back": "Précédent",
+            "back-small": "Précédent",
+            "next": "Commander",
+            "next-small": "Commander"
+        },
+        "photoTools": {
+            "close": "Précédent",
+            "close-small": "Précédent",
+            "delete": "Supprimer",
+            "delete-small": "Supprimer",
+            "effects": {
+                "close": "Précédent",
+                "close-small": "Précédent",
+                "grayscale": "",
+                "grayscale-small": "",
+                "label": "Filtres",
+                "label-small": "Filtres",
+                "original": "",
+                "original-small": "",
+                "sepia": "",
+                "sepia-small": ""
+            },
+            "mirror": "Refléter",
+            "mirror-small": "Refléter",
+            "rotate": "Pivoter",
+            "rotate-small": "Pivoter",
+            "swap": "Remplacer",
+            "swap-small": "Remplacer",
+            "zoom": {
+                "label": "Zoomer",
+                "label-small": "Zoomer",
+                "tooltips": {
+                    "in": "",
+                    "out": "",
+                    "slider": ""
+                }
+            }
+        },
+        "cover": "Couverture",
+        "pickStart": "La date de départ",
+        "addAllOption": "Oui, je souhaite ajouter tous les événements à mon calendrier",
+        "selectAll": "Tout sélectionner",
+        "selectNone": "Ne rien sélectionner",
+        "tabEvents": "Vos événements",
+        "tabHolidays": "Fêtes",
+        "addEvent": "Ajouter votre événement",
+        "addHoliday": "Ajouter des vacances",
+        "eventName": "Nom de l'événement",
+        "updateButton": "Mettre à jour le calendrier"
     },
-    "photoQualityIndicatorLow": "Insuffisante",
-    "photoQualityIndicatorMedium": "Moyenne",
-    "photoQualityIndicatorHigh": "Satisfaisante",
-    "photoQualityIndicatorExcellent": "Excellente",
-    "navigation": {
-      "back": "Précédent",
-      "back-small": "Précédent",
-      "next": "Commander",
-      "next-small": "Commander"
+    "save": {
+        "saveText": "Enregistrer",
+        "saveBody": "Donnez un nom à votre calendrier et enregistrez-le"
     },
-    "photoTools": {
-      "close": "Précédent",
-      "close-small": "Précédent",
-      "delete": "Supprimer",
-      "delete-small": "Supprimer",
-      "effects": {
-        "close": "Précédent",
-        "close-small": "Précédent",
-        "label": "Filtres",
-        "label-small": "Filtres"
-      },
-      "mirror": "Refléter",
-      "mirror-small": "Refléter",
-      "rotate": "Pivoter",
-      "rotate-small": "Pivoter",
-      "swap": "Remplacer",
-      "swap-small": "Remplacer",
-      "zoom": {
-        "label": "Zoomer",
-        "label-small": "Zoomer",
-        "tooltips": {
-          
+    "load": {
+        "loadText": "Ouvrir",
+        "loadBody": "Ouvrir un livre photo enregistré",
+        "created": "",
+        "modified": ""
+    },
+    "order": {
+        "orderTitle": "Votre commande",
+        "invoiceTitle": "Récapitulatif",
+        "numberOfCopiesDescription": "(sélectionnez ici le nombre d'exemplaires souhaités)",
+        "subTotal": "Sous-total",
+        "shipping": "Frais d'envoi",
+        "invoiceDiscount": "Réduction",
+        "total": "Total",
+        "promoTitle": "Code promotionnel",
+        "promoDescription": "Vous disposez d'un code promotionnel ? Saisissez le code ci-dessous.",
+        "applyPromoCodeButton": "calculer",
+        "deliveryAddressTitle": "Adresse de livraison",
+        "updateDeliveryAddressButton": "modifier",
+        "previousStepButton": "retour",
+        "submitButton": "finaliser la commande",
+        "promotionPopupTitle": "Code promotionnel non valable",
+        "promotionPopupSubtitle": "Le code promotionnel saisi n'est pas valable. Saisissez un code promotionnel valable ou commandez sans code promotionnel",
+        "promotionPopupEnterPromotionCodeLabel": "Code promotionnel :",
+        "promotionPopupCancelLabel": "Commander sans code promotionnel",
+        "promotionPopupSubmitLabel": "Envoyer",
+        "navigation": {
+            "back": "Précédent",
+            "back-small": "Précédent",
+            "next": "Suivant",
+            "next-small": "Suivant"
         }
-      }
     },
-    "cover": "Couverture",
-    "pickStart": "La date de départ",
-    "addAllOption": "Oui, je souhaite ajouter tous les événements à mon calendrier",
-    "selectAll": "Tout sélectionner",
-    "selectNone": "Ne rien sélectionner",
-    "tabEvents": "Vos événements",
-    "tabHolidays": "Fêtes",
-    "addEvent": "Ajouter votre événement",
-    "addHoliday": "Ajouter des vacances",
-    "eventName": "Nom de l'événement",
-    "updateButton": "Mettre à jour le calendrier"
-  },
-  "save": {
-    "saveText": "Enregistrer",
-    "saveBody": "Donnez un nom à votre calendrier et enregistrez-le"
-  },
-  "load": {
-    "loadText": "Ouvrir",
-    "loadBody": "Ouvrir un livre photo enregistré"
-  },
-  "order": {
-    "orderTitle": "Votre commande",
-    "invoiceTitle": "Récapitulatif",
-    "numberOfCopiesDescription": "(sélectionnez ici le nombre d'exemplaires souhaités)",
-    "subTotal": "Sous-total",
-    "shipping": "Frais d'envoi",
-    "invoiceDiscount": "Réduction",
-    "total": "Total",
-    "promoTitle": "Code promotionnel",
-    "promoDescription": "Vous disposez d'un code promotionnel ? Saisissez le code ci-dessous.",
-    "applyPromoCodeButton": "calculer",
-    "deliveryAddressTitle": "Adresse de livraison",
-    "updateDeliveryAddressButton": "modifier",
-    "previousStepButton": "retour",
-    "submitButton": "finaliser la commande",
-    "promotionPopupTitle": "Code promotionnel non valable",
-    "promotionPopupSubtitle": "Le code promotionnel saisi n'est pas valable. Saisissez un code promotionnel valable ou commandez sans code promotionnel",
-    "promotionPopupEnterPromotionCodeLabel": "Code promotionnel :",
-    "promotionPopupCancelLabel": "Commander sans code promotionnel",
-    "promotionPopupSubmitLabel": "Envoyer",
-    "navigation": {
-      "back": "Précédent",
-      "back-small": "Précédent",
-      "next": "Suivant",
-      "next-small": "Suivant"
-    }
-  },
-  "upload": {
-    "uploading": "Traitement de la commande en cours, veuillez patienter. %3%%",
-    "busyUploadingLabel": "Nous traitons votre commande, veuillez patienter quelques instants. Une fois votre commande traitée, vous serez redirigé vers le panier."
-  },
-  "help": {
-    "helpTitle": "Service clients",
-    "helpText": "Consultez la foire aux questions",
-    "helpURL": "http://www.albelli.fr/service-clientele "
-  },
-  "alerts": { "invalidPromotionCode": "Le code promotionnel n'est pas valable." },
-  "warnings": {
-    "qualityTitle": "Qualité insuffisante",
-    "qualitySubtitle": "Vous pouvez choisir de commander votre produit tel qu'il est, mais la qualité d'image pourrait être affectée.",
-    "qualityFooter": "Pour des conseils personnalisés, veuillez contacter notre <a href=\"{CUSTOMER_SERVICE}\" target=\"_blank\">service clients</a>.",
-    "qualityButtonCancel": "Modifier le produit",
-    "qualityButtonProceed": "Continuer quand même",
-    "layouts": {
-      "lessPlaceholdersThanPhotos": {
-        "message": "La mise en page sélectionnée contient moins de photos que celle déjà en place. En continuant, vous supprimez {0} photo(s). Souhaitez-vous continuer?"
-      }
-    }
-  },
-  "dialogs": {
-    "browser": {
-      "browserWarning": "Vous ne pouvez pas profiter de toutes les options de création de ce produit avec votre navigateur. Veuillez installer Safari, Chrome, Firefox ou une nouvelle version d’Internet Explorer (10 ou supérieure), ou continuez vers le logiciel avec moins d’options.",
-      "chromeInstall": "Installer Chrome",
-      "gotoFlash": "Continuer"
+    "upload": {
+        "uploading": "Traitement de la commande en cours, veuillez patienter. %3%",
+        "busyUploadingLabel": "Nous traitons votre commande, veuillez patienter quelques instants. Une fois votre commande traitée, vous serez redirigé vers le panier."
     },
-    "features": {
-      "reducedFeatures": "Bienvenue dans le nouveau logiciel de création pour tablettes ! Nous faisons de notre mieux pour vous apporter les options de création que vous connaissez sur ordinateur, tels que les thèmes ou éléments décoratifs, le plus rapidement possible.",
-      "continue": "Créer votre calendrier"
-    }
-  },
-  "errors": {
-    "errorBootstrapping": "Une erreur est survenue pendant le démarrage du logiciel. Veuillez réessayer plus tard ou contacter le service clients. ",
-    "countryList": "Une erreur est survenue pendant le démarrage du logiciel. Veuillez réessayer plus tard ou contacter le service clients. (Liste des pays non trouvée)",
-    "lowMemoryWarning": "La mémoire de votre appareil est saturée. Veuillez fermer les autres applications ouvertes et réessayer.",
-    "defaultPrice": "Une erreur est survenue pendant le démarrage du logiciel. Veuillez réessayer plus tard ou contacter le service clients. (Liste des prix non trouvée)",
-    "loadPhotoBitmapData": "Une erreur est survenue pendant le téléchargement de votre photo. Veuillez réessayer plus tard ou contacter le service clients.",
-    "loadBigPhoto": "Une erreur s'est produite lors du chargement de la photo. Merci de réduire la taille à 8000 x 8000 pixels maximum puis réessayez.",
-    "creatingPhoto": "Une erreur est survenue lors de la composition de la photo. Contactez le service clientèle ou réessayez ultérieurement.",
-    "photoRegistration": "Une erreur est survenue lors de la composition de la photo. Contactez le service clientèle ou réessayez ultérieurement.",
-    "addPhotoToPhotoPlaceholderEmpty": "Une erreur est survenue lors de l'ajout de la photo au cadre photo. Contactez le service clientèle ou réessayez ultérieurement.",
-    "addPhotoToPhotoPlaceholder": "Une erreur est survenue lors de l'ajout de la photo au cadre photo. Contactez le service clientèle ou réessayez ultérieurement.",
-    "startUploadPhoto": "Une erreur est survenue lors de l'initialisation du téléchargement de la photo. Contactez le service clientèle ou réessayez ultérieurement.",
-    "setPhotoCanvas": "Une erreur est survenue lors du changement de produits. Contactez le service clientèle ou réessayez ultérieurement.",
-    "createCustomer": "Une erreur est survenue lors de la collecte des données relatives au client. Contactez le service clientèle ou réessayez ultérieurement.",
-    "createOrder": "Une erreur est survenue lors de la création des données de facturation. Contactez le service clientèle ou réessayez ultérieurement.",
-    "getInvoice": "Une erreur est survenue lors du chargement des données de facturation. Contactez le service clientèle ou réessayez ultérieurement.",
-    "sendOrder": "Une erreur est survenue lors de l'envoi de la commande. Contactez le service clientèle ou réessayez ultérieurement.",
-    "getPaymentUrl": "Une erreur est survenue lors du chargement des données de paiement. Contactez le service clientèle ou réessayez ultérieurement."
-  },
-  "validations": {
-    "emailMissingAtSign": "Il manque un symbole @ dans l'adresse électronique.",
-    "emailMissingPeriodInDomain": "Il manque un point (.fr) dans l'adresse électronique.",
-    "emailDomainInvalidFormatted": "Le domaine de l'adresse électronique n'est pas valable.",
-    "emailTooManyAtCharacters": "L'adresse électronique comporte trop de symboles @.",
-    "emailConsecutivePeriodsInDomain": "L'adresse électronique contient une succession de points (.).",
-    "emailInvalidChars": "L'adresse électronique contient des caractères non valables.",
-    "emailInvalidIp": "L'adresse IP du domaine de l'adresse électronique n'est pas valable.",
-    "emailMissingUsername": "L'adresse électronique ne contient pas de nom d'utilisateur.",
-    "emailRequired": "champ obligatoire",
-    "textRequired": "champ obligatoire",
-    "textTooLong": "Le nombre maximal de caractères a été atteint.",
-    "zipcodeRequired": "champ obligatoire",
-    "zipcodeInvalid": "code postal non valable, utilisez le format suivant :"
-  },
-  "layout": {
-    "navigation": {
-      
+    "help": {
+        "helpTitle": "Service clients",
+        "helpText": "Consultez la foire aux questions",
+        "helpURL": "http://www.albelli.fr/service-clientele",
+        "moreOptionsUrl": ""
     },
-    "subtitle": "Choisissez le nombre de photos ci-dessous",
-    "title": "Sélectionnez une mise en page"
-  },
-  "preview": {
-    "button": "Aperçu",
-    "buttonBack": "Précédent",
-    "close": "Modifier le produit",
-    "options": {
-      "context": "Visualiser sur un mur",
-      "full": "Plein écran"
-    },
-    "title": "Options d'aperçu :"
-  },
-  "calendar": {
-    "months": {
-      "m0": "janvier",
-      "m1": "février",
-      "m2": "mars",
-      "m3": "avril",
-      "m4": "mai",
-      "m5": "juin",
-      "m6": "juillet",
-      "m7": "août",
-      "m8": "septembre",
-      "m9": "octobre",
-      "m10": "novembre",
-      "m11": "décembre"
-    },
-    "days": {
-      "mon": "Lundi",
-      "tue": "Mardi",
-      "wen": "Mercredi",
-      "thu": "Jeudi",
-      "fri": "Vendredi",
-      "sat": "Samedi",
-      "sun": "Dimanche",
-      "short": {
-        "mon": "Lu",
-        "tue": "Ma",
-        "wed": "Me",
-        "thu": "Je",
-        "fri": "Ve",
-        "sat": "Sa",
-        "sun": "Di"
-      }
+    "alerts": {
+        "invalidPromotionCode": "Le code promotionnel n'est pas valable."
     },
     "warnings": {
-      "eventMax": "Vous ne pouvez pas ajouter plus de {0} événements à une date"
+        "qualityTitle": "Qualité insuffisante",
+        "qualitySubtitle": "Vous pouvez choisir de commander votre produit tel qu'il est, mais la qualité d'image pourrait être affectée.",
+        "qualityOptionsTitle": "",
+        "qualityOptions": "",
+        "qualityFooter": "Pour des conseils personnalisés, veuillez contacter notre  <a href=\"{CUSTOMER_SERVICE}\" target=\"_blank\">service clients<\/a>.",
+        "qualityButtonCancel": "Modifier le produit",
+        "qualityButtonProceed": "Continuer quand même",
+        "layouts": {
+            "lessPlaceholdersThanPhotos": {
+                "message": "La mise en page sélectionnée contient moins de photos que celle déjà en place. En continuant, vous supprimez {0} photo(s). Souhaitez-vous continuer?"
+            }
+        }
+    },
+    "dialogs": {
+        "browser": {
+            "browserWarning": "Vous ne pouvez pas profiter de toutes les options de création de ce produit avec votre navigateur. Veuillez installer Safari, Chrome, Firefox ou une nouvelle version d’Internet Explorer (10 ou supérieure), ou continuez vers le logiciel avec moins d’options.",
+            "chromeInstall": "Installer Chrome",
+            "gotoFlash": "Continuer"
+        },
+        "features": {
+            "reducedFeatures": "Bienvenue dans le nouveau logiciel de création pour tablettes ! Nous faisons de notre mieux pour vous apporter les options de création que vous connaissez sur ordinateur, tels que les thèmes ou éléments décoratifs, le plus rapidement possible.",
+            "continue": "Créer votre calendrier"
+        }
+    },
+    "errors": {
+        "errorBootstrapping": "Une erreur est survenue pendant le démarrage du logiciel. Veuillez réessayer plus tard ou contacter le service clients.",
+        "countryList": "Une erreur est survenue pendant le démarrage du logiciel. Veuillez réessayer plus tard ou contacter le service clients. (Liste des pays non trouvée)",
+        "lowMemoryWarning": "La mémoire de votre appareil est saturée. Veuillez fermer les autres applications ouvertes et réessayer.",
+        "defaultPrice": "Une erreur est survenue pendant le démarrage du logiciel. Veuillez réessayer plus tard ou contacter le service clients. (Liste des prix non trouvée)",
+        "loadPhotoBitmapData": "Une erreur est survenue pendant le téléchargement de votre photo. Veuillez réessayer plus tard ou contacter le service clients.",
+        "loadBigPhoto": "Une erreur s'est produite lors du chargement de la photo. Merci de réduire la taille à 8000 x 8000 pixels maximum puis réessayez.",
+        "creatingPhoto": "Une erreur est survenue lors de la composition de la photo. Contactez le service clientèle ou réessayez ultérieurement.",
+        "photoRegistration": "Une erreur est survenue lors de la composition de la photo. Contactez le service clientèle ou réessayez ultérieurement.",
+        "addPhotoToPhotoPlaceholderEmpty": "Une erreur est survenue lors de l'ajout de la photo au cadre photo. Contactez le service clientèle ou réessayez ultérieurement.",
+        "addPhotoToPhotoPlaceholder": "Une erreur est survenue lors de l'ajout de la photo au cadre photo. Contactez le service clientèle ou réessayez ultérieurement.",
+        "startUploadPhoto": "Une erreur est survenue lors de l'initialisation du téléchargement de la photo. Contactez le service clientèle ou réessayez ultérieurement.",
+        "setPhotoCanvas": "Une erreur est survenue lors du changement de produits. Contactez le service clientèle ou réessayez ultérieurement.",
+        "createCustomer": "Une erreur est survenue lors de la collecte des données relatives au client. Contactez le service clientèle ou réessayez ultérieurement.",
+        "createOrder": "Une erreur est survenue lors de la création des données de facturation. Contactez le service clientèle ou réessayez ultérieurement.",
+        "getInvoice": "Une erreur est survenue lors du chargement des données de facturation. Contactez le service clientèle ou réessayez ultérieurement.",
+        "sendOrder": "Une erreur est survenue lors de l'envoi de la commande. Contactez le service clientèle ou réessayez ultérieurement.",
+        "getPaymentUrl": "Une erreur est survenue lors du chargement des données de paiement. Contactez le service clientèle ou réessayez ultérieurement."
+    },
+    "validations": {
+        "emailMissingAtSign": "Il manque un symbole @ dans l'adresse électronique.",
+        "emailMissingPeriodInDomain": "Il manque un point (.fr) dans l'adresse électronique.",
+        "emailDomainInvalidFormatted": "Le domaine de l'adresse électronique n'est pas valable.",
+        "emailTooManyAtCharacters": "L'adresse électronique comporte trop de symboles @.",
+        "emailConsecutivePeriodsInDomain": "L'adresse électronique contient une succession de points (.).",
+        "emailInvalidChars": "L'adresse électronique contient des caractères non valables.",
+        "emailInvalidIp": "L'adresse IP du domaine de l'adresse électronique n'est pas valable.",
+        "emailMissingUsername": "L'adresse électronique ne contient pas de nom d'utilisateur.",
+        "emailRequired": "champ obligatoire",
+        "textRequired": "champ obligatoire",
+        "textTooLong": "Le nombre maximal de caractères a été atteint.",
+        "zipcodeRequired": "champ obligatoire",
+        "zipcodeInvalid": "code postal non valable, utilisez le format suivant :"
+    },
+    "layout": {
+        "navigation": {
+            "back": "",
+            "back-small": "",
+            "next": "",
+            "next-small": ""
+        },
+        "subtitle": "Choisissez le nombre de photos ci-dessous",
+        "title": "Sélectionnez une mise en page"
+    },
+    "preview": {
+        "button": "Aperçu",
+        "buttonBack": "Précédent",
+        "close": "Modifier le produit",
+        "options": {
+            "context": "Visualiser sur un mur",
+            "full": "Plein écran"
+        },
+        "title": "Options d'aperçu :"
+    },
+    "calendar": {
+        "months": {
+            "m0": "janvier",
+            "m1": "février",
+            "m2": "mars",
+            "m3": "avril",
+            "m4": "mai",
+            "m5": "juin",
+            "m6": "juillet",
+            "m7": "août",
+            "m8": "septembre",
+            "m9": "octobre",
+            "m10": "novembre",
+            "m11": "décembre"
+        },
+        "days": {
+            "mon": "Lundi",
+            "tue": "Mardi",
+            "wen": "Mercredi",
+            "thu": "Jeudi",
+            "fri": "Vendredi",
+            "sat": "Samedi",
+            "sun": "Dimanche",
+            "short": {
+                "mon": "Lu",
+                "tue": "Ma",
+                "wed": "Me",
+                "thu": "Je",
+                "fri": "Ve",
+                "sat": "Sa",
+                "sun": "Di"
+            }
+        },
+        "warnings": {
+            "eventMax": "Vous ne pouvez pas ajouter plus de {0} événements à une date"
+        }
     }
-  }
 }

@@ -62,7 +62,8 @@
       }
     },
     "layout": {
-      
+      "title": "",
+      "subtitle": ""
     },
     "tabs": {
       "months": "Måneder",
@@ -233,7 +234,10 @@
   },
   "layout": {
     "navigation": {
-      
+      "back": "",
+      "back-small": "",
+      "next": "",
+      "next-small": ""
     },
     "subtitle": "Velg antall bilder under",
     "title": "Velg oppsett"
@@ -286,9 +290,35 @@
     }
   },
   "customer": {
+        "customerCity": "",
+        "customerCountryCode": "",
+        "customerEmail": "",
+        "customerFirstname": "",
+        "customerHouseNumber": "",
+        "customerLastname": "",
+        "customerMiddlename": "",
+        "customerPhone": "",
+        "customerStreet": "",
+        "customerZip": "",
+        "nextStepButton": "",
+        "previousStepButton": "",
+        "subscribeToNewsletter": "",
+        "title": ""
     
   },
   "months": {
-    
+        "month0": "",
+        "month1": "",
+
+        "month2": "",
+        "month3": "",
+        "month4": "",
+        "month5": "",
+        "month6": "",
+        "month7": "",
+        "month8": "",
+        "month9": "",
+        "month10": "",
+        "month11": ""
   }
 }

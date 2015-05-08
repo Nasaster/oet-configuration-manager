@@ -1,291 +1,341 @@
 {
-  "general": {
-    "vendorName": "Bonusprint",
-    "navigateAwayMessage": "If you leave this page, all your changes will be lost. Are you sure you want to close the {0}?",
-    "title": "Wall decor",
-    "productSelectorTitle": "{0}",
-    "error": "An error has occurred",
-    "warning": "Warning",
-    "close": "OK",
-    "loading": "Loading. Please wait.",
-    "productSpecificationTitle": "Specifications:",
-    "productSpecificationSize": "Size",
-    "productSpecificationPrice": "Price",
-    "productSpecificationPriceText1": "{0} (excl.",
-    "productSpecificationPricePrice": "postage & packaging",
-    "productSpecificationPriceText2": ")",
-    "yes": "Yes",
-    "no": "No",
-    "add": "Add",
-    "cancel": "Cancel",
-    "canvas": "Canvas prints",
-    "perspex": "Acrylic prints",
-    "phonecase": "Phone Cases",
-    "aluminium": "Aluminium prints",
-    "editor": "{0} editor",
-    "calendar": "Calendar",
-    "month": "Month",
-    "year": "Year",
-    "event": "Event",
-    "events": "Events",
-    "date": "Date"
-  },
-  "home": {
-    "title": "{0}",
-    "nextStepButton": "Create now",
-    "previousProductButton": "Previous",
-    "nextProductButton": "Next"
-  },
-  "edit": {
-    "selectFileType": "Select a photo",
-    "nextStepButton": "Next",
-    "marginTooltip": "this is the folding margin",
-    "lowQualityTooltip": "quality too low for current frame",
-    "photoQualityIndicatorHeaderLabel": "Quality: ",
-    "photoQualityIndicatorLabel": "{0}",
-    "photoQualityIndicatorTooltipLow": "The quality of the photo is too low to guarantee an optimal result. You can, of course, order the {0} in any case, but the result may not be sharp.",
-    "photoQualityIndicatorTooltipMedium": "The quality of the photo is less than optimal. You can, of course, order the {0} in any case, but the result may not be sharp.",
-    "photoQualityIndicatorTooltipHigh": "The quality of the photo is good.",
-    "photoQualityIndicatorTooltipExcellent": "The quality of the photo is excellent.",
-    "uploadPhotoLabel": "Select a photo",
-    "uploadDifferentPhotoLabel": "Select a different photo",
-    "uploadPhotoButtonTooltip": "Click here to add a photo",
-    "rotateWarning": "Please rotate your device",
-    "emptyPlaceholder": {
-      "title": "PICTURE",
-      "text": "Click or drag here to add"
+    "general": {
+        "vendorName": "Bonusprint",
+        "navigateAwayMessage": "If you leave this page, all your changes will be lost. Are you sure you want to close the {0}?",
+        "title": "Wall decor",
+        "productSelectorTitle": "{0}",
+        "error": "An error has occurred",
+        "warning": "Warning",
+        "close": "OK",
+        "loading": "Loading. Please wait.",
+        "productSpecificationTitle": "Specifications:",
+        "productSpecificationSize": "Size",
+        "productSpecificationPrice": "Price",
+        "productSpecificationPriceText1": "{0} (excl.",
+        "productSpecificationPricePrice": "postage & packaging",
+        "productSpecificationPriceText2": ")",
+        "yes": "Yes",
+        "no": "No",
+        "add": "Add",
+        "cancel": "Cancel",
+        "notificationTitle": "",
+        "canvas": "Canvas prints",
+        "perspex": "Acrylic prints",
+        "phonecase": "Phone Cases",
+        "aluminium": "Aluminium prints",
+        "editor": "{0} editor",
+        "calendar": "Calendar",
+        "month": "Month",
+        "year": "Year",
+        "event": "Event",
+        "events": "Events",
+        "date": "Date"
     },
-    "photoTray": {
-      "addPhotoButton": {
-        "text": "Add new photo(s)",
-        "tooltip": "Click here to add a photo"
-      }
+    "home": {
+        "title": "{0}",
+        "nextStepButton": "Create now",
+        "caption": "",
+        "previousProductButton": "Previous",
+        "nextProductButton": "Next"
     },
-    "layout": {
-      
-    },
-    "tabs": {
-      "months": "Months",
-      "photo": "Your photos",
-      "background": "Backgrounds",
-      "tooltrayshow": "Show",
-      "tooltrayhide": "Hide",
-      "decoration": "Frames",
-      "layout": "Layouts",
-      "spacing": {
-        "labels": {
-          "inner": "Inner spacing: {0}",
-          "inner-small": "Inner: {0}",
-          "outer": "Outer spacing: {0}",
-          "outer-small": "Outer: {0}"
+    "edit": {
+        "selectFileType": "Select a photo",
+        "nextStepButton": "Next",
+        "marginTooltip": "this is the folding margin",
+        "lowQualityTooltip": "quality too low for current frame",
+        "photoQualityIndicatorHeaderLabel": "Quality:",
+        "photoQualityIndicatorLabel": "{0}",
+        "photoQualityIndicatorTooltipLow": "The quality of the photo is too low to guarantee an optimal result. You can, of course, order the {0} in any case, but the result may not be sharp.",
+        "photoQualityIndicatorTooltipMedium": "The quality of the photo is less than optimal. You can, of course, order the {0} in any case, but the result may not be sharp.",
+        "photoQualityIndicatorTooltipHigh": "The quality of the photo is good.",
+        "photoQualityIndicatorTooltipExcellent": "The quality of the photo is excellent.",
+        "uploadPhotoLabel": "Select a photo",
+        "uploadDifferentPhotoLabel": "Select a different photo",
+        "uploadPhotoButtonTooltip": "Click here to add a photo",
+        "rotateWarning": "Please rotate your device",
+        "emptyPlaceholder": {
+            "title": "PICTURE",
+            "text": "Click or drag here to add"
         },
-        "title": "Spacing"
-      }
+        "photoTray": {
+            "addPhotoButton": {
+                "text": "Add new photo(s)",
+                "tooltip": "Click here to add a photo"
+            }
+        },
+        "layout": {
+            "title": "",
+            "subtitle": ""
+        },
+        "tabs": {
+            "months": "Months",
+            "photo": "Your photos",
+            "foreground": "",
+            "background": "Backgrounds",
+            "tooltrayshow": "Show",
+            "tooltrayhide": "Hide",
+            "decoration": "Frames",
+            "layout": "Layouts",
+            "spacing": {
+                "labels": {
+                    "inner": "Inner spacing: {0}",
+                    "inner-small": "Inner: {0}",
+                    "outer": "Outer spacing: {0}",
+                    "outer-small": "Outer: {0}"
+                },
+                "title": "Spacing"
+            }
+        },
+        "photoQualityIndicatorLow": "Insufficient",
+        "photoQualityIndicatorMedium": "Moderate",
+        "photoQualityIndicatorHigh": "Good",
+        "photoQualityIndicatorExcellent": "Excellent",
+        "navigation": {
+            "back": "Back",
+            "back-small": "Back",
+            "next": "Add to basket",
+            "next-small": "Order"
+        },
+        "photoTools": {
+            "close": "Previous",
+            "close-small": "Previous",
+            "delete": "Delete",
+            "delete-small": "Delete",
+            "effects": {
+                "close": "Previous",
+                "close-small": "Previous",
+                "grayscale": "",
+                "grayscale-small": "",
+                "label": "Filters",
+                "label-small": "Filters",
+                "original": "",
+                "original-small": "",
+                "sepia": "",
+                "sepia-small": ""
+            },
+            "mirror": "Flip",
+            "mirror-small": "Flip",
+            "rotate": "Rotate",
+            "rotate-small": "Rotate",
+            "swap": "Swap",
+            "swap-small": "Swap",
+            "zoom": {
+                "label": "Zoom",
+                "label-small": "Zoom",
+                "tooltips": {
+                    "in": "",
+                    "out": "",
+                    "slider": ""
+                }
+            }
+        },
+        "pickStart": "Pick a starting date",
+        "addAllOption": "Yes, add all events to my calendar",
+        "selectAll": "Select all",
+        "selectNone": "Select nothing",
+        "tabEvents": "Your Events",
+        "tabHolidays": "Your holidays",
+        "addEvent": "Add your event",
+        "addHoliday": "Add a holiday",
+        "eventName": "Event name",
+        "updateButton": "Update calendar",
+        "cover": "Cover"
     },
-    "photoQualityIndicatorLow": "Insufficient",
-    "photoQualityIndicatorMedium": "Moderate",
-    "photoQualityIndicatorHigh": "Good",
-    "photoQualityIndicatorExcellent": "Excellent",
-    "navigation": {
-      "back": "Back",
-      "back-small": "Back",
-      "next": "Add to basket",
-      "next-small": "Order"
+    "save": {
+        "saveText": "Save",
+        "saveBody": "Give your product a title and save"
     },
-    "photoTools": {
-      "close": "Previous",
-      "close-small": "Previous",
-      "delete": "Delete",
-      "delete-small": "Delete",
-      "effects": {
-        "close": "Previous",
-        "close-small": "Previous",
-        "label": "Filters",
-        "label-small": "Filters"
-      },
-      "mirror": "Flip",
-      "mirror-small": "Flip",
-      "rotate": "Rotate",
-      "rotate-small": "Rotate",
-      "swap": "Swap",
-      "swap-small": "Swap",
-      "zoom": {
-        "label": "Zoom",
-        "label-small": "Zoom",
-        "tooltips": {
-          
+    "load": {
+        "loadText": "Open",
+        "loadBody": "Open a saved photo book",
+        "created": "",
+        "modified": ""
+    },
+    "order": {
+        "orderTitle": "Your Order",
+        "invoiceTitle": "Overview",
+        "numberOfCopiesDescription": "(select the desired number of copies here)",
+        "subTotal": "Subtotal",
+        "shipping": "Postage & packaging",
+        "invoiceDiscount": "Discount",
+        "total": "Total",
+        "promoTitle": "Promotion Code",
+        "promoDescription": "Do you have a promotion code? Enter the code below.",
+        "applyPromoCodeButton": "apply",
+        "deliveryAddressTitle": "Delivery Address",
+        "updateDeliveryAddressButton": "update",
+        "previousStepButton": "back",
+        "submitButton": "complete your order",
+        "promotionPopupTitle": "Invalid promotion code",
+        "promotionPopupSubtitle": "The promotion code you entered is invalid. Enter a valid promotion code or order without promotion code",
+        "promotionPopupEnterPromotionCodeLabel": "Promotion code:",
+        "promotionPopupCancelLabel": "Order without promotion code",
+        "promotionPopupSubmitLabel": "Send",
+        "navigation": {
+            "back": "",
+            "back-small": "",
+            "next": "",
+            "next-small": ""
         }
-      }
     },
-    "pickStart": "Pick a starting date",
-    "addAllOption": "Yes, add all events to my calendar",
-    "selectAll": "Select all",
-    "selectNone": "Select nothing",
-    "tabEvents": "Your Events",
-    "tabHolidays": "Your holidays",
-    "addEvent": "Add your event",
-    "addHoliday": "Add a holiday",
-    "eventName": "Event name",
-    "updateButton": "Update calendar",
-    "cover": "Cover"
-  },
-  "save": {
-    "saveText": "Save",
-    "saveBody": "Give your product a title and save"
-  },
-  "load": {
-    "loadText": "Open",
-    "loadBody": "Open a saved photo book"
-  },
-  "order": {
-    "orderTitle": "Your Order",
-    "invoiceTitle": "Overview",
-    "numberOfCopiesDescription": "(select the desired number of copies here)",
-    "subTotal": "Subtotal",
-    "shipping": "Postage & packaging",
-    "invoiceDiscount": "Discount",
-    "total": "Total",
-    "promoTitle": "Promotion Code",
-    "promoDescription": "Do you have a promotion code? Enter the code below.",
-    "applyPromoCodeButton": "apply",
-    "deliveryAddressTitle": "Delivery Address",
-    "updateDeliveryAddressButton": "update",
-    "previousStepButton": "back",
-    "submitButton": "complete your order",
-    "promotionPopupTitle": "Invalid promotion code",
-    "promotionPopupSubtitle": "The promotion code you entered is invalid. Enter a valid promotion code or order without promotion code",
-    "promotionPopupEnterPromotionCodeLabel": "Promotion code:",
-    "promotionPopupCancelLabel": "Order without promotion code",
-    "promotionPopupSubmitLabel": "Send",
-    "navigation": {
-      
-    }
-  },
-  "upload": {
-    "uploading": "Finalising order. Please wait. %3%%",
-    "busyUploadingLabel": "We are finalising your order. This shouldn't take too long. Once the upload is complete, we'll redirect you to your shopping basket."
-  },
-  "help": {
-    "helpTitle": "Customer service",
-    "helpText": "View the Frequently Asked Questions",
-    "helpURL": "http://www.bonusprint.co.uk/customer-care"
-  },
-  "alerts": { "invalidPromotionCode": "The promotion code is invalid." },
-  "warnings": {
-    "qualityTitle": "Insufficient photo quality",
-    "qualitySubtitle": "You can order the product like this, but the print quality may be less sharp than we normally guarantee.",
-    "qualityFooter": "For personal advice, please contact our <a href=\"{CUSTOMER_SERVICE}\" target=\"_blank\">customer service</a> team.",
-    "qualityButtonCancel": "Edit product",
-    "qualityButtonProceed": "Continue anyway",
-    "layouts": {
-      "lessPlaceholdersThanPhotos": {
-        "message": "Are you sure you want to continue? Your selected layout contains fewer photos than your current layout. If you continue, {0} photo(s) will be removed from the page."
-      }
-    }
-  },
-  "dialogs": {
-    "browser": {
-      "browserWarning": "Unfortunately your browser does not support all options for creating this product. Please install Safari, Chrome, Firefox or a newer version of Internet Explorer (10 or higher) and start again, or continue with limited options.",
-      "chromeInstall": "Install Chrome",
-      "gotoFlash": "Continue anyway"
+    "upload": {
+        "uploading": "Finalising order. Please wait. %3%",
+        "busyUploadingLabel": "We are finalising your order. This shouldn't take too long. Once the upload is complete, we'll redirect you to your shopping basket."
     },
-    "features": {
-      "reducedFeatures": "Welcome to the Albelli Creator Tool for Personalised Calendars.  Drag and drop your photos, background, and add events and Public Holidays!  More themes and features available in our Creator Tool for desktop and laptop computers.",
-      "continue": "Create your calendar"
-    }
-  },
-  "errors": {
-    "errorBootstrapping": "We're sorry, but a problem occurred during start-up. Please try again later or contact customer service for help.",
-    "countryList": "We're sorry, but a problem occurred during start-up. Please try again later or contact customer service for help. (couldn't retrieve country list)",
-    "lowMemoryWarning": "Your device seems to be running low on memory. Please close any other open applications and try again.",
-    "defaultPrice": "We're sorry, but a problem occurred during start-up. Please try again later or contact customer service for help. (couldn't retrieve price information)",
-    "loadPhotoBitmapData": "We're sorry, but a problem occurred while trying to load your photo. Please try again later or contact customer service for help.",
-    "loadBigPhoto": "An error occurred while loading the photo. Please reduce the dimensions to a maximum of 8000 x 8000 pixels and try again.",
-    "creatingPhoto": "An error occurred while creating the photo. Contact the helpdesk or try again later.",
-    "photoRegistration": "An error occurred while creating the photo. Contact the helpdesk or try again later.",
-    "addPhotoToPhotoPlaceholderEmpty": "An error occurred while adding the photo to the photo frame. Contact the helpdesk or try again later.",
-    "addPhotoToPhotoPlaceholder": "An error occurred while adding the photo to the photo frame. Contact the helpdesk or try again later.",
-    "startUploadPhoto": "An error occurred while initialising the photo upload. Contact the helpdesk or try again later.",
-    "setPhotoCanvas": "An error occurred while switching between the products. Contact the helpdesk or try again later.",
-    "createCustomer": "An error occurred while collecting the customer details. Contact the helpdesk or try again later.",
-    "createOrder": "An error occurred while creating the invoice details. Contact the helpdesk or try again later.",
-    "getInvoice": "An error occurred while retrieving the invoice details. Contact the helpdesk or try again later.",
-    "sendOrder": "An error occurred while sending the order. Contact the helpdesk or try again later.",
-    "getPaymentUrl": "An error occurred while retrieving the payment details. Contact the helpdesk or try again later."
-  },
-  "validations": {
-    "emailMissingAtSign": "There is no @ symbol in the e-mail address.",
-    "emailMissingPeriodInDomain": "There is no dot (.com) in the e-mail address.",
-    "emailDomainInvalidFormatted": "The domain of the e-mail address is invalid.",
-    "emailTooManyAtCharacters": "The e-mail address contains too many @ symbols.",
-    "emailConsecutivePeriodsInDomain": "The e-mail address contains consecutive dots (.).",
-    "emailInvalidChars": "The e-mail address contains invalid characters.",
-    "emailInvalidIp": "The IP address in the domain of the e-mail address is invalid.",
-    "emailMissingUsername": "The user name is missing in the e-mail address.",
-    "emailRequired": "required field",
-    "textRequired": "required field",
-    "textTooLong": "The maximum number of characters has been reached.",
-    "zipcodeRequired": "required field",
-    "zipcodeInvalid": "invalid postal code, use the format:"
-  },
-  "layout": {
-    "navigation": {
-      
+    "help": {
+        "helpTitle": "Customer service",
+        "helpText": "View the Frequently Asked Questions",
+        "helpURL": "http:\/\/www.bonusprint.co.uk\/customer-care",
+        "moreOptionsUrl": ""
     },
-    "subtitle": "Choose the number of photos below",
-    "title": "Select a layout"
-  },
-  "preview": {
-    "button": "Preview",
-    "buttonBack": "Back to edit",
-    "close": "Edit product",
-    "options": {
-      "context": "View on wall",
-      "full": "Full view"
-    },
-    "title": "Preview options:"
-  },
-  "calendar": {
-    "months": {
-      "m0": "January",
-      "m1": "February",
-      "m2": "March",
-      "m3": "April",
-      "m4": "May",
-      "m5": "June",
-      "m6": "July",
-      "m7": "August",
-      "m8": "September",
-      "m9": "October",
-      "m10": "November",
-      "m11": "December"
-    },
-    "days": {
-      "mon": "Monday",
-      "tue": "Tuesday",
-      "wen": "Wednesday",
-      "thu": "Thursday",
-      "fri": "Friday",
-      "sat": "Saturday",
-      "sun": "Sunday",
-      "short": {
-        "mon": "Mon",
-        "tue": "Tue",
-        "wed": "Wed",
-        "thu": "Thu",
-        "fri": "Fri",
-        "sat": "Sat",
-        "sun": "Sun"
-      }
+    "alerts": {
+        "invalidPromotionCode": "The promotion code is invalid."
     },
     "warnings": {
-      "eventMax": "You can add no more than {0} events on one date"
+        "qualityTitle": "Insufficient photo quality",
+        "qualitySubtitle": "You can order the product like this, but the print quality may be less sharp than we normally guarantee.",
+        "qualityOptionsTitle": "",
+        "qualityOptions": "",
+        "qualityFooter": "For personal advice, please contact our <a href=\"{CUSTOMER_SERVICE}\" target=\"_blank\">customer service<\/a> team.",
+        "qualityButtonCancel": "Edit product",
+        "qualityButtonProceed": "Continue anyway",
+        "layouts": {
+            "lessPlaceholdersThanPhotos": {
+                "message": "Are you sure you want to continue? Your selected layout contains fewer photos than your current layout. If you continue, {0} photo(s) will be removed from the page."
+            }
+        }
+    },
+    "dialogs": {
+        "browser": {
+            "browserWarning": "Unfortunately your browser does not support all options for creating this product. Please install Safari, Chrome, Firefox or a newer version of Internet Explorer (10 or higher) and start again, or continue with limited options.",
+            "chromeInstall": "Install Chrome",
+            "gotoFlash": "Continue anyway"
+        },
+        "features": {
+            "reducedFeatures": "Welcome to the Albelli Creator Tool for Personalised Calendars.  Drag and drop your photos, background, and add events and Public Holidays!  More themes and features available in our Creator Tool for desktop and laptop computers.",
+            "continue": "Create your calendar"
+        }
+    },
+    "errors": {
+        "errorBootstrapping": "We're sorry, but a problem occurred during start-up. Please try again later or contact customer service for help.",
+        "countryList": "We're sorry, but a problem occurred during start-up. Please try again later or contact customer service for help. (couldn't retrieve country list)",
+        "lowMemoryWarning": "Your device seems to be running low on memory. Please close any other open applications and try again.",
+        "defaultPrice": "We're sorry, but a problem occurred during start-up. Please try again later or contact customer service for help. (couldn't retrieve price information)",
+        "loadPhotoBitmapData": "We're sorry, but a problem occurred while trying to load your photo. Please try again later or contact customer service for help.",
+        "loadBigPhoto": "An error occurred while loading the photo. Please reduce the dimensions to a maximum of 8000 x 8000 pixels and try again.",
+        "creatingPhoto": "An error occurred while creating the photo. Contact the helpdesk or try again later.",
+        "photoRegistration": "An error occurred while creating the photo. Contact the helpdesk or try again later.",
+        "addPhotoToPhotoPlaceholderEmpty": "An error occurred while adding the photo to the photo frame. Contact the helpdesk or try again later.",
+        "addPhotoToPhotoPlaceholder": "An error occurred while adding the photo to the photo frame. Contact the helpdesk or try again later.",
+        "startUploadPhoto": "An error occurred while initialising the photo upload. Contact the helpdesk or try again later.",
+        "setPhotoCanvas": "An error occurred while switching between the products. Contact the helpdesk or try again later.",
+        "createCustomer": "An error occurred while collecting the customer details. Contact the helpdesk or try again later.",
+        "createOrder": "An error occurred while creating the invoice details. Contact the helpdesk or try again later.",
+        "getInvoice": "An error occurred while retrieving the invoice details. Contact the helpdesk or try again later.",
+        "sendOrder": "An error occurred while sending the order. Contact the helpdesk or try again later.",
+        "getPaymentUrl": "An error occurred while retrieving the payment details. Contact the helpdesk or try again later.",
+        "browserWarning": ""
+    },
+    "validations": {
+        "emailMissingAtSign": "There is no @ symbol in the e-mail address.",
+        "emailMissingPeriodInDomain": "There is no dot (.com) in the e-mail address.",
+        "emailDomainInvalidFormatted": "The domain of the e-mail address is invalid.",
+        "emailTooManyAtCharacters": "The e-mail address contains too many @ symbols.",
+        "emailConsecutivePeriodsInDomain": "The e-mail address contains consecutive dots (.).",
+        "emailInvalidChars": "The e-mail address contains invalid characters.",
+        "emailInvalidIp": "The IP address in the domain of the e-mail address is invalid.",
+        "emailMissingUsername": "The user name is missing in the e-mail address.",
+        "emailRequired": "required field",
+        "textRequired": "required field",
+        "textTooLong": "The maximum number of characters has been reached.",
+        "zipcodeRequired": "required field",
+        "zipcodeInvalid": "invalid postal code, use the format:"
+    },
+    "layout": {
+        "navigation": {
+            "back": "",
+            "back-small": "",
+            "next": "",
+            "next-small": ""
+        },
+        "subtitle": "Choose the number of photos below",
+        "title": "Select a layout"
+    },
+    "preview": {
+        "button": "Preview",
+        "buttonBack": "Back to edit",
+        "close": "Edit product",
+        "options": {
+            "context": "View on wall",
+            "full": "Full view"
+        },
+        "title": "Preview options:"
+    },
+    "calendar": {
+        "months": {
+            "m0": "January",
+            "m1": "February",
+            "m2": "March",
+            "m3": "April",
+            "m4": "May",
+            "m5": "June",
+            "m6": "July",
+            "m7": "August",
+            "m8": "September",
+            "m9": "October",
+            "m10": "November",
+            "m11": "December"
+        },
+        "days": {
+            "mon": "Monday",
+            "tue": "Tuesday",
+            "wen": "Wednesday",
+            "thu": "Thursday",
+            "fri": "Friday",
+            "sat": "Saturday",
+            "sun": "Sunday",
+            "short": {
+                "mon": "Mon",
+                "tue": "Tue",
+                "wed": "Wed",
+                "thu": "Thu",
+                "fri": "Fri",
+                "sat": "Sat",
+                "sun": "Sun"
+            }
+        },
+        "warnings": {
+            "eventMax": "You can add no more than {0} events on one date"
+        }
+    },
+    "customer": {
+        "customerCity": "",
+        "customerCountryCode": "",
+        "customerEmail": "",
+        "customerFirstname": "",
+        "customerHouseNumber": "",
+        "customerLastname": "",
+        "customerMiddlename": "",
+        "customerPhone": "",
+        "customerStreet": "",
+        "customerZip": "",
+        "nextStepButton": "",
+        "previousStepButton": "",
+        "subscribeToNewsletter": "",
+        "title": ""
+    },
+    "months": {
+        "month0": "",
+        "month1": "",
+        "month2": "",
+        "month3": "",
+        "month4": "",
+        "month5": "",
+        "month6": "",
+        "month7": "",
+        "month8": "",
+        "month9": "",
+        "month10": "",
+        "month11": ""
     }
-  },
-  "customer": {
-    
-  },
-  "months": {
-    
-  }
 }
