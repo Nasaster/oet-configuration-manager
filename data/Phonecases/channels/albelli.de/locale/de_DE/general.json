@@ -1,0 +1,251 @@
+{
+    "general": {
+        "vendorName": "Albelli",
+        "navigateAwayMessage": "Bei Verlassen dieser Seite werden Ihre Änderungen nicht gespeichert. Möchten Sie die {0} dennoch verlassen?",
+        "title": "Wanddekoration",
+        "productSelectorTitle": "{0}",
+        "error": "Es ist ein Fehler aufgetreten",
+        "warning": "Warnung",
+        "close": "OK",
+        "loading": "Es wird geladen, bitte warten.",
+        "productSpecificationTitle": "Produktdetails",
+        "productSpecificationSize": "Format",
+        "productSpecificationPrice": "Preis",
+        "productSpecificationPriceText1": "{0} zzgl.",
+        "productSpecificationPricePrice": "Versandkosten",
+        "productSpecificationPriceText2": ")",
+        "yes": "Ja",
+        "no": "Nein",
+        "add": "Hinzufügen",
+        "cancel": "Abbrechen",
+        "notificationTitle": "",
+        "canvas": "Foto auf Leinwand",
+        "perspex": "Foto auf Acryl-Glas",
+        "phonecase": "Handyhüllen",
+        "aluminium": "Foto auf Alu-Dibond",
+        "editor": "{0} Editor"
+    },
+    "home": {
+        "title": "{0}",
+        "nextStepButton": "Auswählen",
+        "caption": "",
+        "previousProductButton": "Zurück",
+        "nextProductButton": "Weiter"
+    },
+    "edit": {
+        "selectFileType": "Foto auswählen",
+        "nextStepButton": "Weiter",
+        "marginTooltip": "Das ist die Faltlinie",
+        "lowQualityTooltip": "Qualität für gewählte Größe zu gering",
+        "photoQualityIndicatorHeaderLabel": "Qualität:",
+        "photoQualityIndicatorLabel": "{0}",
+        "photoQualityIndicatorTooltipLow": "Aufgrund der geringen Auflösung dieses Fotos kann kein optimales Ergebnis garantiert werden. Sie können das {0} zwar bestellen, aber das Druckergebnis wird möglicherweise unscharf sein.",
+        "photoQualityIndicatorTooltipMedium": "Die Qualität des Fotos ist nicht optimal. Sie können das {0} zwar bestellen, aber das Druckergebnis wird möglicherweise unscharf sein.",
+        "photoQualityIndicatorTooltipHigh": "Die Qualität des Fotos ist ausreichend.",
+        "photoQualityIndicatorTooltipExcellent": "Die Qualität des Fotos ist hervorragend.",
+        "uploadPhotoLabel": "Foto auswählen",
+        "uploadDifferentPhotoLabel": "Ein anderes Foto auswählen",
+        "uploadPhotoButtonTooltip": "Klicken Sie hier, um ein Foto hinzuzufügen",
+        "rotateWarning": "Please rotate your device",
+        "emptyPlaceholder": {
+            "title": "FOTO",
+            "text": "Hier klicken oder Foto hier hin ziehen"
+        },
+        "photoTray": {
+            "addPhotoButton": {
+                "text": "Neue Fotos hinzufügen",
+                "tooltip": "Bilder wählen"
+            }
+        },
+        "layout": {
+            "title": "",
+            "subtitle": ""
+        },
+        "tabs": {
+            "photo": "Ihre Fotos",
+            "foreground": "",
+            "background": "Hintergründe",
+            "decoration": "Rahmen",
+            "layout": "Layouts",
+            "tooltrayshow": "Show tooltray",
+            "tooltrayhide": "Hide tooltray",
+            "spacing": {
+                "labels": {
+                    "inner": "Abstand zwischen Fotos: {0}",
+                    "inner-small": "Zwischen Fotos: {0}",
+                    "outer": "Abstand zum Seitenrand: {0}",
+                    "outer-small": "Zum Seitenrand: {0}"
+                },
+                "title": "Rand"
+            }
+        },
+        "photoQualityIndicatorLow": "Unzureichend",
+        "photoQualityIndicatorMedium": "Mäßig",
+        "photoQualityIndicatorHigh": "Ausreichend",
+        "photoQualityIndicatorExcellent": "Hervorragend",
+        "navigation": {
+            "back": "Zurück",
+            "back-small": "Zurück",
+            "next": "Weiter zur Bestellung",
+            "next-small": "Bestellung"
+        },
+        "photoTools": {
+            "close": "Zurück",
+            "close-small": "Zurück",
+            "delete": "Löschen",
+            "delete-small": "Löschen",
+            "effects": {
+                "close": "Zurück",
+                "close-small": "Zurück",
+                "grayscale": "",
+                "grayscale-small": "",
+                "label": "Filter",
+                "label-small": "Filter",
+                "original": "",
+                "original-small": "",
+                "sepia": "",
+                "sepia-small": ""
+            },
+            "mirror": "Spiegeln",
+            "mirror-small": "Spiegeln",
+            "rotate": "Rotieren",
+            "rotate-small": "Rotieren",
+            "swap": "Tauschen",
+            "swap-small": "Tauschen",
+            "zoom": {
+                "label": "Vergrößern",
+                "label-small": "Vergrößern",
+                "tooltips": {
+                    "in": "",
+                    "out": "",
+                    "slider": ""
+                }
+            }
+        }
+    },
+    "save": {
+        "saveText": "Speichern",
+        "saveBody": "Benennen Sie Ihr Produkt und speichern Sie es"
+    },
+    "load": {
+        "loadText": "Öffnen",
+        "loadBody": "Gespeichertes Fotobuch öffnen",
+        "created": "",
+        "modified": ""
+    },
+    "order": {
+        "orderTitle": "Ihre Bestellung",
+        "invoiceTitle": "Übersicht",
+        "numberOfCopiesDescription": "(Wählen Sie wie viele Exemplare Sie bestellen möchten)",
+        "subTotal": "Zwischensumme",
+        "shipping": "Versandkosten",
+        "invoiceDiscount": "Rabatt",
+        "total": "Gesamt",
+        "promoTitle": "Gutschein-Code",
+        "promoDescription": "Geben Sie den Gutschein-Code hier ein.",
+        "applyPromoCodeButton": "Verrechnen",
+        "deliveryAddressTitle": "Lieferadresse",
+        "updateDeliveryAddressButton": "Ändern",
+        "previousStepButton": "Zurück",
+        "submitButton": "Bestellung abschließen",
+        "promotionPopupTitle": "Ungültiger Gutscheincode",
+        "promotionPopupSubtitle": "Der eingegebene Gutscheincode ist ungültig. Geben Sie einen gültigen Gutscheincode ein oder bestellen Sie ohne Gutscheincode.",
+        "promotionPopupEnterPromotionCodeLabel": "Gutscheincode:",
+        "promotionPopupCancelLabel": "Ohne Gutscheincode bestellen",
+        "promotionPopupSubmitLabel": "Senden",
+        "navigation": {
+            "back": "Zurück",
+            "back-small": "Zurück",
+            "next": "Vorwärts",
+            "next-small": "Vorwärts"
+        }
+    },
+    "upload": {
+        "uploading": "Ihre Bestellung wird abgeschlossen, bitte haben Sie einen Augenblick Geduld. %3%",
+        "busyUploadingLabel": "Ihre Bestellung wird gerade abgeschlossen, bitte haben Sie einen Augenblick Geduld. Wenn Ihre Fotos hochgeladen wurden, werden Sie automatisch zum Warenkorb weitergeleitet."
+    },
+    "help": {
+        "helpTitle": "Kundenservice",
+        "helpText": "Gehen Sie zu den FAQs",
+        "helpURL": "http://www.albelli.de/kundenservice",
+        "moreOptionsUrl": ""
+    },
+    "alerts": {
+        "invalidPromotionCode": "Der Gutschein-Code ist ungültig."
+    },
+    "warnings": {
+        "qualityTitle": "Unzureichende Fotoqualität",
+        "qualitySubtitle": "Sie können das Produkt so bestellen, aber die Druckqualität könnte weniger scharf sein, als wir Ihnen normalerweise garantieren.",
+        "qualityOptionsTitle": "",
+        "qualityOptions": "",
+        "qualityFooter": "Bei Fragen können Sie sich gerne an unseren freundlichen <a href=\"{CUSTOMER_SERVICE}\" target=\"_blank\">Kundenservice<\/a> wenden.",
+        "qualityButtonCancel": "Produkt bearbeiten",
+        "qualityButtonProceed": "Fortfahren",
+        "layouts": {
+            "lessPlaceholdersThanPhotos": {
+                "message": "Sind Sie sicher, dass Sie fortfahren möchten? Ihr ausgewähltes Layout beinhaltete weniger Fotos als Ihr bestehendes Layout. Wenn Sie jetzt fortfahren, werden {0} Fotos dieser Seite gelöscht."
+            }
+        }
+    },
+    "dialogs": {
+        "browser": {
+            "browserWarning": "Leider unterstützt dieser Browser nicht alle Optionen zur Gestaltung Ihres Produktes. Bitte installieren Sie Safari, Google Chrome, Firefox, Internet Explorer (Version 10 oder höher) und versuchen Sie es erneut oder fahren Sie mit limitierten Optionen fort.",
+            "chromeInstall": "Chrome installieren",
+            "gotoFlash": "Begrenzt fortfahren"
+        }
+    },
+    "errors": {
+        "errorBootstrapping": "Leider ist während des Ladevorgangs ein Problem aufgetreten. Bitte versuchen Sie es später erneut oder kontaktieren Sie unseren Kundenservice.",
+        "countryList": "Leider ist während des Ladevorgangs ein Problem aufgetreten. Bitte versuchen Sie es später erneut oder kontaktieren Sie unseren Kundenservice. (Länderliste konnte nicht abgerufen werden)",
+        "lowMemoryWarning": "Der Speicherplatz Ihres Gerätes ist ausgeschöpft. Bitte schließen Sie alle anderen Apps und versuchen Sie es erneut.",
+        "defaultPrice": "Leider ist während des Ladevorgangs ein Problem aufgetreten. Bitte versuchen Sie es später erneut oder kontaktieren Sie unseren Kundenservice. (Preisinformation konnte nicht abgerufen werden)",
+        "loadPhotoBitmapData": "Leider ist ein Problem aufgetreten, während Ihre Fotos hochgeladen wurden. Bitte versuchen Sie es später erneut oder kontakieren Sie unseren Kundenservice.",
+        "loadBigPhoto": "Fehler beim Laden des Fotos. Bitte reduzieren Sie die Größe auf maximal {0} px.",
+        "creatingPhoto": "Fehler beim Aufbauen des Fotos. Wenden Sie sich an den Helpdesk, oder versuchen Sie es später noch einmal.",
+        "photoRegistration": "Fehler beim Aufbauen des Fotos. Wenden Sie sich an den Helpdesk, oder versuchen Sie es später noch einmal.",
+        "addPhotoToPhotoPlaceholderEmpty": "Fehler beim Hinzufügen des Fotos zum Fotorahmen. Wenden Sie sich an den Helpdesk, oder versuchen Sie es später noch einmal.",
+        "addPhotoToPhotoPlaceholder": "Fehler beim Hinzufügen des Fotos zum Fotorahmen. Wenden Sie sich an den Helpdesk, oder versuchen Sie es später noch einmal.",
+        "startUploadPhoto": "Fehler beim Initialisieren des Hochladens. Wenden Sie sich an den Helpdesk, oder versuchen Sie es später noch einmal.",
+        "setPhotoCanvas": "Fehler beim Umstellen auf eine andere Produkt. Wenden Sie sich an den Helpdesk, oder versuchen Sie es später noch einmal.",
+        "createCustomer": "Fehler beim Erfassen der Kundendaten. Wenden Sie sich an den Helpdesk, oder versuchen Sie es später noch einmal.",
+        "createOrder": "Fehler beim Erstellen der Rechnungsdaten. Wenden Sie sich an den Helpdesk, oder versuchen Sie es später noch einmal.",
+        "getInvoice": "Fehler beim Abrufen der Rechnungsdaten. Wenden Sie sich an den Helpdesk, oder versuchen Sie es später noch einmal.",
+        "sendOrder": "Fehler beim Versenden der Bestellung. Wenden Sie sich an den Helpdesk, oder versuchen Sie es später noch einmal.",
+        "getPaymentUrl": "Fehler beim Abrufen der Zahlungsdaten. Wenden Sie sich an den Helpdesk, oder versuchen Sie es später noch einmal."
+    },
+    "validations": {
+        "emailMissingAtSign": "In der E-Mail-Adresse fehlt das @-Zeichen.",
+        "emailMissingPeriodInDomain": "In der E-Mail-Adresse fehlt ein Punkt (.de).",
+        "emailDomainInvalidFormatted": "Der Domainname in der E-Mail-Adresse ist ungültig.",
+        "emailTooManyAtCharacters": "In der E-Mail-Adresse kommen zu viele @-Zeichen vor.",
+        "emailConsecutivePeriodsInDomain": "In der E-Mail-Adresse kommen aufeinanderfolgende Punkte (.) vor.",
+        "emailInvalidChars": "In der E-Mail-Adresse kommen unzulässige Zeichen vor.",
+        "emailInvalidIp": "Die IP-Adresse im Domainteil Ihrer E-Mail-Adresse ist ungültig.",
+        "emailMissingUsername": "In der E-Mail-Adresse fehlt der Benutzername.",
+        "emailRequired": "Pflichtfeld",
+        "textRequired": "Pflichtfeld",
+        "textTooLong": "Die maximal mögliche Zeichenanzahl ist erreicht.",
+        "zipcodeRequired": "Pflichtfeld",
+        "zipcodeInvalid": "PLZ ungültig. Verwenden Sie das Format:"
+    },
+    "layout": {
+        "navigation": {
+            "back": "",
+            "back-small": "",
+            "next": "",
+            "next-small": ""
+        },
+        "subtitle": "Anzahl der Fotos unten auswählen",
+        "title": "Layout wählen"
+    },
+    "preview": {
+        "button": "Vorschau",
+        "buttonBack": "Zurück",
+        "close": "Bearbeiten",
+        "options": {
+            "context": "Foto an der Wand",
+            "full": "Vollansicht"
+        },
+        "title": "Vorschauoptionen:"
+    }
+}
