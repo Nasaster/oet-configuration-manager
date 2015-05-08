@@ -1,0 +1,259 @@
+{
+    "general": {
+        "vendorName": "Albelli",
+        "navigateAwayMessage": "Als je dit scherm sluit, worden je wijzigingen niet opgeslagen. Weet je zeker dat je het {0} programma wilt afsluiten?",
+        "title": "Wanddecoratie",
+        "productSelectorTitle": "{0}",
+        "error": "Er is een fout opgetreden",
+        "warning": "Let op",
+        "close": "ok",
+        "loading": "Bezig met laden.",
+        "productSpecificationTitle": "Specificaties:",
+        "productSpecificationSize": "Formaat",
+        "productSpecificationPrice": "Prijs",
+        "productSpecificationPriceText1": "{0} (excl.",
+        "productSpecificationPricePrice": "verzendkosten",
+        "productSpecificationPriceText2": ")",
+        "yes": "Ja",
+        "no": "Nee",
+        "add": "Toevoegen",
+        "cancel": "Annuleren",
+        "notificationTitle": "",
+        "canvas": "Canvas",
+        "perspex": "Plexiglas",
+        "phonecase": "Telefoonhoesjes",
+        "aluminium": "Aluminium",
+        "editor": "{0} programma"
+    },
+    "home": {
+        "title": "{0}",
+        "nextStepButton": "Dit wil ik",
+        "caption": "",
+        "previousProductButton": "Vorige",
+        "nextProductButton": "Volgende"
+    },
+    "layout": {
+        "title": "Kies een indeling",
+        "subtitle": "Kies hieronder het aantal foto's",
+        "navigation": {
+            "back": "",
+            "next": "",
+            "back-small": "",
+            "next-small": ""
+        }
+    },
+    "edit": {
+        "navigation": {
+            "back": "Terug",
+            "next": "Bestellen",
+            "back-small": "Terug",
+            "next-small": "Bestellen"
+        },
+        "selectFileType": "Selecteer een foto",
+        "nextStepButton": "Volgende",
+        "marginTooltip": "dit is de omvouw rand",
+        "lowQualityTooltip": "kwaliteit te laag voor huidig kader",
+        "photoQualityIndicatorHeaderLabel": "Kwaliteit:",
+        "photoQualityIndicatorLabel": "{0}",
+        "photoQualityIndicatorTooltipLow": "De foto heeft een te lage kwaliteit om een optimaal resultaat te garanderen. Je kunt het {0} uiteraard gewoon bestellen, maar het resultaat is mogelijk niet scherp.",
+        "photoQualityIndicatorTooltipMedium": "De kwaliteit van de foto is niet optimaal. Je kunt het {0} uiteraard gewoon bestellen, maar het resultaat is mogelijk niet scherp.",
+        "photoQualityIndicatorTooltipHigh": "De kwaliteit van de foto is goed.",
+        "photoQualityIndicatorTooltipExcellent": "De kwaliteit van de foto is uitstekend.",
+        "uploadPhotoLabel": "Kies je foto",
+        "uploadDifferentPhotoLabel": "Kies een andere foto",
+        "uploadPhotoButtonTooltip": "Klik hier om een foto toe te voegen",
+        "rotateWarning": "Please rotate your device",
+        "emptyPlaceholder": {
+            "title": "FOTO",
+            "text": "Klik hier of sleep je foto hiernaartoe"
+        },
+        "photoTray": {
+            "addPhotoButton": {
+                "text": "Foto('s) toevoegen",
+                "tooltip": "Foto toevoegen"
+            }
+        },
+        "photoTools": {
+            "zoom": {
+                "label": "Zoom",
+                "label-small": "Zoom",
+                "tooltips": {
+                    "slider": "",
+                    "in": "",
+                    "out": ""
+                }
+            },
+            "effects": {
+                "label": "Filters",
+                "original": "",
+                "grayscale": "",
+                "sepia": "",
+                "close": "Terug",
+                "label-small": "Filters",
+                "original-small": "",
+                "grayscale-small": "",
+                "sepia-small": "",
+                "close-small": "Terug"
+            },
+            "rotate": "Roteren",
+            "mirror": "Spiegelen",
+            "swap": "Wisselen",
+            "delete": "Verwijderen",
+            "close": "Terug",
+            "rotate-small": "Roteren",
+            "mirror-small": "Spiegelen",
+            "swap-small": "Wisselen",
+            "delete-small": "Verwijder",
+            "close-small": "Terug"
+        },
+        "tabs": {
+            "photo": "Je foto's",
+            "foreground": "",
+            "background": "Achtergronden",
+            "decoration": "Kaders",
+            "tooltrayshow": "Show tooltray",
+            "tooltrayhide": "Hide tooltray",
+            "spacing": {
+                "title": "Marges",
+                "labels": {
+                    "inner": "Marge binnen: {0}",
+                    "outer": "Marge buiten: {0}",
+                    "inner-small": "Binnen: {0}",
+                    "outer-small": "Buiten: {0}"
+                }
+            },
+            "layout": "Indelingen",
+            "product-options": "Foto op hout"
+        },
+        "photoQualityIndicatorLow": "Onvoldoende",
+        "photoQualityIndicatorMedium": "Redelijk",
+        "photoQualityIndicatorHigh": "Goed",
+        "photoQualityIndicatorExcellent": "Uitstekend",
+        "layout": {
+            "subtitle": "",
+            "title": ""
+        }
+    },
+    "save": {
+        "saveText": "Opslaan",
+        "saveBody": "Geef je product een naam en sla het op"
+    },
+    "load": {
+        "loadText": "Openen",
+        "loadBody": "Opgeslagen fotoboek openen",
+        "created": "",
+        "modified": ""
+    },
+    "preview": {
+        "button": "Voorbeeld tonen",
+        "buttonBack": "Terug",
+        "title": "Voorbeeldopties:",
+        "options": {
+            "full": "Volledige weergave",
+            "context": "Voorbeeld aan de muur"
+        },
+        "close": "Bewerk product"
+    },
+    "order": {
+        "navigation": {
+            "back": "Vorige",
+            "next": "Volgende",
+            "back-small": "Vorige",
+            "next-small": "Volgende"
+        },
+        "orderTitle": "Jouw bestelling",
+        "invoiceTitle": "Overzicht",
+        "numberOfCopiesDescription": "(selecteer hier het gewenste aantal exemplaren)",
+        "subTotal": "Subtotaal",
+        "shipping": "Verzendkosten",
+        "invoiceDiscount": "Korting",
+        "total": "Totaal",
+        "promoTitle": "Promotiecode",
+        "promoDescription": "Heb je een promotiecode? Vul de code hieronder in.",
+        "applyPromoCodeButton": "verrekenen",
+        "deliveryAddressTitle": "Afleveradres",
+        "updateDeliveryAddressButton": "aanpassen",
+        "previousStepButton": "terug",
+        "submitButton": "jouw bestelling afronden",
+        "promotionPopupTitle": "Ongeldige promotiecode",
+        "promotionPopupSubtitle": "De ingevulde promotiecode is niet geldig. Vul een geldige promotiecode in of bestel zonder promotiecode",
+        "promotionPopupEnterPromotionCodeLabel": "Promotiecode:",
+        "promotionPopupCancelLabel": "Bestel zonder promotiecode",
+        "promotionPopupSubmitLabel": "Verzenden"
+    },
+    "upload": {
+        "uploading": "Bestelling gereedmaken. %3%",
+        "busyUploadingLabel": "We zijn je bestelling aan het gereedmaken. Wanneer het uploaden klaar is, word je doorverwezen naar je winkelmandje."
+    },
+    "help": {
+        "helpTitle": "Klantenservice",
+        "helpText": "Bekijk de veel gestelde vragen",
+        "helpURL": "http://www.albelli.nl/klantenservice/",
+        "moreOptionsUrl": ""
+    },
+    "alerts": {
+        "invalidPromotionCode": "De promotiecode is niet geldig."
+    },
+    "warnings": {
+        "qualityTitle": "De kwaliteit van je foto is niet optimaal",
+        "qualitySubtitle": "Je kunt het product uiteraard gewoon zo bestellen, maar dan is het resultaat mogelijk niet zo scherp als je van ons gewend bent.",
+        "qualityOptionsTitle": "",
+        "qualityOptions": "",
+        "qualityFooter": "Voor persoonlijk advies kun je altijd contact opnemen met onze <a href=\"{CUSTOMER_SERVICE}\" target=\"_blank\">klantenservice<\/a>.",
+        "qualityButtonCancel": "Product aanpassen",
+        "qualityButtonProceed": "Toch verdergaan",
+        "layouts": {
+            "lessPlaceholdersThanPhotos": {
+                "message": "Weet je zeker dat je door wilt gaan? Je hebt gekozen voor een indeling die minder foto's bevat dan de huidige indeling. Als je verder gaat, worden {0} foto('s) van het product verwijderd."
+            }
+        }
+    },
+    "dialogs": {
+        "browser": {
+            "browserWarning": "Helaas, deze webbrowser ondersteunt niet alle mogelijkheden voor het maken van dit product. Installeer Chrome, Safari, Firefox of een nieuwere versie van Internet Explorer (10 of hoger) en start opnieuw, of ga verder met beperkte mogelijkheden.",
+            "chromeInstall": "Installeer Chrome",
+            "gotoFlash": "Ga toch verder"
+        }
+    },
+    "errors": {
+        "errorBootstrapping": "Sorry, er is een probleem opgetreden met opstarten. Probeer het later nog eens of neem contact op met onze klantenservice.",
+        "countryList": "Sorry, er is een probleem opgetreden met opstarten. Probeer het later nog eens of neem contact op met onze klantenservice. (Landenlijst kon niet opgehaald worden)",
+        "lowMemoryWarning": "Het lijkt erop dat je werkgeheugen te vol is. Sluit zoveel mogelijk andere openstaande programma's en probeer het opnieuw.",
+        "defaultPrice": "Sorry, er is een probleem opgetreden met opstarten. Probeer het later nog eens of neem contact op met onze klantenservice. (Prijslijst kon niet opgehaald worden)",
+        "loadPhotoBitmapData": "Sorry, er is een probleem opgetreden met het laden van je foto. Probeer het later nog eens of neem contact op met onze klantenservice.",
+        "loadBigPhoto": "Er is een fout ontstaan bij het laden van de foto. Verklein het bestand tot maximaal {0} pixels en probeer het opnieuw.",
+        "creatingPhoto": "Er is een fout opgetreden tijdens het opbouwen van de foto. Neem contact op met de helpdesk of probeert u het later nog eens.",
+        "photoRegistration": "Er is een fout opgetreden tijdens het opbouwen van de foto. Neem contact op met de helpdesk of probeert u het later nog eens.",
+        "addPhotoToPhotoPlaceholderEmpty": "Er is een fout opgetreden tijdens het toevoegen van de foto aan het fotokader. Neem contact op met de helpdesk of probeert u het later nog eens.",
+        "addPhotoToPhotoPlaceholder": "Er is een fout opgetreden tijdens het toevoegen van de foto aan het fotokader. Neem contact op met de helpdesk of probeert u het later nog eens.",
+        "startUploadPhoto": "Er is een fout opgetreden tijdens het initialiseren van de foto upload. Neem contact op met de helpdesk of probeert u het later nog eens.",
+        "setPhotoCanvas": "Er is een fout opgetreden tijdens het wisselen tussen de producten. Neem contact op met de helpdesk of probeert u het later nog eens.",
+        "createCustomer": "Er is een fout opgetreden tijdens het verzamelen van de klant gegevens. Neem contact op met de helpdesk of probeert u het later nog eens.",
+        "createOrder": "Er is een fout opgetreden tijdens het creeren van de factuur gegevens. Neem contact op met de helpdesk of probeert u het later nog eens.",
+        "getInvoice": "Er is een fout opgetreden tijdens het ophalen van de factuur gegevens. Neem contact op met de helpdesk of probeert u het later nog eens.",
+        "sendOrder": "Er is een fout opgetreden tijdens het versturen van de bestelling. Neem contact op met de helpdesk of probeert u het later nog eens.",
+        "getPaymentUrl": "Er is een fout opgetreden tijdens het ophalen van de betalingsgegevens. Neem contact op met de helpdesk of probeert u het later nog eens."
+    },
+    "validations": {
+        "emailMissingAtSign": "Er ontbreekt een @ in het e-mailadres.",
+        "emailMissingPeriodInDomain": "Er ontbreekt een punt (.nl) in het e-mailadres.",
+        "emailDomainInvalidFormatted": "Het domein van het e-mailadres is ongeldig.",
+        "emailTooManyAtCharacters": "Het e-mailadres bevat teveel (@).",
+        "emailConsecutivePeriodsInDomain": "Het e-mailadres bevat opeenvolgende punten (.).",
+        "emailInvalidChars": "Het e-mailadres bevat ongeldige karakters.",
+        "emailInvalidIp": "Het ip-adres in het domein van het e-mailadres is ongeldig.",
+        "emailMissingUsername": "De gebruikersnaam in het e-mailadres ontbreekt.",
+        "emailRequired": "verplicht veld",
+        "textRequired": "verplicht veld",
+        "textTooLong": "Het maximum aantal karakters is bereikt.",
+        "zipcodeRequired": "verplicht veld",
+        "zipcodeInvalid": "ongeldige postcode, gebruik het formaat:"
+    },
+    "productOptions": {
+        "title": "Productopties",
+        "groups": {
+            "WoodFinishingType": "Afwerking hout",
+            "PlanksOrientationType": "Plankrichting"
+        }
+    }
+}

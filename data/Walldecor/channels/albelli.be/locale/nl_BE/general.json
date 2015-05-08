@@ -194,6 +194,7 @@
 		"qualitySubtitle" : "Je kunt het product uiteraard gewoon zo bestellen, maar dan is het resultaat mogelijk niet zo scherp als je van ons gewend bent.",
 		"qualityOptionsTitle" : "",
 		"qualityOptions" : "",
+		"qualityFooter": "Voor persoonlijk advies kun je altijd contact opnemen met onze <a href=\"{CUSTOMER_SERVICE}\" target=\"_blank\">klantendienst<\/a>.",
 		"qualityButtonCancel" : "Product aanpassen",
 		"qualityButtonProceed" : "Toch verdergaan",
 		"layouts" : {
