@@ -1,0 +1,40 @@
+#!/bin/bash
+
+git mv data/Calendar/channels/albelli.be/locale/nl_BE/general.json data/Calendar/channels/albelli.be/config/locale.json
+git mv data/Calendar/channels/albelli.co.uk/locale/en_GB/general.json data/Calendar/channels/albelli.co.uk/config/locale.json
+git mv data/Calendar/channels/albelli.com/locale/en_GB/general.json data/Calendar/channels/albelli.com/config/locale.json
+git mv data/Calendar/channels/albelli.de/locale/de_DE/general.json data/Calendar/channels/albelli.de/config/locale.json
+git mv data/Calendar/channels/albelli.es/locale/es_ES/general.json data/Calendar/channels/albelli.es/config/locale.json
+git mv data/Calendar/channels/albelli.fr/locale/fr_FR/general.json data/Calendar/channels/albelli.fr/config/locale.json
+git mv data/Calendar/channels/albelli.it/locale/it_IT/general.json data/Calendar/channels/albelli.it/config/locale.json
+git mv data/Calendar/channels/albelli.nl/locale/nl_NL/general.json data/Calendar/channels/albelli.nl/config/locale.json
+git mv data/Calendar/channels/albelli.no/locale/nb_NO/general.json data/Calendar/channels/albelli.no/config/locale.json
+git mv data/Calendar/channels/albelli.se/locale/sv_SE/general.json data/Calendar/channels/albelli.se/config/locale.json
+git mv data/Calendar/channels/bonusprint.co.uk/locale/en_GB/general.json data/Calendar/channels/bonusprint.co.uk/config/locale.json
+git mv data/Calendar/channels/hema-fr.be/locale/fr_BE/general.json data/Calendar/channels/hema-fr.be/config/locale.json
+git mv data/Calendar/channels/hema.be/locale/nl_BE/general.json data/Calendar/channels/hema.be/config/locale.json
+git mv data/Calendar/channels/hema.nl/locale/nl_NL/general.json data/Calendar/channels/hema.nl/config/locale.json
+
+git mv data/Walldecor/channels/albelli.be/locale/nl_BE/general.json data/Walldecor/channels/albelli.be/config/locale.json
+git mv data/Walldecor/channels/albelli.co.uk/locale/en_GB/general.json data/Walldecor/channels/albelli.co.uk/config/locale.json
+git mv data/Walldecor/channels/albelli.com/locale/en_GB/general.json data/Walldecor/channels/albelli.com/config/locale.json
+git mv data/Walldecor/channels/albelli.de/locale/de_DE/general.json data/Walldecor/channels/albelli.de/config/locale.json
+git mv data/Walldecor/channels/albelli.es/locale/es_ES/general.json data/Walldecor/channels/albelli.es/config/locale.json
+git mv data/Walldecor/channels/albelli.fr/locale/fr_FR/general.json data/Walldecor/channels/albelli.fr/config/locale.json
+git mv data/Walldecor/channels/albelli.it/locale/it_IT/general.json data/Walldecor/channels/albelli.it/config/locale.json
+git mv data/Walldecor/channels/albelli.nl/locale/nl_NL/general.json data/Walldecor/channels/albelli.nl/config/locale.json
+git mv data/Walldecor/channels/albelli.no/locale/nb_NO/general.json data/Walldecor/channels/albelli.no/config/locale.json
+git mv data/Walldecor/channels/albelli.se/locale/sv_SE/general.json data/Walldecor/channels/albelli.se/config/locale.json
+git mv data/Walldecor/channels/bonusprint.co.uk/locale/en_GB/general.json data/Walldecor/channels/bonusprint.co.uk/config/locale.json
+
+git mv data/Phonecases/channels/albelli.be/locale/nl_BE/general.json data/Phonecases/channels/albelli.be/config/locale.json
+git mv data/Phonecases/channels/albelli.co.uk/locale/en_GB/general.json data/Phonecases/channels/albelli.co.uk/config/locale.json
+git mv data/Phonecases/channels/albelli.com/locale/en_GB/general.json data/Phonecases/channels/albelli.com/config/locale.json
+git mv data/Phonecases/channels/albelli.de/locale/de_DE/general.json data/Phonecases/channels/albelli.de/config/locale.json
+git mv data/Phonecases/channels/albelli.es/locale/es_ES/general.json data/Phonecases/channels/albelli.es/config/locale.json
+git mv data/Phonecases/channels/albelli.fr/locale/fr_FR/general.json data/Phonecases/channels/albelli.fr/config/locale.json
+git mv data/Phonecases/channels/albelli.it/locale/it_IT/general.json data/Phonecases/channels/albelli.it/config/locale.json
+git mv data/Phonecases/channels/albelli.nl/locale/nl_NL/general.json data/Phonecases/channels/albelli.nl/config/locale.json
+git mv data/Phonecases/channels/albelli.no/locale/nb_NO/general.json data/Phonecases/channels/albelli.no/config/locale.json
+git mv data/Phonecases/channels/albelli.se/locale/sv_SE/general.json data/Phonecases/channels/albelli.se/config/locale.json
+git mv data/Phonecases/channels/bonusprint.co.uk/locale/en_GB/general.json data/Phonecases/channels/bonusprint.co.uk/config/locale.json

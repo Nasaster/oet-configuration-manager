@@ -30,24 +30,24 @@ li {
 		width: 35%;
 	}
 	//[TODO] for some reason this is not working
-	input {
+	input[type=text]{
 		display: inline-block;
 		width: 280px;
 	}
 }
 
-#configuration-property-form {
-label {
-		display: inline-block;
-		width: 35%;
-	}
-	//[TODO] for some reason this is not working
-	input {
-		display: inline-block;
-		width: 280px;
-	}
+// #configuration-property-form {
+// 	label {
+// 		display: inline-block;
+// 		width: 35%;
+// 	}
+// 	//[TODO] for some reason this is not working
+// 	input {
+// 		display: inline-block;
+// 		width: 280px;
+// 	}
 
-}
+// }
 
 .config-root {
 	padding-right: 40px;
