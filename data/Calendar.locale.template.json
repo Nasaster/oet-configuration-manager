@@ -327,8 +327,6 @@
 	"months" : {
 		"month0" : "String",
 		"month1" : "String",
-		"month10" : "String",
-		"month11" : "String",
 		"month2" : "String",
 		"month3" : "String",
 		"month4" : "String",
@@ -336,6 +334,8 @@
 		"month6" : "String",
 		"month7" : "String",
 		"month8" : "String",
-		"month9" : "String"
+		"month9" : "String",
+		"month10" : "String",
+		"month11" : "String"
 	}
 }
