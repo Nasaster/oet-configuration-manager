@@ -45,10 +45,10 @@
         "lowQualityTooltip": "quality too low for current frame",
         "photoQualityIndicatorHeaderLabel": "Quality:",
         "photoQualityIndicatorLabel": "{0}",
-        "photoQualityIndicatorTooltipLow": "The quality of the photo is too low to guarantee an optimal result. You can, of course, order the {0} in any case, but the result may not be sharp.",
-        "photoQualityIndicatorTooltipMedium": "The quality of the photo is less than optimal. You can, of course, order the {0} in any case, but the result may not be sharp.",
-        "photoQualityIndicatorTooltipHigh": "The quality of the photo is good.",
-        "photoQualityIndicatorTooltipExcellent": "The quality of the photo is excellent.",
+        "photoQualityIndicatorTooltipLow": "The quality of your photo is low so the print may be less sharp than we normally guarantee.",
+        "photoQualityIndicatorTooltipMedium": "The quality of your photo is not optimal so the print may be less sharp than we normally guarantee.",
+        "photoQualityIndicatorTooltipHigh": "The quality of your photo is good.",
+        "photoQualityIndicatorTooltipExcellent": "The quality of your photo is excellent!",
         "uploadPhotoLabel": "Select a photo",
         "uploadDifferentPhotoLabel": "Select a different photo",
         "uploadPhotoButtonTooltip": "Click here to add a photo",
@@ -72,6 +72,7 @@
             "photo": "Your photos",
             "foreground": "",
             "background": "Backgrounds",
+            "clipart": "Clip Art",
             "tooltrayshow": "Show",
             "tooltrayhide": "Hide",
             "decoration": "Frames",
@@ -179,7 +180,7 @@
         }
     },
     "upload": {
-        "uploading": "Finalising order. Please wait. %3%",
+        "uploading": "Finalising order. Please wait. %3%%",
         "busyUploadingLabel": "We are finalising your order. This shouldn't take too long. Once the upload is complete, we'll redirect you to your shopping basket."
     },
     "help": {

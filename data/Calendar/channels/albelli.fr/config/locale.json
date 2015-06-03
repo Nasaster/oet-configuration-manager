@@ -72,6 +72,7 @@
             "photo": "Vos photos",
             "foreground": "",
             "background": "Arrière-plans",
+            "clipart": "Clipart",
             "tooltrayshow": "Afficher",
             "tooltrayhide": "Masquer",
             "decoration": "Cadres",
@@ -179,7 +180,7 @@
         }
     },
     "upload": {
-        "uploading": "Traitement de la commande en cours, veuillez patienter. %3%",
+        "uploading": "Traitement de la commande en cours, veuillez patienter. %3%%",
         "busyUploadingLabel": "Nous traitons votre commande, veuillez patienter quelques instants. Une fois votre commande traitée, vous serez redirigé vers le panier."
     },
     "help": {
@@ -306,5 +307,34 @@
         "warnings": {
             "eventMax": "Vous ne pouvez pas ajouter plus de {0} événements à une date"
         }
+    },"customer": {
+        "customerCity": "",
+        "customerCountryCode": "",
+        "customerEmail": "",
+        "customerFirstname": "",
+        "customerHouseNumber": "",
+        "customerLastname": "",
+        "customerMiddlename": "",
+        "customerPhone": "",
+        "customerStreet": "",
+        "customerZip": "",
+        "nextStepButton": "",
+        "previousStepButton": "",
+        "subscribeToNewsletter": "",
+        "title": ""
+    },
+    "months": {
+        "month0": "",
+        "month1": "",
+        "month2": "",
+        "month3": "",
+        "month4": "",
+        "month5": "",
+        "month6": "",
+        "month7": "",
+        "month8": "",
+        "month9": "",
+        "month10": "",
+        "month11": ""
     }
 }

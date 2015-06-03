@@ -61,10 +61,10 @@
         "lowQualityTooltip": "kwaliteit te laag voor huidig kader",
         "photoQualityIndicatorHeaderLabel": "kwaliteit:",
         "photoQualityIndicatorLabel": "{0}",
-        "photoQualityIndicatorTooltipLow": "De foto heeft een te lage kwaliteit om een optimaal resultaat te garanderen. Je kunt het {0} uiteraard gewoon bestellen, maar het resultaat is mogelijk niet scherp.",
-        "photoQualityIndicatorTooltipMedium": "De kwaliteit van de foto is niet optimaal. Je kunt het {0} uiteraard gewoon bestellen, maar het resultaat is mogelijk niet scherp.",
-        "photoQualityIndicatorTooltipHigh": "De kwaliteit van de foto is goed.",
-        "photoQualityIndicatorTooltipExcellent": "De kwaliteit van de foto is uitstekend.",
+        "photoQualityIndicatorTooltipLow": "De kwaliteit van je foto is laag, dus het resultaat is mogelijk niet zo scherp als je van ons gewend bent.",
+        "photoQualityIndicatorTooltipMedium": "[De kwaliteit van je foto is niet optimaal, dus het resultaat is mogelijk niet zo scherp als je van ons gewend bent.",
+        "photoQualityIndicatorTooltipHigh": "De kwaliteit van je foto is goed.",
+        "photoQualityIndicatorTooltipExcellent": "De kwaliteit van je foto is uitstekend!",
         "uploadPhotoLabel": "kies je foto",
         "uploadDifferentPhotoLabel": "kies een andere foto",
         "uploadPhotoButtonTooltip": "klik hier om een foto toe te voegen",
@@ -128,6 +128,7 @@
             "photo": "je foto's",
             "foreground": "",
             "background": "achtergronden",
+            "clipart": "Clipart",
             "tooltrayshow": "tonen",
             "tooltrayhide": "verbergen",
             "decoration": "kaders",
@@ -213,7 +214,7 @@
         "promotionPopupSubmitLabel": "verzenden"
     },
     "upload": {
-        "uploading": "Bestelling gereedmaken. %3%",
+        "uploading": "Bestelling gereedmaken. %3%%",
         "busyUploadingLabel": "We zijn je bestelling aan het gereedmaken. Wanneer het uploaden klaar is, word je doorverwezen naar je winkelmandje."
     },
     "help": {

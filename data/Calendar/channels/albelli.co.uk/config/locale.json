@@ -117,6 +117,7 @@
             "photo": "Your photos",
             "foreground": "",
             "background": "Backgrounds",
+            "clipart": "Clip Art",
             "tooltrayshow": "Show",
             "tooltrayhide": "Hide",
             "decoration": "Frames",
@@ -199,7 +200,7 @@
         "promotionPopupSubmitLabel": "Send"
     },
     "upload": {
-        "uploading": "Finalising order. Please wait. %3%",
+        "uploading": "Finalising order. Please wait. %3%%",
         "busyUploadingLabel": "We are finalising your order. This shouldn't take too long. Once the upload is complete, we'll redirect you to your shopping basket."
     },
     "help": {

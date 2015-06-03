@@ -45,8 +45,8 @@
         "lowQualityTooltip": "la calidad es demasiado baja para el marco utilizado",
         "photoQualityIndicatorHeaderLabel": "Calidad:",
         "photoQualityIndicatorLabel": "{0}",
-        "photoQualityIndicatorTooltipLow": "La calidad de la foto es demasiado baja para garantizar un resultado óptimo. ¿Quieres continuar de todos modos?",
-        "photoQualityIndicatorTooltipMedium": "La calidad de la foto no es suficiente para garantizar un resultado óptimo. ¿Quieres continuar de todos modos?",
+        "photoQualityIndicatorTooltipLow": "La calidad de la foto es baja, la impresión puede ser menos nítida de lo que garantizamos normalmente.",
+        "photoQualityIndicatorTooltipMedium": "La calidad de la foto no es óptima, la impresión puede ser menos nítida de lo que garantizamos normalmente.",
         "photoQualityIndicatorTooltipHigh": "La calidad de la foto es buena.",
         "photoQualityIndicatorTooltipExcellent": "La calidad de la foto es excelente.",
         "uploadPhotoLabel": "Selecciona una foto",
@@ -72,6 +72,7 @@
             "photo": "Tus fotos",
             "foreground": "",
             "background": "Fondos",
+            "clipart": "Galería de imágenes",
             "tooltrayshow": "Mostrar",
             "tooltrayhide": "Esconder",
             "decoration": "Marcos",
@@ -179,7 +180,7 @@
         }
     },
     "upload": {
-        "uploading": "Finalizando pedido. Por favor espera. %3%",
+        "uploading": "Finalizando pedido. Por favor espera. %3%%",
         "busyUploadingLabel": "Estamos finalizando tu pedido. Esto no debería de tardar mucho tiempo. Una vez finalizada la carga, te redirigimos a tu cesta."
     },
     "help": {
