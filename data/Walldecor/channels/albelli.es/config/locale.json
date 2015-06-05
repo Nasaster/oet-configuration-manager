@@ -9,6 +9,8 @@
         "close": "OK",
         "loading": "Cargando.",
         "productSpecificationTitle": "Especificaciones:",
+        "productType": "Product",
+        "productOrientation": "Orientation",
         "productSpecificationSize": "Talla",
         "productSpecificationPrice": "Precio",
         "productSpecificationPriceText1": "{0} (excl.",
@@ -39,8 +41,8 @@
         "lowQualityTooltip": "la calidad es demasiado baja para el marco utilizado",
         "photoQualityIndicatorHeaderLabel": "Calidad:",
         "photoQualityIndicatorLabel": "{0}",
-        "photoQualityIndicatorTooltipLow": "La calidad de la foto es demasiado baja para garantizar un resultado óptimo. Por supuesto que puede pedir su lienzo si lo desea, sin embargo, el resultado puede no tener la suficiente nitidez.",
-        "photoQualityIndicatorTooltipMedium": "La calidad de la foto no es óptima. Por supuesto que puede pedir su lienzo si lo desea, sin embargo, el resultado puede no tener la suficiente nitidez.",
+        "photoQualityIndicatorTooltipLow": "La calidad de la foto es baja, la impresión puede ser menos nítida de lo que garantizamos normalmente.",
+        "photoQualityIndicatorTooltipMedium": "La calidad de la foto no es óptima, la impresión puede ser menos nítida de lo que garantizamos normalmente.",
         "photoQualityIndicatorTooltipHigh": "La calidad de la foto es buena.",
         "photoQualityIndicatorTooltipExcellent": "La calidad de la foto es excelente.",
         "uploadPhotoLabel": "Seleccione una foto",
@@ -65,6 +67,7 @@
             "photo": "Tus fotos",
             "foreground": "",
             "background": "Fondos",
+            "clipart": "Galería de imágenes",
             "decoration": "Marcos",
             "layout": "Distribuciones",
             "tooltrayshow": "Mostrar bandeja de herramientas",
@@ -134,6 +137,9 @@
         "created": "",
         "modified": ""
     },
+    "controls": {
+        "switchProduct": "Adjust product"
+    },
     "order": {
         "orderTitle": "Tu pedido",
         "invoiceTitle": "Resumen del pedido",
@@ -162,7 +168,7 @@
         }
     },
     "upload": {
-        "uploading": "Finalizando pedido. Por favor espera. %3%",
+        "uploading": "Finalizando pedido. Por favor espera. %3%%",
         "busyUploadingLabel": "Estamos finalizando tu pedido. Esto no debería de tardar mucho tiempo. Una vez finalizada la carga, te redirigimos a tu cesta."
     },
     "help": {

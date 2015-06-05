@@ -9,6 +9,8 @@
         "close": "ok",
         "loading": "Caricamento in corso",
         "productSpecificationTitle": "Specifiche:",
+        "productType": "Product",
+        "productOrientation": "Orientation",
         "productSpecificationSize": "Formato",
         "productSpecificationPrice": "Prezzo",
         "productSpecificationPriceText1": "{0} (excl.",
@@ -65,6 +67,7 @@
             "photo": "Le tue foto",
             "foreground": "",
             "background": "Sfondi",
+            "clipart": "Clip Art",
             "decoration": "Cornici",
             "layout": "Layout di pagina",
             "tooltrayshow": "Show tooltray",
@@ -133,6 +136,9 @@
         "created": "",
         "modified": ""
     },
+    "controls": {
+        "switchProduct": "Adjust product"
+    },
     "order": {
         "orderTitle": "Il tuo ordine",
         "invoiceTitle": "Riepilogo",
@@ -161,7 +167,7 @@
         }
     },
     "upload": {
-        "uploading": "Le tue foto ci sono stati inviati. %3%",
+        "uploading": "Le tue foto ci sono stati inviati. %3%%",
         "busyUploadingLabel": "La tua foto ci verrà trasmessa per consentire ad Albelli di riprodurla in alta risoluzione sulla tua {0}. Il processo può durare alcuni minuti. Non è necessario compiere alcuna operazione aggiuntiva. Appena la foto ci sarà pervenuta, verrai trasferito automaticamente alla pagina di pagamento."
     },
     "help": {

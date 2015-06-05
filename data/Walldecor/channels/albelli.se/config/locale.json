@@ -10,6 +10,8 @@
         "close": "OK",
         "loading": "Laddar. Vänligen vänta.",
         "productSpecificationTitle": "Specifikationer:",
+        "productType": "Product",
+        "productOrientation": "Orientation",
         "productSpecificationSize": "Storlek",
         "productSpecificationPrice": "Pris",
         "productSpecificationPriceText1": "{0} (exkl.",
@@ -39,10 +41,10 @@
         "lowQualityTooltip": "Kvalitet för låg för aktuell ram",
         "photoQualityIndicatorHeaderLabel": "Kvalitet:",
         "photoQualityIndicatorLabel": "{0}",
-        "photoQualityIndicatorTooltipLow": "Bildkvaliteten är för låg för att garantera ett optimalt resultat. Du kan, naturligtvis, beställa {0} i vilket fall, men resultatet kanske inte är skarpt.",
-        "photoQualityIndicatorTooltipMedium": "Bildens kvalitet är mindre än optimal. Du kan, naturligtvis, beställa {0} i vilket fall, men resultatet kanske inte är skarpt.",
-        "photoQualityIndicatorTooltipHigh": "Bildens kvalitet är bra.",
-        "photoQualityIndicatorTooltipExcellent": "Bildens kvalitet är utmärkt.",
+        "photoQualityIndicatorTooltipLow": "Kvaliteten på din bild är låg så tryckkvaliteten  kan bli mindre  skarp än vad vi normalt sett garanterar!",
+        "photoQualityIndicatorTooltipMedium": "Kvaliteten på din bild är inte optimal så tryckkvaliteten kan bli mindre skarp än vad vi normalt garanterar!",
+        "photoQualityIndicatorTooltipHigh": "Kvaliteten på din bild är bra!",
+        "photoQualityIndicatorTooltipExcellent": "Kvaliteten på din bild är utmärkt!",
         "uploadPhotoLabel": "Markera din bild",
         "uploadDifferentPhotoLabel": "Välj ett annat foto",
         "uploadPhotoButtonTooltip": "Klicka här för att lägga till en bild",
@@ -65,6 +67,7 @@
             "photo": "Dina foton",
             "foreground": "",
             "background": "Bakgrunder",
+            "clipart": "ClipArt",
             "decoration": "Ram",
             "layout": "Layouts",
             "tooltrayshow": "Show tooltray",
@@ -134,6 +137,9 @@
         "created": "",
         "modified": ""
     },
+    "controls": {
+        "switchProduct": "Adjust product"
+    },
     "order": {
         "orderTitle": "Din beställning",
         "invoiceTitle": "Översikt",
@@ -162,7 +168,7 @@
         }
     },
     "upload": {
-        "uploading": "Slutför beställning, vänligen vänta ... %3%",
+        "uploading": "Slutför beställning, vänligen vänta ... %3%%",
         "busyUploadingLabel": "Vi håller på att slutföra din beställning; Det bör inte ta lång tid. När uppladdningen är klar kommer du gå vidare till varukorgen."
     },
     "help": {

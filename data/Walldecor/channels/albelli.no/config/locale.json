@@ -10,6 +10,8 @@
         "close": "OK",
         "loading": "Laster. Vennligst vent...",
         "productSpecificationTitle": "Spesifikasjoner:",
+        "productType": "Product",
+        "productOrientation": "Orientation",
         "productSpecificationSize": "Størrelse",
         "productSpecificationPrice": "Pris",
         "productSpecificationPriceText1": "{0} (Eks.",
@@ -39,10 +41,10 @@
         "lowQualityTooltip": "Kvaliteten er for dårlig for gjeldende ramme",
         "photoQualityIndicatorHeaderLabel": "Kvalitet:",
         "photoQualityIndicatorLabel": "{0}",
-        "photoQualityIndicatorTooltipLow": "Kvaliteten på bildet er for dårlig for å garantere et optimalt resultat. Du kan selvfølgelig bestille {0} uansett, men resultatet vil kanskje ikke bli så bra.",
-        "photoQualityIndicatorTooltipMedium": "Kvaliteten på bildet er ikke optimal. Du kan selvfølgelig bestille {0} uansett, men resultatet vil kanskje ikke bli så bra.",
-        "photoQualityIndicatorTooltipHigh": "Kvaliteten på bildet er god.",
-        "photoQualityIndicatorTooltipExcellent": "Kvaliteten på bildet er utmerket.",
+        "photoQualityIndicatorTooltipLow": "Kvaliteten på bildet ditt er lav så det kan utskriften ikke blir like skarp som vi normalt sett garanterer!",
+        "photoQualityIndicatorTooltipMedium": "Kvaliteten på bildet ditt er ikke optimal så det kan hende utskriften ikke blir like skarp som vi normalt garanterer!",
+        "photoQualityIndicatorTooltipHigh": "Kvaliteten på bildet ditt er bra!",
+        "photoQualityIndicatorTooltipExcellent": "Kvaliteten på bildet ditt er utmerket!",
         "uploadPhotoLabel": "Velg fotoet ditt",
         "uploadDifferentPhotoLabel": "Velg et annet bilde",
         "uploadPhotoButtonTooltip": "Klikk her for å legge til et bilde.",
@@ -65,6 +67,7 @@
             "photo": "Dine bilder",
             "foreground": "",
             "background": "Bakgrunner",
+            "clipart": "Utklippsbilder",
             "decoration": "Ramme",
             "layout": "Oppsett",
             "tooltrayshow": "Show tooltray",
@@ -134,6 +137,10 @@
         "created": "",
         "modified": ""
     },
+    "controls": {
+        "switchProduct": "Adjust product"
+    },
+
     "order": {
         "orderTitle": "Din bestilling",
         "invoiceTitle": "Oversikt",
@@ -162,7 +169,7 @@
         }
     },
     "upload": {
-        "uploading": "Ferdigstiller produktet, vennligst vent... %3%",
+        "uploading": "Ferdigstiller produktet, vennligst vent... %3%%",
         "busyUploadingLabel": "Vi ferdigstiller produktet ditt; det tar ikke lang tid. Når opplastningen er fullført overføres du til handlekurven."
     },
     "help": {

@@ -9,6 +9,8 @@
         "close": "OK",
         "loading": "Loading. Please wait.",
         "productSpecificationTitle": "Specifications:",
+        "productType": "Product",
+        "productOrientation": "Orientation",
         "productSpecificationSize": "Size",
         "productSpecificationPrice": "Price",
         "productSpecificationPriceText1": "{0} (excl.",
@@ -55,8 +57,8 @@
         "lowQualityTooltip": "Quality too low for current frame",
         "photoQualityIndicatorHeaderLabel": "Quality:",
         "photoQualityIndicatorLabel": "{0}",
-        "photoQualityIndicatorTooltipLow": "Please note that the quality of your photo is low so we can't guarantee a great result. Would you like to proceed anyway?",
-        "photoQualityIndicatorTooltipMedium": "Please note that the quality of your photo is not good enough to guarantee a great result. Would you like to proceed anyway?",
+        "photoQualityIndicatorTooltipLow": "The quality of your photo is low so the print may be less sharp than we normally guarantee.",
+        "photoQualityIndicatorTooltipMedium": "The quality of your photo is not optimal so the print may be less sharp than we normally guarantee.",
         "photoQualityIndicatorTooltipHigh": "The quality of your photo is good.",
         "photoQualityIndicatorTooltipExcellent": "The quality of your photo is excellent!",
         "uploadPhotoLabel": "Select a photo",
@@ -110,6 +112,7 @@
             "photo": "Your photos",
             "foreground": "",
             "background": "Backgrounds",
+            "clipart": "Clip Art",
             "decoration": "Frames",
             "tooltrayshow": "Show tooltray",
             "tooltrayhide": "Hide tooltray",
@@ -143,6 +146,9 @@
         "loadBody": "Open a saved photo book",
         "created": "",
         "modified": ""
+    },
+    "controls": {
+        "switchProduct": "Adjust product"
     },
     "preview": {
         "button": "Preview",

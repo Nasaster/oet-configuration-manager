@@ -10,6 +10,8 @@
         "close": "ok",
         "loading": "Chargement en cours...",
         "productSpecificationTitle": "Spécifications:",
+        "productType": "Product",
+        "productOrientation": "Orientation",
         "productSpecificationSize": "Format",
         "productSpecificationPrice": "Prix",
         "productSpecificationPriceText1": "{0} (excl.",
@@ -39,10 +41,10 @@
         "lowQualityTooltip": "qualité insuffisante pour le cadre actuel",
         "photoQualityIndicatorHeaderLabel": "Qualité :",
         "photoQualityIndicatorLabel": "{0}",
-        "photoQualityIndicatorTooltipLow": "En cas de commande, la qualité de la photo peut ne pas être suffisante pour garantir un résultat optimal.",
-        "photoQualityIndicatorTooltipMedium": "La qualité de la photo n'est pas optimale. Vous pouvez bien évidemment commander la toile de {0}, il est cependant possible que le résultat ne soit pas net.",
-        "photoQualityIndicatorTooltipHigh": "La qualité de la photo est satisfaisante.",
-        "photoQualityIndicatorTooltipExcellent": "La qualité de la photo est exceptionnelle.",
+        "photoQualityIndicatorTooltipLow": "La qualité de votre photo est très basse, l'impression pourrait être d'une qualité inférieure à celle garantie.",
+        "photoQualityIndicatorTooltipMedium": "La qualité de votre photo n'est pas optimale, l'impression pourrait être d'une qualité inférieure à celle garantie.",
+        "photoQualityIndicatorTooltipHigh": "La qualité de votre photo est bonne.",
+        "photoQualityIndicatorTooltipExcellent": "La qualité de votre photo est excellente!",
         "uploadPhotoLabel": "Choisir la photo",
         "uploadDifferentPhotoLabel": "Choisir une autre photo",
         "uploadPhotoButtonTooltip": "Cliquez ici pour ajouter une photo",
@@ -65,6 +67,7 @@
             "photo": "Vos photos",
             "foreground": "",
             "background": "Arrière-plans",
+            "clipart": "Clipart",
             "decoration": "Cadres",
             "layout": "Mises en page",
             "tooltrayshow": "Show tooltray",
@@ -134,6 +137,9 @@
         "created": "",
         "modified": ""
     },
+    "controls": {
+        "switchProduct": "Adjust product"
+    },
     "order": {
         "orderTitle": "Votre commande",
         "invoiceTitle": "Récapitulatif",
@@ -162,7 +168,7 @@
         }
     },
     "upload": {
-        "uploading": "Traitement de la commande en cours, veuillez patienter. %3%",
+        "uploading": "Traitement de la commande en cours, veuillez patienter. %3%%",
         "busyUploadingLabel": "Nous traitons votre commande, veuillez patienter quelques instants. Une fois votre commande traitée, vous serez redirigé vers le panier."
     },
     "help": {
