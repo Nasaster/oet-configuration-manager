@@ -65,6 +65,7 @@
             "photo": "Le tue foto",
             "foreground": "",
             "background": "Sfondi",
+            "clipart": "Clip art",
             "decoration": "Cornici",
             "layout": "Layout di pagina",
             "tooltrayshow": "Show tooltray",
@@ -160,7 +161,7 @@
         }
     },
     "upload": {
-        "uploading": "Le tue foto ci sono stati inviati. %3%",
+        "uploading": "Le tue foto ci sono stati inviati. %3%%",
         "busyUploadingLabel": "La tua foto ci verrà trasmessa per consentire ad Albelli di riprodurla in alta risoluzione sulla tua {0}. Il processo può durare alcuni minuti. Non è necessario compiere alcuna operazione aggiuntiva. Appena la foto ci sarà pervenuta, verrai trasferito automaticamente alla pagina di pagamento."
     },
     "help": {
@@ -199,7 +200,8 @@
         "lowMemoryWarning": "Were you trying to add a photo? It looks like your device is running low on memory. Please close some of your running applications and try again",
         "defaultPrice": "Si è verificato un errore nel recupero delle informazioni sui prezzi. Contattare lo helpdesk o riprovare tra poco.",
         "loadPhotoBitmapData": "Si è verificato un errore nel caricamento della foto. Contattare lo helpdesk o riprovare tra poco.",
-        "loadBigPhoto": "",
+        "loadBigPhoto": "Si è verificato un errore nel caricamento della foto. Sei pregato di ridurre le dimensioni ad un massimo di {0} pixel e riprovare.",
+        "loadBigFile": "Si è verificato un errore nel caricamento della foto. Sei pregato di ridurre le dimensioni ad un massimo di {0} Mb e riprovare.",
         "creatingPhoto": "Si è verificato un errore nella creazione della foto. Contattare lo helpdesk o riprovare tra poco.",
         "photoRegistration": "Si è verificato un errore nella creazione della foto. Contattare lo helpdesk o riprovare tra poco.",
         "addPhotoToPhotoPlaceholderEmpty": "Si è verificato un errore nell'aggiunta della foto alla cornice fotografica. Contattare lo helpdesk o riprovare tra poco.",

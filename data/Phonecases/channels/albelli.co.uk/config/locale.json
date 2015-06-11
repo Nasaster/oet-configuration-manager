@@ -55,8 +55,8 @@
         "lowQualityTooltip": "Quality too low for current frame",
         "photoQualityIndicatorHeaderLabel": "Quality:",
         "photoQualityIndicatorLabel": "{0}",
-        "photoQualityIndicatorTooltipLow": "Please note that the quality of your photo is low so we can't guarantee a great result. Would you like to proceed anyway?",
-        "photoQualityIndicatorTooltipMedium": "Please note that the quality of your photo is not good enough to guarantee a great result. Would you like to proceed anyway?",
+        "photoQualityIndicatorTooltipLow": "The quality of your photo is low so the print may be less sharp than we normally guarantee.",
+        "photoQualityIndicatorTooltipMedium": "The quality of your photo is not optimal so the print may be less sharp than we normally guarantee.",
         "photoQualityIndicatorTooltipHigh": "The quality of your photo is good.",
         "photoQualityIndicatorTooltipExcellent": "The quality of your photo is excellent!",
         "uploadPhotoLabel": "Select a photo",
@@ -110,6 +110,7 @@
             "photo": "Your photos",
             "foreground": "",
             "background": "Backgrounds",
+            "clipart": "Clip Art",
             "decoration": "Frames",
             "tooltrayshow": "Show tooltray",
             "tooltrayhide": "Hide tooltray",
@@ -181,7 +182,7 @@
         "promotionPopupSubmitLabel": "Send"
     },
     "upload": {
-        "uploading": "Finalising order. Please wait. %3%",
+        "uploading": "Finalising order. Please wait. %3%%",
         "busyUploadingLabel": "We are finalising your order. This shouldn't take too long. Once the upload is complete, we'll redirect you to your shopping basket."
     },
     "help": {
@@ -221,6 +222,7 @@
         "defaultPrice": "We're sorry, but a problem occurred during start-up. Please try again later or contact customer service for help. (couldn't retrieve price information)",
         "loadPhotoBitmapData": "We're sorry, but a problem occurred while trying to load your photo. Please try again later or contact customer service for help.",
         "loadBigPhoto": "An error occurred while loading the photo. Please reduce the dimensions to a maximum of {0} pixels and try again.",
+        "loadBigFile": "An error occurred while loading the photo. Please reduce the dimensions to a maximum of {0} Mb and try again.",
         "creatingPhoto": "Sorry, a problem occurred while creating the photo. Please contact our customer service team or try again later.",
         "photoRegistration": "Sorry, a problem occurred while creating the photo. Please contact our customer service team or try again later.",
         "addPhotoToPhotoPlaceholderEmpty": "Sorry, a problem occurred while adding the photo the photo frame. Please contact our customer service team or try again later.",

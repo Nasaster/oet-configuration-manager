@@ -39,10 +39,10 @@
         "lowQualityTooltip": "Qualität für gewählte Größe zu gering",
         "photoQualityIndicatorHeaderLabel": "Qualität:",
         "photoQualityIndicatorLabel": "{0}",
-        "photoQualityIndicatorTooltipLow": "Aufgrund der geringen Auflösung dieses Fotos kann kein optimales Ergebnis garantiert werden. Sie können das {0} zwar bestellen, aber das Druckergebnis wird möglicherweise unscharf sein.",
-        "photoQualityIndicatorTooltipMedium": "Die Qualität des Fotos ist nicht optimal. Sie können das {0} zwar bestellen, aber das Druckergebnis wird möglicherweise unscharf sein.",
-        "photoQualityIndicatorTooltipHigh": "Die Qualität des Fotos ist ausreichend.",
-        "photoQualityIndicatorTooltipExcellent": "Die Qualität des Fotos ist hervorragend.",
+        "photoQualityIndicatorTooltipLow": "Die Qualität Ihres Fotos ist sehr gering. Die Druckqualität könnte daher weniger scharf sein, als wir Ihnen normalerweise garantieren.",
+        "photoQualityIndicatorTooltipMedium": "Die Qualität Ihres Fotos ist nicht optimal. Die Druckqualität könnte daher weniger scharf sein, als wir Ihnen normalerweise garantieren.",
+        "photoQualityIndicatorTooltipHigh": "Die Qualität Ihres Fotos ist gut.",
+        "photoQualityIndicatorTooltipExcellent": "Die Qualität Ihres Fotos ist ausgezeichnet!",
         "uploadPhotoLabel": "Foto auswählen",
         "uploadDifferentPhotoLabel": "Ein anderes Foto auswählen",
         "uploadPhotoButtonTooltip": "Klicken Sie hier, um ein Foto hinzuzufügen",
@@ -65,6 +65,7 @@
             "photo": "Ihre Fotos",
             "foreground": "",
             "background": "Hintergründe",
+            "clipart": "ClipArt",
             "decoration": "Rahmen",
             "layout": "Layouts",
             "tooltrayshow": "Show tooltray",
@@ -161,7 +162,7 @@
         }
     },
     "upload": {
-        "uploading": "Ihre Bestellung wird abgeschlossen, bitte haben Sie einen Augenblick Geduld. %3%",
+        "uploading": "Ihre Bestellung wird abgeschlossen, bitte haben Sie einen Augenblick Geduld. %3%%",
         "busyUploadingLabel": "Ihre Bestellung wird gerade abgeschlossen, bitte haben Sie einen Augenblick Geduld. Wenn Ihre Fotos hochgeladen wurden, werden Sie automatisch zum Warenkorb weitergeleitet."
     },
     "help": {
@@ -201,6 +202,7 @@
         "defaultPrice": "Leider ist während des Ladevorgangs ein Problem aufgetreten. Bitte versuchen Sie es später erneut oder kontaktieren Sie unseren Kundenservice. (Preisinformation konnte nicht abgerufen werden)",
         "loadPhotoBitmapData": "Leider ist ein Problem aufgetreten, während Ihre Fotos hochgeladen wurden. Bitte versuchen Sie es später erneut oder kontakieren Sie unseren Kundenservice.",
         "loadBigPhoto": "Fehler beim Laden des Fotos. Bitte reduzieren Sie die Größe auf maximal {0} px.",
+        "loadBigFile": "Fehler beim Laden des Fotos. Bitte reduzieren Sie die Größe auf maximal {0} Mb.",
         "creatingPhoto": "Fehler beim Aufbauen des Fotos. Wenden Sie sich an den Helpdesk, oder versuchen Sie es später noch einmal.",
         "photoRegistration": "Fehler beim Aufbauen des Fotos. Wenden Sie sich an den Helpdesk, oder versuchen Sie es später noch einmal.",
         "addPhotoToPhotoPlaceholderEmpty": "Fehler beim Hinzufügen des Fotos zum Fotorahmen. Wenden Sie sich an den Helpdesk, oder versuchen Sie es später noch einmal.",

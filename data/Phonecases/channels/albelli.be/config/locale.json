@@ -38,10 +38,10 @@
 		"lowQualityTooltip" : "kwaliteit te laag voor huidig kader",
 		"photoQualityIndicatorHeaderLabel" : "Kwaliteit: ",
 		"photoQualityIndicatorLabel" : "{0}",
-		"photoQualityIndicatorTooltipLow" : "De foto heeft een te lage kwaliteit om een optimaal resultaat te garanderen. Je kunt het {0} uiteraard gewoon bestellen, maar het resultaat is mogelijk niet scherp.",
-		"photoQualityIndicatorTooltipMedium" : "De kwaliteit van de foto is niet optimaal. Je kunt het {0} uiteraard gewoon bestellen, maar het resultaat is mogelijk niet scherp.",
-		"photoQualityIndicatorTooltipHigh" : "De kwaliteit van de foto is goed.",
-		"photoQualityIndicatorTooltipExcellent" : "De kwaliteit van de foto is uitstekend.",
+		"photoQualityIndicatorTooltipLow" : "De kwaliteit van je foto is laag, dus het resultaat is mogelijk niet zo scherp als je van ons gewend bent.",
+		"photoQualityIndicatorTooltipMedium" : "De kwaliteit van je foto is niet optimaal, dus het resultaat is mogelijk niet zo scherp als je van ons gewend bent.",
+		"photoQualityIndicatorTooltipHigh" : "De kwaliteit van je foto is goed.",
+		"photoQualityIndicatorTooltipExcellent" : "De kwaliteit van je foto is uitstekend!",
 		"uploadPhotoLabel" : "Kies je foto",
 		"uploadDifferentPhotoLabel" : "Kies een andere foto",
 		"uploadPhotoButtonTooltip" : "Klik hier om een foto toe te voegen",
@@ -64,6 +64,7 @@
 			"photo" : "Je foto's",
 			"foreground" : "",
 			"background" : "Achtergronden",
+			"clipart": "Clipart",
 			"decoration" : "Kaders",
 			"layout" : "Indelingen",
 			"tooltrayshow" : "Show tooltray",
@@ -180,7 +181,7 @@
 		"busyUploadingLabel" : "We zijn je bestelling aan het gereedmaken. Wanneer het uploaden klaar is, word je doorverwezen naar je winkelmandje."
 	},
 	"help" : {
-		"helpTitle" : "Klantenservice",
+		"helpTitle" : "Klantendienst",
 		"helpText" : "Bekijk de veel gestelde vragen",
 		"helpURL" : "http://www.albelli.be/nl/klantendienst",
 		"moreOptionsUrl" : ""
@@ -189,7 +190,7 @@
 		"invalidPromotionCode" : "De promotiecode is niet geldig."
 	},
 	"warnings" : {
-		"qualityTitle" : "De kwaliteit van je foto is niet voldoende",
+		"qualityTitle" : "De kwaliteit van je foto is niet optimaal",
 		"qualitySubtitle" : "Je kunt het product uiteraard gewoon zo bestellen, maar dan is het resultaat mogelijk niet zo scherp als je van ons gewend bent.",
 		"qualityOptionsTitle" : "",
 		"qualityOptions" : "",
@@ -215,7 +216,8 @@
 		"lowMemoryWarning" : "Het lijkt erop dat je werkgeheugen te vol is. Sluit zoveel mogelijk andere openstaande programma's en probeer het opnieuw.",
 		"defaultPrice" : "Sorry, er is een probleem opgetreden met opstarten. Probeer het later nog eens of neem contact op met onze klantendienst. (Prijslijst kon niet opgehaald worden)",
 		"loadPhotoBitmapData" : "Sorry, er is een probleem opgetreden met het laden van je foto. Probeer het later nog eens of neem contact op met onze klantendienst.",
-		"loadBigPhoto" : "Er is een fout ontstaan bij het laden van de foto. Verklein het bestand tot maximaal 8000 x 8000 pixels en probeer het opnieuw.",
+		"loadBigPhoto" : "Er is een fout ontstaan bij het laden van de foto. Verklein het bestand tot maximaal {0} pixels en probeer het opnieuw.",
+		"loadBigFile": "Er is een fout ontstaan bij het laden van de foto. Verklein het bestand tot maximaal {0} Mb en probeer het opnieuw.",
 		"creatingPhoto" : "Er is een fout opgetreden tijdens het opbouwen van de foto. Neem contact op met de klantendienst of probeert u het later nog eens.",
 		"photoRegistration" : "Er is een fout opgetreden tijdens het opbouwen van de foto. Neem contact op met de klantendienst of probeert u het later nog eens.",
 		"addPhotoToPhotoPlaceholderEmpty" : "Er is een fout opgetreden tijdens het toevoegen van de foto aan het fotokader. Neem contact op met de klantendienst of probeert u het later nog eens.",
