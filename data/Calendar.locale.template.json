@@ -77,10 +77,10 @@
 			"layout" : "String",
 			"spacing" : {
 				"labels" : {
-					"inner" : "Number",
-					"inner-small" : "Number",
-					"outer" : "Number",
-					"outer-small" : "Number"
+					"inner" : "String",
+					"inner-small" : "String",
+					"outer" : "String",
+					"outer-small" : "String"
 				},
 				"title" : "String"
 			}

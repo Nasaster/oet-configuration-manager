@@ -37,7 +37,7 @@
 		"marginTooltip" : "String",
 		"lowQualityTooltip" : "String",
 		"photoQualityIndicatorHeaderLabel" : "String: ",
-		"photoQualityIndicatorLabel" : "Number",
+		"photoQualityIndicatorLabel" : "String",
 		"photoQualityIndicatorTooltipLow" : "String",
 		"photoQualityIndicatorTooltipMedium" : "String",
 		"photoQualityIndicatorTooltipHigh" : "String",
@@ -70,10 +70,10 @@
 			"tooltrayhide" : "String",
 			"spacing" : {
 				"labels" : {
-					"inner" : "Number",
-					"inner-small" : "Number",
-					"outer" : "Number",
-					"outer-small" : "Number"
+					"inner" : "String",
+					"inner-small" : "String",
+					"outer" : "String",
+					"outer-small" : "String"
 				},
 				"title" : "String"
 			},
