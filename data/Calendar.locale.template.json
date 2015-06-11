@@ -43,7 +43,7 @@
 		"marginTooltip" : "String",
 		"lowQualityTooltip" : "String",
 		"photoQualityIndicatorHeaderLabel" : "String",
-		"photoQualityIndicatorLabel" : "Number",
+		"photoQualityIndicatorLabel" : "String",
 		"photoQualityIndicatorTooltipLow" : "String",
 		"photoQualityIndicatorTooltipMedium" : "String",
 		"photoQualityIndicatorTooltipHigh" : "String",
