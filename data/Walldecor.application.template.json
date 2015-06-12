@@ -8,9 +8,11 @@
         "photoQualityRating": [
             "Number"
         ],
+        "exifSupported": "Boolean",
         "maxPhotoPixels": "Number",
-        "woodGapInMilliMeters": "Number",
-        "woodPlankWidthInMilliMeters": "Number",
+        "maxFileSize": "Number",
+        "woodGapInMilliMeters" : "Number",
+        "woodPlankWidthInMilliMeters" : "Number",
         "subscribeToNewsletterDefault": "Boolean",
         "homeUrl": "String",
         "shippingUrl": "String",
@@ -18,10 +20,8 @@
         "productPreviewThumbnailWidth": "Number",
         "includePreviewWithCheckout": "Boolean",
         "saveLoadEnabled": "Boolean",
+        "requireSaveProductOnCheckout": "Boolean",
         "saveNameInputMaxLength": "Number",
-        "defaultUploadTimeout": [
-            "Number"
-        ],
         "previewIncludingMargins": {
             "canvas": "Boolean"
         },
@@ -33,12 +33,20 @@
                 "String"
             ]
         },
+        "defaultUploadTimeout": [
+            "Number"
+        ],
         "maxUploadRetries": "Number",
-        "photoOnWood": {
-            "placeholderFillColor": "String"
+        "photoOnWood" :{
+            "placeholderFillColor" : "String",
+            "defaultProductOptions": {
+                "WoodFinishingType": [
+                    "String"
+                ],
+                "PlanksOrientationType": "String"
+            }
         },
-        "PAOK": {},
-        "APKA": "String"
+        "notifications" : "Boolean"
     },
     "currency": {
         "code": "String",
@@ -48,7 +56,6 @@
     "country": {
         "label": "String",
         "data": "String",
-        "zoneid": "Number",
         "zipCodeExample": "String",
         "zipCodeExpression": "String"
     },
@@ -59,7 +66,9 @@
                 "precision": "Number",
                 "minValue": "Number",
                 "maxValue": "Number",
-                "excludes": []
+                "excludes": [
+                    "String"
+                ]
             },
             "outer": {
                 "metric": "String",
@@ -83,6 +92,11 @@
         ]
     },
     "tabs": {
+        "product-options": {
+            "supportedArticleTypes": [
+                "String"
+            ]
+        },
         "layouts": {
             "supportedArticleTypes": [
                 "String"
@@ -98,8 +112,18 @@
                 "String"
             ]
         },
-        "backgrounds": {
+        "backgrounds-colors": {
             "supportedArticleTypes": [
+                "String"
+            ]
+        },
+        "backgrounds-assets": {
+            "disabled": [
+                "String"
+            ]
+        },
+        "clipart" : {
+            "disabled": [
                 "String"
             ]
         },
@@ -110,14 +134,8 @@
         },
         "tooltray": {
             "disabled": [
-                "String"
+            "String"
             ]
         }
-    },
-    "ASDAADD": [
-        "Number"
-    ],
-    "ILIONOIS": {
-        "delete me": "String"
     }
 }

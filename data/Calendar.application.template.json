@@ -9,13 +9,15 @@
             "Number"
         ],
         "maxPhotoPixels": "Number",
-        "subscribeToNewsletterDefault": "Boolean",
+        "maxFileSize": "Number",
+        "subscribeToNewsletterDefault": "Number",
         "homeUrl": "String",
         "shippingUrl": "String",
         "customerServiceUrl": "String",
         "productPreviewThumbnailWidth": "Number",
         "includePreviewWithCheckout": "Boolean",
         "saveLoadEnabled": "Boolean",
+        "requireSaveProductOnCheckout": "Boolean",
         "saveNameInputMaxLength": "Number",
         "enableLivePreviewInNavigation": "Boolean",
         "enableWelcomePopup": "Boolean",
@@ -38,23 +40,10 @@
             ]
         },
         "allowProductPreview": "Boolean",
-        "disableMobileView": "Boolean",
-        "testxxx": "Number",
-        "ASSD": {},
-        "Paok": {
-            "delete me": "String"
-        },
-        "Greece": {
-            "delete me": "String"
-        },
-        "yryryryr": {
-            "delete me": "String"
-        }
+        "disableMobileView": "Boolean"
     },
-    "currency": {
-        "code": "String",
-        "format": "String",
-        "priceFormat": "String"
+    "mobile" : {
+      "gestures" : "Boolean"
     },
     "calendar": {
         "allowedEventTypes": [
@@ -91,22 +80,36 @@
                 "String"
             ]
         },
-        "backgrounds": {
+        "backgrounds-colors": {
             "disabled": [
+                "String"
+            ]
+        },
+        "backgrounds-assets": {
+            "disabled": [
+                "String"
+            ]
+        },
+        "clipart" : {
+          "disabled": [
                 "String"
             ]
         },
         "tooltray": {
             "disabled": [
                 "String"
-            ],
-            "num": "Number"
+            ]
         },
         "product-options": {
             "disabled": [
                 "String"
             ]
         }
+    },
+    "currency": {
+        "code": "String",
+        "format": "String",
+        "priceFormat": "String"
     },
     "productList": {
         "dateFormat": "String",
@@ -115,7 +118,6 @@
     "country": {
         "label": "String",
         "data": "String",
-        "zoneid": "String",
         "zipCodeExample": "String",
         "zipCodeExpression": "String"
     },
@@ -123,15 +125,12 @@
         "spacing": {
             "enabled": "Boolean",
             "inner": {
-                "metric": "mm",
+                "metric": "String",
                 "precision": "Number",
                 "acceleration": "Number",
                 "minValue": "Number",
                 "maxValue": "Number",
-                "comment": "String",
-                "excludes": [
-                    "String"
-                ]
+                "excludes": []
             },
             "outer": {
                 "metric": "String",
@@ -154,36 +153,10 @@
     "backgroundColors": {
         "color": [
             "String"
-        ],
-        "arrayNumber": [
-            "Number"
-        ],
-        "arrayString": [
-            "String"
-        ],
-        "valueNumber": "Number",
-        "valueString": "String",
-        "valueBoolean": "Boolean"
+        ]
     },
-    "LA perla": {
-        "delete me": "String",
-        "a3 the pearl": {
-            "delete me": "String",
-            "a4": {
-                "delete me": "String",
-                "p5": [
-                    "Number"
-                ]
-            }
-        }
-    },
-    "IgorsGroup": {
-        "value": "Boolean",
-        "what will this be": {
-            "this is a string list": [
-                "String"
-            ],
-            "this is NOt a string list": "String"
-        }
+    "calendarGrid": {
+        "imageMap": "String",
+        "colorDay": "String"
     }
 }

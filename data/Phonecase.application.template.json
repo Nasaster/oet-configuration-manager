@@ -9,6 +9,7 @@
             "Number"
         ],
         "maxPhotoPixels": "Number",
+        "maxFileSize": "Number",
         "subscribeToNewsletterDefault": "Boolean",
         "homeUrl": "String",
         "shippingUrl": "String",
@@ -16,10 +17,8 @@
         "productPreviewThumbnailWidth": "Number",
         "includePreviewWithCheckout": "Boolean",
         "saveLoadEnabled": "Boolean",
+        "requireSaveProductOnCheckout": "Boolean",
         "saveNameInputMaxLength": "Number",
-        "defaultUploadTimeout": [
-            "Number"
-        ],
         "previewIncludingMargins": {
             "canvas": "Boolean"
         },
@@ -31,7 +30,10 @@
                 "String"
             ]
         },
-        "maxUploadRetries": "Boolean"
+        "defaultUploadTimeout": [
+            "Number"
+        ],
+        "maxUploadRetries": "Number"
     },
     "currency": {
         "code": "String",
@@ -52,7 +54,9 @@
                 "precision": "Number",
                 "minValue": "Number",
                 "maxValue": "Number",
-                "excludes": []
+                "excludes": [
+                    "String"
+                ]
             },
             "outer": {
                 "metric": "String",
@@ -79,7 +83,20 @@
         "layouts": {
             "supportedArticleTypes": [
                 "String"
-            ]
+            ],
+            "compatible":
+            {
+                "strict" : "Boolean",
+                "includeMargin" : "Boolean",
+                "errorMargin" : "Number",
+
+                "PhoneCase":
+                {
+                    "strict" : "Boolean",
+                    "includeMargin" : "Boolean",
+                    "errorMargin" : "Number"
+                }
+            }
         },
         "photos": {
             "supportedArticleTypes": [
@@ -91,20 +108,22 @@
                 "String"
             ]
         },
-        "backgrounds": {
+        "backgrounds-colors": {
             "supportedArticleTypes": [
                 "String"
             ]
         },
+        "backgrounds-assets": {
+            "disabled": ["String"]
+        },
+        "clipart" : {
+          "disabled": ["String"]
+        },
         "tooltray": {
-            "disabled": [
-                "String"
-            ]
+            "disabled": ["String"]
         },
         "product-options": {
-            "disabled": [
-                "String"
-            ]
+            "disabled": ["String"]
         }
     }
 }
