@@ -248,14 +248,28 @@ var openFieldEditModal = function(path){
     locals.isArray = Array.isArray(type);
 
     //extracts the configuration for the item for every channel
+    var valueErrors = [];
     locals.config = Object.keys(config).reduce(function(a, b){
         var value = config[b];
         for(var i = 0, len = path.length; i < len; i++){
-            value = value[ path[i] ];
+            if (typeof value !== 'undefined') {
+                value = value[ path[i] ];
+            }
+            else {
+                break;
+            }
+        }
+        if (typeof value === 'undefined') {
+            value = '';
+            valueErrors.push( b );
         }
         a[ b ] = ( !isNaN( value ) && type === 'Number' ? value.toString() : value );
         return a;
     }, {} );
+
+    if (valueErrors.length > 0) {
+        alert(valueErrors.join(', ') + ' fields were missing');
+    }
 
     templator.empty( $scope.$DOM.fieldEditModal )
         .then( templator.getTemplate.bind( null, 'views/configuration-manager/field-edit.modal.html' ) )
