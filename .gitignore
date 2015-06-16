@@ -5,6 +5,3 @@ testem.log
 npm-debug.log
 *.iml
 .idea
-data/Calendar
-data/Walldecor
-data/Phonecase
