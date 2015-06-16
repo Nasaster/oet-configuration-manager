@@ -115,35 +115,27 @@ var registerEvents = function(){
 in some modules it will make sense to create sub-modules to manage smaller parts of the application.  
 for more information on how to create and use sub-modules please refer to https://github.com/albumprinter/oet-nextgen-footer-tabs
 
-### Steps to create a Symlink
-Here are the steps to create a symlink for the each application (Calendar, Walldecor, Phonecase) folder. First step is to link them inside the destination folder.
+### Steps to add product configurationss
+Here are the steps to create a symlink for the each application (Calendar, Walldecor, Phonecase) folder. First step is to link them inside the "data" folder.
 ```
 cd data/
-Change current working directory to the destination folder (execute from the configuration manager root)
-```
-ls -slah
-List all files and subdirectories present in the current folder. When symbolic links are in place, directory names will contain a -> which points to the original location. On a clean checkout, this directory is empty.
-```
-
 ln -s path/to/original/folder targetPath
 ```
-This line creates a symlink named "targetPath" inside the current folder and has it point to the path defined in /path/to/original/folder. For instance :
+Where targetPath should be Calendar, Walldecor or Phonecase.
+Eg. :
 ```
 ln -s ../../oet-js-calendar/resources/config Calendar
 ln -s ../../oet-js-walldecor/resources/config Walldecor
 ln -s ../../oet-js-phonecase/resources/config Phonecase
 ```
-This "creates" a new folder named "Calendar" and links it to the path described above.
+This "creates" a symlink named "Calendar" and links it to the path described above.
 ```
 ls -slah
-```
-Once more list all files and subdirectors present in the current folder. After having added the Calendar application like in the example above, this list should look something like :
-```
 0 drwxr-xr-x  10 atsokaktsidis  VISTAPRINTUS\Domain Users   340B Jun 11 12:06 .
 0 drwxr-xr-x  19 atsokaktsidis  VISTAPRINTUS\Domain Users   646B Jun 11 12:06 ..
 8 lrwxr-xr-x   1 atsokaktsidis  VISTAPRINTUS\Domain Users    39B Jun 11 11:59 Calendar -> ../../oet-js-calendar/resources/config
 ```
-Note the addition of "Calendar" and how it points to it actual location.
+Go back to the Configuration Editor root directory:
 ```
 cd ..
 ```
