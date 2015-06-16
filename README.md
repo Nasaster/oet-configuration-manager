@@ -130,6 +130,8 @@ ln -s path/to/original/folder targetPath
 This line creates a symlink named "targetPath" inside the current folder and has it point to the path defined in /path/to/original/folder. For instance :
 ```
 ln -s ../../oet-js-calendar/resources/config Calendar
+ln -s ../../oet-js-walldecor/resources/config Walldecor
+ln -s ../../oet-js-phonecase/resources/config Phonecase
 ```
 This "creates" a new folder named "Calendar" and links it to the path described above.
 ```
