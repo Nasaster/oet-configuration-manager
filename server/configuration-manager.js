@@ -69,16 +69,17 @@ function setUpConfigurationObject(someParam)
 
 	var loadConfiguration = function(configType, appName) {
 		configObject.templates[appName] = ( configObject.templates[appName] ? configObject.templates[appName] : {} );
-		var json = fs.readFileSync(configRoot + appName + '.' + configType + '.template.json', {encoding: 'utf8'});
+		var json = fs.readFileSync(configRoot + appName + '/' + configType + '.template.json', {encoding: 'utf8'});
 		configObject.templates[appName][configType + '.json'] = JSON.parse(json);
 
 		configObject[configType + '.json'][appName] = { channels: {} };
-		configObject.channels = configObject.channels || filterFiles(configRoot + appName + '/channels/');
-		
+		var channelsPath = __dirname + '/../../' + appName + '/resources/config/channels/';
+		configObject.channels = configObject.channels || filterFiles( channelsPath );
+
 		configObject.channels.forEach(function(channelName){
-			var channelPath = configRoot + appName + '/channels/' + channelName;
-			if( fs.existsSync( channelPath + '/config/' + configType + '.json' ) ) {
-				var json = fs.readFileSync( channelPath + '/config/' + configType + '.json', {enconding: 'utf8'} );
+			var channelSubPath = channelsPath + channelName;
+			if( fs.existsSync( channelSubPath + '/config/' + configType + '.json' ) ) {
+				var json = fs.readFileSync( channelSubPath + '/config/' + configType + '.json', {enconding: 'utf8'} );
 				configObject[configType + '.json'][appName].channels[channelName] = JSON.parse( json );
 			}
 		});
