@@ -114,28 +114,4 @@ var registerEvents = function(){
 ### sub-modules
 in some modules it will make sense to create sub-modules to manage smaller parts of the application.  
 for more information on how to create and use sub-modules please refer to https://github.com/albumprinter/oet-nextgen-footer-tabs
-
-### Steps to add product configurationss
-Here are the steps to create a symlink for the each application (Calendar, Walldecor, Phonecase) folder. First step is to link them inside the "data" folder.
-```
-cd data/
-ln -s path/to/original/folder targetPath
-```
-Where targetPath should be Calendar, Walldecor or Phonecase.
-Eg. :
-```
-ln -s ../../oet-js-calendar/resources/config Calendar
-ln -s ../../oet-js-walldecor/resources/config Walldecor
-ln -s ../../oet-js-phonecase/resources/config Phonecase
-```
-This "creates" a symlink named "Calendar" and links it to the path described above.
-```
-ls -slah
-0 drwxr-xr-x  10 atsokaktsidis  VISTAPRINTUS\Domain Users   340B Jun 11 12:06 .
-0 drwxr-xr-x  19 atsokaktsidis  VISTAPRINTUS\Domain Users   646B Jun 11 12:06 ..
-8 lrwxr-xr-x   1 atsokaktsidis  VISTAPRINTUS\Domain Users    39B Jun 11 11:59 Calendar -> ../../oet-js-calendar/resources/config
-```
-Go back to the Configuration Editor root directory:
-```
-cd ..
 ```
