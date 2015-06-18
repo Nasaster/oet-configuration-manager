@@ -8,55 +8,29 @@ setUpConfigurationObject();
 module.exports = {
 	getAllConfiguration: function(){
 		return configObject;
-	}, 
+	},
 	saveConfiguration: function(body){
-		switch( body.selectedConfigType ){
-			case 'application.json':
-				saveApplicationConfig( body.selectedApplication, body.configToBeSaved.channels );
-				break;
-			case 'locale.json':
-				saveLocaleConfig( body.selectedLocale, body .configToBeSaved.channels );
-				break;
-		}
-	}, 
-
+		saveApplicationConfig( body.selectedApplication, body.configToBeSaved.channels, body.selectedConfigType );
+	},
 	saveTemplate: function(body){
 		//[TODO] add logic to distinguish between templates
-		var path = configRoot + body.selectedApplication + '.' + body.selectedConfigType.replace( '.json', '' ) + '.template.json';
-		var path = configRoot + body.selectedLocale + '.' + body.selectedConfigType.replace( '.json', '' ) + '.template.json';
+		var path = configRoot + body.selectedApplication + '/' + body.selectedConfigType.replace( '.json', '' ) + '.template.json';
 		var jsonToWrite = JSON.stringify( body.templateToBeSaved, null, 4 );
 		fs.writeFileSync( path, jsonToWrite, {encoding: 'utf8'} );
 		setUpConfigurationObject();
 	}
 };
 
-
-var saveApplicationConfig = function(application, config){
-	var baseDir = configRoot + application + '/channels/';
+var saveApplicationConfig = function(appName, config, configType){
+	var channelsPath = __dirname + '/../../' + appName + '/resources/config/channels/';
 
 	Object.keys(config).forEach(function(channelName){
-		var filePath = baseDir + channelName + '/config/application.json';
+		var filePath = channelsPath + channelName + '/config/' + configType;
 		var dataToBeSaved = JSON.stringify( config[channelName], null, 4 );
 		fs.writeFileSync( filePath, dataToBeSaved, {encoding: 'utf8'} );
 	});
 	setUpConfigurationObject();
 };
-
-var saveLocaleConfig = function(locale, locale){
-	var baseDir = configRoot + locale + '/channels/';
-
-	Object.keys(locale).forEach(function(channelName){
-		var filePath = baseDir + channelName + '/locale/locale.json';
-		var dataToBeSaved = JSON.stringify( locale[channelName], null, 4 );
-		fs.writeFileSync( filePath, dataToBeSaved, {encoding: 'utf8'} );
-	});
-	setUpConfigurationObject();
-};
-
-var saveTemplate = function(){
-
-};
-
 
 function setUpConfigurationObject(someParam)
 {
@@ -97,7 +71,7 @@ function setUpConfigurationObject(someParam)
 	};
 
 	var applications = filterFiles(configRoot);
-	
+
 	applications.forEach(function(appName){
 		['application', 'locale'].forEach(function(configType) {
 			loadConfiguration(configType, appName);
