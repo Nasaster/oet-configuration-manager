@@ -33,7 +33,7 @@ module.exports = {
 };
 
 var saveApplicationConfig = function(appName, config, configType){
-	var channelsPath = __dirname + projectPaths.replace('{appName}', appName);
+	var channelsPath = __dirname + projectPaths[ appName ].replace('{appName}', appName);
 
 	Object.keys(config).forEach(function(channelName){
 		var filePath = channelsPath + channelName + '/config/' + configType;
@@ -58,7 +58,7 @@ function setUpConfigurationObject(someParam)
 		configObject.templates[appName][configType + '.json'] = JSON.parse(json);
 
 		configObject[configType + '.json'][appName] = { channels: {} };
-		var channelsPath = __dirname + projectPaths.replace('{appName}', appName);
+		var channelsPath = __dirname + projectPaths[ appName ].replace('{appName}', appName);
 		configObject.channels = configObject.channels || filterFiles( channelsPath );
 
 		configObject.channels.forEach(function(channelName){
