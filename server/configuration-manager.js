@@ -3,6 +3,17 @@ var fs = require('fs');
 var configRoot = __dirname + '/../data/';
 var configObject;
 
+var projectPathsUrl = 'projectPaths.json';
+var projectPaths = {
+	"calendar": "/../../{appName}/resources/config/channels/",
+	"phonecase": "/../../{appName}/resources/config/channels/",
+	"walldecor": "/../../{appName}/resources/config/channels/"
+};
+if( fs.existsSync( projectPathsUrl ) ) {
+	var json = fs.readFileSync( projectPathsUrl, {enconding: 'utf8'} );
+	projectPaths = JSON.parse( json );
+}
+
 setUpConfigurationObject();
 
 module.exports = {
@@ -22,7 +33,7 @@ module.exports = {
 };
 
 var saveApplicationConfig = function(appName, config, configType){
-	var channelsPath = __dirname + '/../../' + appName + '/resources/config/channels/';
+	var channelsPath = __dirname + projectPaths.replace('{appName}', appName);
 
 	Object.keys(config).forEach(function(channelName){
 		var filePath = channelsPath + channelName + '/config/' + configType;
@@ -47,7 +58,7 @@ function setUpConfigurationObject(someParam)
 		configObject.templates[appName][configType + '.json'] = JSON.parse(json);
 
 		configObject[configType + '.json'][appName] = { channels: {} };
-		var channelsPath = __dirname + '/../../' + appName + '/resources/config/channels/';
+		var channelsPath = __dirname + projectPaths.replace('{appName}', appName);
 		configObject.channels = configObject.channels || filterFiles( channelsPath );
 
 		configObject.channels.forEach(function(channelName){
@@ -57,7 +68,7 @@ function setUpConfigurationObject(someParam)
 				configObject[configType + '.json'][appName].channels[channelName] = JSON.parse( json );
 			}
 		});
-	}
+	};
 
 	configObject = {
 		templates: {},

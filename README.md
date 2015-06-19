@@ -3,6 +3,12 @@
 ## Usage
 
 ### installation
+
+The application should be on the same folder where the projects (Calendar, Walldecor and Phonecase).
+Also the projects should be named as they are in the "data" directory: calendar, walldecor, phonecase.
+If you want to use any other directories you have to create a file: server/projectPaths.json
+Example configuration: server/example_projectPaths.json
+
 ```
 git clone git@github.com:albumprinter/oet-configuration-manager.git configuration-manager
 cd configuration-manager
@@ -24,6 +30,7 @@ Second terminal:
 cd server
 node index.js
 ```
+
 ### developing
 
 All the module logic goes into the src/ folder  
@@ -114,4 +121,3 @@ var registerEvents = function(){
 ### sub-modules
 in some modules it will make sense to create sub-modules to manage smaller parts of the application.  
 for more information on how to create and use sub-modules please refer to https://github.com/albumprinter/oet-nextgen-footer-tabs
-```
