@@ -17,7 +17,22 @@ ConfigurationManager.prototype.init = function(config, wrapper){
     return view.init(this)
         .then( configurationProxy.init.bind(configurationProxy, this) )
         .then( accordions.init.bind(accordions, this) )
-        .then( selectors.init.bind(selectors, this) );
+        .then( selectors.init.bind(selectors, this) )
+        .then( this.checkConfigurations() );
+};
+
+ConfigurationManager.prototype.checkConfigurations = function(){
+    this.$issues = [];
+
+    this.checkConfigurationChannels();
+    this.checkConfigurationTemplates();
+};
+
+ConfigurationManager.prototype.checkConfigurationChannels = function(){
+    //console.warn(this.$config);
+};
+
+ConfigurationManager.prototype.checkConfigurationTemplates = function(){
 };
 
 ConfigurationManager.prototype.broadcast = function(message, data){
