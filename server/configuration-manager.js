@@ -62,7 +62,11 @@ function setUpConfigurationObject(someParam)
 		}
 		configObject[configType + '.json'][appName] = { channels: {} };
 		var channelsPath = __dirname + projectPaths[ appName ].replace('{appName}', appName);
-		configObject.channels = configObject.channels || filterFiles( channelsPath );
+		configObject.channels = configObject.channels.concat(
+			filterFiles( channelsPath ).filter(function (item) {
+				return configObject.channels.indexOf(item) < 0;
+			})
+		);
 
 		configObject.channels.forEach(function(channelName){
 			var channelSubPath = channelsPath + channelName;
@@ -74,7 +78,7 @@ function setUpConfigurationObject(someParam)
 	};
 
 	configObject = {
-		channels: undefined,
+		channels: [],
 		configTypes: [
 			'application.json',
 			'locale.json'
@@ -84,6 +88,7 @@ function setUpConfigurationObject(someParam)
 
 	var applications = filterFiles(configRoot);
 
+	// Load templates and configurations.
 	applications.forEach(function(appName){
 		['application', 'locale'].forEach(function(configType) {
 			loadConfiguration(configType, appName);
