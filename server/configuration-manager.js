@@ -57,6 +57,9 @@ function setUpConfigurationObject(someParam)
 		var json = fs.readFileSync(configRoot + appName + '/' + configType + '.template.json', {encoding: 'utf8'});
 		configObject.templates[appName][configType + '.json'] = JSON.parse(json);
 
+		if (!configObject[configType + '.json']) {
+			configObject[configType + '.json'] = {};
+		}
 		configObject[configType + '.json'][appName] = { channels: {} };
 		var channelsPath = __dirname + projectPaths[ appName ].replace('{appName}', appName);
 		configObject.channels = configObject.channels || filterFiles( channelsPath );
@@ -71,14 +74,12 @@ function setUpConfigurationObject(someParam)
 	};
 
 	configObject = {
-		templates: {},
-		"application.json": {},
-		"locale.json": {},
 		channels: undefined,
 		configTypes: [
 			'application.json',
 			'locale.json'
-		]
+		],
+		templates: {}
 	};
 
 	var applications = filterFiles(configRoot);
