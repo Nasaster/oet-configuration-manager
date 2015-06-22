@@ -83,6 +83,10 @@ function setUpConfigurationObject(someParam)
 			'application.json',
 			'locale.json'
 		],
+		issues: {
+			templateToChannels: [],
+			channelsToTemplate: []
+		},
 		templates: {}
 	};
 
@@ -92,6 +96,63 @@ function setUpConfigurationObject(someParam)
 	applications.forEach(function(appName){
 		['application', 'locale'].forEach(function(configType) {
 			loadConfiguration(configType, appName);
+		});
+	});
+
+
+	// *****************************************************************************************************************
+	// TEST CODE, SHOULD BE REMOVED
+	// *****************************************************************************************************************
+
+	var checkConfiguration = function(appName, configType, channelName, direction, original, compared) {
+		//console.warn(appName, configType, channelName, direction);
+		Object.keys( original ).forEach(function(key){
+			//console.warn(key);
+			if ( original[ key] === null || compared[ key ] === null) {
+				// Do nothing.
+			}
+			else if (
+				compared[ key ] === undefined ||
+				(typeof original[ key ] === 'object' && typeof compared[ key ] !== 'object') ||
+				(
+					['string', 'number', 'boolean'].indexOf(typeof original[ key ]) !== -1 &&
+					['string', 'number', 'boolean'].indexOf(typeof compared[ key ]) === -1
+				) ||
+				( Array.isArray( original[ key] ) && !Array.isArray( compared[ key ] ))
+			) {
+				//console.warn(compared[ key ], original[ key], typeof compared[ key ], typeof original[ key]);
+				// Issue.
+				configObject.issues[ direction ].push({
+					"appName": appName,
+					"configType": configType,
+					"channelName": channelName,
+					"key": key
+				});
+			}
+			else if (Array.isArray( original[ key] )) {
+				// Do nothing.
+			}
+			else if (typeof original[ key ] === 'object') {
+				// Subpath.
+				checkConfiguration(appName, configType, channelName, direction, original[ key ], compared[ key ]);
+			}
+			else {
+				// Do nothing.
+			}
+		});
+	};
+
+	// Check templates and configurations.
+	applications.forEach(function(appName){
+		['application', 'locale'].forEach(function(configType) {
+			configObject.channels.forEach(function(channelName){
+				if (configObject[configType + '.json'][appName].channels[channelName]) {
+					var templateData = configObject.templates[appName][configType + '.json'];
+					var channelData = configObject[configType + '.json'][appName].channels[channelName];
+					checkConfiguration(appName, configType, channelName, 'templateToChannels', templateData, channelData);
+					checkConfiguration(appName, configType, channelName, 'channelsToTemplate', channelData, templateData);
+				}
+			});
 		});
 	});
 };

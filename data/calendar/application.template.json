@@ -10,7 +10,7 @@
         ],
         "maxPhotoPixels": "Number",
         "maxFileSize": "Number",
-        "subscribeToNewsletterDefault": "Number",
+        "subscribeToNewsletterDefault": "Boolean",
         "homeUrl": "String",
         "shippingUrl": "String",
         "customerServiceUrl": "String",
@@ -118,6 +118,7 @@
     "country": {
         "label": "String",
         "data": "String",
+        "zoneid": "String",
         "zipCodeExample": "String",
         "zipCodeExpression": "String"
     },
@@ -138,7 +139,6 @@
                 "acceleration": "Number",
                 "minValue": "Number",
                 "maxValue": "Number",
-                "comment": "String",
                 "excludes": [
                     "String"
                 ]

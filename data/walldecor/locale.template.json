@@ -149,6 +149,9 @@
 		"customerPhone" : "String",
 		"subscribeToNewsletter" : "String"
 	},
+	"controls": {
+		"switchProduct": "String"
+	},
 	"order" : {
 		"orderTitle" : "String",
 		"invoiceTitle" : "String",
