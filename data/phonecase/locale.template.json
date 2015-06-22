@@ -1,265 +1,253 @@
 {
-	"general" : {
-		"vendorName" : "String",
-		"navigateAwayMessage" : "String",
-		"title" : "String",
-		"productSelectorTitle" : "String",
-		"error" :"String",
-		"warning" : "String",
-		"close" : "String",
-		"loading" : "String",
-		"productSpecificationTitle" : "String:",
-		"productSpecificationSize" : "String",
-		"productSpecificationPrice" : "String",
-		"productSpecificationPriceText1" : "String",
-		"productSpecificationPricePrice" : "String",
-		"productSpecificationPriceText2" : "String",
-		"yes" : "String",
-		"no" : "String",
-		"add" : "String",
-		"cancel" : "String",
-		"notificationTitle" : "String",
-		"canvas" : "String",
-		"perspex" : "String",
-		"phonecase" : "String",
-		"aluminium" : "String",
-		"editor" : "String"
+	"general": {
+		"vendorName": "String",
+		"navigateAwayMessage": "String",
+		"title": "String",
+		"productSelectorTitle": "String",
+		"error": "String",
+		"warning": "String",
+		"close": "String",
+		"loading": "String",
+		"productSpecificationTitle": "String",
+		"productSpecificationSize": "String",
+		"productSpecificationPrice": "String",
+		"productSpecificationPriceText1": "String",
+		"productSpecificationPricePrice": "String",
+		"productSpecificationPriceText2": "String",
+		"yes": "String",
+		"no": "String",
+		"add": "String",
+		"cancel": "String",
+		"notificationTitle": "String",
+		"canvas": "String",
+		"perspex": "String",
+		"phonecase": "String",
+		"aluminium": "String",
+		"editor": "String"
 	},
-	"home" : {
-		"title" : "String",
-		"nextStepButton" : "String",
-		"caption" : "String",
-		"previousProductButton" : "String",
-		"nextProductButton" : "String"
+	"home": {
+		"title": "String",
+		"nextStepButton": "String",
+		"caption": "String",
+		"previousProductButton": "String",
+		"nextProductButton": "String"
 	},
-	"edit" : {
-		"selectFileType" : "String",
-		"marginTooltip" : "String",
-		"lowQualityTooltip" : "String",
-		"photoQualityIndicatorHeaderLabel" : "String ",
-		"photoQualityIndicatorLabel" : "String",
-		"photoQualityIndicatorTooltipLow" : "String",
-		"photoQualityIndicatorTooltipMedium" : "String",
-		"photoQualityIndicatorTooltipHigh" : "String",
-		"photoQualityIndicatorTooltipExcellent" : "String",
-		"uploadPhotoLabel" : "String",
-		"uploadDifferentPhotoLabel" : "String",
-		"uploadPhotoButtonTooltip" : "String",
-		"rotateWarning" : "String",
-		"emptyPlaceholder" : {
-			"title" : "String",
-			"text" : "String"
+	"layout": {
+		"title": "String",
+		"subtitle": "String",
+		"navigation": {
+			"back": "String",
+			"next": "String",
+			"back-small": "String",
+			"next-small": "String"
+		}
+	},
+	"edit": {
+		"navigation": {
+			"back": "String",
+			"next": "String",
+			"back-small": "String",
+			"next-small": "String"
 		},
-		"photoTray" : {
-			"addPhotoButton" : {
-				"text" : "String",
-				"tooltip" : "String"
+		"selectFileType": "String",
+		"nextStepButton": "String",
+		"marginTooltip": "String",
+		"lowQualityTooltip": "String",
+		"photoQualityIndicatorHeaderLabel": "String",
+		"photoQualityIndicatorLabel": "String",
+		"photoQualityIndicatorTooltipLow": "String",
+		"photoQualityIndicatorTooltipMedium": "String",
+		"photoQualityIndicatorTooltipHigh": "String",
+		"photoQualityIndicatorTooltipExcellent": "String",
+		"uploadPhotoLabel": "String",
+		"uploadDifferentPhotoLabel": "String",
+		"uploadPhotoButtonTooltip": "String",
+		"rotateWarning": "String",
+		"emptyPlaceholder": {
+			"title": "String",
+			"text": "String"
+		},
+		"photoTray": {
+			"addPhotoButton": {
+				"text": "String",
+				"tooltip": "String"
 			}
 		},
-		"layout" : {
-			"title" : "String",
-			"subtitle" : "String"
-		},
-		"tabs" : {
-			"photo" : "String",
-			"foreground" : "String",
-			"background" : "String",
-			"decoration" : "String",
-			"layout" : "String",
-			"tooltrayshow" : "String",
-			"tooltrayhide" : "String",
-			"spacing" : {
-				"labels" : {
-					"inner" : "String",
-					"inner-small" : "String",
-					"outer" : "String",
-					"outer-small" : "String"
-				},
-				"title" : "String"
-			}
-		},
-		"photoQualityIndicatorLow" : "String",
-		"photoQualityIndicatorMedium" : "String",
-		"photoQualityIndicatorHigh" : "String",
-		"photoQualityIndicatorExcellent" : "String",
-		"navigation" : {
-			"back" : "String",
-			"back-small" : "String",
-			"next" : "String",
-			"next-small" : "String"
-		},
-		"photoTools" : {
-			"close" : "String",
-			"close-small" : "String",
-			"delete" : "String",
-			"delete-small" : "String",
-			"effects" : {
-				"close" : "String",
-				"close-small" : "String",
-				"grayscale" : "String",
-				"grayscale-small" : "String",
-				"label" : "String",
-				"label-small" : "String",
-				"original" : "String",
-				"original-small" : "String",
-				"sepia" : "String",
-				"sepia-small" : "String"
-			},
-			"mirror" : "String",
-			"mirror-small" : "String",
-			"rotate" : "String",
-			"rotate-small" : "String",
-			"swap" : "String",
-			"swap-small" : "String",
-			"zoom" : {
-				"label" : "String",
-				"label-small" : "String",
-				"tooltips" : {
-					"in" : "String",
-					"out" : "String",
-					"slider" : "String"
+		"photoTools": {
+			"zoom": {
+				"label": "String",
+				"label-small": "String",
+				"tooltips": {
+					"slider": "String",
+					"in": "String",
+					"out": "String"
 				}
+			},
+			"effects": {
+				"label": "String",
+				"original": "String",
+				"grayscale": "String",
+				"sepia": "String",
+				"close": "String",
+				"label-small": "String",
+				"original-small": "String",
+				"grayscale-small": "String",
+				"sepia-small": "String",
+				"close-small": "String"
+			},
+			"rotate": "String",
+			"mirror": "String",
+			"swap": "String",
+			"delete": "String",
+			"close": "String",
+			"rotate-small": "String",
+			"mirror-small": "String",
+			"swap-small": "String",
+			"delete-small": "String",
+			"close-small": "String"
+		},
+		"tabs": {
+			"photo": "String",
+			"foreground": "String",
+			"background": "String",
+			"clipart": "String",
+			"decoration": "String",
+			"tooltrayshow": "String",
+			"tooltrayhide": "String",
+			"spacing": {
+				"title": "String",
+				"labels": {
+					"inner": "String",
+					"outer": "String",
+					"inner-small": "String",
+					"outer-small": "String"
+				}
+			},
+			"layout": "String"
+		},
+		"photoQualityIndicatorLow": "String",
+		"photoQualityIndicatorMedium": "String",
+		"photoQualityIndicatorHigh": "String",
+		"photoQualityIndicatorExcellent": "String",
+		"layout": {
+			"subtitle": "String",
+			"title": "String"
+		}
+	},
+	"save": {
+		"saveText": "String",
+		"saveBody": "String"
+	},
+	"load": {
+		"loadText": "String",
+		"loadBody": "String",
+		"created": "String",
+		"modified": "String"
+	},
+	"preview": {
+		"button": "String",
+		"buttonBack": "String",
+		"title": "String",
+		"options": {
+			"full": "String",
+			"context": "String"
+		},
+		"close": "String"
+	},
+	"order": {
+		"navigation": {
+			"back": "String",
+			"next": "String",
+			"back-small": "String",
+			"next-small": "String"
+		},
+		"orderTitle": "String",
+		"invoiceTitle": "String",
+		"numberOfCopiesDescription": "String",
+		"subTotal": "String",
+		"shipping": "String",
+		"invoiceDiscount": "String",
+		"total": "String",
+		"promoTitle": "String",
+		"promoDescription": "String",
+		"applyPromoCodeButton": "String",
+		"deliveryAddressTitle": "String",
+		"updateDeliveryAddressButton": "String",
+		"previousStepButton": "String",
+		"submitButton": "String",
+		"promotionPopupTitle": "String",
+		"promotionPopupSubtitle": "String",
+		"promotionPopupEnterPromotionCodeLabel": "String",
+		"promotionPopupCancelLabel": "String",
+		"promotionPopupSubmitLabel": "String"
+	},
+	"upload": {
+		"uploading": "String",
+		"busyUploadingLabel": "String"
+	},
+	"help": {
+		"helpTitle": "String",
+		"helpText": "String",
+		"helpURL": "String",
+		"moreOptionsUrl": "String"
+	},
+	"alerts": {
+		"invalidPromotionCode": "String"
+	},
+	"warnings": {
+		"qualityTitle": "String",
+		"qualitySubtitle": "String",
+		"qualityOptionsTitle": "String",
+		"qualityOptions": "String",
+		"qualityFooter": "String",
+		"qualityButtonCancel": "String",
+		"qualityButtonProceed": "String",
+		"layouts": {
+			"lessPlaceholdersThanPhotos": {
+				"message": "String"
 			}
 		}
 	},
-	"save" : {
-		"saveText" : "String",
-		"saveBody" : "String"
-	},
-	"load" : {
-		"loadText" : "String",
-		"loadBody" : "String",
-		"created" : "String",
-		"modified" : "String"
-	},
-	"customer" : {
-		"title" : "String",
-		"previousStepButton" : "String",
-		"nextStepButton" : "String",
-		"customerFirstname" : "String",
-		"customerMiddlename" : "String",
-		"customerLastname" : "String",
-		"customerCountryCode" : "String",
-		"customerStreet" : "String",
-		"customerHouseNumber" : "String",
-		"customerZip" : "String",
-		"customerCity" : "String",
-		"customerEmail" : "String",
-		"customerPhone" : "String",
-		"subscribeToNewsletter" : "String"
-	},
-	"order" : {
-		"orderTitle" : "String",
-		"invoiceTitle" : "String",
-		"numberOfCopiesDescription" : "String",
-		"subTotal" : "String",
-		"shipping" : "String",
-		"invoiceDiscount" : "String",
-		"total" : "String",
-		"promoTitle" : "String",
-		"promoDescription" : "String",
-		"applyPromoCodeButton" : "String",
-		"deliveryAddressTitle" : "String",
-		"updateDeliveryAddressButton" : "String",
-		"previousStepButton" : "String",
-		"submitButton" : "String",
-		"promotionPopupTitle" : "String",
-		"promotionPopupSubtitle" : "String",
-		"promotionPopupEnterPromotionCodeLabel" : "String:",
-		"promotionPopupCancelLabel" : "String",
-		"promotionPopupSubmitLabel" : "String",
-		"navigation" : {
-			"back" : "String",
-			"back-small" : "String",
-			"next" : "String",
-			"next-small" : "String"
+	"dialogs": {
+		"browser": {
+			"browserWarning": "String",
+			"chromeInstall": "String",
+			"gotoFlash": "String"
 		}
 	},
-	"upload" : {
-		"uploading" : "String",
-		"busyUploadingLabel" : "String"
+	"errors": {
+		"errorBootstrapping": "String",
+		"countryList": "String",
+		"lowMemoryWarning": "String",
+		"defaultPrice": "String",
+		"loadPhotoBitmapData": "String",
+		"loadBigPhoto": "String",
+		"loadBigFile": "String",
+		"creatingPhoto": "String",
+		"photoRegistration": "String",
+		"addPhotoToPhotoPlaceholderEmpty": "String",
+		"addPhotoToPhotoPlaceholder": "String",
+		"startUploadPhoto": "String",
+		"setPhotoCanvas": "String",
+		"createCustomer": "String",
+		"createOrder": "String",
+		"getInvoice": "String",
+		"sendOrder": "String",
+		"getPaymentUrl": "String"
 	},
-	"help" : {
-		"helpTitle" : "String",
-		"helpText" : "String",
-		"helpURL" : "String",
-		"moreOptionsUrl" : "String"
-	},
-	"alerts" : {
-		"invalidPromotionCode" : "String"
-	},
-	"warnings" : {
-		"qualityTitle" : "String",
-		"qualitySubtitle" : "String",
-		"qualityOptionsTitle" : "String",
-		"qualityOptions" : "String",
-		"qualityButtonCancel" : "String",
-		"qualityButtonProceed" : "String",
-		"layouts" : {
-			"lessPlaceholdersThanPhotos" : {
-				"message" : "String"
-			}
-		}
-	},
-	"dialogs" : {
-		"browser" : {
-			"browserWarning" : "String",
-			"chromeInstall" : "String",
-			"gotoFlash" : "String"
-		}
-	},
-	"errors" : {
-		"errorBootstrapping" : "String",
-		"countryList" : "String",
-		"lowMemoryWarning" : "String",
-		"defaultPrice" : "String",
-		"loadPhotoBitmapData" : "String",
-		"loadBigPhoto" : "String",
-		"creatingPhoto" : "String",
-		"photoRegistration" : "String",
-		"addPhotoToPhotoPlaceholderEmpty" : "String",
-		"addPhotoToPhotoPlaceholder" : "String",
-		"startUploadPhoto" : "String",
-		"setPhotoCanvas" : "String",
-		"createCustomer" : "String",
-		"createOrder" : "String",
-		"getInvoice" : "String",
-		"sendOrder" : "String",
-		"getPaymentUrl" : "String"
-	},
-	"validations" : {
-		"emailMissingAtSign" : "String",
-		"emailMissingPeriodInDomain" : "String",
-		"emailDomainInvalidFormatted" : "String",
-		"emailTooManyAtCharacters" : "String",
-		"emailConsecutivePeriodsInDomain" : "String",
-		"emailInvalidChars" : "String",
-		"emailInvalidIp" : "String",
-		"emailMissingUsername" : "String",
-		"emailRequired" : "String",
-		"textRequired" : "String",
-		"textTooLong" : "String",
-		"zipcodeRequired" : "String",
-		"zipcodeInvalid" : "String"
-	},
-	"layout" : {
-		"navigation" : {
-			"back" : "String",
-			"back-small" : "String",
-			"next" : "String",
-			"next-small" : "String"
-		},
-		"subtitle" : "String",
-		"title" : "String"
-	},
-	"preview" : {
-		"button" : "String",
-		"buttonBack" : "String",
-		"close" : "String",
-		"options" : {
-			"context" : "String",
-			"full" : "String"
-		},
-		"title" : "String"
+	"validations": {
+		"emailMissingAtSign": "String",
+		"emailMissingPeriodInDomain": "String",
+		"emailDomainInvalidFormatted": "String",
+		"emailTooManyAtCharacters": "String",
+		"emailConsecutivePeriodsInDomain": "String",
+		"emailInvalidChars": "String",
+		"emailInvalidIp": "String",
+		"emailMissingUsername": "String",
+		"emailRequired": "String",
+		"textRequired": "String",
+		"textTooLong": "String",
+		"zipcodeRequired": "String",
+		"zipcodeInvalid": "String"
 	}
 }
