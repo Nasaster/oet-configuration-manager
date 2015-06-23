@@ -1,6 +1,7 @@
 {
     "config": {
         "stylePack": "String",
+        "styleClass": "String",
         "selectedLocale": "String",
         "marketingAdvertisementImageHome": "String",
         "marketingAdvertisementImageCustomer": "String",
@@ -157,6 +158,12 @@
     },
     "calendarGrid": {
         "imageMap": "String",
-        "colorDay": "String"
+        "colorDay": "String",
+        "defaultImageMapId": "String",
+        "events": {
+            "nameday": {
+                "separator": "String"
+            }
+        }
     }
 }
