@@ -4,9 +4,9 @@
 
 ### installation
 
-The application should be on the same folder where the projects (Calendar, Walldecor and Phonecase).
-Also the projects should be named as they are in the "data" directory: calendar, walldecor, phonecase.
-If you want to use any other directories you have to create a file: server/projectPaths.json
+The application should be on the same folder where the projects (Calendar, Walldecor and Phonecase).    
+Also the projects should be named as they are in the "data" directory: calendar, walldecor, phonecase.    
+If you want to use any other directories you have to create a file: server/projectPaths.json    
 Example configuration: server/example_projectPaths.json
 
 ```
@@ -36,7 +36,8 @@ node index.js
 All the module logic goes into the src/ folder  
 if you want to add specific CSS to the module start in src/css/main.scss  
 all the views, including sub-module's views, should be in src/views  
-##### use src/bootstrap.js to bootstrap the module 
+
+##### use src/bootstrap.js to bootstrap the module
 this file won't be used when an application is requiring the module  
 here you should mock some configuration if needed in src/config
 ```javascript
@@ -121,3 +122,11 @@ var registerEvents = function(){
 ### sub-modules
 in some modules it will make sense to create sub-modules to manage smaller parts of the application.  
 for more information on how to create and use sub-modules please refer to https://github.com/albumprinter/oet-nextgen-footer-tabs
+
+### Converting XMLs
+
+There are two script in the tools directory.
+* json_xml.html : It converts an XML to JSON.
+* json_template.html : It converts a setting file to template.
+
+Both files were developed for this project needs. It can have issues with other tasks.
