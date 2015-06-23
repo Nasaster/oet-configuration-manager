@@ -125,10 +125,6 @@
 			},
 			"layout": "String"
 		},
-		"photoQualityIndicatorLow": "String",
-		"photoQualityIndicatorMedium": "String",
-		"photoQualityIndicatorHigh": "String",
-		"photoQualityIndicatorExcellent": "String",
 		"layout": {
 			"subtitle": "String",
 			"title": "String"
