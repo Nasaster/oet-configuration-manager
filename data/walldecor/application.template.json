@@ -11,8 +11,8 @@
         "exifSupported": "Boolean",
         "maxPhotoPixels": "Number",
         "maxFileSize": "Number",
-        "woodGapInMilliMeters" : "Number",
-        "woodPlankWidthInMilliMeters" : "Number",
+        "woodGapInMilliMeters": "Number",
+        "woodPlankWidthInMilliMeters": "Number",
         "subscribeToNewsletterDefault": "Boolean",
         "homeUrl": "String",
         "shippingUrl": "String",
@@ -37,8 +37,8 @@
             "Number"
         ],
         "maxUploadRetries": "Number",
-        "photoOnWood" :{
-            "placeholderFillColor" : "String",
+        "photoOnWood": {
+            "placeholderFillColor": "String",
             "defaultProductOptions": {
                 "WoodFinishingType": [
                     "String"
@@ -46,7 +46,7 @@
                 "PlanksOrientationType": "String"
             }
         },
-        "notifications" : "Boolean"
+        "notifications": "Boolean"
     },
     "currency": {
         "code": "String",
@@ -123,19 +123,14 @@
                 "String"
             ]
         },
-        "clipart" : {
+        "clipart": {
             "disabled": [
-                "String"
-            ]
-        },
-        "product-options": {
-            "supportedArticleTypes": [
                 "String"
             ]
         },
         "tooltray": {
             "disabled": [
-            "String"
+                "String"
             ]
         }
     }

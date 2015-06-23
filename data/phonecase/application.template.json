@@ -84,17 +84,14 @@
             "supportedArticleTypes": [
                 "String"
             ],
-            "compatible":
-            {
-                "strict" : "Boolean",
-                "includeMargin" : "Boolean",
-                "errorMargin" : "Number",
-
-                "PhoneCase":
-                {
-                    "strict" : "Boolean",
-                    "includeMargin" : "Boolean",
-                    "errorMargin" : "Number"
+            "compatible": {
+                "strict": "Boolean",
+                "includeMargin": "Boolean",
+                "errorMargin": "Number",
+                "PhoneCase": {
+                    "strict": "Boolean",
+                    "includeMargin": "Boolean",
+                    "errorMargin": "Number"
                 }
             }
         },
@@ -114,16 +111,24 @@
             ]
         },
         "backgrounds-assets": {
-            "disabled": ["String"]
+            "disabled": [
+                "String"
+            ]
         },
-        "clipart" : {
-          "disabled": ["String"]
+        "clipart": {
+            "disabled": [
+                "String"
+            ]
         },
         "tooltray": {
-            "disabled": ["String"]
+            "disabled": [
+                "String"
+            ]
         },
         "product-options": {
-            "disabled": ["String"]
+            "disabled": [
+                "String"
+            ]
         }
     }
 }
