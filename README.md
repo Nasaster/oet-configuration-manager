@@ -2,6 +2,13 @@
 
 ## Usage
 
+### prerequisites
+
+You need Ruby and Sass installed globally on your system.
+When Ruby is installed (available by default on OS X and Linux), you can install sass like so:
+
+    gem install sass
+
 ### installation
 ```
 git clone git@github.com:albumprinter/oet-configuration-manager.git configuration-manager
