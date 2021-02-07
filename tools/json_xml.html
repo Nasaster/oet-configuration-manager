@@ -1,0 +1,43 @@
+<html>
+<head></head>
+<body>
+
+XML: <textarea id="orig" cols=100 rows=20></textarea><br />
+
+JSON: <textarea id="new" cols=100 rows=20></textarea><br />
+
+<input type="button" value="Submit" id="myBtn"><br />
+
+<script>
+
+var origTxt = document.getElementById('orig');
+var newTxt = document.getElementById('new');
+
+document.getElementById("myBtn").addEventListener("click", function(){
+    var myXML = origTxt.value;
+
+    function parseMyXML(xmlDoc, newJSON) {
+        if (xmlDoc.children.length === 0) {
+            newJSON[ xmlDoc.tagName ] = xmlDoc.textContent.replace(/^\n( )*/, '');
+        }
+        else {
+            newJSON[ xmlDoc.tagName ] = {};
+            Object.keys( xmlDoc.children ).forEach(function (key) {
+                parseMyXML(xmlDoc.children[key], newJSON[ xmlDoc.tagName ]);
+            });
+        }
+        return newJSON;
+    }
+
+    if (window.DOMParser) {
+        parser=new DOMParser();
+        xmlDoc=parser.parseFromString(myXML, "text/xml");
+
+        newTxt.value = JSON.stringify( parseMyXML(xmlDoc.children[0], {}).root, null, 4 );
+    }
+});
+
+</script>
+
+</body>
+</html>

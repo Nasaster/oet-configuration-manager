@@ -1,0 +1,37 @@
+<html>
+<head></head>
+<body>
+
+JSON: <textarea id="orig" cols=100 rows=20></textarea><br />
+
+Template: <textarea id="new" cols=100 rows=20></textarea><br />
+
+<input type="button" value="Submit" id="myBtn"><br />
+
+<script>
+
+var origTxt = document.getElementById('orig');
+var newTxt = document.getElementById('new');
+
+document.getElementById("myBtn").addEventListener("click", function(){
+    var myJSON = origTxt.value;
+
+    function createTemplate(myJSON) {
+        if (typeof myJSON === 'object') {
+            Object.keys( myJSON ).forEach(function (key) {
+                myJSON[key] = createTemplate( myJSON[key] );
+            });
+        }
+        else {
+            myJSON = 'String';
+        }
+        return myJSON;
+    }
+
+    newTxt.value = JSON.stringify( createTemplate( JSON.parse(myJSON) ), null, 4 );
+});
+
+</script>
+
+</body>
+</html>

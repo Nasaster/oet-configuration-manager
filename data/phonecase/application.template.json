@@ -1,0 +1,134 @@
+{
+    "config": {
+        "stylePack": "String",
+        "selectedLocale": "String",
+        "marketingAdvertisementImageHome": "String",
+        "marketingAdvertisementImageCustomer": "String",
+        "marketingAdvertisementImageOrder": "String",
+        "photoQualityRating": [
+            "Number"
+        ],
+        "maxPhotoPixels": "Number",
+        "maxFileSize": "Number",
+        "subscribeToNewsletterDefault": "Boolean",
+        "homeUrl": "String",
+        "shippingUrl": "String",
+        "customerServiceUrl": "String",
+        "productPreviewThumbnailWidth": "Number",
+        "includePreviewWithCheckout": "Boolean",
+        "saveLoadEnabled": "Boolean",
+        "requireSaveProductOnCheckout": "Boolean",
+        "saveNameInputMaxLength": "Number",
+        "previewIncludingMargins": {
+            "canvas": "Boolean"
+        },
+        "previewTransparent": {
+            "phonecase": "Boolean"
+        },
+        "previewTypes": {
+            "roomView": [
+                "String"
+            ]
+        },
+        "defaultUploadTimeout": [
+            "Number"
+        ],
+        "maxUploadRetries": "Number"
+    },
+    "currency": {
+        "code": "String",
+        "format": "String",
+        "priceFormat": "String"
+    },
+    "country": {
+        "label": "String",
+        "data": "String",
+        "zoneid": "Number",
+        "zipCodeExample": "String",
+        "zipCodeExpression": "String"
+    },
+    "layout": {
+        "spacing": {
+            "inner": {
+                "metric": "String",
+                "precision": "Number",
+                "minValue": "Number",
+                "maxValue": "Number",
+                "excludes": [
+                    "String"
+                ]
+            },
+            "outer": {
+                "metric": "String",
+                "precision": "Number",
+                "minValue": "Number",
+                "maxValue": "Number",
+                "excludes": [
+                    "String"
+                ]
+            }
+        }
+    },
+    "highlightStroke": {
+        "supportedArticleTypes": [
+            "String"
+        ]
+    },
+    "backgroundColors": {
+        "color": [
+            "String"
+        ]
+    },
+    "tabs": {
+        "layouts": {
+            "supportedArticleTypes": [
+                "String"
+            ],
+            "compatible": {
+                "strict": "Boolean",
+                "includeMargin": "Boolean",
+                "errorMargin": "Number",
+                "PhoneCase": {
+                    "strict": "Boolean",
+                    "includeMargin": "Boolean",
+                    "errorMargin": "Number"
+                }
+            }
+        },
+        "photos": {
+            "supportedArticleTypes": [
+                "String"
+            ]
+        },
+        "spacing": {
+            "supportedArticleTypes": [
+                "String"
+            ]
+        },
+        "backgrounds-colors": {
+            "supportedArticleTypes": [
+                "String"
+            ]
+        },
+        "backgrounds-assets": {
+            "disabled": [
+                "String"
+            ]
+        },
+        "clipart": {
+            "disabled": [
+                "String"
+            ]
+        },
+        "tooltray": {
+            "disabled": [
+                "String"
+            ]
+        },
+        "product-options": {
+            "disabled": [
+                "String"
+            ]
+        }
+    }
+}

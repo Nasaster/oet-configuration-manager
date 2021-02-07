@@ -1,0 +1,169 @@
+{
+    "config": {
+        "stylePack": "String",
+        "styleClass": "String",
+        "selectedLocale": "String",
+        "marketingAdvertisementImageHome": "String",
+        "marketingAdvertisementImageCustomer": "String",
+        "marketingAdvertisementImageOrder": "String",
+        "photoQualityRating": [
+            "Number"
+        ],
+        "maxPhotoPixels": "Number",
+        "maxFileSize": "Number",
+        "subscribeToNewsletterDefault": "Boolean",
+        "homeUrl": "String",
+        "shippingUrl": "String",
+        "customerServiceUrl": "String",
+        "productPreviewThumbnailWidth": "Number",
+        "includePreviewWithCheckout": "Boolean",
+        "saveLoadEnabled": "Boolean",
+        "requireSaveProductOnCheckout": "Boolean",
+        "saveNameInputMaxLength": "Number",
+        "enableLivePreviewInNavigation": "Boolean",
+        "enableWelcomePopup": "Boolean",
+        "staticCalendarGridPreview": "Boolean",
+        "defaultUploadTimeout": [
+            "Number"
+        ],
+        "maxUploadRetries": "Number",
+        "minimumPhotoAmountForValidation": "Number",
+        "previewIncludingMargins": {
+            "canvas": "Boolean"
+        },
+        "previewTransparent": {
+            "phonecase": "Boolean",
+            "calendar": "Boolean"
+        },
+        "previewTypes": {
+            "roomView": [
+                "String"
+            ]
+        },
+        "allowProductPreview": "Boolean",
+        "disableMobileView": "Boolean"
+    },
+    "mobile": {
+        "gestures": "Boolean"
+    },
+    "calendar": {
+        "allowedEventTypes": [
+            "String"
+        ],
+        "deluxeTypes": [
+            "String"
+        ],
+        "allowStartDate": "Boolean",
+        "dateFormat": {
+            "recurring": "String",
+            "unique": "String"
+        },
+        "overrideCultureName": "Boolean"
+    },
+    "tabs": {
+        "months": {
+            "disabled": [
+                "String"
+            ]
+        },
+        "photos": {
+            "disabled": [
+                "String"
+            ]
+        },
+        "layouts": {
+            "disabled": [
+                "String"
+            ]
+        },
+        "spacing": {
+            "disabled": [
+                "String"
+            ]
+        },
+        "backgrounds-colors": {
+            "disabled": [
+                "String"
+            ]
+        },
+        "backgrounds-assets": {
+            "disabled": [
+                "String"
+            ]
+        },
+        "clipart": {
+            "disabled": [
+                "String"
+            ]
+        },
+        "tooltray": {
+            "disabled": [
+                "String"
+            ]
+        },
+        "product-options": {
+            "disabled": [
+                "String"
+            ]
+        }
+    },
+    "currency": {
+        "code": "String",
+        "format": "String",
+        "priceFormat": "String"
+    },
+    "productList": {
+        "dateFormat": "String",
+        "showModifiedDate": "Boolean"
+    },
+    "country": {
+        "label": "String",
+        "data": "String",
+        "zoneid": "String",
+        "zipCodeExample": "String",
+        "zipCodeExpression": "String"
+    },
+    "layout": {
+        "spacing": {
+            "enabled": "Boolean",
+            "inner": {
+                "metric": "String",
+                "precision": "Number",
+                "acceleration": "Number",
+                "minValue": "Number",
+                "maxValue": "Number",
+                "excludes": []
+            },
+            "outer": {
+                "metric": "String",
+                "precision": "Number",
+                "acceleration": "Number",
+                "minValue": "Number",
+                "maxValue": "Number",
+                "excludes": [
+                    "String"
+                ]
+            }
+        }
+    },
+    "highlightStroke": {
+        "supportedArticleTypes": [
+            "String"
+        ]
+    },
+    "backgroundColors": {
+        "color": [
+            "String"
+        ]
+    },
+    "calendarGrid": {
+        "imageMap": "String",
+        "colorDay": "String",
+        "defaultImageMapId": "String",
+        "events": {
+            "nameday": {
+                "separator": "String"
+            }
+        }
+    }
+}
